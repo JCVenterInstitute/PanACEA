@@ -1,0 +1,16 @@
+Regulatory functions	0000ff
+Biosynthesis of cofactors, prosthetic groups, & carriers	87ceff 
+Cellular processes	a0fc8d
+Mobile & extrachromosomal element functions	8e0000 
+Hypothetical	aaaaaa 
+DNA Metabolism	347235 
+Transcription	ff00ff 
+Purines, pyrimidines, nucleosides, & nucleotides	ffa0a0
+Signal Transduction & Quorum Sensing	ff8102
+Cell Envelope	99c517
+Protein synthesis/fate	fdd017 
+Other	666666 
+Central intermediary metabolism	ffbaff 
+Fatty acid & phospholipid metabolism	008e8e 
+Energy Metabolism	8d38c9
+Transport & binding proteins	ede275
