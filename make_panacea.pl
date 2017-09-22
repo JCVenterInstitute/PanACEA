@@ -833,9 +833,17 @@ sub make_main_figure() {
                         }
 
 #Adding the region information to the table. This could allow for clicking on a gene to highlight it's location in the region
-                        $jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{ $head{Gene}->[3] } = $ID;
-                        $jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{href}               = $ID;
-                        $jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{core_clust}         = $cur_chr;
+                        if (! $jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{href})
+						{
+							$jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{ $head{Gene}->[3] } = $ID;
+							$jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{href}               = $ID;
+                        }
+						else
+						{
+							$jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{ $head{Gene}->[3] } .= ",". $ID;
+							$jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{href}               .= ",". $ID;                       
+						}
+						$jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{core_clust}         = $cur_chr;
                         $jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{detail} =
                           "CL_" . $list{$ID}->{ $sort[0] }->{arr}->[$j];
 
@@ -4736,7 +4744,6 @@ function init()
 {
 	//Setting the main page as visible
 	var divMain = document.getElementById(\"mainDiv\");
-	console.log(divMain.style.visibility);
 	divMain.style.visibility = \"visible\";
 	console.log(divMain.style.visibility);
 	good = JSON.parse(goodJSON);
@@ -6300,8 +6307,7 @@ function showRowPlot(evt) {
 			var core = document.getElementById(core_set);
 			turnSampleOff(core);
 		}
-		console.log(target.style.backgroundColor);
-
+	
 		//If the row is already highlighted...
 		if (target.style.backgroundColor == \"yellow\")
 		{
@@ -6344,11 +6350,16 @@ function showRowPlot(evt) {
 						gene_detail.setAttribute(\"fill-opacity\",\"1.0\");
 						gene_detail.setAttribute(\"stroke-opacity\", \"1.0\");
 					}
-					var region = document.getElementById(tableInfo[\"Gene\"][i][\"Region\"]);
-					if (region != null && region.hasAttribute(\"stroke\"))
+					var regionStr = tableInfo[\"Gene\"][i][\"Region\"];
+					var regionIds = regionStr.split(\",\");
+					for (var j = 0; j < regionIds.length; j++)
 					{
-						region.removeAttribute(\"stroke\");
-						region.setAttribute(\"fill\", region.getAttribute(\"fill_old\"));
+						var region = document.getElementById(regionIds[j]);										
+						if (region != null && region.hasAttribute(\"stroke\"))
+						{
+							region.removeAttribute(\"stroke\");
+							region.setAttribute(\"fill\", region.getAttribute(\"fill_old\"));
+						}
 					}
 				}
 			}
@@ -6473,15 +6484,18 @@ function showRowPlot(evt) {
 										
 
 									}
-									var region = document.getElementById(tableInfo[\"Gene\"][i][\"Region\"]);
-									console.log(tableInfo[\"Gene\"][i][\"Region\"]);
-									if (region != null)
+									var regionStr = tableInfo[\"Gene\"][i][\"Region\"];
+									var regionIds = regionStr.split(\",\");
+									for (var j = 0; j < regionIds.length; j++)
 									{
-										console.log(region);
-										region.setAttribute(\"stroke\", \"black\");;
-										region.setAttribute(\"fill\", \"gray\");
-									}
+										var region = document.getElementById(regionIds[j]);
 									
+										if (region != null)
+										{
+											region.setAttribute(\"stroke\", \"black\");;
+											region.setAttribute(\"fill\", \"gray\");
+										}
+									}
 								}
 								else
 								{
@@ -6514,7 +6528,6 @@ function showRowPlot(evt) {
 							var region = document.getElementById(id_name);
 							if (region != null)
 							{
-								console.log(region);
 								region.setAttribute(\"stroke\", \"black\");;
 								region.setAttribute(\"fill\", \"gray\");
 							}		
@@ -6883,7 +6896,7 @@ sub get_gene_info_new {
             #Probably allow for multiple fasta names
             foreach my $afa_file (@files) {
 
-                if ( $afa_file =~ /(\S+).(afa|fasta|fa|mfa)\Z/ ) {
+                if ( $afa_file =~ /(\S+).(afa|fasta|fa|mfa|nuc)\Z/ ) {
 
                     #Reading in sequences into seq
                     open( MSA_FASTA, "<", "$try_dir/$afa_file" );
@@ -7573,10 +7586,8 @@ sub fgi_javascript() {
 			}
 			else
 			{
-				console.log(totWidth + \" \" + totHeight);
 				totWidth = old_wd_main + leftWidth + rightWidth;
 				totHeight = old_ht_main + legHeight  ;
-				console.log(totWidth + \" \" + totHeight);	
 			}
 
 
@@ -7666,7 +7677,6 @@ sub fgi_javascript() {
 				newSVG.innerHTML = divLeft.innerHTML + divRight.innerHTML  + divMain.innerHTML  + divLeg.innerHTML;
 				var svgStr = new XMLSerializer().serializeToString(newSVG);
 				var newSVGBBox = newSVG.getBBox();
-				console.log(newSVGBBox.height + \" \"  + newSVGBBox.width + \" \" +totHeight);
 				var canvas = document.createElement(\"canvas\");
 				canvas.width = totWidth;
 				canvas.height = totHeight;
@@ -7794,7 +7804,6 @@ sub fgi_javascript() {
 		function showFGIonTree(evt)
 		{
 			var target = evt.target;
-			console.log(target + \" \" + fgiOn);
 
 			if (! fgiOn)
 			{
@@ -7904,7 +7913,6 @@ sub fgi_javascript() {
 				//If the fGI row is to be shown, adding the row to the appropiate gene column list
 				if (rowOn[i] == 1)
 				{
-					console.log(i + \" is on\");
 					var genes = rowListI.split(\":\");
 					var cnt2 = cnt -1;
 					for (var j = 0; j < genes.length; j++)
@@ -7937,7 +7945,6 @@ sub fgi_javascript() {
 			for (var i in geneList)
 			{
 				var geneID = i.substring(3)
-				console.log(geneID + \" \" + i);
 				if (geneID in colOn && colOn[geneID] == 1)
 				{
 					var colsOld = colList[geneID].slice(0,-1).split(\":\");
@@ -8005,7 +8012,6 @@ sub fgi_javascript() {
 				var boxI = document.getElementById(\"genomeBox\" + rowListI);
 				if (rowOn[i] ==1)
 				{
-					console.log(i + \" is on\");
 					svg = svg + \"<rect x =\\\"0\\\" y=\\\"\"+ ((cnt)*barHeight)+\"\\\" height=\\\"\"+barHeight+\"\\\" width=\\\"\" + cur_x+ \"\\\" fill=\\\"white\\\" fill-opacity=\\\"0.05\\\" id=\\\"rect\" + cnt + \"\\\" fgiID=\\\"\" + rowListI +\"\\\" onclick=\\\"showFGIonTree(evt)\\\"/>\";
 					cnt = cnt + 1;
 				}
@@ -8844,7 +8850,6 @@ sub fgi_javascript() {
 							var old_r = parseFloat(circ[k].getAttribute(\"r\"));
 							circ[k].setAttributeNS(null, \"r\", old_r * 2);
 							circ[k].setAttributeNS(null, \"stroke\", circ[k].getAttribute(\"fill\"));
-							console.log(\"here\");
 							circ[k].setAttributeNS(null, \"fill\", \"LightGray\");
 
 						}
@@ -10166,10 +10171,8 @@ function draw_tree(level, type)
 			{
 				var insertTd = document.getElementById(\"gene_list\");
 				var circ =  document.getElementsByClassName(gene_id+\"2\");
-				console.log(circ);
 				if (circ[0] != null)
 				{
-					console.log(circ[0].getAttributeNS(null, \"oldFill\"));
 					circ[0].setAttributeNS(null, \"fill\", circ[0].getAttributeNS(null, \"oldFill\"));
 					var oldR = circ[0].getAttributeNS(null, \"r\");
 					circ[0].setAttributeNS(null, \"r\", oldR / 2);
@@ -10424,7 +10427,6 @@ function draw_tree(level, type)
 						var old_r = parseFloat(circ[k].getAttribute(\"r\"));
 						circ[k].setAttributeNS(null, \"r\", old_r * 2);
 						circ[k].setAttributeNS(null, \"stroke\", circ[k].getAttribute(\"fill\"));
-						console.log(\"here\");
 						circ[k].setAttributeNS(null, \"fill\", \"LightGray\");
 					}
 				}
