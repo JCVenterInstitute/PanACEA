@@ -17,14 +17,22 @@
 
 SCRIPT=$(readlink -f $0)
 SRC_DIR=$(dirname $SCRIPT)
-PAN_DIR="$SRC_DIR/exemplar_data/"
+PAN_DIR="$SRC_DIR/example_dir/"
 PAN_DIR="$(cd $PAN_DIR; pwd)"
-TMP_DIR=$TMP_DIR
+TMP_DIR=$PAN_DIR
 if [[ $# -eq 1 ]]; then
 	TMP_DIR=$1	
 fi
 if [ ! -d "$TMP_DIR" ]; then 
 	mkdir $TMP_DIR
+fi
+
+if [ -e "$PAN_DIR/aro_centroid.list.txt" ];
+then
+	echo "Found ARO mapfile"
+else
+	echo "Cannot find ARO mapfile. Making it..."
+	perl $SRC_DIR/make_rgi_clusters.pl -i $PAN_DIR/dataSummary.txt -o $PAN_DIR/aro_centroid.list.txt
 fi
 
 TMP_DIR="$(cd $TMP_DIR; pwd)"
