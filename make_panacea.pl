@@ -1552,8 +1552,8 @@ sub make_main_figure() {
 	$html{table} .= "</svg>\n";
 	$html{table} .= sprintf("<div id=\"tableDiv\"  style=\"top:%fpx; position:absolute; left:%fpx; height:%fpx; width:%fpx;\">"
 	, $border + $max_radius - 3.5 * $n_r ,  (2.125 * $border),
-         $max_radius * 2 - 2.25 * $border,
-         $max_radius / 4 + 6 * $n_r );
+         $max_radius / 4 + 7.5 * 4,
+         ($max_radius * 2 - 2.25 * $border));
 	   
 	$html{table} .= sprintf(
 "<table id=\"tableMain\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; background: grey; font-size:10pt; display: none; table-layout:fixed;\">",
@@ -6479,7 +6479,7 @@ function selectTableButton(evt, id)
 */
 function saveSVG(fileType)
 {
-	var event = new Event(\'build\');
+	//var event = document.createEvent('Event');
 	var nw = document.createElement(\"a\");
 	var svg_all = document.getElementById(\"allsvg\");
 	var coreNum = svg_all.getAttribute(\"coreNum\");
@@ -6539,7 +6539,10 @@ Save the main page table (assuming that the table is turned on) as a tsv file
 */
 function saveTableTxt()
 {
-	var event = new Event(\'build\');
+	var event = document.createEvent('Event');
+
+
+	event.initEvent('build', true, true)
 	var nw = document.createElement(\"a\");
 	var txtStr = \"\";
 	var tBody = document.getElementById(\"tableMain\").tBodies[0];
@@ -8175,7 +8178,9 @@ sub fgi_javascript() {
 		//Save all the Image as PNG/SVG if type not equals one or just the window type is one
 		function saveFullSVG(type, name)
 		{
-			var event = new Event(\'build\');
+			var event = document.createEvent('Event');
+
+			event.initEvent('build', true, true)
 			var nw = document.createElement(\"a\");
 			var fileType = document.getElementById(\"saveType\");
 
@@ -10342,7 +10347,10 @@ sub fgi_javascript() {
 	//Save the Tree as an SVG or PNG: used for core region page
 	function saveSVGtree(fileType, id)
 	{
-		var event = new Event(\'build\');
+		var event = document.createEvent('Event');
+
+// Define that the event name is 'build'.
+event.initEvent('build', true, true)
 		var nw = document.createElement(\"a\");
 		var svg_all = document.getElementById(\"tree_svg\");
 		var add = null;
@@ -11223,7 +11231,10 @@ function draw_tree(level, type)
 	/*Writes the Phylogeny Figure into an SVG or PNG file*/
 	function saveSVGtree(fileType, id)
 	{
-		var event = new Event(\'build\');
+		var event = document.createEvent('Event');
+
+		// Define that the event name is 'build'.
+		event.initEvent('build', true, true)
 		//Making a new canvas which is used to save the image to a file
 		var nw = document.createElement(\"a\");
 
