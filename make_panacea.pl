@@ -7978,6 +7978,10 @@ sub fgi_javascript() {
 				}
 			}
 		}
+		
+		//This is used to seed the single gene summary page
+		var outJSON=\'[\"Cluster\", \"Name\", \"Region\", \"# of Genomes\",\"Functional IDs\",\"Associated Terms\", \"Mean\", \"Standard Deviation\", \"Minimum Length\", \"Maximum Length\", \"Sequence\", \"Genomes\"]\';
+
 
 		//Draws the page my starting the tree
 		function initPage(level, type)
@@ -10400,8 +10404,6 @@ sub fgi_javascript() {
 	}
 
 
-//This is used to seed the single gene summary page
-var outJSON=\'[\"Cluster\", \"Name\", \"Region\", \"# of Genomes\",\"Functional IDs\",\"Associated Terms\", \"Mean\", \"Standard Deviation\", \"Minimum Length\", \"Maximum Length\", \"Sequence\", \"Genomes\"]\';
 ";
 
 }
