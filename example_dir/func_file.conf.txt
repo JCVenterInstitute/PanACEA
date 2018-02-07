@@ -1,0 +1,16 @@
+START
+ID	AROTerms
+mapfile	/local/ifs2_scratch/METAGENOMICS/tclarke/PanACEA/PanACEA/example_dir/aro_centroid.list.txt
+ontology	/local/ifs2_scratch/METAGENOMICS/tclarke/PanACEA/PanACEA/example_dir/aro.obo
+name	Antibiotic Resistance
+color	ff0000
+END
+
+START
+ID	GOTerms
+mapfile	/local/ifs2_scratch/METAGENOMICS/tclarke/PanACEA/PanACEA/example_dir/centroids.mapterm.txt
+ontology	/local/ifs2_scratch/METAGENOMICS/tclarke/PanACEA/PanACEA/example_dir/gene_ontology.1_2.obo
+name	/local/ifs2_scratch/METAGENOMICS/tclarke/PanACEA/PanACEA/example_dir/results/centroids.cluster_roles.txt
+color	/local/ifs2_scratch/METAGENOMICS/tclarke/PanACEA/PanACEA//cluster_colors.txt
+END
+

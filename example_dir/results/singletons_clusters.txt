@@ -1,0 +1,3014 @@
+cluster id	num of members	protein name	role_ids	attributes	locus	db
+81	1	hypothetical protein	0		ACX60_RS00435	7978mff
+111	1	hypothetical protein	0		ACX60_RS00600	7978mff
+258	1	hypothetical protein	0		ACX60_RS01365	7978mff
+259	1	hypothetical protein	0		ACX60_RS01370	7978mff
+260	1	AraC family transcriptional regulator	0		ACX60_RS01375	7978mff
+357	1	hypothetical protein	0		ACX60_RS01880	7978mff
+505	1	hypothetical protein	0		ACX60_RS02700	7978mff
+555	1	hypothetical protein	0		ACX60_RS02955	7978mff
+556	1	hypothetical protein	0		ACX60_RS02960	7978mff
+557	1	hypothetical protein	0		ACX60_RS02965	7978mff
+558	1	hypothetical protein	0		ACX60_RS02970	7978mff
+813	1	HIT domain-containing protein	0		ACX60_RS04295	7978mff
+814	1	hypothetical protein	0		ACX60_RS04300	7978mff
+815	1	hypothetical protein	0		ACX60_RS04305	7978mff
+816	1	hypothetical protein	0		ACX60_RS04310	7978mff
+817	1	hypothetical protein	0		ACX60_RS04315	7978mff
+882	1	hypothetical protein	0		ACX60_RS04645	7978mff
+883	1	hypothetical protein	0		ACX60_RS19060	7978mff
+884	1	AraC family transcriptional regulator	0		ACX60_RS04655	7978mff
+885	1	isochorismate synthase	0		ACX60_RS04660	7978mff
+886	1	23-dihydro-2,3-dihydroxybenzoate synthetase	0		ACX60_RS04665	7978mff
+887	1	2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase	0		ACX60_RS04670	7978mff
+888	1	peptide synthetase	0		ACX60_RS04675	7978mff
+889	1	non-ribosomal peptide synthetase	0		ACX60_RS04680	7978mff
+890	1	peptide synthetase	0		ACX60_RS04685	7978mff
+891	1	(2,3-dihydroxybenzoyl)adenylate synthase	0		ACX60_RS04690	7978mff
+892	1	siderophore biosynthesis protein	0		ACX60_RS04695	7978mff
+893	1	type III PLP-dependent enzyme	0		ACX60_RS04700	7978mff
+894	1	N-acetyltransferase	0		ACX60_RS04705	7978mff
+895	1	4'-phosphopantetheinyl transferase	0		ACX60_RS04720	7978mff
+896	1	thioesterase	0		ACX60_RS04725	7978mff
+897	1	ligand-gated channel protein	0		ACX60_RS04730	7978mff
+898	1	MFS transporter	0		ACX60_RS04735	7978mff
+899	1	siderophore-interacting protein	0		ACX60_RS04740	7978mff
+900	1	MATE family efflux transporter	0		ACX60_RS04745	7978mff
+901	1	hypothetical protein	0		ACX60_RS04750	7978mff
+902	1	transporter	0		ACX60_RS04755	7978mff
+903	1	hypothetical protein	0		ACX60_RS04760	7978mff
+904	1	hypothetical protein	0		ACX60_RS04765	7978mff
+905	1	transposase	0		ACX60_RS04770	7978mff
+906	1	hypothetical protein	0		ACX60_RS04785	7978mff
+908	1	IS5 family transposase ISAba12	0		ACX60_RS04795	7978mff
+1414	1	hypothetical protein	0		ACX60_RS07425	7978mff
+1415	1	hypothetical protein	0		ACX60_RS07430	7978mff
+1425	1	hypothetical protein	0		ACX60_RS18990	7978mff
+1427	1	hypothetical protein	0		ACX60_RS07495	7978mff
+1428	1	hypothetical protein	0		ACX60_RS07500	7978mff
+1429	1	hypothetical protein	0		ACX60_RS07505	7978mff
+1465	1	hypothetical protein	0		ACX60_RS07680	7978mff
+1466	1	hypothetical protein	0		ACX60_RS07685	7978mff
+1468	1	hypothetical protein	0		ACX60_RS07695	7978mff
+1470	1	hypothetical protein	0		ACX60_RS07710	7978mff
+1720	1	hypothetical protein	0		ACX60_RS08960	7978mff
+1721	1	hypothetical protein	0		ACX60_RS08965	7978mff
+1722	1	hypothetical protein	0		ACX60_RS08970	7978mff
+1735	1	hypothetical protein	0		ACX60_RS09045	7978mff
+1736	1	hypothetical protein	0		ACX60_RS09050	7978mff
+1737	1	hypothetical protein	0		ACX60_RS09055	7978mff
+1753	1	hypothetical protein	0		ACX60_RS09140	7978mff
+1910	1	hypothetical protein	0		ACX60_RS09945	7978mff
+1913	1	hypothetical protein	0		ACX60_RS09960	7978mff
+1914	1	hypothetical protein	0		ACX60_RS09965	7978mff
+1915	1	hypothetical protein	0		ACX60_RS09970	7978mff
+1920	1	hypothetical protein	0		ACX60_RS09995	7978mff
+1921	1	lipoprotein	0		ACX60_RS10000	7978mff
+1923	1	hypothetical protein	0		ACX60_RS10010	7978mff
+1933	1	hypothetical protein	0		ACX60_RS10060	7978mff
+1936	1	hypothetical protein	0		ACX60_RS10075	7978mff
+1939	1	hypothetical protein	0		ACX60_RS10090	7978mff
+1940	1	hypothetical protein	0		ACX60_RS10095	7978mff
+1941	1	hypothetical protein	0		ACX60_RS10100	7978mff
+1942	1	hypothetical protein	0		ACX60_RS10105	7978mff
+1943	1	hypothetical protein	0		ACX60_RS10110	7978mff
+1949	1	hypothetical protein	0		ACX60_RS10140	7978mff
+1950	1	Cro/Cl family transcriptional regulator	0		ACX60_RS10145	7978mff
+1956	1	DUF551 domain-containing protein	0		ACX60_RS10175	7978mff
+1958	1	hypothetical protein	0		ACX60_RS10185	7978mff
+2257	1	hypothetical protein	0		ACX60_RS11690	7978mff
+2265	1	hypothetical protein	0		ACX60_RS18995	7978mff
+2275	1	hypothetical protein	0		ACX60_RS11780	7978mff
+2388	1	hypothetical protein	0		ACX60_RS12350	7978mff
+2389	1	DUF4065 domain-containing protein	0		ACX60_RS12355	7978mff
+2392	1	hypothetical protein	0		ACX60_RS12370	7978mff
+2509	1	hypothetical protein	0		ACX60_RS12960	7978mff
+2512	1	alpha/beta hydrolase	0		ACX60_RS12975	7978mff
+2513	1	hypothetical protein	0		ACX60_RS12980	7978mff
+2514	1	LysR family transcriptional regulator	0		ACX60_RS12985	7978mff
+2515	1	D-amino acid dehydrogenase	0		ACX60_RS12990	7978mff
+2516	1	RidA family protein	0		ACX60_RS12995	7978mff
+2517	1	hypothetical protein	0		ACX60_RS13005	7978mff
+2518	1	hypothetical protein	0		ACX60_RS13010	7978mff
+2519	1	hypothetical protein	0		ACX60_RS13015	7978mff
+2520	1	hypothetical protein	0		ACX60_RS13025	7978mff
+2623	1	hypothetical protein	0		ACX60_RS13555	7978mff
+2673	1	hypothetical protein	0		ACX60_RS13810	7978mff
+2674	1	hypothetical protein	0		ACX60_RS13815	7978mff
+2675	1	ImmA/IrrE family metallo-endopeptidase	0		ACX60_RS13820	7978mff
+2676	1	hypothetical protein	0		ACX60_RS13825	7978mff
+3202	1	histidine kinase	0		ACX60_RS16565	7978mff
+3292	1	IS701 family transposase	0		ACX60_RS17040	7978mff
+3416	1	hypothetical protein	0		ACX60_RS17685	7978mff
+3570	1	hypothetical protein	0		ACX60_RS18490	7978mff
+3571	1	hypothetical protein	0		ACX60_RS18495	7978mff
+3590	1	ferrous iron transport protein A	0		ACX60_RS18590	7978mff
+3591	1	ferrous iron transport protein B	0		ACX60_RS18595	7978mff
+3592	1	ArsR family transcriptional regulator	0		ACX60_RS18600	7978mff
+3593	1	arsenic resistance protein	0		ACX60_RS18605	7978mff
+3594	1	hypothetical protein	0		ACX60_RS18610	7978mff
+3595	1	protein TniQ	0		ACX60_RS18625	7978mff
+3596	1	transposase	0	FG-Out	ACX60_RS18630	7978mff
+3633	1	hypothetical protein	0		ACX60_RS19375	7978mff
+3634	1	hypothetical protein	0		ACX60_RS18830	7978mff
+3674	1	hypothetical protein	0		ABD1_RS17610	1279779
+3692	1	TetR/AcrR family transcriptional regulator	0		ABD1_RS00460	1279779
+3693	1	MFS transporter	0		ABD1_RS00465	1279779
+3694	1	diaminopimelate decarboxylase	0		ABD1_RS00570	1279779
+3695	1	acyl-CoA synthetase	0		ABD1_RS00575	1279779
+3696	1	alpha/beta hydrolase	0		ABD1_RS00580	1279779
+3697	1	ribulose-phosphate 3-epimerase	0		ABD1_RS00585	1279779
+3698	1	uroporphyrinogen decarboxylase	0		ABD1_RS00590	1279779
+3699	1	MarR family transcriptional regulator	0		ABD1_RS00595	1279779
+3705	1	hypothetical protein	0		ABD1_RS02775	1279779
+3706	1	hypothetical protein	0		ABD1_RS17620	1279779
+3707	1	hypothetical protein	0		ABD1_RS02800	1279779
+3708	1	hypothetical protein	0		ABD1_RS02805	1279779
+3709	1	hypothetical protein	0		ABD1_RS02810	1279779
+3710	1	Lrp/AsnC family transcriptional regulator	0		ABD1_RS02815	1279779
+3711	1	hypothetical protein	0		ABD1_RS02820	1279779
+3712	1	amino acid permease	0		ABD1_RS02825	1279779
+3713	1	Glu/Leu/Phe/Val dehydrogenase	0		ABD1_RS02830	1279779
+3714	1	aspartate aminotransferase family protein	0		ABD1_RS02835	1279779
+3715	1	arginine N-succinyltransferase	0		ABD1_RS02840	1279779
+3716	1	succinylglutamate-semialdehyde dehydrogenase	0		ABD1_RS02845	1279779
+3717	1	succinylglutamate desuccinylase	0		ABD1_RS02850	1279779
+3718	1	MFS transporter	0		ABD1_RS02855	1279779
+3719	1	glyoxylate/hydroxypyruvate reductase A	0		ABD1_RS02865	1279779
+3720	1	Zn-dependent hydrolase	0		ABD1_RS02870	1279779
+3721	1	histone deacetylase family protein	0		ABD1_RS02875	1279779
+3722	1	LysR family transcriptional regulator	0		ABD1_RS02880	1279779
+3723	1	hypothetical protein	0		ABD1_RS02885	1279779
+3724	1	hypothetical protein	0		ABD1_RS02895	1279779
+3727	1	hypothetical protein	0		ABD1_RS02940	1279779
+3728	1	restriction endonuclease subunit S	0		ABD1_RS02950	1279779
+3729	1	hypothetical protein	0		ABD1_RS02955	1279779
+3730	1	DUF4276 domain-containing protein	0		ABD1_RS02960	1279779
+3731	1	type I restriction endonuclease subunit R	0		ABD1_RS02965	1279779
+3736	1	hypothetical protein	0		ABD1_RS03590	1279779
+3737	1	His-Xaa-Ser system radical SAM maturase HxsB	0		ABD1_RS03595	1279779
+3738	1	His-Xaa-Ser system radical SAM maturase HxsC	0		ABD1_RS03600	1279779
+3739	1	His-Xaa-Ser repeat protein HxsA	0		ABD1_RS03605	1279779
+3740	1	hypothetical protein	0		ABD1_RS03610	1279779
+3747	1	hypothetical protein	0		ABD1_RS04455	1279779
+3748	1	DUF3987 domain-containing protein	0		ABD1_RS04465	1279779
+3765	1	hypothetical protein	0		ABD1_RS05265	1279779
+3770	1	hypothetical protein	0		ABD1_RS05350	1279779
+3773	1	IS5-like element ISAba13 family transposase	0		ABD1_RS05370	1279779
+3774	1	hypothetical protein	0		ABD1_RS05380	1279779
+3788	1	hypothetical protein	0		ABD1_RS05770	1279779
+3812	1	hypothetical protein	0		ABD1_RS05940	1279779
+3813	1	hypothetical protein	0		ABD1_RS05945	1279779
+3814	1	hypothetical protein	0		ABD1_RS05950	1279779
+3815	1	hypothetical protein	0		ABD1_RS05955	1279779
+3816	1	hypothetical protein	0		ABD1_RS05960	1279779
+3817	1	hypothetical protein	0		ABD1_RS05965	1279779
+3818	1	hypothetical protein	0		ABD1_RS05970	1279779
+3819	1	hypothetical protein	0		ABD1_RS05975	1279779
+3820	1	hypothetical protein	0		ABD1_RS05985	1279779
+3821	1	hypothetical protein	0		ABD1_RS05990	1279779
+3822	1	hypothetical protein	0		ABD1_RS06010	1279779
+3823	1	hypothetical protein	0		ABD1_RS06015	1279779
+3824	1	hypothetical protein	0		ABD1_RS06020	1279779
+3825	1	hypothetical protein	0		ABD1_RS17740	1279779
+3826	1	hypothetical protein	0	FG-Out	ABD1_RS06025	1279779
+3828	1	hypothetical protein	0		ABD1_RS06055	1279779
+3829	1	hypothetical protein	0		ABD1_RS06060	1279779
+3833	1	hypothetical protein	0		ABD1_RS06090	1279779
+3834	1	hypothetical protein	0		ABD1_RS06095	1279779
+3835	1	DNA (cytosine-5-)-methyltransferase	0		ABD1_RS06455	1279779
+3836	1	ATP-binding protein	0		ABD1_RS06460	1279779
+3837	1	hypothetical protein	0		ABD1_RS06465	1279779
+3838	1	very short patch repair endonuclease	0		ABD1_RS06470	1279779
+3850	1	IS5-like element ISAba13 family transposase	0		ABD1_RS06810	1279779
+3851	1	hypothetical protein	0		ABD1_RS06990	1279779
+3855	1	ankyrin repeat domain-containing protein	0		ABD1_RS07015	1279779
+3859	1	IS5-like element ISAba13 family transposase	0		ABD1_RS07400	1279779
+3892	1	IS5-like element ISAba13 family transposase	0		ABD1_RS09065	1279779
+3893	1	hypothetical protein	0		ABD1_RS09120	1279779
+3894	1	hypothetical protein	0		ABD1_RS09125	1279779
+3895	1	hypothetical protein	0		ABD1_RS09130	1279779
+3898	1	hypothetical protein	0		ABD1_RS09195	1279779
+3899	1	DUF4236 domain-containing protein	0		ABD1_RS09200	1279779
+3900	1	hypothetical protein	0		ABD1_RS09205	1279779
+3901	1	hypothetical protein	0		ABD1_RS09210	1279779
+3903	1	hypothetical protein	0		ABD1_RS09220	1279779
+3904	1	sugar phosphate isomerase/epimerase	0		ABD1_RS09250	1279779
+3905	1	alpha/beta hydrolase	0		ABD1_RS09255	1279779
+3906	1	alpha/beta hydrolase	0		ABD1_RS09260	1279779
+3908	1	IS5-like element ISAba13 family transposase	0		ABD1_RS09360	1279779
+3913	1	hypothetical protein	0		ABD1_RS09425	1279779
+3914	1	hypothetical protein	0		ABD1_RS09430	1279779
+3919	1	IS5-like element ISAba13 family transposase	0		ABD1_RS10745	1279779
+3928	1	TIR domain-containing protein	0		ABD1_RS13815	1279779
+3930	1	hypothetical protein	0		ABD1_RS13915	1279779
+3932	1	hypothetical protein	0		ABD1_RS13930	1279779
+3937	1	fosfomycin resistance glutathione transferase	0		ABD1_RS16215	1279779
+3947	1	TetR/AcrR family transcriptional regulator	0		ABD1_RS16300	1279779
+3948	1	efflux RND transporter periplasmic adaptor subunit	0		ABD1_RS16305	1279779
+3949	1	hypothetical protein	0		ABD1_RS16330	1279779
+3950	1	hypothetical protein	0		ABD1_RS17925	1279779
+3951	1	DUF1311 domain-containing protein	0		ABD1_RS16335	1279779
+3952	1	hypothetical protein	0		ABD1_RS16340	1279779
+3953	1	hypothetical protein	0		ABD1_RS16345	1279779
+3954	1	hypothetical protein	0		ABD1_RS16350	1279779
+3955	1	WYL domain-containing protein	0		ABD1_RS16355	1279779
+3956	1	hypothetical protein	0		ABD1_RS16360	1279779
+3971	1	IS30 family transposase	0		RR41_RS00635	LAC4b
+3977	1	IS5 family transposase ISAba13	0		RR41_RS01030	LAC4b
+3981	1	IS5 family transposase ISAba13	0		RR41_RS01850	LAC4b
+3983	1	IS5 family transposase ISAba13	0		RR41_RS01930	LAC4b
+3986	1	IS256 family transposase ISAba26	0		RR41_RS02475	LAC4b
+3988	1	IS256 family transposase ISAba26	0		RR41_RS02715	LAC4b
+3989	1	IS256 family transposase ISAba26	0		RR41_RS02820	LAC4b
+3990	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS02835	LAC4b
+3991	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS02840	LAC4b
+3992	1	IS66 family transposase ISAba25	0		RR41_RS02845	LAC4b
+3997	1	IS256 family transposase ISAba26	0		RR41_RS03805	LAC4b
+3998	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS03845	LAC4b
+3999	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS03850	LAC4b
+4000	1	IS66 family transposase ISAba25	0		RR41_RS03855	LAC4b
+4001	1	IS66 family transposase ISAba25	0		RR41_RS03895	LAC4b
+4002	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS03900	LAC4b
+4003	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS03905	LAC4b
+4004	1	IS30 family transposase	0		RR41_RS04100	LAC4b
+4005	1	hypothetical protein	0		RR41_RS04350	LAC4b
+4006	1	IS30 family transposase	0		RR41_RS04390	LAC4b
+4008	1	IS30 family transposase	0		RR41_RS04450	LAC4b
+4009	1	IS66 family transposase ISAba25	0		RR41_RS04560	LAC4b
+4010	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS04565	LAC4b
+4011	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS04570	LAC4b
+4012	1	IS30 family transposase	0		RR41_RS04910	LAC4b
+4015	1	hypothetical protein	0		RR41_RS05420	LAC4b
+4016	1	hypothetical protein	0		RR41_RS05425	LAC4b
+4017	1	DNA replication protein	0		RR41_RS05860	LAC4b
+4022	1	hypothetical protein	0		RR41_RS05885	LAC4b
+4023	1	hypothetical protein	0		RR41_RS05890	LAC4b
+4025	1	hypothetical protein	0		RR41_RS05900	LAC4b
+4033	1	DUF2829 domain-containing protein	0		RR41_RS05940	LAC4b
+4041	1	hypothetical protein	0		RR41_RS05980	LAC4b
+4045	1	DNA recombination protein RecF	0		RR41_RS06005	LAC4b
+4046	1	HNH endonuclease	0		RR41_RS06010	LAC4b
+4047	1	hypothetical protein	0		RR41_RS06015	LAC4b
+4066	1	IS5 family transposase ISAba13	0		RR41_RS07005	LAC4b
+4067	1	OXA-134 family carbapenem-hydrolyzing class D beta-lactamase OXA-235	0		RR41_RS07100	LAC4b
+4068	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS07295	LAC4b
+4069	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS07300	LAC4b
+4070	1	IS66 family transposase ISAba25	0		RR41_RS07305	LAC4b
+4075	1	ATPase AAA	0		RR41_RS07535	LAC4b
+4079	1	IS5 family transposase ISAba13	0		RR41_RS07560	LAC4b
+4080	1	phage repressor protein	0		RR41_RS07570	LAC4b
+4084	1	hypothetical protein	0		RR41_RS07750	LAC4b
+4086	1	hypothetical protein	0		RR41_RS07780	LAC4b
+4087	1	hypothetical protein	0		RR41_RS07785	LAC4b
+4088	1	hypothetical protein	0		RR41_RS07790	LAC4b
+4089	1	hypothetical protein	0		RR41_RS07795	LAC4b
+4090	1	hypothetical protein	0		RR41_RS07800	LAC4b
+4091	1	IS5 family transposase ISAba13	0		RR41_RS07805	LAC4b
+4092	1	hypothetical protein	0		RR41_RS07810	LAC4b
+4095	1	hypothetical protein	0		RR41_RS07830	LAC4b
+4096	1	integrase	0		RR41_RS08125	LAC4b
+4097	1	hypothetical protein	0		RR41_RS19315	LAC4b
+4098	1	hypothetical protein	0		RR41_RS08130	LAC4b
+4099	1	hypothetical protein	0		RR41_RS08135	LAC4b
+4100	1	hypothetical protein	0		RR41_RS08140	LAC4b
+4101	1	RusA family crossover junction endodeoxyribonuclease	0		RR41_RS08145	LAC4b
+4102	1	XRE family transcriptional regulator	0		RR41_RS08150	LAC4b
+4103	1	hypothetical protein	0		RR41_RS08155	LAC4b
+4104	1	hypothetical protein	0		RR41_RS08160	LAC4b
+4105	1	hypothetical protein	0		RR41_RS08165	LAC4b
+4106	1	tail tape measure protein	0		RR41_RS08170	LAC4b
+4108	1	IS5 family transposase ISAba13	0		RR41_RS08185	LAC4b
+4109	1	hypothetical protein	0		RR41_RS08190	LAC4b
+4110	1	hypothetical protein	0		RR41_RS08195	LAC4b
+4111	1	recombinase	0		RR41_RS08205	LAC4b
+4112	1	hypothetical protein	0		RR41_RS08210	LAC4b
+4113	1	hypothetical protein	0		RR41_RS08215	LAC4b
+4114	1	hypothetical protein	0		RR41_RS08220	LAC4b
+4115	1	hypothetical protein	0		RR41_RS08225	LAC4b
+4116	1	hypothetical protein	0		RR41_RS08230	LAC4b
+4117	1	hypothetical protein	0		RR41_RS08235	LAC4b
+4118	1	hypothetical protein	0		RR41_RS08240	LAC4b
+4119	1	hypothetical protein	0		RR41_RS08245	LAC4b
+4120	1	conjugal transfer protein TraR	0		RR41_RS08250	LAC4b
+4121	1	hypothetical protein	0		RR41_RS08255	LAC4b
+4122	1	terminase	0		RR41_RS08260	LAC4b
+4123	1	hypothetical protein	0		RR41_RS08265	LAC4b
+4124	1	hypothetical protein	0		RR41_RS08270	LAC4b
+4125	1	hypothetical protein	0		RR41_RS08275	LAC4b
+4126	1	hypothetical protein	0		RR41_RS08280	LAC4b
+4127	1	hypothetical protein	0		RR41_RS08285	LAC4b
+4128	1	hypothetical protein	0		RR41_RS08290	LAC4b
+4129	1	hypothetical protein	0		RR41_RS08295	LAC4b
+4130	1	hypothetical protein	0		RR41_RS08300	LAC4b
+4131	1	hypothetical protein	0		RR41_RS08305	LAC4b
+4132	1	hypothetical protein	0		RR41_RS08310	LAC4b
+4133	1	hypothetical protein	0		RR41_RS08315	LAC4b
+4134	1	hypothetical protein	0		RR41_RS08320	LAC4b
+4135	1	hypothetical protein	0		RR41_RS08325	LAC4b
+4158	1	LysM domain-containing protein	0		RR41_RS08445	LAC4b
+4159	1	XRE family transcriptional regulator	0		RR41_RS08450	LAC4b
+4170	1	IS5 family transposase ISAba13	0		RR41_RS08755	LAC4b
+4173	1	IS30 family transposase	0		RR41_RS08785	LAC4b
+4174	1	long-chain fatty acid transporter	0		RR41_RS09090	LAC4b
+4175	1	bifunctional phosphoserine phosphatase/homoserine phosphotransferase ThrH	0		RR41_RS09095	LAC4b
+4176	1	phosphoadenylyl-sulfate reductase	0		RR41_RS09100	LAC4b
+4177	1	DUF559 domain-containing protein	0		RR41_RS09120	LAC4b
+4179	1	IS256 family transposase ISAba26	0		RR41_RS09205	LAC4b
+4181	1	transcriptional regulator	0		RR41_RS09385	LAC4b
+4182	1	IS66 family transposase ISAba25	0		RR41_RS09390	LAC4b
+4183	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS09395	LAC4b
+4184	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS09400	LAC4b
+4185	1	Txe/YoeB family addiction module toxin	0		RR41_RS09405	LAC4b
+4186	1	type II toxin-antitoxin system prevent-host-death family antitoxin	0		RR41_RS09410	LAC4b
+4203	1	hypothetical protein	0		RR41_RS09495	LAC4b
+4204	1	hypothetical protein	0		RR41_RS09500	LAC4b
+4210	1	RecQ family ATP-dependent DNA helicase	0		RR41_RS09530	LAC4b
+4211	1	hypothetical protein	0		RR41_RS09535	LAC4b
+4225	1	IS30 family transposase	0		RR41_RS09635	LAC4b
+4229	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS09655	LAC4b
+4230	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS09660	LAC4b
+4234	1	IS256 family transposase ISAba26	0		RR41_RS10045	LAC4b
+4235	1	IS30 family transposase	0		RR41_RS10110	LAC4b
+4236	1	RHS repeat protein	0		RR41_RS10115	LAC4b
+4237	1	RHS repeat protein	0		RR41_RS10120	LAC4b
+4238	1	RHS repeat protein	0		RR41_RS10125	LAC4b
+4244	1	IS256 family transposase ISAba26	0		RR41_RS10580	LAC4b
+4270	1	IS30 family transposase	0		RR41_RS11195	LAC4b
+4271	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS11680	LAC4b
+4272	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS11685	LAC4b
+4273	1	IS66 family transposase ISAba25	0		RR41_RS11690	LAC4b
+4274	1	hypothetical protein	0		RR41_RS11765	LAC4b
+4275	1	IS30 family transposase	0		RR41_RS12165	LAC4b
+4276	1	IS256 family transposase ISAba26	0		RR41_RS12300	LAC4b
+4277	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS12635	LAC4b
+4278	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS12640	LAC4b
+4279	1	IS66 family transposase ISAba25	0		RR41_RS12645	LAC4b
+4281	1	IS66 family transposase ISAba25	0		RR41_RS13090	LAC4b
+4282	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS13095	LAC4b
+4283	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS13100	LAC4b
+4284	1	IS30 family transposase	0		RR41_RS13115	LAC4b
+4299	1	hypothetical protein	0		RR41_RS13250	LAC4b
+4300	1	IS5 family transposase ISAba13	0		RR41_RS13415	LAC4b
+4302	1	IS5 family transposase ISAba13	0		RR41_RS13430	LAC4b
+4305	1	IS66 family transposase ISAba25	0		RR41_RS14190	LAC4b
+4306	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS14195	LAC4b
+4307	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS14200	LAC4b
+4308	1	IS5 family transposase ISAba13	0		RR41_RS14205	LAC4b
+4309	1	DNA polymerase V	0		RR41_RS14215	LAC4b
+4310	1	DNA polymerase	0		RR41_RS14220	LAC4b
+4311	1	hypothetical protein	0		RR41_RS14225	LAC4b
+4312	1	hypothetical protein	0		RR41_RS14230	LAC4b
+4313	1	hypothetical protein	0		RR41_RS14235	LAC4b
+4314	1	IS5 family transposase ISAba13	0		RR41_RS14240	LAC4b
+4315	1	hypothetical protein	0		RR41_RS14245	LAC4b
+4317	1	hypothetical protein	0		RR41_RS14255	LAC4b
+4318	1	IS256 family transposase ISAba26	0		RR41_RS14260	LAC4b
+4319	1	TIGR02594 family protein	0		RR41_RS14265	LAC4b
+4320	1	hypothetical protein	0		RR41_RS14270	LAC4b
+4321	1	hypothetical protein	0		RR41_RS14275	LAC4b
+4322	1	hypothetical protein	0		RR41_RS14280	LAC4b
+4323	1	hypothetical protein	0		RR41_RS14285	LAC4b
+4324	1	hypothetical protein	0		RR41_RS14290	LAC4b
+4328	1	hypothetical protein	0		RR41_RS14310	LAC4b
+4329	1	hypothetical protein	0		RR41_RS14315	LAC4b
+4330	1	hypothetical protein	0		RR41_RS14320	LAC4b
+4331	1	IS30 family transposase	0		RR41_RS14330	LAC4b
+4332	1	hypothetical protein	0		RR41_RS14340	LAC4b
+4333	1	hypothetical protein	0		RR41_RS14345	LAC4b
+4334	1	hypothetical protein	0		RR41_RS14350	LAC4b
+4335	1	hypothetical protein	0		RR41_RS14355	LAC4b
+4336	1	IS256 family transposase ISAba26	0		RR41_RS14365	LAC4b
+4337	1	hypothetical protein	0	FG-Out	RR41_RS14370	LAC4b
+4338	1	hypothetical protein	0		RR41_RS14375	LAC4b
+4365	1	IS5 family transposase ISAba13	0		RR41_RS14510	LAC4b
+4367	1	IS5/IS1182 family transposase	0		RR41_RS14520	LAC4b
+4376	1	hypothetical protein	0		RR41_RS14570	LAC4b
+4377	1	hypothetical protein	0		RR41_RS14575	LAC4b
+4425	1	IS256 family transposase ISAba26	0		RR41_RS16300	LAC4b
+4428	1	IS66 family transposase ISAba25	0		RR41_RS16580	LAC4b
+4429	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS16585	LAC4b
+4430	1	IS66 family insertion sequence hypothetical protein	0		RR41_RS16590	LAC4b
+4433	1	IS256 family transposase ISAba26	0		RR41_RS16955	LAC4b
+4434	1	IS5 family transposase ISAba13	0		RR41_RS18205	LAC4b
+4436	1	IS5 family transposase ISAba13	0		RR41_RS18435	LAC4b
+4441	1	hypothetical protein	0		RR41_RS18585	LAC4b
+4442	1	short-chain dehydrogenase/reductase	0		RR41_RS18595	LAC4b
+4444	1	gfo/Idh/MocA family oxidoreductase	0		RR41_RS18605	LAC4b
+4451	1	IS256 family transposase ISAba26	0		RR41_RS18940	LAC4b
+4452	1	ATP-binding protein	0		RR41_RS19070	LAC4b
+4453	1	aminoglycoside nucleotidyltransferase ANT(2'')-Ia	0		RR41_RS19080	LAC4b
+4454	1	hypothetical protein	0		RR41_RS19090	LAC4b
+4455	1	hypothetical protein	0		RR41_RS19095	LAC4b
+4456	1	plasmid mobilization relaxosome protein MobC	0		RR41_RS19100	LAC4b
+4457	1	hypothetical protein	0		RR41_RS19105	LAC4b
+4458	1	IS30 family transposase	0		AB987_RS00130	B8300
+4459	1	oxidoreductase	0		AB987_RS00140	B8300
+4460	1	aromatic-ring-hydroxylating dioxygenase	0		AB987_RS00145	B8300
+4461	1	aromatic ring-hydroxylating dioxygenase subunit alpha	0		AB987_RS00150	B8300
+4462	1	nuclear transport factor 2 family protein	0		AB987_RS00155	B8300
+4463	1	amidase	0		AB987_RS00160	B8300
+4465	1	IS256 family transposase	0		AB987_RS00270	B8300
+4466	1	IS5 family transposase	0		AB987_RS00330	B8300
+4467	1	hypothetical protein	0		AB987_RS00365	B8300
+4470	1	IS5-like element ISAba13 family transposase	0		AB987_RS00420	B8300
+4471	1	hypothetical protein	0		AB987_RS00425	B8300
+4472	1	hypothetical protein	0		AB987_RS00430	B8300
+4473	1	IS30 family transposase	0		AB987_RS00440	B8300
+4474	1	hypothetical protein	0		AB987_RS00450	B8300
+4475	1	hypothetical protein	0		AB987_RS00455	B8300
+4476	1	hypothetical protein	0		AB987_RS00460	B8300
+4477	1	hypothetical protein	0		AB987_RS00465	B8300
+4478	1	IS3-like element ISAba22 family transposase	0		AB987_RS00470	B8300
+4479	1	hypothetical protein	0		AB987_RS00480	B8300
+4480	1	DUF4424 domain-containing protein	0		AB987_RS00525	B8300
+4482	1	IS5-like element ISAba13 family transposase	0		AB987_RS00540	B8300
+4483	1	hypothetical protein	0		AB987_RS00550	B8300
+4484	1	IS5 family transposase	0		AB987_RS00555	B8300
+4485	1	IS5-like element ISAba13 family transposase	0		AB987_RS00560	B8300
+4486	1	IS5-like element ISAba13 family transposase	0		AB987_RS00575	B8300
+4490	1	radical SAM/SPASM domain-containing protein	0		AB987_RS00720	B8300
+4510	1	hypothetical protein	0		AB987_RS00825	B8300
+4511	1	HNH endonuclease	0		AB987_RS00830	B8300
+4512	1	hypothetical protein	0		AB987_RS00835	B8300
+4513	1	hypothetical protein	0		AB987_RS00840	B8300
+4516	1	hypothetical protein	0		AB987_RS00855	B8300
+4518	1	hypothetical protein	0		AB987_RS00865	B8300
+4519	1	peptidase	0		AB987_RS00870	B8300
+4520	1	hypothetical protein	0		AB987_RS00875	B8300
+4521	1	hypothetical protein	0		AB987_RS00880	B8300
+4522	1	hypothetical protein	0		AB987_RS00885	B8300
+4523	1	hypothetical protein	0		AB987_RS00890	B8300
+4524	1	hypothetical protein	0		AB987_RS00895	B8300
+4525	1	hypothetical protein	0		AB987_RS00900	B8300
+4526	1	hypothetical protein	0		AB987_RS00905	B8300
+4527	1	hypothetical protein	0		AB987_RS00910	B8300
+4528	1	hypothetical protein	0		AB987_RS00915	B8300
+4532	1	hypothetical protein	0		AB987_RS00940	B8300
+4534	1	hypothetical protein	0		AB987_RS00955	B8300
+4535	1	IS5 family transposase	0		AB987_RS00960	B8300
+4537	1	IS5 family transposase	0		AB987_RS00990	B8300
+4538	1	IS30 family transposase	0		AB987_RS01000	B8300
+4540	1	hypothetical protein	0		AB987_RS01115	B8300
+4548	1	IS256 family transposase	0		AB987_RS01190	B8300
+4549	1	hypothetical protein	0		AB987_RS01390	B8300
+4554	1	DNA replication protein	0		AB987_RS01580	B8300
+4555	1	hypothetical protein	0		AB987_RS01585	B8300
+4557	1	hypothetical protein	0		AB987_RS01620	B8300
+4558	1	hypothetical protein	0		AB987_RS01625	B8300
+4564	1	IS5-like element ISAba13 family transposase	0		AB987_RS02005	B8300
+4571	1	transposase	0		AB987_RS02540	B8300
+4572	1	transposase	0		AB987_RS02545	B8300
+4573	1	hypothetical protein	0		AB987_RS02565	B8300
+4574	1	IS5 family transposase	0		AB987_RS02570	B8300
+4575	1	hypothetical protein	0		AB987_RS02575	B8300
+4576	1	IS5-like element ISAba13 family transposase	0		AB987_RS02580	B8300
+4577	1	IS256 family transposase	0		AB987_RS02715	B8300
+4578	1	IS5-like element ISAba13 family transposase	0		AB987_RS02795	B8300
+4588	1	IS5-like element ISAha2 family transposase	0		AB987_RS02845	B8300
+4590	1	IS30 family transposase	0		AB987_RS02855	B8300
+4599	1	hypothetical protein	0		AB987_RS02905	B8300
+4600	1	IS5-like element ISAba13 family transposase	0		AB987_RS03125	B8300
+4602	1	IS5 family transposase	0		AB987_RS03770	B8300
+4603	1	hypothetical protein	0		AB987_RS03775	B8300
+4604	1	IS5 family transposase	0		AB987_RS03965	B8300
+4605	1	IS5 family transposase	0		AB987_RS03970	B8300
+4618	1	helix-turn-helix domain-containing protein	0		AB987_RS04520	B8300
+4619	1	IS3 family transposase	0		AB987_RS04525	B8300
+4628	1	hypothetical protein	0		AB987_RS04635	B8300
+4629	1	type III restriction enzyme, res subunit	0		AB987_RS04640	B8300
+4630	1	inovirus Gp2 family protein	0		AB987_RS04650	B8300
+4631	1	hypothetical protein	0		AB987_RS04655	B8300
+4640	1	hypothetical protein	0		AB987_RS05310	B8300
+4641	1	IS5 family transposase	0		AB987_RS05315	B8300
+4652	1	IS5 family transposase	0		AB987_RS05875	B8300
+4653	1	IS5/IS1182 family transposase	0		AB987_RS05945	B8300
+4658	1	transposase	0		AB987_RS06740	B8300
+4659	1	transposase	0		AB987_RS06745	B8300
+4666	1	hypothetical protein	0		AB987_RS07010	B8300
+4667	1	hypothetical protein	0		AB987_RS07015	B8300
+4678	1	IS5 family transposase	0		AB987_RS07815	B8300
+4679	1	hypothetical protein	0		AB987_RS07860	B8300
+4683	1	IS30 family transposase	0		AB987_RS07885	B8300
+4684	1	hypothetical protein	0	FG-Out	AB987_RS07890	B8300
+4686	1	ATPase AAA	0		AB987_RS08500	B8300
+4691	1	IS5 family transposase	0		AB987_RS08525	B8300
+4701	1	IS5 family transposase	0		AB987_RS08580	B8300
+4702	1	hypothetical protein	0		AB987_RS08595	B8300
+4710	1	AlpA family phage regulatory protein	0		AB987_RS08650	B8300
+4711	1	class I SAM-dependent methyltransferase	0		AB987_RS08655	B8300
+4712	1	HNH endonuclease	0		AB987_RS08660	B8300
+4713	1	ATP-dependent helicase	0		AB987_RS08665	B8300
+4714	1	hypothetical protein	0		AB987_RS08670	B8300
+4715	1	hypothetical protein	0		AB987_RS08675	B8300
+4716	1	site-specific DNA-methyltransferase	0		AB987_RS08680	B8300
+4717	1	type III restriction enzyme, res subunit	0		AB987_RS08685	B8300
+4718	1	DUF262 domain-containing protein	0		AB987_RS08690	B8300
+4719	1	hypothetical protein	0		AB987_RS08695	B8300
+4720	1	DUF4102 domain-containing protein	0		AB987_RS08700	B8300
+4722	1	IS5-like element ISAba13 family transposase	0		AB987_RS08745	B8300
+4723	1	IS5 family transposase	0		AB987_RS08795	B8300
+4741	1	IS5 family transposase	0		AB987_RS10995	B8300
+4742	1	Fic family protein	0		AB987_RS11000	B8300
+4743	1	IS5-like element ISAba13 family transposase	0		AB987_RS11005	B8300
+4749	1	5'-nucleotidase	0		AB987_RS11135	B8300
+4750	1	hypothetical protein	0		AB987_RS11140	B8300
+4753	1	IS256 family transposase	0		AB987_RS11405	B8300
+4755	1	IS3 family transposase	0		AB987_RS11660	B8300
+4756	1	helix-turn-helix domain-containing protein	0		AB987_RS11665	B8300
+4757	1	hypothetical protein	0		AB987_RS11670	B8300
+4758	1	hypothetical protein	0		AB987_RS11675	B8300
+4759	1	hypothetical protein	0		AB987_RS11680	B8300
+4760	1	hypothetical protein	0		AB987_RS11685	B8300
+4761	1	DUF932 domain-containing protein	0		AB987_RS11690	B8300
+4762	1	YqaJ-like viral recombinase domain protein	0	FG-Out	AB987_RS11695	B8300
+4763	1	hypothetical protein	0		AB987_RS11700	B8300
+4769	1	hypothetical protein	0		AB987_RS11745	B8300
+4770	1	DUF4297 domain-containing protein	0		AB987_RS11750	B8300
+4771	1	DUF262 domain-containing protein	0		AB987_RS11755	B8300
+4772	1	DUF3696 domain-containing protein	0		AB987_RS11760	B8300
+4773	1	hypothetical protein	0		AB987_RS11765	B8300
+4774	1	hypothetical protein	0		AB987_RS11770	B8300
+4775	1	inovirus Gp2 family protein	0		AB987_RS11775	B8300
+4776	1	AlpA family phage regulatory protein	0		AB987_RS11780	B8300
+4777	1	hypothetical protein	0		AB987_RS11785	B8300
+4778	1	alkaline phosphatase	0		AB987_RS11795	B8300
+4779	1	alkaline phosphatase	0		AB987_RS11800	B8300
+4780	1	hypothetical protein	0		AB987_RS11805	B8300
+4781	1	AraC family transcriptional regulator	0		AB987_RS11810	B8300
+4782	1	GGDEF domain-containing protein	0		AB987_RS11815	B8300
+4783	1	TonB-dependent receptor	0		AB987_RS11820	B8300
+4784	1	3-phytase	0		AB987_RS11825	B8300
+4785	1	protein tolQ	0		AB987_RS11830	B8300
+4786	1	biopolymer transporter TolR	0		AB987_RS11835	B8300
+4787	1	energy transducer TonB	0		AB987_RS11840	B8300
+4788	1	DUF4102 domain-containing protein	0		AB987_RS11845	B8300
+4791	1	IS5-like element ISAba27 family transposase	0		AB987_RS11875	B8300
+4792	1	hypothetical protein	0		AB987_RS11880	B8300
+4793	1	IS5 family transposase ISAba27	0		AB987_RS12390	B8300
+4795	1	IS5 family transposase	0		AB987_RS12540	B8300
+4796	1	IS5/IS1182 family transposase	0		AB987_RS12585	B8300
+4798	1	zinc ribbon domain-containing protein	0		AB987_RS12895	B8300
+4801	1	IS5-like element ISAba13 family transposase	0		AB987_RS13265	B8300
+4803	1	IS5 family transposase	0		AB987_RS13715	B8300
+4804	1	hypothetical protein	0		AB987_RS13760	B8300
+4805	1	IS5 family transposase	0		AB987_RS13805	B8300
+4806	1	IS5-like element ISAba13 family transposase	0		AB987_RS13855	B8300
+4808	1	IS3 family transposase	0		AB987_RS13875	B8300
+4809	1	helix-turn-helix domain-containing protein	0		AB987_RS13880	B8300
+4810	1	IS5-like element ISAba13 family transposase	0		AB987_RS14115	B8300
+4817	1	hypothetical protein	0		AB987_RS14350	B8300
+4820	1	hypothetical protein	0		AB987_RS14365	B8300
+4823	1	hypothetical protein	0		AB987_RS14380	B8300
+4837	1	hypothetical protein	0		AB987_RS14455	B8300
+4854	1	IS5-like element ISAba13 family transposase	0		AB987_RS14730	B8300
+4855	1	IS5-like element ISAba13 family transposase	0		AB987_RS14740	B8300
+4860	1	IS5-like element ISAba13 family transposase	0		AB987_RS15135	B8300
+4861	1	hypothetical protein	0		AB987_RS15260	B8300
+4862	1	IS5-like element ISAba13 family transposase	0		AB987_RS15285	B8300
+4863	1	IS5-like element ISAba13 family transposase	0		AB987_RS15900	B8300
+4871	1	IS5-like element ISAba13 family transposase	0		AB987_RS16000	B8300
+4875	1	IS3-like element ISAba22 family transposase	0		AB987_RS16025	B8300
+4883	1	hypothetical protein	0		AB987_RS16255	B8300
+4884	1	IS5-like element ISAba13 family transposase	0		AB987_RS16265	B8300
+4889	1	XRE family transcriptional regulator	0		AB987_RS16325	B8300
+4890	1	sodium:proton exchanger	0		AB987_RS16335	B8300
+4891	1	thioredoxin TrxC	0		AB987_RS16340	B8300
+4892	1	hypothetical protein	0		AB987_RS16345	B8300
+4893	1	HdeD family acid-resistance protein	0		AB987_RS16350	B8300
+4894	1	hypothetical protein	0		AB987_RS16355	B8300
+4899	1	addiction module killer protein	0		AB987_RS16450	B8300
+4900	1	putative addiction module antidote protein	0		AB987_RS16455	B8300
+4901	1	IS5-like element ISAba13 family transposase	0		AB987_RS16460	B8300
+4904	1	hypothetical protein	0		AB987_RS16480	B8300
+4915	1	IS5-like element ISAba13 family transposase	0		AB987_RS16540	B8300
+4916	1	IS3-like element ISAba22 family transposase	0		AB987_RS16550	B8300
+4917	1	IS5 family transposase	0		AB987_RS16555	B8300
+4919	1	IS5/IS1182 family transposase	0		AB987_RS16625	B8300
+4920	1	IS5 family transposase	0		AB987_RS16675	B8300
+4924	1	IS30 family transposase	0		AB987_RS17035	B8300
+4926	1	hypothetical protein	0		AB987_RS17095	B8300
+4928	1	IS3-like element ISAba22 family transposase	0		AB987_RS17445	B8300
+4929	1	IS5/IS1182 family transposase	0		AB987_RS17535	B8300
+4930	1	IS256 family transposase	0		AB987_RS17550	B8300
+4931	1	IS5 family transposase	0		AB987_RS17910	B8300
+4933	1	IS5-like element IS17 family transposase	0		AB987_RS17940	B8300
+4934	1	transposase	0		AB987_RS17995	B8300
+4935	1	IS30 family transposase	0		AB987_RS18210	B8300
+4936	1	IS5 family transposase	0		AB987_RS18215	B8300
+4938	1	IS5 family transposase	0		AB987_RS18455	B8300
+4944	1	IS5 family transposase	0		AB987_RS18550	B8300
+4947	1	plasmid pRiA4b ORF-3 family protein	0		AB987_RS18650	B8300
+4948	1	hypothetical protein	0		AB987_RS18655	B8300
+4949	1	hypothetical protein	0		AB987_RS18660	B8300
+4950	1	plasmid pRiA4b ORF-3 family protein	0		AB987_RS18665	B8300
+4951	1	hypothetical protein	0		AB987_RS18670	B8300
+4952	1	hypothetical protein	0		AB987_RS18675	B8300
+4953	1	hypothetical protein	0		AB987_RS18680	B8300
+4955	1	DUF4326 domain-containing protein	0		AB987_RS18690	B8300
+4956	1	DUF488 domain-containing protein	0		AB987_RS18695	B8300
+4957	1	hypothetical protein	0		AB987_RS18700	B8300
+4958	1	hypothetical protein	0		AB987_RS18705	B8300
+4959	1	hypothetical protein	0		AB987_RS18710	B8300
+4960	1	hypothetical protein	0		AB987_RS18715	B8300
+4961	1	hypothetical protein	0		AB987_RS18720	B8300
+4963	1	RepB family plasmid replication initiator protein	0		AB987_RS18730	B8300
+4964	1	hypothetical protein	0		AB987_RS18735	B8300
+4966	1	TerC family protein	0		AB987_RS18745	B8300
+4967	1	toxin RelE	0		AB987_RS18750	B8300
+4968	1	transcriptional regulator	0		AB987_RS18755	B8300
+4969	1	IS3-like element ISAba22 family transposase	0		AB987_RS18760	B8300
+4970	1	hypothetical protein	0		AB987_RS18765	B8300
+4971	1	DUF262 domain-containing protein	0		AB987_RS18770	B8300
+4989	1	hypothetical protein	0		BS103_RS02610	A1296
+4990	1	hypothetical protein	0		BS103_RS02615	A1296
+4992	1	hypothetical protein	0		BS103_RS02625	A1296
+4993	1	hypothetical protein	0		BS103_RS02630	A1296
+4994	1	hypothetical protein	0		BS103_RS02635	A1296
+4995	1	hypothetical protein	0		BS103_RS02640	A1296
+4996	1	hypothetical protein	0		BS103_RS02645	A1296
+4998	1	DUF262 domain-containing protein	0		BS103_RS02670	A1296
+4999	1	restriction endonuclease subunit S	0		BS103_RS02675	A1296
+5000	1	SAM-dependent DNA methyltransferase	0		BS103_RS02680	A1296
+5001	1	restriction endonuclease subunit S	0		BS103_RS02685	A1296
+5002	1	type I restriction endonuclease subunit R	0		BS103_RS02690	A1296
+5003	1	ImmA/IrrE family metallo-endopeptidase	0		BS103_RS02695	A1296
+5004	1	DUF4411 domain-containing protein	0		BS103_RS02700	A1296
+5005	1	IS256-like element ISAba26 family transposase	0		BS103_RS02800	A1296
+5009	1	DDE domain-containing protein	0		BS103_RS03425	A1296
+5012	1	IS5-like element ISAba27 family transposase	0		BS103_RS04055	A1296
+5014	1	hypothetical protein	0		BS103_RS04415	A1296
+5015	1	inovirus Gp2 family protein	0		BS103_RS04420	A1296
+5016	1	hypothetical protein	0		BS103_RS04450	A1296
+5017	1	helicase	0		BS103_RS04455	A1296
+5018	1	WYL domain-containing protein	0		BS103_RS04460	A1296
+5019	1	hypothetical protein	0		BS103_RS04465	A1296
+5020	1	hypothetical protein	0		BS103_RS04470	A1296
+5021	1	hypothetical protein	0		BS103_RS04475	A1296
+5022	1	hypothetical protein	0		BS103_RS04480	A1296
+5023	1	hypothetical protein	0		BS103_RS04490	A1296
+5024	1	Fic family protein	0		BS103_RS04495	A1296
+5030	1	hypothetical protein	0		BS103_RS04555	A1296
+5031	1	hypothetical protein	0		BS103_RS04560	A1296
+5032	1	hypothetical protein	0		BS103_RS04565	A1296
+5033	1	hypothetical protein	0		BS103_RS04570	A1296
+5036	1	hypothetical protein	0		BS103_RS04585	A1296
+5038	1	hypothetical protein	0		BS103_RS04595	A1296
+5039	1	hypothetical protein	0		BS103_RS04600	A1296
+5057	1	IS5-like element ISAba27 family transposase	0		BS103_RS05530	A1296
+5060	1	hypothetical protein	0		BS103_RS05985	A1296
+5062	1	hypothetical protein	0		BS103_RS06380	A1296
+5063	1	hypothetical protein	0		BS103_RS06595	A1296
+5064	1	ATP-dependent helicase	0		BS103_RS06605	A1296
+5065	1	class I SAM-dependent methyltransferase	0		BS103_RS06610	A1296
+5066	1	hypothetical protein	0		BS103_RS06615	A1296
+5067	1	VRR-NUC domain-containing protein	0		BS103_RS06620	A1296
+5068	1	hypothetical protein	0		BS103_RS06625	A1296
+5069	1	DNA polymerase III subunit beta	0		BS103_RS06630	A1296
+5070	1	DNA polymerase I	0		BS103_RS06635	A1296
+5071	1	DUF2303 domain-containing protein	0		BS103_RS06640	A1296
+5072	1	hypothetical protein	0		BS103_RS06645	A1296
+5073	1	DUF2815 domain-containing protein	0		BS103_RS06650	A1296
+5074	1	DUF2800 domain-containing protein	0		BS103_RS06655	A1296
+5075	1	hypothetical protein	0		BS103_RS06660	A1296
+5076	1	XRE family transcriptional regulator	0		BS103_RS06665	A1296
+5077	1	XRE family transcriptional regulator	0		BS103_RS06670	A1296
+5078	1	hypothetical protein	0		BS103_RS06675	A1296
+5079	1	hypothetical protein	0		BS103_RS06680	A1296
+5080	1	DNA primase	0		BS103_RS06685	A1296
+5081	1	hypothetical protein	0		BS103_RS06700	A1296
+5083	1	IS256-like element ISAba26 family transposase	0		BS103_RS06950	A1296
+5084	1	IS5-like element ISAba27 family transposase	0		BS103_RS07005	A1296
+5087	1	damage-inducible protein	0		BS103_RS07550	A1296
+5088	1	hypothetical protein	0		BS103_RS07555	A1296
+5089	1	site-specific integrase	0		BS103_RS07560	A1296
+5090	1	hypothetical protein	0		BS103_RS07565	A1296
+5091	1	hypothetical protein	0		BS103_RS07570	A1296
+5092	1	hypothetical protein	0		BS103_RS07615	A1296
+5093	1	IS5/IS1182 family transposase	0		BS103_RS07630	A1296
+5095	1	IS5-like element ISAba27 family transposase	0		BS103_RS08950	A1296
+5096	1	hypothetical protein	0		BS103_RS08995	A1296
+5097	1	hypothetical protein	0		BS103_RS09000	A1296
+5098	1	XRE family transcriptional regulator	0		BS103_RS09005	A1296
+5099	1	hypothetical protein	0		BS103_RS09010	A1296
+5100	1	hypothetical protein	0		BS103_RS09015	A1296
+5101	1	hypothetical protein	0		BS103_RS09020	A1296
+5102	1	XRE family transcriptional regulator	0		BS103_RS09025	A1296
+5103	1	hypothetical protein	0		BS103_RS09030	A1296
+5104	1	hypothetical protein	0		BS103_RS09105	A1296
+5105	1	hypothetical protein	0		BS103_RS09165	A1296
+5108	1	hypothetical protein	0		BS103_RS09360	A1296
+5111	1	IS5-like element ISAba27 family transposase	0		BS103_RS10060	A1296
+5115	1	IS256 family transposase ISAba26	0		BS103_RS10350	A1296
+5118	1	site-specific integrase	0		BS103_RS10365	A1296
+5119	1	IS256 family transposase ISAba26	0		BS103_RS10370	A1296
+5125	1	hypothetical protein	0		BS103_RS11515	A1296
+5126	1	HNH endonuclease	0		BS103_RS11520	A1296
+5127	1	IS256 family transposase	0	FG-Out	BS103_RS11525	A1296
+5130	1	IS5-like element ISAba27 family transposase	0		BS103_RS12225	A1296
+5131	1	IS5-like element ISAba27 family transposase	0		BS103_RS12365	A1296
+5132	1	hypothetical protein	0		BS103_RS12370	A1296
+5133	1	hypothetical protein	0		BS103_RS12375	A1296
+5134	1	DDE domain-containing protein	0		BS103_RS12565	A1296
+5135	1	hypothetical protein	0		BS103_RS13370	A1296
+5136	1	site-specific integrase	0		BS103_RS13400	A1296
+5137	1	integrase	0		BS103_RS13405	A1296
+5138	1	hypothetical protein	0		BS103_RS13410	A1296
+5139	1	transcription elongation factor GreB	0		BS103_RS13415	A1296
+5140	1	hypothetical protein	0		BS103_RS13425	A1296
+5141	1	IS256-like element ISAba26 family transposase	0		BS103_RS13435	A1296
+5142	1	hypothetical protein	0		BS103_RS13440	A1296
+5143	1	IS5-like element ISAba27 family transposase	0		BS103_RS13455	A1296
+5144	1	hypothetical protein	0		BS103_RS13460	A1296
+5145	1	hypothetical protein	0		BS103_RS13465	A1296
+5147	1	transposase	0		BS103_RS13495	A1296
+5148	1	transposase	0		BS103_RS13505	A1296
+5149	1	DNA-binding protein	0		BS103_RS13525	A1296
+5150	1	hypothetical protein	0		BS103_RS13540	A1296
+5155	1	hypothetical protein	0		BS103_RS14170	A1296
+5156	1	IS256 family transposase ISAba26	0		BS103_RS14175	A1296
+5161	1	hypothetical protein	0		BS103_RS14210	A1296
+5162	1	IS5/IS1182 family transposase	0		BS103_RS14940	A1296
+5164	1	IS256 family transposase ISAba26	0		BS103_RS15230	A1296
+5165	1	IS5-like element ISAba27 family transposase	0		BS103_RS15395	A1296
+5168	1	IS5-like element ISAba27 family transposase	0		BS103_RS16515	A1296
+5169	1	IS5-like element ISAba27 family transposase	0		BS103_RS16535	A1296
+5170	1	IS5-like element ISAba27 family transposase	0		BS103_RS17040	A1296
+5171	1	hypothetical protein	0		BS103_RS17050	A1296
+5172	1	DDE domain-containing protein	0		BS103_RS17620	A1296
+5173	1	hypothetical protein	0		BS103_RS17785	A1296
+5174	1	outer membrane protein assembly factor BamE	0		BS103_RS17790	A1296
+5175	1	hypothetical protein	0		BS103_RS17795	A1296
+5214	1	restriction endonuclease subunit S	0		BS103_RS17755	A1296
+5221	1	hypothetical protein	0		BS103_RS18040	A1296
+5268	1	ATPase AAA	0		BS103_RS18275	A1296
+5269	1	hypothetical protein	0		BS103_RS18280	A1296
+5281	1	TetR family transcriptional regulator	0		BS103_RS18340	A1296
+5282	1	AbrB/MazE/SpoVT family DNA-binding domain-containing protein	0		BS103_RS18350	A1296
+5283	1	PIN domain-containing protein	0		BS103_RS18355	A1296
+5284	1	XRE family transcriptional regulator	0		BS103_RS18360	A1296
+5285	1	hypothetical protein	0		BS103_RS18365	A1296
+5286	1	restriction endonuclease subunit M	0		BS103_RS18370	A1296
+5287	1	hypothetical protein	0		BS103_RS18375	A1296
+5288	1	hypothetical protein	0		BS103_RS18380	A1296
+5289	1	plasmid mobilization protein	0		BS103_RS18385	A1296
+5290	1	hypothetical protein	0		BS103_RS18390	A1296
+5291	1	hypothetical protein	0		BS103_RS18395	A1296
+5299	1	IS6 family transposase IS15DIV	0		B7L46_RS00065	HWBA8
+5300	1	hypothetical protein	0		B7L46_RS00070	HWBA8
+5301	1	resolvase	0		B7L46_RS00075	HWBA8
+5305	1	sulfonamide-resistant dihydropteroate synthase Sul2	0		B7L46_RS00115	HWBA8
+5306	1	IS91 family transposase	0		B7L46_RS00005	HWBA8
+5307	1	IS91 family transposase	0		B7L46_RS00580	HWBA8
+5309	1	DDE domain-containing protein	0	FG-Out	B7L46_RS00595	HWBA8
+5310	1	IS6-like element IS1008 family transposase	0		B7L46_RS00600	HWBA8
+5315	1	LysR family transcriptional regulator	0		B7L46_RS00640	HWBA8
+5316	1	hypothetical protein	0		B7L46_RS00645	HWBA8
+5317	1	DUF2971 domain-containing protein	0		B7L46_RS00655	HWBA8
+5319	1	IS5-like element IS17 family transposase	0		B7L46_RS00670	HWBA8
+5323	1	SulP family inorganic anion transporter	0		B7L46_RS00735	HWBA8
+5324	1	hypothetical protein	0		B7L46_RS00740	HWBA8
+5325	1	hypothetical protein	0		B7L46_RS00745	HWBA8
+5326	1	helix-turn-helix domain of resolvase	0		B7L46_RS00750	HWBA8
+5327	1	IS6-like element IS1007 family transposase	0		B7L46_RS00755	HWBA8
+5330	1	IS6 family transposase IS15DIV	0		B7L46_RS00875	HWBA8
+5331	1	hypothetical protein	0		B7L46_RS00880	HWBA8
+5332	1	resolvase	0		B7L46_RS00885	HWBA8
+5333	1	hypothetical protein	0		B7L46_RS00890	HWBA8
+5334	1	IS91 family transposase	0		B7L46_RS00895	HWBA8
+5335	1	phosphoglucosamine mutase	0		B7L46_RS00905	HWBA8
+5394	1	hypothetical protein	0		B7L46_RS01420	HWBA8
+5396	1	sterol desaturase family protein	0		B7L46_RS02000	HWBA8
+5397	1	LysR family transcriptional regulator	0		B7L46_RS02005	HWBA8
+5398	1	aromatic acid/H+ symport family MFS transporter	0		B7L46_RS02010	HWBA8
+5399	1	salicylate 1-monooxygenase	0		B7L46_RS02015	HWBA8
+5400	1	hypothetical protein	0		B7L46_RS02020	HWBA8
+5401	1	TetR/AcrR family transcriptional regulator	0		B7L46_RS02025	HWBA8
+5404	1	hypothetical protein	0		B7L46_RS02095	HWBA8
+5410	1	hypothetical protein	0		B7L46_RS02430	HWBA8
+5411	1	hypothetical protein	0		B7L46_RS02435	HWBA8
+5412	1	hypothetical protein	0		B7L46_RS02440	HWBA8
+5422	1	PIN domain-containing protein	0		B7L46_RS02490	HWBA8
+5423	1	hypothetical protein	0		B7L46_RS02495	HWBA8
+5425	1	hypothetical protein	0		B7L46_RS02590	HWBA8
+5426	1	hypothetical protein	0		B7L46_RS02600	HWBA8
+5428	1	hypothetical protein	0		B7L46_RS02610	HWBA8
+5429	1	hypothetical protein	0		B7L46_RS02615	HWBA8
+5431	1	hypothetical protein	0		B7L46_RS02625	HWBA8
+5432	1	hypothetical protein	0		B7L46_RS02630	HWBA8
+5433	1	hypothetical protein	0		B7L46_RS02640	HWBA8
+5434	1	hypothetical protein	0		B7L46_RS02645	HWBA8
+5435	1	hypothetical protein	0		B7L46_RS02650	HWBA8
+5436	1	hypothetical protein	0		B7L46_RS02655	HWBA8
+5437	1	hypothetical protein	0		B7L46_RS02660	HWBA8
+5438	1	hypothetical protein	0		B7L46_RS02665	HWBA8
+5439	1	hypothetical protein	0		B7L46_RS02675	HWBA8
+5447	1	hypothetical protein	0		B7L46_RS02715	HWBA8
+5448	1	hypothetical protein	0		B7L46_RS02720	HWBA8
+5452	1	hypothetical protein	0		B7L46_RS02740	HWBA8
+5454	1	hypothetical protein	0		B7L46_RS02750	HWBA8
+5457	1	hypothetical protein	0		B7L46_RS02765	HWBA8
+5458	1	hypothetical protein	0		B7L46_RS02770	HWBA8
+5459	1	hypothetical protein	0		B7L46_RS02775	HWBA8
+5462	1	hypothetical protein	0		B7L46_RS02875	HWBA8
+5463	1	hypothetical protein	0		B7L46_RS03100	HWBA8
+5464	1	hypothetical protein	0		B7L46_RS03105	HWBA8
+5465	1	hypothetical protein	0		B7L46_RS03125	HWBA8
+5466	1	hypothetical protein	0		B7L46_RS03130	HWBA8
+5467	1	hypothetical protein	0		B7L46_RS03205	HWBA8
+5468	1	hypothetical protein	0		B7L46_RS03215	HWBA8
+5469	1	hypothetical protein	0		B7L46_RS03220	HWBA8
+5470	1	hypothetical protein	0		B7L46_RS03225	HWBA8
+5471	1	hypothetical protein	0		B7L46_RS03240	HWBA8
+5472	1	DNA replication protein	0		B7L46_RS03245	HWBA8
+5473	1	hypothetical protein	0		B7L46_RS03250	HWBA8
+5474	1	HNH endonuclease	0		B7L46_RS03255	HWBA8
+5475	1	ribbon-helix-helix protein, CopG family	0		B7L46_RS03260	HWBA8
+5476	1	hypothetical protein	0		B7L46_RS03265	HWBA8
+5477	1	LexA family transcriptional repressor	0		B7L46_RS03270	HWBA8
+5478	1	hypothetical protein	0		B7L46_RS03275	HWBA8
+5481	1	hypothetical protein	0		B7L46_RS03290	HWBA8
+5482	1	phage recombination protein Bet	0		B7L46_RS03295	HWBA8
+5483	1	exonuclease	0		B7L46_RS03300	HWBA8
+5485	1	hypothetical protein	0		B7L46_RS03315	HWBA8
+5486	1	hypothetical protein	0		B7L46_RS03320	HWBA8
+5489	1	hypothetical protein	0		B7L46_RS03745	HWBA8
+5490	1	hypothetical protein	0		B7L46_RS03750	HWBA8
+5491	1	hypothetical protein	0		B7L46_RS03755	HWBA8
+5492	1	hypothetical protein	0		B7L46_RS03760	HWBA8
+5493	1	class I SAM-dependent methyltransferase	0		B7L46_RS03765	HWBA8
+5500	1	hypothetical protein	0		B7L46_RS04765	HWBA8
+5501	1	hypothetical protein	0		B7L46_RS04770	HWBA8
+5502	1	hypothetical protein	0		B7L46_RS04775	HWBA8
+5503	1	DUF4062 domain-containing protein	0		B7L46_RS04780	HWBA8
+5504	1	hypothetical protein	0		B7L46_RS06035	HWBA8
+5508	1	acyltransferase	0		B7L46_RS06080	HWBA8
+5526	1	IS4 family transposase ISEc29	0		B7L46_RS11690	HWBA8
+5527	1	hypothetical protein	0		B7L46_RS11695	HWBA8
+5528	1	hypothetical protein	0		B7L46_RS11700	HWBA8
+5529	1	ArmA family 16S rRNA (guanine(1405)-N(7))-methyltransferase	0		B7L46_RS11705	HWBA8
+5530	1	IS4-like element IS10A family transposase	0		B7L46_RS11715	HWBA8
+5531	1	DUF1911 domain-containing protein	0		B7L46_RS11725	HWBA8
+5532	1	hypothetical protein	0		B7L46_RS11810	HWBA8
+5534	1	hypothetical protein	0		B7L46_RS11855	HWBA8
+5539	1	IS4-like element IS10A family transposase	0		B7L46_RS12845	HWBA8
+5540	1	nucleoid-associated protein	0		B7L46_RS13515	HWBA8
+5541	1	hypothetical protein	0		B7L46_RS13520	HWBA8
+5542	1	hypothetical protein	0		B7L46_RS13525	HWBA8
+5543	1	hypothetical protein	0		B7L46_RS13530	HWBA8
+5544	1	hypothetical protein	0		B7L46_RS13545	HWBA8
+5545	1	PAAR domain-containing protein	0	FG-Out	B7L46_RS13550	HWBA8
+5546	1	SAM-dependent DNA methyltransferase	0		B7L46_RS13565	HWBA8
+5547	1	type I restriction endonuclease subunit S	0		B7L46_RS13570	HWBA8
+5548	1	DUF4145 domain-containing protein	0		B7L46_RS13575	HWBA8
+5549	1	TIGR04255 family protein	0		B7L46_RS15220	HWBA8
+5550	1	hypothetical protein	0		B7L46_RS15225	HWBA8
+5551	1	hypothetical protein	0		B7L46_RS15230	HWBA8
+5552	1	hypothetical protein	0		B7L46_RS15235	HWBA8
+5553	1	hypothetical protein	0		B7L46_RS15245	HWBA8
+5555	1	hypothetical protein	0		B7L46_RS15255	HWBA8
+5556	1	DGQHR domain-containing protein	0		B7L46_RS15260	HWBA8
+5557	1	site-specific DNA-methyltransferase	0		B7L46_RS15265	HWBA8
+5558	1	prophage repressor protein	0		B7L46_RS15270	HWBA8
+5559	1	hypothetical protein	0		B7L46_RS15275	HWBA8
+5564	1	hypothetical protein	0		B7L46_RS15325	HWBA8
+5566	1	hypothetical protein	0		B7L46_RS15435	HWBA8
+5567	1	spore coat protein CotH	0		B7L46_RS15455	HWBA8
+5568	1	BspA family leucine-rich repeat surface protein	0		B7L46_RS15460	HWBA8
+5571	1	hypothetical protein	0		B7L46_RS15500	HWBA8
+5578	1	helicase	0		B7L46_RS16145	HWBA8
+5597	1	IS4-like element IS10A family transposase	0		B7L46_RS17870	HWBA8
+5617	1	hypothetical protein	0		B7L46_RS18760	HWBA8
+5618	1	hypothetical protein	0		B7L46_RS19025	HWBA8
+5619	1	membrane-bound PQQ-dependent dehydrogenase, glucose/quinate/shikimate family	0		B7L46_RS19035	HWBA8
+5620	1	transcriptional regulator	0		B7L46_RS19040	HWBA8
+5621	1	zinc-binding dehydrogenase	0		B7L46_RS19045	HWBA8
+5622	1	glutathione S-transferase	0		B7L46_RS19050	HWBA8
+5623	1	DoxX family protein	0		B7L46_RS19055	HWBA8
+5624	1	azoreductase	0		B7L46_RS19060	HWBA8
+5625	1	LysR family transcriptional regulator	0		B7L46_RS19065	HWBA8
+5626	1	MBL fold metallo-hydrolase	0		B7L46_RS19070	HWBA8
+5627	1	hypothetical protein	0		B7L46_RS19075	HWBA8
+5628	1	MFS transporter	0		B7L46_RS19080	HWBA8
+5629	1	esterase	0		B7L46_RS19085	HWBA8
+5630	1	hypothetical protein	0	FG-Out	B7L46_RS19100	HWBA8
+5642	1	hypothetical protein	0		B7L46_RS19225	HWBA8
+5649	1	hypothetical protein	0		B7L46_RS20210	HWBA8
+5650	1	hypothetical protein	0		B7L46_RS20215	HWBA8
+5651	1	hypothetical protein	0		B7L46_RS20220	HWBA8
+5652	1	hypothetical protein	0		B7L46_RS20230	HWBA8
+5653	1	hypothetical protein	0		B7L46_RS20235	HWBA8
+5654	1	hypothetical protein	0		B7L46_RS20240	HWBA8
+5655	1	DUF2612 domain-containing protein	0		B7L46_RS20245	HWBA8
+5656	1	hypothetical protein	0		B7L46_RS20250	HWBA8
+5657	1	hypothetical protein	0		B7L46_RS20255	HWBA8
+5658	1	hypothetical protein	0		B7L46_RS20260	HWBA8
+5659	1	hypothetical protein	0		B7L46_RS20265	HWBA8
+5660	1	hypothetical protein	0		B7L46_RS20270	HWBA8
+5661	1	hypothetical protein	0		B7L46_RS20275	HWBA8
+5662	1	hypothetical protein	0		B7L46_RS20280	HWBA8
+5663	1	hypothetical protein	0		B7L46_RS20285	HWBA8
+5664	1	hypothetical protein	0		B7L46_RS20290	HWBA8
+5665	1	DUF3277 domain-containing protein	0		B7L46_RS20295	HWBA8
+5666	1	DUF3383 domain-containing protein	0		B7L46_RS20300	HWBA8
+5667	1	hypothetical protein	0		B7L46_RS20305	HWBA8
+5668	1	hypothetical protein	0		B7L46_RS20310	HWBA8
+5669	1	hypothetical protein	0		B7L46_RS20315	HWBA8
+5670	1	DUF4054 domain-containing protein	0		B7L46_RS20320	HWBA8
+5671	1	hypothetical protein	0		B7L46_RS20325	HWBA8
+5672	1	DUF2184 domain-containing protein	0		B7L46_RS20330	HWBA8
+5673	1	hypothetical protein	0		B7L46_RS20335	HWBA8
+5674	1	DUF2213 domain-containing protein	0		B7L46_RS20340	HWBA8
+5675	1	hypothetical protein	0		B7L46_RS20345	HWBA8
+5676	1	SPP1 family phage head morphogenesis protein	0		B7L46_RS20350	HWBA8
+5677	1	DUF1073 domain-containing protein	0		B7L46_RS20355	HWBA8
+5678	1	hypothetical protein	0		B7L46_RS20360	HWBA8
+5680	1	hypothetical protein	0		B7L46_RS20385	HWBA8
+5682	1	hypothetical protein	0		B7L46_RS20490	HWBA8
+5683	1	rhombosortase	0		IX88_RS00005	AB031
+5684	1	50S ribosomal protein L17	0		IX88_RS00030	AB031
+5685	1	DNA-directed RNA polymerase subunit alpha	0		IX88_RS00035	AB031
+5686	1	30S ribosomal protein S4	0		IX88_RS00040	AB031
+5687	1	30S ribosomal protein S11	0		IX88_RS00045	AB031
+5688	1	30S ribosomal protein S13	0		IX88_RS00050	AB031
+5689	1	50S ribosomal protein L36	0		IX88_RS00055	AB031
+5690	1	preprotein translocase subunit SecY	0		IX88_RS00060	AB031
+5693	1	TIR domain-containing protein	0		IX88_RS01055	AB031
+5694	1	hypothetical protein	0		IX88_RS01060	AB031
+5695	1	DUF1828 domain-containing protein	0		IX88_RS01065	AB031
+5696	1	hypothetical protein	0		IX88_RS01070	AB031
+5697	1	hypothetical protein	0		IX88_RS01570	AB031
+5698	1	hypothetical protein	0		IX88_RS01610	AB031
+5700	1	hypothetical protein	0		IX88_RS01620	AB031
+5702	1	hypothetical protein	0		IX88_RS02560	AB031
+5703	1	glycosyltransferase family 2 protein	0		IX88_RS02565	AB031
+5704	1	glycosyltransferase family 4 protein	0		IX88_RS02570	AB031
+5705	1	O-antigen polysaccharide polymerase Wzy	0		IX88_RS02575	AB031
+5706	1	glycosyl transferase	0		IX88_RS02580	AB031
+5707	1	glycosyltransferase family 1 protein	0		IX88_RS02585	AB031
+5708	1	hypothetical protein	0		IX88_RS18000	AB031
+5709	1	hypothetical protein	0		IX88_RS02675	AB031
+5710	1	hypothetical protein	0		IX88_RS02685	AB031
+5711	1	TIGR02646 family protein	0		IX88_RS04950	AB031
+5712	1	hypothetical protein	0		IX88_RS04955	AB031
+5713	1	RNA-directed DNA polymerase	0		IX88_RS04960	AB031
+5714	1	hypothetical protein	0		IX88_RS05590	AB031
+5715	1	hypothetical protein	0		IX88_RS05595	AB031
+5716	1	RES domain-containing protein	0		IX88_RS05600	AB031
+5717	1	glycyl-tRNA synthetase subunit alpha	0		IX88_RS05605	AB031
+5718	1	hypothetical protein	0		IX88_RS05610	AB031
+5719	1	hypothetical protein	0		IX88_RS05615	AB031
+5720	1	SAM-dependent DNA methyltransferase	0		IX88_RS06465	AB031
+5721	1	hypothetical protein	0		IX88_RS18010	AB031
+5722	1	hypothetical protein	0		IX88_RS06475	AB031
+5723	1	hypothetical protein	0		IX88_RS06480	AB031
+5724	1	restriction endonuclease subunit R	0		IX88_RS06485	AB031
+5728	1	hypothetical protein	0		IX88_RS06540	AB031
+5729	1	hypothetical protein	0		IX88_RS06795	AB031
+5730	1	hypothetical protein	0	FG-Out	IX88_RS07100	AB031
+5731	1	hypothetical protein	0		IX88_RS07105	AB031
+5732	1	hypothetical protein	0		IX88_RS07250	AB031
+5733	1	hypothetical protein	0		IX88_RS07255	AB031
+5737	1	hypothetical protein	0		IX88_RS07325	AB031
+5744	1	mercuric transporter periplasmic component	0	FG-Out	IX88_RS18185	AB031
+5745	1	mercury transporter MerC	0		IX88_RS07415	AB031
+5749	1	hypothetical protein	0		IX88_RS07490	AB031
+5751	1	hypothetical protein	0		IX88_RS07505	AB031
+5752	1	hypothetical protein	0		IX88_RS07510	AB031
+5753	1	hypothetical protein	0		IX88_RS07515	AB031
+5754	1	sel1 repeat family protein	0		IX88_RS07520	AB031
+5755	1	sel1 repeat family protein	0		IX88_RS07525	AB031
+5756	1	hypothetical protein	0		IX88_RS07530	AB031
+5757	1	hypothetical protein	0		IX88_RS07535	AB031
+5760	1	hypothetical protein	0		IX88_RS08350	AB031
+5761	1	hypothetical protein	0		IX88_RS08360	AB031
+5762	1	hypothetical protein	0		IX88_RS18015	AB031
+5763	1	hypothetical protein	0		IX88_RS08435	AB031
+5764	1	DNA replication protein	0		IX88_RS10715	AB031
+5765	1	hypothetical protein	0		IX88_RS10720	AB031
+5766	1	hypothetical protein	0		IX88_RS10725	AB031
+5767	1	hypothetical protein	0		IX88_RS10730	AB031
+5768	1	hypothetical protein	0		IX88_RS18275	AB031
+5769	1	hypothetical protein	0		IX88_RS10750	AB031
+5770	1	hypothetical protein	0		IX88_RS10760	AB031
+5771	1	hypothetical protein	0		IX88_RS10835	AB031
+5772	1	hypothetical protein	0		IX88_RS10840	AB031
+5777	1	hypothetical protein	0		IX88_RS12125	AB031
+5778	1	hypothetical protein	0		IX88_RS12130	AB031
+5779	1	hypothetical protein	0		IX88_RS12165	AB031
+5781	1	hypothetical protein	0		IX88_RS12215	AB031
+5782	1	negative regulator GrlR	0		IX88_RS12220	AB031
+5783	1	phage tail length tape measure protein	0		IX88_RS12225	AB031
+5784	1	hypothetical protein	0		IX88_RS12230	AB031
+5785	1	hypothetical protein	0		IX88_RS12235	AB031
+5786	1	hypothetical protein	0		IX88_RS12245	AB031
+5787	1	hypothetical protein	0		IX88_RS12250	AB031
+5797	1	hypothetical protein	0		IX88_RS12375	AB031
+5798	1	HNH endonuclease	0		IX88_RS12405	AB031
+5799	1	hypothetical protein	0		IX88_RS12410	AB031
+5800	1	DNA replication protein	0		IX88_RS12420	AB031
+5801	1	hypothetical protein	0		IX88_RS12425	AB031
+5802	1	ATPase AAA	0		IX88_RS12480	AB031
+5803	1	hypothetical protein	0		IX88_RS12495	AB031
+5806	1	RNA polymerase sigma factor	0		IX88_RS13630	AB031
+5808	1	hypothetical protein	0		IX88_RS13640	AB031
+5812	1	hypothetical protein	0		IX88_RS13775	AB031
+5813	1	hypothetical protein	0		IX88_RS13780	AB031
+5814	1	Arc family DNA-binding protein	0		IX88_RS18350	AB031
+5815	1	hypothetical protein	0		IX88_RS13795	AB031
+5816	1	hypothetical protein	0		IX88_RS13800	AB031
+5817	1	hypothetical protein	0		IX88_RS13805	AB031
+5818	1	hypothetical protein	0		IX88_RS13810	AB031
+5819	1	hypothetical protein	0		IX88_RS13815	AB031
+5820	1	hypothetical protein	0		IX88_RS13820	AB031
+5821	1	hypothetical protein	0		IX88_RS13825	AB031
+5822	1	hypothetical protein	0		IX88_RS13830	AB031
+5823	1	hypothetical protein	0		IX88_RS13835	AB031
+5824	1	hypothetical protein	0		IX88_RS13840	AB031
+5825	1	hypothetical protein	0		IX88_RS13845	AB031
+5826	1	hypothetical protein	0		IX88_RS13850	AB031
+5827	1	hypothetical protein	0		IX88_RS13855	AB031
+5828	1	DNA packaging protein	0		IX88_RS13860	AB031
+5829	1	hypothetical protein	0		IX88_RS13865	AB031
+5831	1	hypothetical protein	0		IX88_RS13875	AB031
+5832	1	hypothetical protein	0		IX88_RS13880	AB031
+5833	1	hypothetical protein	0		IX88_RS13885	AB031
+5835	1	hypothetical protein	0		IX88_RS13895	AB031
+5839	1	hypothetical protein	0		IX88_RS13915	AB031
+5840	1	hypothetical protein	0		IX88_RS13920	AB031
+5841	1	HNH endonuclease	0		IX88_RS13925	AB031
+5842	1	hypothetical protein	0		IX88_RS13930	AB031
+5845	1	DNA replication protein DnaD	0		IX88_RS13955	AB031
+5848	1	hypothetical protein	0		IX88_RS13980	AB031
+5852	1	hypothetical protein	0		IX88_RS14005	AB031
+5854	1	hypothetical protein	0		IX88_RS14020	AB031
+5855	1	hypothetical protein	0		IX88_RS14025	AB031
+5858	1	hypothetical protein	0		IX88_RS14635	AB031
+5859	1	hypothetical protein	0		IX88_RS14675	AB031
+5860	1	hypothetical protein	0		IX88_RS14720	AB031
+5861	1	hypothetical protein	0		IX88_RS14725	AB031
+5862	1	hypothetical protein	0		IX88_RS14730	AB031
+5863	1	hypothetical protein	0		IX88_RS14735	AB031
+5864	1	hypothetical protein	0		IX88_RS14745	AB031
+5865	1	hypothetical protein	0		IX88_RS14750	AB031
+5866	1	helix-turn-helix transcriptional regulator	0		IX88_RS14755	AB031
+5867	1	hypothetical protein	0		IX88_RS14760	AB031
+5868	1	hypothetical protein	0		IX88_RS14765	AB031
+5869	1	KTSC domain-containing protein	0		IX88_RS14770	AB031
+5870	1	hypothetical protein	0		IX88_RS14775	AB031
+5873	1	hypothetical protein	0		IX88_RS15025	AB031
+5876	1	hypothetical protein	0		IX88_RS18370	AB031
+5877	1	MerR family transcriptional regulator	0		IX88_RS16025	AB031
+5878	1	PhzF family phenazine biosynthesis protein	0		IX88_RS16030	AB031
+5880	1	type VI secretion system tip protein VgrG	0		IX88_RS16050	AB031
+5881	1	TetR/AcrR family transcriptional regulator	0		IX88_RS16055	AB031
+5882	1	hypothetical protein	0		IX88_RS16060	AB031
+5883	1	YqaJ-like viral recombinase	0		IX88_RS16065	AB031
+5894	1	hypothetical protein	0		IX88_RS16115	AB031
+5895	1	hypothetical protein	0		IX88_RS16120	AB031
+5896	1	AlpA family phage regulatory protein	0		IX88_RS16125	AB031
+5897	1	hypothetical protein	0		IX88_RS16130	AB031
+5898	1	integrase	0		IX88_RS16135	AB031
+5904	1	DUF4760 domain-containing protein	0		IX88_RS17415	AB031
+5905	1	30S ribosomal protein S4	0		IX88_RS17945	AB031
+5906	1	30S ribosomal protein S11	0		IX88_RS17950	AB031
+5907	1	30S ribosomal protein S13	0		IX88_RS17955	AB031
+5908	1	50S ribosomal protein L36	0		IX88_RS17960	AB031
+5909	1	preprotein translocase subunit SecY	0		IX88_RS17965	AB031
+5910	1	50S ribosomal protein L15	0		IX88_RS17970	AB031
+5911	1	50S ribosomal protein L30	0		IX88_RS17975	AB031
+5912	1	50S ribosomal protein L6	0		IX88_RS17990	AB031
+5913	1	hypothetical protein	0		A4U85_RS00585	ab736
+5914	1	site-specific integrase	0		A4U85_RS00975	ab736
+5915	1	site-specific integrase	0		A4U85_RS00980	ab736
+5916	1	hypothetical protein	0		A4U85_RS00985	ab736
+5917	1	hypothetical protein	0		A4U85_RS00990	ab736
+5918	1	hypothetical protein	0		A4U85_RS00995	ab736
+5919	1	type II toxin-antitoxin system Phd/YefM family antitoxin	0		A4U85_RS01000	ab736
+5920	1	hypothetical protein	0		A4U85_RS01005	ab736
+5921	1	RloB domain-containing protein	0		A4U85_RS01125	ab736
+5922	1	ATP-binding protein	0		A4U85_RS01130	ab736
+5929	1	hypothetical protein	0		A4U85_RS03990	ab736
+5930	1	phage-related reverse	0		A4U85_RS03995	ab736
+5931	1	hypothetical protein	0		A4U85_RS04000	ab736
+5932	1	hypothetical protein	0		A4U85_RS04010	ab736
+5933	1	hypothetical protein	0		A4U85_RS04095	ab736
+5935	1	phage antirepressor	0		A4U85_RS05425	ab736
+5936	1	hypothetical protein	0		A4U85_RS05435	ab736
+5941	1	DUF4411 domain-containing protein	0		A4U85_RS05485	ab736
+5942	1	ImmA/IrrE family metallo-endopeptidase	0		A4U85_RS05490	ab736
+5946	1	hypothetical protein	0		A4U85_RS05535	ab736
+5947	1	hypothetical protein	0		A4U85_RS05540	ab736
+5948	1	hypothetical protein	0		A4U85_RS05545	ab736
+5949	1	hypothetical protein	0		A4U85_RS05550	ab736
+5954	1	hypothetical protein	0		A4U85_RS05580	ab736
+5956	1	hypothetical protein	0		A4U85_RS05595	ab736
+5957	1	hypothetical protein	0		A4U85_RS05605	ab736
+5958	1	DUF2280 domain-containing protein	0		A4U85_RS05610	ab736
+5959	1	hypothetical protein	0		A4U85_RS05615	ab736
+5970	1	hypothetical protein	0		A4U85_RS05675	ab736
+5971	1	hypothetical protein	0		A4U85_RS05680	ab736
+5982	1	tape measure domain-containing protein	0		A4U85_RS05740	ab736
+5987	1	hypothetical protein	0		A4U85_RS05770	ab736
+5988	1	hypothetical protein	0		A4U85_RS05775	ab736
+5989	1	IS701 family transposase	0		A4U85_RS06265	ab736
+5991	1	DUF596 domain-containing protein	0		A4U85_RS08305	ab736
+5992	1	hypothetical protein	0		A4U85_RS08310	ab736
+5993	1	hypothetical protein	0		A4U85_RS08480	ab736
+5994	1	hypothetical protein	0		A4U85_RS08485	ab736
+5995	1	hypothetical protein	0		A4U85_RS08490	ab736
+5996	1	hypothetical protein	0		A4U85_RS08495	ab736
+5997	1	LlaJI family restriction endonuclease	0		A4U85_RS08500	ab736
+5998	1	hypothetical protein	0		A4U85_RS08505	ab736
+5999	1	DNA cytosine methyltransferase	0		A4U85_RS08510	ab736
+6000	1	very short patch repair endonuclease	0		A4U85_RS08515	ab736
+6001	1	DUF262 domain-containing protein	0		A4U85_RS08520	ab736
+6002	1	hypothetical protein	0		A4U85_RS08525	ab736
+6003	1	DUF3696 domain-containing protein	0		A4U85_RS08530	ab736
+6004	1	hypothetical protein	0		A4U85_RS08535	ab736
+6005	1	hypothetical protein	0		A4U85_RS08600	ab736
+6006	1	type III restriction endonuclease subunit R	0		A4U85_RS08605	ab736
+6011	1	ATP-binding protein	0		A4U85_RS10040	ab736
+6012	1	hypothetical protein	0		A4U85_RS10045	ab736
+6016	1	class I SAM-dependent DNA methyltransferase	0		A4U85_RS10065	ab736
+6017	1	Arc family DNA-binding protein	0		A4U85_RS10070	ab736
+6018	1	Arc family DNA-binding protein	0		A4U85_RS10075	ab736
+6019	1	transposase	0		A4U85_RS10080	ab736
+6020	1	hypothetical protein	0		A4U85_RS10085	ab736
+6021	1	hypothetical protein	0	FG-Out	A4U85_RS10090	ab736
+6022	1	hypothetical protein	0		A4U85_RS11030	ab736
+6023	1	sel1 repeat family protein	0		A4U85_RS11040	ab736
+6024	1	hypothetical protein	0		A4U85_RS11050	ab736
+6025	1	hypothetical protein	0		A4U85_RS11330	ab736
+6028	1	hypothetical protein	0		A4U85_RS11610	ab736
+6029	1	type II toxin-antitoxin system Phd/YefM family antitoxin	0		A4U85_RS11615	ab736
+6030	1	hypothetical protein	0		A4U85_RS11620	ab736
+6031	1	hypothetical protein	0		A4U85_RS11625	ab736
+6032	1	hypothetical protein	0		A4U85_RS11630	ab736
+6033	1	site-specific integrase	0		A4U85_RS11635	ab736
+6034	1	site-specific integrase	0		A4U85_RS11640	ab736
+6035	1	hypothetical protein	0		A4U85_RS11705	ab736
+6036	1	hypothetical protein	0		A4U85_RS11710	ab736
+6037	1	hypothetical protein	0		A4U85_RS11715	ab736
+6038	1	hypothetical protein	0		A4U85_RS11725	ab736
+6039	1	hypothetical protein	0		A4U85_RS11810	ab736
+6040	1	DUF1376 domain-containing protein	0		A4U85_RS11815	ab736
+6041	1	DNA methyltransferase	0		A4U85_RS11820	ab736
+6042	1	hypothetical protein	0		A4U85_RS11825	ab736
+6043	1	hypothetical protein	0		A4U85_RS11830	ab736
+6044	1	hypothetical protein	0		A4U85_RS11835	ab736
+6045	1	hypothetical protein	0		A4U85_RS11840	ab736
+6046	1	hypothetical protein	0		A4U85_RS11845	ab736
+6047	1	XRE family transcriptional regulator	0		A4U85_RS11850	ab736
+6048	1	helix-turn-helix transcriptional regulator	0		A4U85_RS11855	ab736
+6049	1	hypothetical protein	0		A4U85_RS11860	ab736
+6050	1	DUF2303 domain-containing protein	0		A4U85_RS11865	ab736
+6051	1	hypothetical protein	0		A4U85_RS11870	ab736
+6052	1	hypothetical protein	0		A4U85_RS11875	ab736
+6053	1	hypothetical protein	0		A4U85_RS11880	ab736
+6054	1	ATP-dependent helicase	0		A4U85_RS11885	ab736
+6055	1	hypothetical protein	0		A4U85_RS11890	ab736
+6056	1	hypothetical protein	0		A4U85_RS11895	ab736
+6057	1	hypothetical protein	0		A4U85_RS11915	ab736
+6058	1	hypothetical protein	0		A4U85_RS11925	ab736
+6059	1	hypothetical protein	0		A4U85_RS11930	ab736
+6060	1	hypothetical protein	0		A4U85_RS11935	ab736
+6062	1	hemolysin-type calcium-binding protein	0		A4U85_RS12195	ab736
+6063	1	hypothetical protein	0		A4U85_RS12200	ab736
+6065	1	hypothetical protein	0		A4U85_RS12335	ab736
+6068	1	hypothetical protein	0		A4U85_RS12495	ab736
+6069	1	hypothetical protein	0		A4U85_RS12500	ab736
+6070	1	hypothetical protein	0		A4U85_RS12505	ab736
+6071	1	hypothetical protein	0		A4U85_RS12525	ab736
+6072	1	hypothetical protein	0		A4U85_RS12530	ab736
+6073	1	ATPase AAA	0		A4U85_RS12585	ab736
+6074	1	hypothetical protein	0		A4U85_RS12590	ab736
+6077	1	hypothetical protein	0		A4U85_RS12610	ab736
+6092	1	DUF2235 domain-containing protein	0		A4U85_RS14270	ab736
+6093	1	DUF3304 domain-containing protein	0		A4U85_RS14275	ab736
+6094	1	DUF4123 domain-containing protein	0		A4U85_RS14280	ab736
+6095	1	type VI secretion system tip protein VgrG	0		A4U85_RS14285	ab736
+6096	1	hypothetical protein	0		A4U85_RS14325	ab736
+6097	1	hypothetical protein	0		A4U85_RS14340	ab736
+6098	1	hypothetical protein	0		A4U85_RS14430	ab736
+6100	1	hypothetical protein	0		A4U85_RS14475	ab736
+6101	1	hypothetical protein	0		A4U85_RS15340	ab736
+6102	1	type IV secretion protein Rhs	0		A4U85_RS15345	ab736
+6103	1	hypothetical protein	0		A4U85_RS15350	ab736
+6104	1	sel1 repeat family protein	0		A4U85_RS15355	ab736
+6105	1	hypothetical protein	0		A4U85_RS15360	ab736
+6106	1	hypothetical protein	0		A4U85_RS15365	ab736
+6109	1	hypothetical protein	0		A4U85_RS18225	ab736
+6111	1	hypothetical protein	0		A4U85_RS18280	ab736
+6112	1	DUF4433 domain-containing protein	0		A4U85_RS18285	ab736
+6113	1	IS701 family transposase	0		A4U85_RS18465	ab736
+6114	1	DUF4942 domain-containing protein	0		A4U85_RS18470	ab736
+6115	1	hypothetical protein	0		A4U85_RS18475	ab736
+6116	1	hypothetical protein	0		A4U85_RS18480	ab736
+6117	1	hypothetical protein	0		A4U85_RS18485	ab736
+6118	1	hypothetical protein	0		A4U85_RS18490	ab736
+6119	1	hypothetical protein	0		A4U85_RS18495	ab736
+6120	1	hypothetical protein	0		A4U85_RS18500	ab736
+6121	1	hypothetical protein	0		A4U85_RS18505	ab736
+6122	1	hypothetical protein	0		A4U85_RS18510	ab736
+6123	1	hypothetical protein	0		A4U85_RS18515	ab736
+6124	1	hypothetical protein	0		A4U85_RS18520	ab736
+6125	1	hypothetical protein	0		A4U85_RS18525	ab736
+6126	1	hypothetical protein	0		A4U85_RS18530	ab736
+6127	1	hypothetical protein	0		A4U85_RS18540	ab736
+6128	1	hypothetical protein	0		A4U85_RS18545	ab736
+6129	1	hypothetical protein	0		A4U85_RS18550	ab736
+6130	1	resolvase	0		A4U85_RS18555	ab736
+6131	1	hypothetical protein	0		A4U85_RS18560	ab736
+6132	1	hypothetical protein	0		A4U85_RS18565	ab736
+6133	1	hypothetical protein	0		A4U85_RS18570	ab736
+6134	1	hypothetical protein	0		A4U85_RS18685	ab736
+6135	1	hypothetical protein	0		A4U85_RS18690	ab736
+6136	1	hypothetical protein	0		A4U85_RS18695	ab736
+6137	1	hypothetical protein	0		A4U85_RS18700	ab736
+6138	1	hypothetical protein	0		A4U85_RS18705	ab736
+6139	1	hypothetical protein	0		A4U85_RS18710	ab736
+6140	1	organic hydroperoxide resistance protein	0		A4U85_RS19045	ab736
+6141	1	MarR family transcriptional regulator	0		A4U85_RS19050	ab736
+6142	1	hypothetical protein	0		A4U85_RS19060	ab736
+6143	1	hypothetical protein	0		A4U85_RS19080	ab736
+6144	1	hypothetical protein	0		ABCIP7010_RS18360	manniia
+6145	1	aminotransferase	0		ABCIP7010_RS00300	manniia
+6146	1	O-antigen translocase	0		ABCIP7010_RS00305	manniia
+6147	1	glycosyl transferase family 2	0		ABCIP7010_RS00310	manniia
+6148	1	hypothetical protein	0		ABCIP7010_RS00315	manniia
+6150	1	type VI secretion system tip protein VgrG	0	FG-Out	ABCIP7010_RS00440	manniia
+6151	1	hypothetical protein	0		ABCIP7010_RS00445	manniia
+6152	1	hypothetical protein	0		ABCIP7010_RS00450	manniia
+6153	1	hypothetical protein	0		ABCIP7010_RS00455	manniia
+6154	1	hypothetical protein	0		ABCIP7010_RS00460	manniia
+6158	1	hypothetical protein	0		ABCIP7010_RS02685	manniia
+6159	1	hypothetical protein	0		ABCIP7010_RS02690	manniia
+6160	1	hypothetical protein	0		ABCIP7010_RS02695	manniia
+6161	1	hypothetical protein	0		ABCIP7010_RS03480	manniia
+6164	1	hypothetical protein	0		ABCIP7010_RS03500	manniia
+6165	1	hypothetical protein	0		ABCIP7010_RS03530	manniia
+6166	1	hypothetical protein	0		ABCIP7010_RS03545	manniia
+6167	1	hypothetical protein	0		ABCIP7010_RS04415	manniia
+6168	1	class I SAM-dependent DNA methyltransferase	0		ABCIP7010_RS04420	manniia
+6169	1	DEAD/DEAH box helicase	0		ABCIP7010_RS04425	manniia
+6170	1	hypothetical protein	0		ABCIP7010_RS04435	manniia
+6171	1	DNA methyltransferase	0		ABCIP7010_RS04440	manniia
+6172	1	DUF87 domain-containing protein	0		ABCIP7010_RS04445	manniia
+6173	1	hypothetical protein	0		ABCIP7010_RS04450	manniia
+6174	1	hypothetical protein	0		ABCIP7010_RS04455	manniia
+6175	1	hypothetical protein	0		ABCIP7010_RS04460	manniia
+6176	1	DUF4325 domain-containing protein	0		ABCIP7010_RS06060	manniia
+6177	1	hypothetical protein	0		ABCIP7010_RS06065	manniia
+6178	1	hypothetical protein	0		ABCIP7010_RS06670	manniia
+6179	1	TonB-dependent receptor	0		ABCIP7010_RS09100	manniia
+6180	1	hypothetical protein	0		ABCIP7010_RS09120	manniia
+6181	1	hypothetical protein	0		ABCIP7010_RS09125	manniia
+6182	1	hypothetical protein	0		ABCIP7010_RS09130	manniia
+6183	1	hypothetical protein	0		ABCIP7010_RS09135	manniia
+6184	1	DUF2523 domain-containing protein	0		ABCIP7010_RS09140	manniia
+6185	1	hypothetical protein	0		ABCIP7010_RS09145	manniia
+6186	1	hypothetical protein	0		ABCIP7010_RS09150	manniia
+6187	1	hypothetical protein	0		ABCIP7010_RS09155	manniia
+6188	1	hypothetical protein	0		ABCIP7010_RS09160	manniia
+6189	1	hypothetical protein	0		ABCIP7010_RS09165	manniia
+6190	1	hypothetical protein	0		ABCIP7010_RS09170	manniia
+6191	1	XRE family transcriptional regulator	0		ABCIP7010_RS09175	manniia
+6192	1	hypothetical protein	0		ABCIP7010_RS09180	manniia
+6193	1	PaaI family thioesterase	0		ABCIP7010_RS09185	manniia
+6194	1	hypothetical protein	0		ABCIP7010_RS09190	manniia
+6195	1	hypothetical protein	0		ABCIP7010_RS09195	manniia
+6196	1	gamma-carboxygeranoyl-CoA hydratase	0		ABCIP7010_RS09200	manniia
+6197	1	IclR family transcriptional regulator	0		ABCIP7010_RS09205	manniia
+6198	1	hydroxymethylglutaryl-CoA lyase	0		ABCIP7010_RS09210	manniia
+6199	1	CoA transferase	0		ABCIP7010_RS09215	manniia
+6200	1	acyl-CoA dehydrogenase	0		ABCIP7010_RS09220	manniia
+6201	1	MFS transporter	0		ABCIP7010_RS09225	manniia
+6202	1	amidohydrolase	0		ABCIP7010_RS09235	manniia
+6203	1	integral membrane protein	0		ABCIP7010_RS09240	manniia
+6206	1	hypothetical protein	0		ABCIP7010_RS09295	manniia
+6207	1	hypothetical protein	0		ABCIP7010_RS09300	manniia
+6209	1	hypothetical protein	0		ABCIP7010_RS09315	manniia
+6210	1	hypothetical protein	0		ABCIP7010_RS09570	manniia
+6211	1	DUF1883 domain-containing protein	0		ABCIP7010_RS12640	manniia
+6212	1	hypothetical protein	0		ABCIP7010_RS12645	manniia
+6218	1	hypothetical protein	0		ABCIP7010_RS12680	manniia
+6225	1	hypothetical protein	0		ABCIP7010_RS12720	manniia
+6227	1	hypothetical protein	0		ABCIP7010_RS12750	manniia
+6246	1	DNA-binding protein	0		ABCIP7010_RS14710	manniia
+6247	1	hypothetical protein	0		ABCIP7010_RS14765	manniia
+6248	1	DUF262 domain-containing protein	0		ABCIP7010_RS14770	manniia
+6249	1	hypothetical protein	0		ABCIP7010_RS14775	manniia
+6250	1	hypothetical protein	0		ABCIP7010_RS14780	manniia
+6253	1	hypothetical protein	0		ABCIP7010_RS17070	manniia
+6254	1	hypothetical protein	0		ABCIP7010_RS17075	manniia
+6257	1	hypothetical protein	0		ABCIP7010_RS17770	manniia
+6258	1	hypothetical protein	0		ABCIP7010_RS18310	manniia
+6259	1	hypothetical protein	0		ABCIP7010_RS18315	manniia
+6260	1	hypothetical protein	0		ABCIP7010_RS18320	manniia
+6261	1	hypothetical protein	0		ABCIP7010_RS18335	manniia
+6262	1	YqaE/Pmp3 family membrane protein	0		ABCIP7010_RS18340	manniia
+6263	1	hypothetical protein	0		ABCIP7010_RS18345	manniia
+6264	1	nickase	0		ABCIP7010_RS18350	manniia
+6265	1	hypothetical protein	0		ABCIP7010_RS18355	manniia
+6266	1	acyltransferase	0		KAB07_RS00430	KAB07
+6267	1	hypothetical protein	0		KAB07_RS00435	KAB07
+6268	1	hypothetical protein	0		KAB07_RS00565	KAB07
+6269	1	hypothetical protein	0		KAB07_RS00570	KAB07
+6270	1	hypothetical protein	0		KAB07_RS00590	KAB07
+6271	1	IS5/IS1182 family transposase	0		KAB07_RS00720	KAB07
+6274	1	restriction endonuclease	0		KAB07_RS03585	KAB07
+6276	1	hypothetical protein	0		KAB07_RS03610	KAB07
+6277	1	hypothetical protein	0		KAB07_RS03615	KAB07
+6279	1	hypothetical protein	0		KAB07_RS03625	KAB07
+6280	1	hypothetical protein	0		KAB07_RS03630	KAB07
+6281	1	hypothetical protein	0		KAB07_RS03635	KAB07
+6282	1	hypothetical protein	0		KAB07_RS03640	KAB07
+6283	1	excisionase	0		KAB07_RS03645	KAB07
+6284	1	transposase	0		KAB07_RS03650	KAB07
+6285	1	transposase	0		KAB07_RS03655	KAB07
+6286	1	endonuclease	0		KAB07_RS03660	KAB07
+6287	1	DNA-binding protein	0		KAB07_RS03665	KAB07
+6288	1	DUF4007 domain-containing protein	0		KAB07_RS03670	KAB07
+6289	1	hypothetical protein	0		KAB07_RS03675	KAB07
+6290	1	hypothetical protein	0		KAB07_RS03680	KAB07
+6291	1	hypothetical protein	0		KAB07_RS03685	KAB07
+6292	1	histidine kinase	0		KAB07_RS03690	KAB07
+6293	1	hypothetical protein	0		KAB07_RS03695	KAB07
+6294	1	IS5/IS1182 family transposase	0		KAB07_RS04560	KAB07
+6295	1	hypothetical protein	0		KAB07_RS04570	KAB07
+6298	1	site-specific DNA-methyltransferase	0		KAB07_RS04655	KAB07
+6299	1	DUF1376 domain-containing protein	0		KAB07_RS04660	KAB07
+6300	1	hypothetical protein	0		KAB07_RS04665	KAB07
+6301	1	hypothetical protein	0		KAB07_RS04670	KAB07
+6302	1	hypothetical protein	0		KAB07_RS04675	KAB07
+6308	1	hypothetical protein	0		KAB07_RS04835	KAB07
+6317	1	peptide ABC transporter ATP-binding protein	0		KAB07_RS05020	KAB07
+6318	1	DNA methyltransferase	0		KAB07_RS05025	KAB07
+6319	1	hypothetical protein	0		KAB07_RS19655	KAB07
+6320	1	alcohol dehydrogenase	0		KAB07_RS19690	KAB07
+6321	1	IS6 family transposase IS15DIV	0		KAB07_RS19695	KAB07
+6333	1	hypothetical protein	0		KAB07_RS09585	KAB07
+6334	1	hypothetical protein	0		KAB07_RS09655	KAB07
+6335	1	hypothetical protein	0		KAB07_RS09660	KAB07
+6336	1	hypothetical protein	0		KAB07_RS09670	KAB07
+6337	1	hypothetical protein	0		KAB07_RS09675	KAB07
+6338	1	hypothetical protein	0		KAB07_RS09680	KAB07
+6339	1	hypothetical protein	0		KAB07_RS09685	KAB07
+6340	1	hypothetical protein	0		KAB07_RS09690	KAB07
+6341	1	hypothetical protein	0		KAB07_RS09695	KAB07
+6342	1	hypothetical protein	0		KAB07_RS09700	KAB07
+6343	1	hypothetical protein	0	FG-Out	KAB07_RS09705	KAB07
+6349	1	IS6 family transposase IS15DI	0		KAB07_RS19855	KAB07
+6350	1	IS6 family transposase IS15DI	0		KAB07_RS11870	KAB07
+6351	1	IS66 family insertion sequence hypothetical protein	0		KAB07_RS11885	KAB07
+6352	1	IS66 family insertion sequence hypothetical protein	0		KAB07_RS11890	KAB07
+6353	1	IS66 family transposase ISAba24	0		KAB07_RS11895	KAB07
+6356	1	type B chloramphenicol O-acetyltransferase	0		KAB07_RS11955	KAB07
+6357	1	AacA4 family aminoglycoside N(6')-acetyltransferase	0		KAB07_RS11960	KAB07
+6358	1	IS6 family transposase IS15DI	0		KAB07_RS11965	KAB07
+6361	1	DUF695 domain-containing protein	0		KAB07_RS12525	KAB07
+6362	1	alpha/beta hydrolase	0		KAB07_RS12785	KAB07
+6363	1	Arc family DNA-binding protein	0		KAB07_RS12790	KAB07
+6364	1	hypothetical protein	0		KAB07_RS12795	KAB07
+6365	1	hypothetical protein	0		KAB07_RS12800	KAB07
+6366	1	hypothetical protein	0		KAB07_RS12805	KAB07
+6367	1	hypothetical protein	0		KAB07_RS12810	KAB07
+6368	1	hypothetical protein	0		KAB07_RS12815	KAB07
+6369	1	hypothetical protein	0		KAB07_RS12820	KAB07
+6370	1	DUF1833 domain-containing protein	0		KAB07_RS12825	KAB07
+6371	1	hypothetical protein	0		KAB07_RS12830	KAB07
+6372	1	hypothetical protein	0		KAB07_RS12835	KAB07
+6373	1	hypothetical protein	0		KAB07_RS12840	KAB07
+6374	1	phage tail protein	0		KAB07_RS12845	KAB07
+6375	1	hypothetical protein	0		KAB07_RS12855	KAB07
+6376	1	alpha/beta hydrolase	0		KAB07_RS12860	KAB07
+6377	1	DUF3800 domain-containing protein	0		KAB07_RS12865	KAB07
+6378	1	hypothetical protein	0		KAB07_RS19885	KAB07
+6379	1	hypothetical protein	0		KAB07_RS12870	KAB07
+6380	1	hypothetical protein	0		KAB07_RS12875	KAB07
+6381	1	phage tail protein	0		KAB07_RS12880	KAB07
+6382	1	hypothetical protein	0		KAB07_RS12885	KAB07
+6383	1	hypothetical protein	0		KAB07_RS12890	KAB07
+6385	1	hypothetical protein	0		KAB07_RS12900	KAB07
+6386	1	hypothetical protein	0		KAB07_RS12915	KAB07
+6387	1	hypothetical protein	0		KAB07_RS12920	KAB07
+6388	1	hypothetical protein	0		KAB07_RS12925	KAB07
+6389	1	hypothetical protein	0		KAB07_RS12930	KAB07
+6390	1	hypothetical protein	0		KAB07_RS12940	KAB07
+6391	1	hypothetical protein	0		KAB07_RS12945	KAB07
+6392	1	head morphogenesis protein	0		KAB07_RS12950	KAB07
+6394	1	hypothetical protein	0		KAB07_RS12960	KAB07
+6395	1	hypothetical protein	0		KAB07_RS12970	KAB07
+6396	1	hypothetical protein	0		KAB07_RS12975	KAB07
+6397	1	hypothetical protein	0		KAB07_RS12985	KAB07
+6398	1	hypothetical protein	0		KAB07_RS12990	KAB07
+6399	1	hypothetical protein	0		KAB07_RS12995	KAB07
+6400	1	hypothetical protein	0		KAB07_RS13015	KAB07
+6401	1	hypothetical protein	0		KAB07_RS13020	KAB07
+6402	1	hypothetical protein	0		KAB07_RS13025	KAB07
+6403	1	hypothetical protein	0		KAB07_RS13030	KAB07
+6404	1	hypothetical protein	0		KAB07_RS13035	KAB07
+6405	1	hypothetical protein	0		KAB07_RS13040	KAB07
+6408	1	hypothetical protein	0		KAB07_RS13100	KAB07
+6409	1	hypothetical protein	0		KAB07_RS13105	KAB07
+6410	1	AAA family ATPase	0		KAB07_RS13110	KAB07
+6411	1	hypothetical protein	0		KAB07_RS13120	KAB07
+6412	1	hypothetical protein	0		KAB07_RS13125	KAB07
+6413	1	hypothetical protein	0		KAB07_RS13130	KAB07
+6415	1	hypothetical protein	0		KAB07_RS13140	KAB07
+6416	1	hypothetical protein	0		KAB07_RS13145	KAB07
+6417	1	hypothetical protein	0		KAB07_RS13150	KAB07
+6418	1	hypothetical protein	0		KAB07_RS13155	KAB07
+6419	1	hypothetical protein	0		KAB07_RS13175	KAB07
+6420	1	hypothetical protein	0		KAB07_RS13180	KAB07
+6421	1	phage tail tape measure protein	0		KAB07_RS13205	KAB07
+6422	1	hypothetical protein	0		KAB07_RS13210	KAB07
+6423	1	DUF4468 domain-containing protein	0		KAB07_RS13215	KAB07
+6424	1	hypothetical protein	0		KAB07_RS13220	KAB07
+6425	1	hypothetical protein	0		KAB07_RS13225	KAB07
+6426	1	DUF3800 domain-containing protein	0		KAB07_RS13230	KAB07
+6427	1	hypothetical protein	0		KAB07_RS19895	KAB07
+6428	1	hypothetical protein	0		KAB07_RS13235	KAB07
+6430	1	hypothetical protein	0		KAB07_RS13255	KAB07
+6431	1	hypothetical protein	0		KAB07_RS13260	KAB07
+6432	1	hypothetical protein	0		KAB07_RS13265	KAB07
+6433	1	hypothetical protein	0		KAB07_RS13270	KAB07
+6434	1	hypothetical protein	0		KAB07_RS13275	KAB07
+6435	1	glutamate 5-kinase	0		KAB07_RS13280	KAB07
+6436	1	hypothetical protein	0		KAB07_RS13285	KAB07
+6437	1	hypothetical protein	0		KAB07_RS13355	KAB07
+6438	1	hypothetical protein	0		KAB07_RS13360	KAB07
+6439	1	hypothetical protein	0		KAB07_RS13370	KAB07
+6440	1	hypothetical protein	0		KAB07_RS13405	KAB07
+6441	1	DUF1376 domain-containing protein	0		KAB07_RS13410	KAB07
+6442	1	site-specific DNA-methyltransferase	0		KAB07_RS13415	KAB07
+6443	1	hypothetical protein	0		KAB07_RS13420	KAB07
+6444	1	hypothetical protein	0		KAB07_RS13425	KAB07
+6445	1	hypothetical protein	0		KAB07_RS13430	KAB07
+6446	1	DUF1376 domain-containing protein	0		KAB07_RS13435	KAB07
+6447	1	site-specific DNA-methyltransferase	0		KAB07_RS13440	KAB07
+6449	1	hypothetical protein	0		KAB07_RS13450	KAB07
+6450	1	phage repressor protein	0		KAB07_RS13460	KAB07
+6451	1	hypothetical protein	0		KAB07_RS13465	KAB07
+6452	1	hypothetical protein	0		KAB07_RS13470	KAB07
+6453	1	hypothetical protein	0		KAB07_RS13475	KAB07
+6454	1	hypothetical protein	0		KAB07_RS13485	KAB07
+6455	1	hypothetical protein	0		KAB07_RS13490	KAB07
+6456	1	AAA family ATPase	0		KAB07_RS13495	KAB07
+6457	1	MFS transporter	0		KAB07_RS13755	KAB07
+6463	1	TetR/AcrR family transcriptional regulator	0		KAB07_RS13850	KAB07
+6464	1	phage antirepressor Ant	0		KAB07_RS13855	KAB07
+6465	1	hypothetical protein	0		KAB07_RS13860	KAB07
+6466	1	hypothetical protein	0		KAB07_RS13865	KAB07
+6469	1	DUF3164 domain-containing protein	0		KAB07_RS15060	KAB07
+6470	1	hypothetical protein	0		KAB07_RS15110	KAB07
+6474	1	LysM peptidoglycan-binding domain-containing protein	0		KAB07_RS18530	KAB07
+6477	1	hypothetical protein	0		KAB07_RS20005	KAB07
+6503	1	hypothetical protein	0		KAB07_RS19215	KAB07
+6504	1	hypothetical protein	0		KAB07_RS19220	KAB07
+6505	1	hypothetical protein	0		KAB07_RS19225	KAB07
+6506	1	hypothetical protein	0		KAB07_RS19230	KAB07
+6507	1	hypothetical protein	0		KAB07_RS19235	KAB07
+6524	1	hypothetical protein	0		KAB07_RS19315	KAB07
+6525	1	hypothetical protein	0		KAB07_RS19320	KAB07
+6529	1	phosphohydrolase	0		KAB07_RS19340	KAB07
+6530	1	hypothetical protein	0		KAB07_RS19345	KAB07
+6547	1	hypothetical protein	0		KAB07_RS19430	KAB07
+6548	1	hypothetical protein	0		KAB07_RS19435	KAB07
+6581	1	hypothetical protein	0		LX00_RS03920	bH12OA2
+6604	1	DUF4468 domain-containing protein	0		LX00_RS04125	bH12OA2
+6614	1	hypothetical protein	0		LX00_RS05340	bH12OA2
+6615	1	hypothetical protein	0		LX00_RS05345	bH12OA2
+6616	1	hypothetical protein	0		LX00_RS05350	bH12OA2
+6617	1	hypothetical protein	0		LX00_RS05355	bH12OA2
+6618	1	chromosome partitioning protein ParB	0		LX00_RS05360	bH12OA2
+6620	1	hypothetical protein	0		LX00_RS05485	bH12OA2
+6621	1	IS6 family transposase IS15DIV	0		LX00_RS05530	bH12OA2
+6637	1	SAM-dependent DNA methyltransferase	0		LX00_RS08815	bH12OA2
+6638	1	hypothetical protein	0		LX00_RS08820	bH12OA2
+6641	1	ISL3 family transposase	0		LX00_RS08835	bH12OA2
+6642	1	hypothetical protein	0		LX00_RS08945	bH12OA2
+6643	1	XRE family transcriptional regulator	0		LX00_RS08950	bH12OA2
+6644	1	replication protein	0		LX00_RS08955	bH12OA2
+6645	1	hypothetical protein	0		LX00_RS08960	bH12OA2
+6646	1	hypothetical protein	0		LX00_RS08965	bH12OA2
+6647	1	hypothetical protein	0		LX00_RS08970	bH12OA2
+6648	1	DUF2523 domain-containing protein	0		LX00_RS08975	bH12OA2
+6649	1	zonular occludens toxin	0		LX00_RS08980	bH12OA2
+6650	1	hypothetical protein	0		LX00_RS18595	bH12OA2
+6651	1	hypothetical protein	0		LX00_RS08985	bH12OA2
+6652	1	XRE family transcriptional regulator	0		LX00_RS08990	bH12OA2
+6653	1	replication protein	0		LX00_RS08995	bH12OA2
+6654	1	hypothetical protein	0		LX00_RS09000	bH12OA2
+6655	1	hypothetical protein	0		LX00_RS09005	bH12OA2
+6656	1	hypothetical protein	0		LX00_RS09010	bH12OA2
+6657	1	zonular occludens toxin	0		LX00_RS09015	bH12OA2
+6658	1	DUF2523 domain-containing protein	0		LX00_RS09020	bH12OA2
+6659	1	hypothetical protein	0		LX00_RS09025	bH12OA2
+6660	1	hypothetical protein	0		LX00_RS09030	bH12OA2
+6661	1	hypothetical protein	0		LX00_RS09035	bH12OA2
+6662	1	XRE family transcriptional regulator	0		LX00_RS09055	bH12OA2
+6663	1	hypothetical protein	0		LX00_RS09060	bH12OA2
+6664	1	hypothetical protein	0		LX00_RS09065	bH12OA2
+6665	1	CoA pyrophosphatase	0		LX00_RS09070	bH12OA2
+6666	1	hypothetical protein	0		LX00_RS09075	bH12OA2
+6667	1	sugar phosphate isomerase/epimerase	0		LX00_RS09085	bH12OA2
+6668	1	LacI family transcriptional regulator	0		LX00_RS09090	bH12OA2
+6669	1	hypothetical protein	0		LX00_RS09095	bH12OA2
+6670	1	thiamine pyrophosphate-binding protein	0		LX00_RS09100	bH12OA2
+6671	1	XRE family transcriptional regulator	0		LX00_RS09105	bH12OA2
+6672	1	carbohydrate porin	0		LX00_RS09110	bH12OA2
+6673	1	thiazole synthase	0		LX00_RS09115	bH12OA2
+6674	1	thiamine biosynthesis protein ThiS	0		LX00_RS09120	bH12OA2
+6675	1	inositol monophosphatase	0		LX00_RS09125	bH12OA2
+6676	1	MFS transporter	0		LX00_RS09130	bH12OA2
+6677	1	GMC family oxidoreductase	0		LX00_RS09135	bH12OA2
+6678	1	thiamine pyrophosphate-binding protein	0		LX00_RS09140	bH12OA2
+6679	1	histidinol dehydrogenase	0		LX00_RS09145	bH12OA2
+6680	1	hypothetical protein	0		LX00_RS09150	bH12OA2
+6681	1	LrgB family protein	0		LX00_RS09155	bH12OA2
+6682	1	LacI family transcriptional regulator	0		LX00_RS09160	bH12OA2
+6683	1	dienelactone hydrolase family protein	0		LX00_RS09165	bH12OA2
+6684	1	EamA/RhaT family transporter	0		LX00_RS09170	bH12OA2
+6685	1	choline dehydrogenase	0		LX00_RS09175	bH12OA2
+6686	1	MFS transporter	0		LX00_RS09180	bH12OA2
+6687	1	cupin domain-containing protein	0		LX00_RS09185	bH12OA2
+6688	1	hypothetical protein	0		LX00_RS18375	bH12OA2
+6689	1	carbohydrate porin	0		LX00_RS09195	bH12OA2
+6690	1	NAD(P)-dependent oxidoreductase	0		LX00_RS09200	bH12OA2
+6691	1	hypothetical protein	0		LX00_RS09205	bH12OA2
+6692	1	alpha/beta hydrolase	0		LX00_RS09210	bH12OA2
+6693	1	cupin domain-containing protein	0		LX00_RS09215	bH12OA2
+6694	1	choline dehydrogenase	0		LX00_RS09220	bH12OA2
+6695	1	hypothetical protein	0		LX00_RS09225	bH12OA2
+6696	1	sorbosone dehydrogenase	0		LX00_RS09230	bH12OA2
+6697	1	hypothetical protein	0		LX00_RS09350	bH12OA2
+6698	1	hypothetical protein	0		LX00_RS09355	bH12OA2
+6699	1	hypothetical protein	0		LX00_RS09370	bH12OA2
+6715	1	hypothetical protein	0		LX00_RS10270	bH12OA2
+6716	1	hypothetical protein	0		LX00_RS10275	bH12OA2
+6717	1	hypothetical protein	0		LX00_RS10280	bH12OA2
+6718	1	transposase	0		LX00_RS10285	bH12OA2
+6719	1	ATP-binding protein	0		LX00_RS10290	bH12OA2
+6720	1	hypothetical protein	0		LX00_RS10295	bH12OA2
+6721	1	hypothetical protein	0		LX00_RS10300	bH12OA2
+6722	1	LysR family transcriptional regulator	0		LX00_RS10305	bH12OA2
+6723	1	conjugal transfer protein TraR	0		LX00_RS10310	bH12OA2
+6724	1	hypothetical protein	0		LX00_RS10315	bH12OA2
+6725	1	hypothetical protein	0		LX00_RS10330	bH12OA2
+6726	1	hypothetical protein	0		LX00_RS10335	bH12OA2
+6727	1	regulatory protein GemA	0		LX00_RS10340	bH12OA2
+6728	1	hypothetical protein	0		LX00_RS10345	bH12OA2
+6729	1	hypothetical protein	0		LX00_RS18380	bH12OA2
+6730	1	hypothetical protein	0		LX00_RS10380	bH12OA2
+6731	1	DUF4145 domain-containing protein	0		LX00_RS10385	bH12OA2
+6732	1	hypothetical protein	0		LX00_RS10445	bH12OA2
+6733	1	hypothetical protein	0		LX00_RS10465	bH12OA2
+6734	1	hypothetical protein	0		LX00_RS10475	bH12OA2
+6735	1	tail protein	0		LX00_RS10510	bH12OA2
+6743	1	hypothetical protein	0		LX00_RS12715	bH12OA2
+6744	1	hypothetical protein	0		LX00_RS12720	bH12OA2
+6745	1	alkaline phosphatase	0		LX00_RS12725	bH12OA2
+6750	1	tail fiber protein	0		LX00_RS14580	bH12OA2
+6752	1	phage tail tape measure protein	0		LX00_RS14600	bH12OA2
+6753	1	hypothetical protein	0		LX00_RS14605	bH12OA2
+6754	1	hypothetical protein	0		LX00_RS14610	bH12OA2
+6759	1	DUF723 domain-containing protein	0		LX00_RS14650	bH12OA2
+6760	1	hypothetical protein	0		LX00_RS14675	bH12OA2
+6761	1	hypothetical protein	0		LX00_RS14680	bH12OA2
+6762	1	hypothetical protein	0		LX00_RS14685	bH12OA2
+6763	1	DUF4055 domain-containing protein	0		LX00_RS14695	bH12OA2
+6764	1	terminase	0		LX00_RS14700	bH12OA2
+6765	1	terminase small subunit	0		LX00_RS14705	bH12OA2
+6767	1	hypothetical protein	0		LX00_RS14720	bH12OA2
+6768	1	hypothetical protein	0		LX00_RS14725	bH12OA2
+6769	1	hypothetical protein	0		LX00_RS14730	bH12OA2
+6771	1	hypothetical protein	0		LX00_RS14765	bH12OA2
+6772	1	hypothetical protein	0		LX00_RS14770	bH12OA2
+6776	1	hypothetical protein	0		LX00_RS14845	bH12OA2
+6783	1	IS30-like element ISAba125 family transposase	0		LX00_RS15755	bH12OA2
+6784	1	IS30-like element ISAba125 family transposase	0		LX00_RS16050	bH12OA2
+6785	1	IS91 family transposase	0		LX00_RS17195	bH12OA2
+6786	1	class A broad-spectrum beta-lactamase TEM-1	0		LX00_RS17200	bH12OA2
+6789	1	AraC family transcriptional regulator	0		LX00_RS17390	bH12OA2
+6790	1	hypothetical protein	0		LX00_RS17395	bH12OA2
+6791	1	RNA-directed DNA polymerase	0		LX00_RS17735	bH12OA2
+6792	1	hypothetical protein	0		LX00_RS17740	bH12OA2
+6793	1	hypothetical protein	0		LX00_RS17745	bH12OA2
+6794	1	hypothetical protein	0		LX00_RS17870	bH12OA2
+6795	1	hypothetical protein	0		LX00_RS17880	bH12OA2
+6796	1	polysaccharide biosynthesis protein	0		ABA1_RS00460	A1
+6797	1	glycosyl transferase	0		ABA1_RS00465	A1
+6798	1	polysaccharide polymerase	0		ABA1_RS00470	A1
+6799	1	polysaccharide polymerase	0		ABA1_RS00475	A1
+6800	1	glycosyltransferase family 1 protein	0		ABA1_RS00480	A1
+6801	1	sugar transferase	0		ABA1_RS00485	A1
+6802	1	acetyltransferase	0		ABA1_RS00490	A1
+6803	1	DegT/DnrJ/EryC1/StrS aminotransferase family protein	0		ABA1_RS00495	A1
+6804	1	polysaccharide biosynthesis protein	0		ABA1_RS00500	A1
+6805	1	hypothetical protein	0		ABA1_RS00570	A1
+6806	1	hypothetical protein	0		ABA1_RS00575	A1
+6808	1	universal stress protein	0		ABA1_RS01235	A1
+6809	1	signal peptidase II	0		ABA1_RS01250	A1
+6810	1	ISL3 family transposase	0		ABA1_RS01255	A1
+6811	1	hypothetical protein	0		ABA1_RS01260	A1
+6812	1	type I DNA topoisomerase	0		ABA1_RS01265	A1
+6813	1	single-stranded DNA-binding protein	0		ABA1_RS01270	A1
+6814	1	hypothetical protein	0		ABA1_RS01275	A1
+6815	1	hypothetical protein	0		ABA1_RS18730	A1
+6816	1	sulfonamide-resistant dihydropteroate synthase Sul1	0		ABA1_RS01285	A1
+6817	1	hypothetical protein	0		ABA1_RS18735	A1
+6818	1	N-acetyltransferase	0		ABA1_RS01290	A1
+6819	1	hypothetical protein	0		ABA1_RS18740	A1
+6820	1	IS6 family transposase IS6100	0		ABA1_RS18750	A1
+6821	1	hypothetical protein	0		ABA1_RS18760	A1
+6822	1	DUF3330 domain-containing protein	0		ABA1_RS01300	A1
+6823	1	hypothetical protein	0		ABA1_RS18765	A1
+6824	1	mercury resistance protein	0		ABA1_RS01305	A1
+6825	1	transposase	0		ABA1_RS01340	A1
+6826	1	TetR family transcriptional regulator	0		ABA1_RS01345	A1
+6827	1	EamA family transporter	0		ABA1_RS01355	A1
+6828	1	cysteine hydrolase	0		ABA1_RS18775	A1
+6829	1	N-acetyltransferase	0		ABA1_RS18785	A1
+6830	1	type A-1 chloramphenicol O-acetyltransferase	0		ABA1_RS01385	A1
+6831	1	hypothetical protein	0		ABA1_RS18790	A1
+6832	1	DUF3330 domain-containing protein	0		ABA1_RS18800	A1
+6833	1	class 1 integron integrase IntI1	0		ABA1_RS18805	A1
+6834	1	AAC(3)-I family aminoglycoside 3-N-acetyltransferase	0		ABA1_RS01425	A1
+6835	1	GNAT family N-acetyltransferase	0	FG-Out	ABA1_RS01430	A1
+6836	1	GNAT family N-acetyltransferase	0	FG-Out	ABA1_RS01435	A1
+6837	1	hypothetical protein	0		ABA1_RS01440	A1
+6838	1	hypothetical protein	0		ABA1_RS18810	A1
+6839	1	N-acetyltransferase	0		ABA1_RS01460	A1
+6840	1	hypothetical protein	0		ABA1_RS01465	A1
+6841	1	hypothetical protein	0		ABA1_RS01470	A1
+6842	1	hypothetical protein	0		ABA1_RS01480	A1
+6843	1	conjugal transfer protein TrbI	0		ABA1_RS01485	A1
+6844	1	Cd(II)/Pb(II)-responsive transcriptional regulator	0		ABA1_RS01490	A1
+6845	1	sodium:proton antiporter	0		ABA1_RS01495	A1
+6846	1	signal peptidase II	0		ABA1_RS01500	A1
+6847	1	ISL3 family transposase	0		ABA1_RS01505	A1
+6848	1	Cd(II)/Pb(II)-responsive transcriptional regulator	0		ABA1_RS18820	A1
+6849	1	sodium:proton antiporter	0		ABA1_RS02230	A1
+6850	1	signal peptidase II	0		ABA1_RS02235	A1
+6851	1	ISL3 family transposase	0		ABA1_RS02240	A1
+6854	1	hypothetical protein	0		ABA1_RS03850	A1
+6855	1	hypothetical protein	0		ABA1_RS03865	A1
+6856	1	hypothetical protein	0		ABA1_RS04715	A1
+6861	1	hypothetical protein	0		ABA1_RS04740	A1
+6862	1	hypothetical protein	0		ABA1_RS05455	A1
+6863	1	DUF2280 domain-containing protein	0		ABA1_RS05485	A1
+6864	1	hypothetical protein	0		ABA1_RS05490	A1
+6865	1	DUF4055 domain-containing protein	0		ABA1_RS05495	A1
+6866	1	head morphogenesis protein	0		ABA1_RS05500	A1
+6867	1	hypothetical protein	0		ABA1_RS05505	A1
+6868	1	hypothetical protein	0		ABA1_RS05510	A1
+6869	1	hypothetical protein	0		ABA1_RS05515	A1
+6870	1	hypothetical protein	0		ABA1_RS05520	A1
+6871	1	hypothetical protein	0		ABA1_RS05525	A1
+6872	1	stress-responsive nuclear envelope protein	0		ABA1_RS05530	A1
+6873	1	hypothetical protein	0		ABA1_RS05535	A1
+6874	1	hypothetical protein	0		ABA1_RS05540	A1
+6875	1	hypothetical protein	0		ABA1_RS05545	A1
+6876	1	hypothetical protein	0		ABA1_RS05550	A1
+6877	1	hypothetical protein	0		ABA1_RS05555	A1
+6878	1	hypothetical protein	0		ABA1_RS05560	A1
+6879	1	hypothetical protein	0		ABA1_RS05565	A1
+6880	1	hypothetical protein	0		ABA1_RS05570	A1
+6881	1	hypothetical protein	0		ABA1_RS05575	A1
+6882	1	hypothetical protein	0		ABA1_RS05580	A1
+6883	1	hypothetical protein	0		ABA1_RS18900	A1
+6884	1	DUF4258 domain-containing protein	0		ABA1_RS05585	A1
+6885	1	transcriptional regulator	0		ABA1_RS05590	A1
+6886	1	hypothetical protein	0		ABA1_RS05595	A1
+6887	1	hypothetical protein	0		ABA1_RS05600	A1
+6888	1	phage tail tape measure protein	0		ABA1_RS05605	A1
+6889	1	hypothetical protein	0		ABA1_RS05610	A1
+6890	1	hypothetical protein	0		ABA1_RS05615	A1
+6891	1	hypothetical protein	0		ABA1_RS05620	A1
+6892	1	hypothetical protein	0		ABA1_RS05625	A1
+6895	1	hypothetical protein	0		ABA1_RS05665	A1
+6896	1	hypothetical protein	0		ABA1_RS05800	A1
+6897	1	hypothetical protein	0		ABA1_RS05805	A1
+6898	1	hypothetical protein	0		ABA1_RS05810	A1
+6899	1	RHS repeat protein	0		ABA1_RS05815	A1
+6900	1	RHS repeat-associated core domain-containing protein	0		ABA1_RS05820	A1
+6901	1	hypothetical protein	0		ABA1_RS05825	A1
+6902	1	hypothetical protein	0		ABA1_RS06575	A1
+6903	1	hypothetical protein	0		ABA1_RS06580	A1
+6904	1	hypothetical protein	0		ABA1_RS06585	A1
+6905	1	hypothetical protein	0		ABA1_RS06590	A1
+6906	1	hypothetical protein	0		ABA1_RS06595	A1
+6907	1	hypothetical protein	0		ABA1_RS06600	A1
+6908	1	hypothetical protein	0		ABA1_RS06605	A1
+6909	1	DUF2158 domain-containing protein	0		ABA1_RS06635	A1
+6910	1	hypothetical protein	0		ABA1_RS06640	A1
+6911	1	right-handed parallel beta-helix repeat-containing protein	0		ABA1_RS06665	A1
+6913	1	DUF4882 domain-containing protein	0		ABA1_RS06675	A1
+6914	1	hypothetical protein	0		ABA1_RS06685	A1
+6915	1	hypothetical protein	0		ABA1_RS06690	A1
+6916	1	hypothetical protein	0		ABA1_RS06695	A1
+6917	1	site-specific integrase	0	FG-Out	ABA1_RS06700	A1
+6918	1	hypothetical protein	0		ABA1_RS06835	A1
+6920	1	hypothetical protein	0		ABA1_RS06875	A1
+6921	1	hypothetical protein	0		ABA1_RS06880	A1
+6922	1	type IV secretion protein Rhs	0		ABA1_RS06885	A1
+6923	1	hypothetical protein	0		ABA1_RS06890	A1
+6924	1	endonuclease	0		ABA1_RS07305	A1
+6925	1	ATP-dependent helicase	0		ABA1_RS07310	A1
+6931	1	hypothetical protein	0		ABA1_RS07345	A1
+6933	1	hypothetical protein	0		ABA1_RS18690	A1
+6934	1	hypothetical protein	0		ABA1_RS09705	A1
+6935	1	hypothetical protein	0	FG-Out	ABA1_RS19010	A1
+6936	1	endonuclease/exonuclease/phosphatase family protein	0		ABA1_RS09710	A1
+6937	1	hypothetical protein	0		ABA1_RS09715	A1
+6938	1	helicase	0		ABA1_RS09725	A1
+6939	1	hypothetical protein	0		ABA1_RS09985	A1
+6940	1	sorbosone dehydrogenase	0		ABA1_RS09990	A1
+6941	1	NADH oxidase	0		ABA1_RS09995	A1
+6942	1	metal-dependent hydrolase	0		ABA1_RS10000	A1
+6943	1	acetoacetate decarboxylase	0		ABA1_RS10005	A1
+6944	1	NAD(P)-dependent oxidoreductase	0		ABA1_RS10010	A1
+6945	1	AraC family transcriptional regulator	0		ABA1_RS10015	A1
+6950	1	hypothetical protein	0		ABA1_RS11960	A1
+6951	1	hypothetical protein	0		ABA1_RS11965	A1
+6952	1	SRPBCC family protein	0		ABA1_RS12020	A1
+6953	1	NAD(P)-dependent oxidoreductase	0		ABA1_RS12025	A1
+6954	1	aldo/keto reductase	0		ABA1_RS12030	A1
+6955	1	LysR family transcriptional regulator	0		ABA1_RS12035	A1
+6956	1	polyketide cyclase	0		ABA1_RS12040	A1
+6957	1	hypothetical protein	0		ABA1_RS12450	A1
+6959	1	hypothetical protein	0		ABA1_RS12525	A1
+6960	1	DUF1833 domain-containing protein	0		ABA1_RS12530	A1
+6961	1	hypothetical protein	0		ABA1_RS12535	A1
+6962	1	hypothetical protein	0		ABA1_RS12540	A1
+6963	1	hypothetical protein	0		ABA1_RS12545	A1
+6964	1	hypothetical protein	0		ABA1_RS12550	A1
+6965	1	phage tail tape measure protein	0		ABA1_RS12555	A1
+6966	1	hypothetical protein	0		ABA1_RS12560	A1
+6967	1	hypothetical protein	0		ABA1_RS12565	A1
+6968	1	transcriptional regulator	0		ABA1_RS12570	A1
+6969	1	DUF4258 domain-containing protein	0		ABA1_RS12575	A1
+6970	1	hypothetical protein	0		ABA1_RS19055	A1
+6971	1	hypothetical protein	0		ABA1_RS12580	A1
+6972	1	hypothetical protein	0		ABA1_RS12585	A1
+6973	1	hypothetical protein	0		ABA1_RS12590	A1
+6974	1	hypothetical protein	0		ABA1_RS12595	A1
+6975	1	hypothetical protein	0		ABA1_RS12600	A1
+6976	1	hypothetical protein	0		ABA1_RS12605	A1
+6977	1	hypothetical protein	0		ABA1_RS12610	A1
+6978	1	hypothetical protein	0		ABA1_RS12615	A1
+6979	1	hypothetical protein	0		ABA1_RS12620	A1
+6980	1	hypothetical protein	0		ABA1_RS12625	A1
+6981	1	stress-responsive nuclear envelope protein	0		ABA1_RS12630	A1
+6982	1	hypothetical protein	0		ABA1_RS12635	A1
+6983	1	hypothetical protein	0		ABA1_RS12640	A1
+6984	1	hypothetical protein	0		ABA1_RS12645	A1
+6985	1	hypothetical protein	0		ABA1_RS12650	A1
+6986	1	hypothetical protein	0		ABA1_RS12655	A1
+6987	1	head morphogenesis protein	0		ABA1_RS12660	A1
+6988	1	DUF4055 domain-containing protein	0		ABA1_RS12665	A1
+6989	1	hypothetical protein	0		ABA1_RS12670	A1
+6990	1	DUF2280 domain-containing protein	0		ABA1_RS12675	A1
+6991	1	hypothetical protein	0		ABA1_RS12680	A1
+6992	1	hypothetical protein	0		ABA1_RS12685	A1
+6993	1	hypothetical protein	0		ABA1_RS12690	A1
+6994	1	hypothetical protein	0		ABA1_RS12695	A1
+6995	1	hypothetical protein	0		ABA1_RS12700	A1
+6996	1	hypothetical protein	0		ABA1_RS12705	A1
+6997	1	hypothetical protein	0		ABA1_RS12710	A1
+6998	1	hypothetical protein	0		ABA1_RS12715	A1
+6999	1	hypothetical protein	0		ABA1_RS12720	A1
+7000	1	DUF559 domain-containing protein	0		ABA1_RS12725	A1
+7001	1	hypothetical protein	0		ABA1_RS12730	A1
+7002	1	hypothetical protein	0		ABA1_RS12735	A1
+7003	1	hypothetical protein	0		ABA1_RS12740	A1
+7004	1	hypothetical protein	0		ABA1_RS12745	A1
+7005	1	hypothetical protein	0		ABA1_RS12750	A1
+7006	1	hypothetical protein	0		ABA1_RS12755	A1
+7007	1	hypothetical protein	0		ABA1_RS12815	A1
+7008	1	hypothetical protein	0		ABA1_RS12840	A1
+7009	1	hypothetical protein	0		ABA1_RS12850	A1
+7010	1	aminopeptidase P family protein	0		ABA1_RS13355	A1
+7011	1	hypothetical protein	0		ABA1_RS14365	A1
+7012	1	hypothetical protein	0		ABA1_RS14370	A1
+7013	1	hypothetical protein	0		ABA1_RS14375	A1
+7014	1	hypothetical protein	0		ABA1_RS14380	A1
+7015	1	hypothetical protein	0		ABA1_RS14385	A1
+7016	1	hypothetical protein	0		ABA1_RS14650	A1
+7017	1	hypothetical protein	0		ABA1_RS14655	A1
+7019	1	integrase	0		ABA1_RS14970	A1
+7023	1	hypothetical protein	0		ABA1_RS14995	A1
+7025	1	SGNH/GDSL hydrolase family protein	0		ABA1_RS15005	A1
+7026	1	hypothetical protein	0		ABA1_RS15020	A1
+7027	1	hypothetical protein	0		ABA1_RS15035	A1
+7028	1	hypothetical protein	0		ABA1_RS15040	A1
+7029	1	hypothetical protein	0		ABA1_RS15045	A1
+7030	1	hypothetical protein	0		ABA1_RS15055	A1
+7031	1	hypothetical protein	0		ABA1_RS15065	A1
+7034	1	hypothetical protein	0		ABA1_RS15085	A1
+7035	1	hypothetical protein	0		ABA1_RS15090	A1
+7036	1	hypothetical protein	0		ABA1_RS15130	A1
+7037	1	DUF551 domain-containing protein	0		ABA1_RS15135	A1
+7039	1	hypothetical protein	0		ABA1_RS19085	A1
+7040	1	hypothetical protein	0		ABA1_RS15165	A1
+7043	1	hypothetical protein	0		ABA1_RS15185	A1
+7044	1	hypothetical protein	0		ABA1_RS15200	A1
+7045	1	hypothetical protein	0		ABA1_RS15205	A1
+7046	1	hypothetical protein	0		ABA1_RS15210	A1
+7047	1	hypothetical protein	0		ABA1_RS15215	A1
+7048	1	hypothetical protein	0		ABA1_RS15220	A1
+7049	1	hypothetical protein	0		ABA1_RS15225	A1
+7050	1	hypothetical protein	0		ABA1_RS15230	A1
+7051	1	hypothetical protein	0		ABA1_RS15235	A1
+7052	1	hypothetical protein	0		ABA1_RS15240	A1
+7053	1	hypothetical protein	0		ABA1_RS15245	A1
+7054	1	hypothetical protein	0		ABA1_RS15255	A1
+7055	1	hypothetical protein	0		ABA1_RS15260	A1
+7056	1	hypothetical protein	0		ABA1_RS15265	A1
+7057	1	helix-turn-helix transcriptional regulator	0		ABA1_RS15270	A1
+7058	1	hypothetical protein	0		ABA1_RS15290	A1
+7059	1	hypothetical protein	0		ABA1_RS15295	A1
+7060	1	hypothetical protein	0		ABA1_RS15310	A1
+7061	1	hypothetical protein	0		ABA1_RS15315	A1
+7062	1	hypothetical protein	0		ABA1_RS15320	A1
+7063	1	hypothetical protein	0		ABA1_RS15325	A1
+7065	1	hypothetical protein	0		ABA1_RS16910	A1
+7066	1	DUF262 domain-containing protein	0		ABA1_RS16915	A1
+7067	1	hypothetical protein	0		ABA1_RS17410	A1
+7068	1	N-acetyltransferase	0		ABA1_RS17575	A1
+7069	1	AraC family transcriptional regulator	0		ABA1_RS17580	A1
+7070	1	hypothetical protein	0		ABA1_RS17600	A1
+7071	1	TetR/AcrR family transcriptional regulator	0		ABA1_RS17615	A1
+7073	1	hypothetical protein	0		ABA1_RS18265	A1
+7074	1	ATP-binding protein	0		ABA1_RS18270	A1
+7075	1	DNA (cytosine-5-)-methyltransferase	0		ABA1_RS18275	A1
+7078	1	BrnT family toxin	0		ABA1_RS18650	A1
+7079	1	hypothetical protein	0		ABA1_RS18655	A1
+7080	1	TonB-dependent receptor	0		ABA1_RS18660	A1
+7081	1	hypothetical protein	0		ABA1_RS18665	A1
+7084	1	hypothetical protein	0		ABA1_RS19115	A1
+7085	1	hypothetical protein	0		BJAB0715_RS00465	JAB0715
+7086	1	Lsg locus protein 1	0		BJAB0715_RS00525	JAB0715
+7087	1	hypothetical protein	0		BJAB0715_RS00530	JAB0715
+7088	1	glycosyl transferase	0		BJAB0715_RS00535	JAB0715
+7089	1	IS30 family transposase	0		BJAB0715_RS00650	JAB0715
+7090	1	hypothetical protein	0		BJAB0715_RS01335	JAB0715
+7091	1	efflux system DNA-binding response regulator AdeR	0		BJAB0715_RS01340	JAB0715
+7092	1	MFS transporter	0		BJAB0715_RS01350	JAB0715
+7093	1	efflux RND transporter periplasmic adaptor subunit	0		BJAB0715_RS01360	JAB0715
+7094	1	IS30 family transposase	0		BJAB0715_RS01610	JAB0715
+7095	1	hypothetical protein	0		BJAB0715_RS02945	JAB0715
+7097	1	hypothetical protein	0		BJAB0715_RS02960	JAB0715
+7098	1	class I SAM-dependent DNA methyltransferase	0		BJAB0715_RS03005	JAB0715
+7099	1	hypothetical protein	0		BJAB0715_RS03010	JAB0715
+7100	1	hypothetical protein	0		BJAB0715_RS03015	JAB0715
+7101	1	hypothetical protein	0		BJAB0715_RS03020	JAB0715
+7102	1	hypothetical protein	0		BJAB0715_RS03025	JAB0715
+7104	1	J domain-containing protein	0		BJAB0715_RS03745	JAB0715
+7109	1	hypothetical protein	0		BJAB0715_RS04960	JAB0715
+7110	1	hypothetical protein	0		BJAB0715_RS04965	JAB0715
+7114	1	hypothetical protein	0		BJAB0715_RS05150	JAB0715
+7115	1	hypothetical protein	0		BJAB0715_RS05155	JAB0715
+7116	1	DUF927 domain-containing protein	0		BJAB0715_RS05160	JAB0715
+7117	1	transcriptional regulator	0		BJAB0715_RS05170	JAB0715
+7118	1	MFS transporter	0		BJAB0715_RS05175	JAB0715
+7119	1	5-aminolevulinate synthase	0		BJAB0715_RS05180	JAB0715
+7120	1	GNAT family N-acetyltransferase	0		BJAB0715_RS05185	JAB0715
+7121	1	hypothetical protein	0		BJAB0715_RS05190	JAB0715
+7122	1	IS30 family transposase	0		BJAB0715_RS05630	JAB0715
+7123	1	phage head morphogenesis protein	0		BJAB0715_RS06015	JAB0715
+7124	1	hypothetical protein	0		BJAB0715_RS06045	JAB0715
+7125	1	hypothetical protein	0		BJAB0715_RS06055	JAB0715
+7126	1	hypothetical protein	0		BJAB0715_RS06065	JAB0715
+7127	1	hypothetical protein	0		BJAB0715_RS06070	JAB0715
+7128	1	filamentous hemagglutinin N-terminal domain-containing protein	0		BJAB0715_RS19520	JAB0715
+7129	1	Large exoproteins involved in heme utilization or adhesion	0		BJAB0715_RS19525	JAB0715
+7130	1	hypothetical protein	0		BJAB0715_RS06450	JAB0715
+7131	1	hypothetical protein	0		BJAB0715_RS06460	JAB0715
+7132	1	hypothetical protein	0		BJAB0715_RS19530	JAB0715
+7133	1	hypothetical protein	0		BJAB0715_RS07695	JAB0715
+7134	1	hypothetical protein	0		BJAB0715_RS07705	JAB0715
+7135	1	hypothetical protein	0		BJAB0715_RS09995	JAB0715
+7136	1	hypothetical protein	0		BJAB0715_RS10000	JAB0715
+7137	1	hypothetical protein	0		BJAB0715_RS10005	JAB0715
+7138	1	hypothetical protein	0		BJAB0715_RS10010	JAB0715
+7139	1	DUF2523 domain-containing protein	0		BJAB0715_RS10015	JAB0715
+7140	1	hypothetical protein	0		BJAB0715_RS19755	JAB0715
+7141	1	DDE transposase family protein	0		BJAB0715_RS10070	JAB0715
+7142	1	toll/interleukin-1 receptor domain-containing protein	0		BJAB0715_RS10095	JAB0715
+7143	1	TIR domain-containing protein	0		BJAB0715_RS10100	JAB0715
+7144	1	hypothetical protein	0		BJAB0715_RS10105	JAB0715
+7145	1	hypothetical protein	0		BJAB0715_RS10110	JAB0715
+7146	1	hypothetical protein	0		BJAB0715_RS10115	JAB0715
+7147	1	DUF1883 domain-containing protein	0		BJAB0715_RS10120	JAB0715
+7148	1	hypothetical protein	0		BJAB0715_RS10125	JAB0715
+7149	1	hypothetical protein	0		BJAB0715_RS10130	JAB0715
+7150	1	XRE family transcriptional regulator	0		BJAB0715_RS10135	JAB0715
+7151	1	hypothetical protein	0		BJAB0715_RS10140	JAB0715
+7152	1	IS30 family transposase	0		BJAB0715_RS10145	JAB0715
+7153	1	DNA-binding protein	0		BJAB0715_RS19760	JAB0715
+7154	1	hypothetical protein	0		BJAB0715_RS10150	JAB0715
+7155	1	transposase	0		BJAB0715_RS10155	JAB0715
+7156	1	hypothetical protein	0		BJAB0715_RS10160	JAB0715
+7157	1	hypothetical protein	0		BJAB0715_RS10165	JAB0715
+7158	1	hypothetical protein	0		BJAB0715_RS10170	JAB0715
+7162	1	exo-alpha-sialidase	0		BJAB0715_RS11790	JAB0715
+7163	1	hypothetical protein	0		BJAB0715_RS11795	JAB0715
+7164	1	hypothetical protein	0		BJAB0715_RS12145	JAB0715
+7166	1	bacteriophage protein	0		BJAB0715_RS12165	JAB0715
+7167	1	hypothetical protein	0		BJAB0715_RS12195	JAB0715
+7168	1	hypothetical protein	0		BJAB0715_RS12200	JAB0715
+7169	1	DUF4065 domain-containing protein	0		BJAB0715_RS12205	JAB0715
+7170	1	hypothetical protein	0		BJAB0715_RS19835	JAB0715
+7171	1	hypothetical protein	0		BJAB0715_RS12210	JAB0715
+7172	1	hypothetical protein	0		BJAB0715_RS12275	JAB0715
+7173	1	hypothetical protein	0		BJAB0715_RS12280	JAB0715
+7174	1	hypothetical protein	0		BJAB0715_RS12285	JAB0715
+7175	1	hypothetical protein	0		BJAB0715_RS12290	JAB0715
+7176	1	terminase	0		BJAB0715_RS12305	JAB0715
+7177	1	DUF2280 domain-containing protein	0		BJAB0715_RS12310	JAB0715
+7178	1	hypothetical protein	0		BJAB0715_RS12315	JAB0715
+7179	1	hypothetical protein	0		BJAB0715_RS12320	JAB0715
+7180	1	hypothetical protein	0		BJAB0715_RS12330	JAB0715
+7182	1	hypothetical protein	0		BJAB0715_RS19840	JAB0715
+7183	1	hypothetical protein	0		BJAB0715_RS12340	JAB0715
+7184	1	hypothetical protein	0		BJAB0715_RS12345	JAB0715
+7186	1	hypothetical protein	0		BJAB0715_RS12375	JAB0715
+7187	1	hypothetical protein	0		BJAB0715_RS19535	JAB0715
+7191	1	hypothetical protein	0		BJAB0715_RS12410	JAB0715
+7192	1	hypothetical protein	0		BJAB0715_RS12415	JAB0715
+7193	1	phage repressor protein	0		BJAB0715_RS12420	JAB0715
+7194	1	hypothetical protein	0		BJAB0715_RS12425	JAB0715
+7195	1	hypothetical protein	0		BJAB0715_RS12435	JAB0715
+7196	1	hypothetical protein	0		BJAB0715_RS12440	JAB0715
+7197	1	hypothetical protein	0		BJAB0715_RS12450	JAB0715
+7198	1	hypothetical protein	0		BJAB0715_RS12460	JAB0715
+7199	1	DUF551 domain-containing protein	0		BJAB0715_RS12465	JAB0715
+7200	1	hypothetical protein	0		BJAB0715_RS12470	JAB0715
+7201	1	hypothetical protein	0		BJAB0715_RS12475	JAB0715
+7202	1	hypothetical protein	0		BJAB0715_RS12480	JAB0715
+7205	1	hypothetical protein	0		BJAB0715_RS12495	JAB0715
+7208	1	IS30 family transposase	0		BJAB0715_RS12555	JAB0715
+7209	1	IS30 family transposase	0		BJAB0715_RS12980	JAB0715
+7210	1	hypothetical protein	0		BJAB0715_RS13970	JAB0715
+7211	1	hypothetical protein	0		BJAB0715_RS13975	JAB0715
+7212	1	hypothetical protein	0		BJAB0715_RS13980	JAB0715
+7213	1	IS30 family transposase	0		BJAB0715_RS14350	JAB0715
+7214	1	hypothetical protein	0		BJAB0715_RS15060	JAB0715
+7215	1	hypothetical protein	0		BJAB0715_RS15075	JAB0715
+7218	1	hypothetical protein	0		BJAB0715_RS15745	JAB0715
+7219	1	hypothetical protein	0		BJAB0715_RS19540	JAB0715
+7220	1	hypothetical protein	0		BJAB0715_RS15755	JAB0715
+7221	1	DUF4435 domain-containing protein	0		BJAB0715_RS18100	JAB0715
+7222	1	type I secretion C-terminal target domain-containing protein	0		BJAB0715_RS18180	JAB0715
+7223	1	hypothetical protein	0		BJAB0715_RS18225	JAB0715
+7224	1	hypothetical protein	0		BJAB0715_RS18230	JAB0715
+7225	1	site-specific integrase	0		BJAB0715_RS18235	JAB0715
+7226	1	hypothetical protein	0		BJAB0715_RS18765	JAB0715
+7227	1	IS30 family transposase	0		BJAB0715_RS19240	JAB0715
+7229	1	IS30 family transposase	0		BJAB0715_RS19250	JAB0715
+7230	1	hypothetical protein	0		BJAB0715_RS19280	JAB0715
+7231	1	recombinase family protein	0		BJAB0715_RS19285	JAB0715
+7232	1	nucleotidyltransferase	0		BJAB0715_RS19305	JAB0715
+7233	1	hypothetical protein	0		BJAB0715_RS19310	JAB0715
+7234	1	ATPase (AAA+ superfamily)	0		BJAB0715_RS19315	JAB0715
+7235	1	hypothetical protein	0		BJAB0715_RS19320	JAB0715
+7236	1	hypothetical protein	0		BJAB0715_RS19325	JAB0715
+7237	1	DUF3883 domain-containing protein	0		BJAB0715_RS19345	JAB0715
+7238	1	hypothetical protein	0		BJAB0715_RS19350	JAB0715
+7239	1	hypothetical protein	0		BJAB0715_RS19355	JAB0715
+7240	1	hypothetical protein	0		BJAB0715_RS19370	JAB0715
+7241	1	HNH endonuclease	0		BJAB0715_RS19375	JAB0715
+7242	1	hypothetical protein	0		BJAB0715_RS19380	JAB0715
+7243	1	hypothetical protein	0		BJAB0715_RS19385	JAB0715
+7244	1	hypothetical protein	0		BJAB0715_RS19390	JAB0715
+7245	1	hypothetical protein	0		BJAB0715_RS19395	JAB0715
+7246	1	hypothetical protein	0		BJAB0715_RS19400	JAB0715
+7247	1	hypothetical protein	0		BJAB0715_RS19415	JAB0715
+7248	1	hypothetical protein	0		BJAB0715_RS19420	JAB0715
+7249	1	hypothetical protein	0		BJAB0715_RS19425	JAB0715
+7250	1	SOS-response transcriptional regulators (RecA-mediated autopeptidase)	0		BJAB0715_RS19440	JAB0715
+7251	1	DUF4113 domain-containing protein	0		BJAB0715_RS19445	JAB0715
+7252	1	hypothetical protein	0		BJAB0715_RS19450	JAB0715
+7253	1	exodeoxyribonuclease VII large subunit	0		BJAB0715_RS19455	JAB0715
+7256	1	hypothetical protein	0		IOMTU433_RS00595	OMTU433
+7273	1	hypothetical protein	0		IOMTU433_RS04810	OMTU433
+7274	1	hypothetical protein	0		IOMTU433_RS04815	OMTU433
+7275	1	hypothetical protein	0		IOMTU433_RS04825	OMTU433
+7276	1	phage recombination protein Bet	0		IOMTU433_RS04840	OMTU433
+7277	1	DUF551 domain-containing protein	0		IOMTU433_RS04845	OMTU433
+7278	1	peptidase S24	0		IOMTU433_RS04860	OMTU433
+7279	1	hypothetical protein	0		IOMTU433_RS04865	OMTU433
+7280	1	hypothetical protein	0		IOMTU433_RS04870	OMTU433
+7281	1	hypothetical protein	0		IOMTU433_RS04875	OMTU433
+7282	1	helix-turn-helix domain-containing protein	0		IOMTU433_RS20010	OMTU433
+7283	1	hypothetical protein	0		IOMTU433_RS04895	OMTU433
+7284	1	hypothetical protein	0		IOMTU433_RS04900	OMTU433
+7285	1	hypothetical protein	0		IOMTU433_RS04905	OMTU433
+7286	1	hypothetical protein	0		IOMTU433_RS20115	OMTU433
+7287	1	hypothetical protein	0		IOMTU433_RS04930	OMTU433
+7288	1	hypothetical protein	0		IOMTU433_RS04945	OMTU433
+7289	1	hypothetical protein	0		IOMTU433_RS04955	OMTU433
+7290	1	hypothetical protein	0		IOMTU433_RS04965	OMTU433
+7292	1	HNH endonuclease	0		IOMTU433_RS04985	OMTU433
+7293	1	hypothetical protein	0		IOMTU433_RS04995	OMTU433
+7295	1	hypothetical protein	0		IOMTU433_RS05070	OMTU433
+7296	1	hypothetical protein	0		IOMTU433_RS05075	OMTU433
+7297	1	exo-alpha-sialidase	0		IOMTU433_RS05100	OMTU433
+7298	1	hypothetical protein	0		IOMTU433_RS05105	OMTU433
+7299	1	integrase	0		IOMTU433_RS05145	OMTU433
+7305	1	hypothetical protein	0		IOMTU433_RS06365	OMTU433
+7306	1	hypothetical protein	0		IOMTU433_RS06370	OMTU433
+7307	1	hypothetical protein	0		IOMTU433_RS06375	OMTU433
+7308	1	hypothetical protein	0		IOMTU433_RS06380	OMTU433
+7309	1	hypothetical protein	0		IOMTU433_RS06385	OMTU433
+7311	1	ImmA/IrrE family metallo-endopeptidase	0		IOMTU433_RS07500	OMTU433
+7312	1	hypothetical protein	0		IOMTU433_RS07505	OMTU433
+7313	1	hypothetical protein	0		IOMTU433_RS07515	OMTU433
+7314	1	hypothetical protein	0		IOMTU433_RS07520	OMTU433
+7315	1	ATPase AAA	0		IOMTU433_RS07525	OMTU433
+7319	1	hypothetical protein	0		IOMTU433_RS07565	OMTU433
+7320	1	DNA methyltransferase	0		IOMTU433_RS07575	OMTU433
+7321	1	DUF1376 domain-containing protein	0		IOMTU433_RS07580	OMTU433
+7322	1	hypothetical protein	0		IOMTU433_RS07585	OMTU433
+7323	1	hypothetical protein	0		IOMTU433_RS07595	OMTU433
+7324	1	hypothetical protein	0		IOMTU433_RS07600	OMTU433
+7325	1	hypothetical protein	0		IOMTU433_RS07615	OMTU433
+7326	1	terminase	0		IOMTU433_RS07650	OMTU433
+7327	1	head morphogenesis protein	0		IOMTU433_RS07660	OMTU433
+7328	1	hypothetical protein	0		IOMTU433_RS07665	OMTU433
+7329	1	hypothetical protein	0		IOMTU433_RS07670	OMTU433
+7330	1	methyltransferase	0		IOMTU433_RS07675	OMTU433
+7331	1	HeH/LEM domain protein	0		IOMTU433_RS07680	OMTU433
+7332	1	hypothetical protein	0		IOMTU433_RS07685	OMTU433
+7333	1	hypothetical protein	0		IOMTU433_RS07690	OMTU433
+7334	1	hypothetical protein	0		IOMTU433_RS07695	OMTU433
+7335	1	hypothetical protein	0		IOMTU433_RS07700	OMTU433
+7336	1	hypothetical protein	0		IOMTU433_RS07710	OMTU433
+7337	1	hypothetical protein	0		IOMTU433_RS07720	OMTU433
+7338	1	hypothetical protein	0		IOMTU433_RS07725	OMTU433
+7339	1	hypothetical protein	0		IOMTU433_RS07730	OMTU433
+7340	1	hypothetical protein	0		IOMTU433_RS07735	OMTU433
+7341	1	hypothetical protein	0		IOMTU433_RS20165	OMTU433
+7342	1	addiction module toxin, HicA family	0		IOMTU433_RS07740	OMTU433
+7343	1	type II toxin-antitoxin system HicB family antitoxin	0		IOMTU433_RS07745	OMTU433
+7344	1	hypothetical protein	0		IOMTU433_RS07750	OMTU433
+7345	1	phage tail length tape measure protein	0		IOMTU433_RS07755	OMTU433
+7346	1	hypothetical protein	0		IOMTU433_RS07790	OMTU433
+7347	1	hypothetical protein	0		IOMTU433_RS07800	OMTU433
+7350	1	hypothetical protein	0		IOMTU433_RS07840	OMTU433
+7351	1	ATP-dependent endonuclease	0		IOMTU433_RS09215	OMTU433
+7352	1	ATP-dependent helicase	0		IOMTU433_RS09220	OMTU433
+7353	1	hypothetical protein	0		IOMTU433_RS09295	OMTU433
+7354	1	replication protein	0		IOMTU433_RS09300	OMTU433
+7355	1	hypothetical protein	0		IOMTU433_RS09305	OMTU433
+7356	1	hypothetical protein	0		IOMTU433_RS09310	OMTU433
+7357	1	hypothetical protein	0		IOMTU433_RS09315	OMTU433
+7358	1	replication protein	0		IOMTU433_RS09320	OMTU433
+7359	1	hypothetical protein	0		IOMTU433_RS09325	OMTU433
+7360	1	hypothetical protein	0		IOMTU433_RS09330	OMTU433
+7361	1	hypothetical protein	0		IOMTU433_RS11655	OMTU433
+7362	1	hypothetical protein	0		IOMTU433_RS11660	OMTU433
+7363	1	MarR family transcriptional regulator	0		IOMTU433_RS11665	OMTU433
+7364	1	hypothetical protein	0		IOMTU433_RS11670	OMTU433
+7365	1	IS4 family transposase	0		IOMTU433_RS11715	OMTU433
+7367	1	IS5/IS1182 family transposase	0		IOMTU433_RS12710	OMTU433
+7368	1	HNH endonuclease	0		IOMTU433_RS12715	OMTU433
+7369	1	hypothetical protein	0		IOMTU433_RS12880	OMTU433
+7370	1	hypothetical protein	0		IOMTU433_RS12885	OMTU433
+7371	1	hypothetical protein	0		IOMTU433_RS13695	OMTU433
+7372	1	hypothetical protein	0		IOMTU433_RS13785	OMTU433
+7373	1	hypothetical protein	0		IOMTU433_RS13790	OMTU433
+7374	1	DUF559 domain-containing protein	0		IOMTU433_RS13795	OMTU433
+7375	1	DNA cytosine methyltransferase	0		IOMTU433_RS13800	OMTU433
+7376	1	helix-turn-helix domain-containing protein	0		IOMTU433_RS13805	OMTU433
+7377	1	hypothetical protein	0		IOMTU433_RS13840	OMTU433
+7378	1	ATPase AAA	0		IOMTU433_RS13845	OMTU433
+7379	1	hypothetical protein	0		IOMTU433_RS13850	OMTU433
+7380	1	hypothetical protein	0		IOMTU433_RS13855	OMTU433
+7381	1	hypothetical protein	0		IOMTU433_RS20305	OMTU433
+7382	1	very short patch repair endonuclease	0		IOMTU433_RS14545	OMTU433
+7383	1	DNA (cytosine-5-)-methyltransferase	0		IOMTU433_RS14550	OMTU433
+7384	1	HpaII family restriction endonuclease	0		IOMTU433_RS14555	OMTU433
+7385	1	hypothetical protein	0		IOMTU433_RS14560	OMTU433
+7386	1	EamA family transporter	0		IOMTU433_RS15400	OMTU433
+7387	1	hypothetical protein	0		IOMTU433_RS15405	OMTU433
+7388	1	hypothetical protein	0		IOMTU433_RS15410	OMTU433
+7389	1	FMN-dependent monooxygenase	0		IOMTU433_RS15415	OMTU433
+7390	1	aldehyde dehydrogenase (NADP(+))	0		IOMTU433_RS15420	OMTU433
+7391	1	NUDIX hydrolase	0		IOMTU433_RS15425	OMTU433
+7392	1	IclR family transcriptional regulator	0		IOMTU433_RS15430	OMTU433
+7393	1	MFS transporter	0		IOMTU433_RS15435	OMTU433
+7394	1	NAD(P)-dependent oxidoreductase	0		IOMTU433_RS15445	OMTU433
+7395	1	type II toxin-antitoxin system prevent-host-death family antitoxin	0		IOMTU433_RS15450	OMTU433
+7396	1	hypothetical protein	0	FG-Out	IOMTU433_RS19380	OMTU433
+7397	1	Tn3 family transposase ISAcsp1	0		IOMTU433_RS19385	OMTU433
+7398	1	Hin recombinase	0		IOMTU433_RS20430	OMTU433
+7399	1	PaaI family thioesterase	0		IOMTU433_RS19390	OMTU433
+7400	1	PaaI family thioesterase	0		IOMTU433_RS19395	OMTU433
+7401	1	peptidase	0		IOMTU433_RS19400	OMTU433
+7402	1	TetR/AcrR family transcriptional regulator	0		IOMTU433_RS19405	OMTU433
+7403	1	metal-dependent hydrolase	0		IOMTU433_RS19410	OMTU433
+7404	1	hypothetical protein	0		IOMTU433_RS19415	OMTU433
+7405	1	hypothetical protein	0		IOMTU433_RS20435	OMTU433
+7406	1	IS5 family transposase	0		IOMTU433_RS19420	OMTU433
+7407	1	pyridine nucleotide-disulfide oxidoreductase	0		IOMTU433_RS19425	OMTU433
+7408	1	cytochrome P450	0		IOMTU433_RS19430	OMTU433
+7409	1	hypothetical protein	0		IOMTU433_RS19435	OMTU433
+7410	1	AraC family transcriptional regulator	0		IOMTU433_RS19440	OMTU433
+7411	1	recombinase family protein	0	FG-Out	IOMTU433_RS19445	OMTU433
+7412	1	IstB-like ATP-binding domain protein	0		IOMTU433_RS19450	OMTU433
+7413	1	IS6-like element IS1008 family transposase	0		IOMTU433_RS19455	OMTU433
+7414	1	hypothetical protein	0		IOMTU433_RS19490	OMTU433
+7415	1	hypothetical protein	0		IOMTU433_RS19495	OMTU433
+7416	1	hypothetical protein	0		IOMTU433_RS19560	OMTU433
+7417	1	hypothetical protein	0		IOMTU433_RS19575	OMTU433
+7418	1	nucleotidyl transferase AbiEii/AbiGii toxin family protein	0		IOMTU433_RS19675	OMTU433
+7419	1	hypothetical protein	0		IOMTU433_RS19680	OMTU433
+7420	1	hypothetical protein	0		IOMTU433_RS19820	OMTU433
+7421	1	hypothetical protein	0		IOMTU433_RS19830	OMTU433
+7422	1	hypothetical protein	0		IOMTU433_RS19835	OMTU433
+7423	1	hypothetical protein	0		IOMTU433_RS19840	OMTU433
+7424	1	hypothetical protein	0		IOMTU433_RS19845	OMTU433
+7425	1	hypothetical protein	0		IOMTU433_RS19850	OMTU433
+7426	1	hypothetical protein	0		IOMTU433_RS19870	OMTU433
+7427	1	hypothetical protein	0		IOMTU433_RS19880	OMTU433
+7428	1	hypothetical protein	0		IOMTU433_RS19895	OMTU433
+7429	1	hypothetical protein	0		IOMTU433_RS19915	OMTU433
+7430	1	hypothetical protein	0		IOMTU433_RS19920	OMTU433
+7431	1	IS6 family transposase IS15DIV	0		IOMTU433_RS19995	OMTU433
+7432	1	hypothetical protein	0		Aba3207_RS00520	3207
+7433	1	hypothetical protein	0		Aba3207_RS00530	3207
+7434	1	hypothetical protein	0		Aba3207_RS00535	3207
+7437	1	hypothetical protein	0		Aba3207_RS00585	3207
+7438	1	hypothetical protein	0		Aba3207_RS00620	3207
+7439	1	hypothetical protein	0		Aba3207_RS00685	3207
+7443	1	heteromeric transposase endonuclease subunit TnsA	0		Aba3207_RS01395	3207
+7444	1	transposase	0		Aba3207_RS01400	3207
+7445	1	transposase	0		Aba3207_RS01405	3207
+7447	1	hypothetical protein	0		Aba3207_RS01415	3207
+7449	1	hypothetical protein	0		Aba3207_RS19835	3207
+7450	1	carboxymuconolactone decarboxylase family protein	0		Aba3207_RS01425	3207
+7451	1	MFS transporter	0		Aba3207_RS01430	3207
+7452	1	ferredoxin--NADP reductase	0		Aba3207_RS01435	3207
+7453	1	hypothetical protein	0		Aba3207_RS01440	3207
+7454	1	chloramphenicol/florfenicol efflux MFS transporter FloR	0		Aba3207_RS01540	3207
+7455	1	DUF3363 domain-containing protein	0		Aba3207_RS19845	3207
+7456	1	DUF3363 domain-containing protein	0		Aba3207_RS19855	3207
+7457	1	superoxide dismutase	0		Aba3207_RS01590	3207
+7458	1	hypothetical protein	0		Aba3207_RS01595	3207
+7459	1	MexW/MexI family multidrug efflux RND transporter permease subunit	0		Aba3207_RS01600	3207
+7460	1	MexH family multidrug efflux RND transporter periplasmic adaptor subunit	0		Aba3207_RS01605	3207
+7461	1	DoxX family protein	0		Aba3207_RS01610	3207
+7462	1	redox-sensitive transcriptional activator SoxR	0		Aba3207_RS01615	3207
+7463	1	hypothetical protein	0		Aba3207_RS01630	3207
+7464	1	hypothetical protein	0		Aba3207_RS01635	3207
+7465	1	hypothetical protein	0		Aba3207_RS01640	3207
+7466	1	hypothetical protein	0		Aba3207_RS01645	3207
+7467	1	nucleotidyltransferase	0		Aba3207_RS01650	3207
+7468	1	hypothetical protein	0		Aba3207_RS01655	3207
+7469	1	hypothetical protein	0		Aba3207_RS01660	3207
+7470	1	hypothetical protein	0		Aba3207_RS01665	3207
+7471	1	hypothetical protein	0		Aba3207_RS01670	3207
+7472	1	IS982 family transposase ISAba825	0		Aba3207_RS01975	3207
+7473	1	MFS transporter	0		Aba3207_RS02010	3207
+7474	1	LysR family transcriptional regulator	0		Aba3207_RS02015	3207
+7475	1	hypothetical protein	0		Aba3207_RS02040	3207
+7477	1	IS30 family transposase	0		Aba3207_RS02085	3207
+7478	1	hypothetical protein	0		Aba3207_RS02100	3207
+7479	1	hypothetical protein	0		Aba3207_RS02105	3207
+7485	1	hypothetical protein	0		Aba3207_RS02600	3207
+7486	1	IS30 family transposase	0		Aba3207_RS02885	3207
+7487	1	IS30 family transposase	0	FG-Out	Aba3207_RS03490	3207
+7488	1	IS30 family transposase	0		Aba3207_RS03495	3207
+7489	1	hypothetical protein	0		Aba3207_RS03695	3207
+7490	1	hypothetical protein	0		Aba3207_RS03740	3207
+7491	1	hypothetical protein	0		Aba3207_RS03745	3207
+7492	1	hypothetical protein	0		Aba3207_RS03950	3207
+7493	1	hypothetical protein	0		Aba3207_RS03960	3207
+7494	1	IS30 family transposase	0		Aba3207_RS03965	3207
+7495	1	hypothetical protein	0		Aba3207_RS04015	3207
+7496	1	hypothetical protein	0		Aba3207_RS04100	3207
+7497	1	hypothetical protein	0		Aba3207_RS04105	3207
+7498	1	IS30 family transposase	0		Aba3207_RS04280	3207
+7499	1	IS5 family transposase ISAba13	0		Aba3207_RS04460	3207
+7500	1	hypothetical protein	0		Aba3207_RS05075	3207
+7501	1	hypothetical protein	0		Aba3207_RS05080	3207
+7502	1	hypothetical protein	0		Aba3207_RS05085	3207
+7503	1	hypothetical protein	0		Aba3207_RS05090	3207
+7504	1	hypothetical protein	0		Aba3207_RS05095	3207
+7505	1	hypothetical protein	0		Aba3207_RS05100	3207
+7506	1	hypothetical protein	0		Aba3207_RS05115	3207
+7507	1	hypothetical protein	0		Aba3207_RS05120	3207
+7508	1	hypothetical protein	0		Aba3207_RS05125	3207
+7509	1	hypothetical protein	0		Aba3207_RS05130	3207
+7510	1	phage tail tape measure protein	0		Aba3207_RS05135	3207
+7511	1	hypothetical protein	0		Aba3207_RS05140	3207
+7512	1	phage antirepressor Ant	0		Aba3207_RS05145	3207
+7513	1	hypothetical protein	0		Aba3207_RS05190	3207
+7514	1	hypothetical protein	0		Aba3207_RS05195	3207
+7515	1	hypothetical protein	0		Aba3207_RS05210	3207
+7516	1	hypothetical protein	0		Aba3207_RS19950	3207
+7518	1	terminase small subunit	0		Aba3207_RS05255	3207
+7519	1	hypothetical protein	0		Aba3207_RS05265	3207
+7520	1	hypothetical protein	0		Aba3207_RS05275	3207
+7521	1	hypothetical protein	0		Aba3207_RS05285	3207
+7522	1	hypothetical protein	0		Aba3207_RS05290	3207
+7523	1	hypothetical protein	0		Aba3207_RS05295	3207
+7524	1	hypothetical protein	0		Aba3207_RS05300	3207
+7525	1	hypothetical protein	0		Aba3207_RS05305	3207
+7526	1	hypothetical protein	0		Aba3207_RS05310	3207
+7527	1	hypothetical protein	0		Aba3207_RS05315	3207
+7528	1	hypothetical protein	0		Aba3207_RS05340	3207
+7529	1	hypothetical protein	0		Aba3207_RS05365	3207
+7530	1	hypothetical protein	0		Aba3207_RS05370	3207
+7531	1	hypothetical protein	0		Aba3207_RS19960	3207
+7533	1	hypothetical protein	0		Aba3207_RS05415	3207
+7535	1	IS5 family transposase ISAba13	0		Aba3207_RS05575	3207
+7536	1	hypothetical protein	0		Aba3207_RS05670	3207
+7538	1	hypothetical protein	0		Aba3207_RS05820	3207
+7539	1	hypothetical protein	0		Aba3207_RS19965	3207
+7540	1	hypothetical protein	0		Aba3207_RS05825	3207
+7541	1	hypothetical protein	0		Aba3207_RS05830	3207
+7543	1	hypothetical protein	0		Aba3207_RS05850	3207
+7544	1	hypothetical protein	0		Aba3207_RS05860	3207
+7545	1	hypothetical protein	0		Aba3207_RS05865	3207
+7546	1	hypothetical protein	0		Aba3207_RS05870	3207
+7547	1	hypothetical protein	0		Aba3207_RS05875	3207
+7548	1	hypothetical protein	0		Aba3207_RS05880	3207
+7549	1	DNA helicase	0		Aba3207_RS05890	3207
+7550	1	DNA replication protein DnaD	0		Aba3207_RS05895	3207
+7551	1	XRE family transcriptional regulator	0		Aba3207_RS05900	3207
+7552	1	phage repressor protein	0		Aba3207_RS05910	3207
+7553	1	IS5 family transposase ISAba13	0		Aba3207_RS07285	3207
+7554	1	hypothetical protein	0		Aba3207_RS07825	3207
+7555	1	IS982 family transposase ISAba825	0		Aba3207_RS07845	3207
+7556	1	APH(3')-VI family aminoglycoside O-phosphotransferase	0		Aba3207_RS07855	3207
+7557	1	IS30 family transposase	0		Aba3207_RS07860	3207
+7558	1	hypothetical protein	0		Aba3207_RS07885	3207
+7559	1	peptidase S8	0		Aba3207_RS07890	3207
+7560	1	DUF707 domain-containing protein	0		Aba3207_RS08565	3207
+7561	1	IS30 family transposase	0		Aba3207_RS08635	3207
+7562	1	IS982 family transposase ISAba825	0		Aba3207_RS09090	3207
+7563	1	gamma-glutamylcyclotransferase	0		Aba3207_RS10290	3207
+7564	1	hypothetical protein	0		Aba3207_RS10480	3207
+7565	1	IS30 family transposase	0		Aba3207_RS10765	3207
+7566	1	hypothetical protein	0		Aba3207_RS11745	3207
+7567	1	glycosyltransferase family 2 protein	0		Aba3207_RS11750	3207
+7568	1	EpsG family protein	0		Aba3207_RS11755	3207
+7569	1	glycosyltransferase family 4 protein	0		Aba3207_RS11760	3207
+7570	1	glycosyltransferase family 2 protein	0		Aba3207_RS11765	3207
+7571	1	LPS biosynthesis protein	0		Aba3207_RS11770	3207
+7572	1	epimerase	0		Aba3207_RS11775	3207
+7573	1	LPS biosynthesis protein	0		Aba3207_RS11780	3207
+7574	1	hypothetical protein	0		Aba3207_RS11870	3207
+7575	1	hypothetical protein	0		Aba3207_RS12060	3207
+7576	1	hypothetical protein	0		Aba3207_RS12500	3207
+7577	1	hypothetical protein	0		Aba3207_RS12545	3207
+7578	1	IS30 family transposase	0		Aba3207_RS14125	3207
+7579	1	hypothetical protein	0		Aba3207_RS14195	3207
+7580	1	hypothetical protein	0		Aba3207_RS14200	3207
+7581	1	helix-turn-helix transcriptional regulator	0		Aba3207_RS14230	3207
+7582	1	hypothetical protein	0		Aba3207_RS14235	3207
+7583	1	hypothetical protein	0		Aba3207_RS14240	3207
+7584	1	DNA helicase	0		Aba3207_RS14250	3207
+7585	1	hypothetical protein	0		Aba3207_RS14255	3207
+7586	1	hypothetical protein	0		Aba3207_RS14260	3207
+7587	1	hypothetical protein	0		Aba3207_RS14270	3207
+7588	1	hypothetical protein	0		Aba3207_RS14275	3207
+7589	1	hypothetical protein	0		Aba3207_RS14280	3207
+7590	1	hypothetical protein	0		Aba3207_RS14285	3207
+7592	1	hypothetical protein	0		Aba3207_RS14305	3207
+7593	1	HNH endonuclease	0		Aba3207_RS20055	3207
+7594	1	hypothetical protein	0		Aba3207_RS14320	3207
+7595	1	terminase large subunit	0		Aba3207_RS14325	3207
+7596	1	phage portal protein	0		Aba3207_RS14330	3207
+7597	1	HK97 family phage prohead protease	0		Aba3207_RS14335	3207
+7598	1	phage major capsid protein	0		Aba3207_RS14340	3207
+7599	1	hypothetical protein	0		Aba3207_RS14345	3207
+7600	1	head-tail adaptor protein	0		Aba3207_RS14350	3207
+7601	1	hypothetical protein	0		Aba3207_RS14355	3207
+7602	1	DUF3168 domain-containing protein	0		Aba3207_RS14360	3207
+7603	1	hypothetical protein	0		Aba3207_RS14365	3207
+7604	1	hypothetical protein	0		Aba3207_RS14370	3207
+7605	1	hypothetical protein	0		Aba3207_RS20060	3207
+7606	1	hypothetical protein	0		Aba3207_RS14375	3207
+7607	1	hypothetical protein	0		Aba3207_RS14395	3207
+7608	1	phage minor tail protein L	0		Aba3207_RS14400	3207
+7609	1	hydrolase Nlp/P60	0		Aba3207_RS14405	3207
+7610	1	tail assembly protein	0		Aba3207_RS14410	3207
+7611	1	hypothetical protein	0		Aba3207_RS14420	3207
+7612	1	hypothetical protein	0		Aba3207_RS14425	3207
+7613	1	hypothetical protein	0		Aba3207_RS14430	3207
+7614	1	hypothetical protein	0		Aba3207_RS15065	3207
+7615	1	IS30 family transposase	0		Aba3207_RS15070	3207
+7616	1	IS982 family transposase ISAba825	0		Aba3207_RS15300	3207
+7617	1	hypothetical protein	0		Aba3207_RS16635	3207
+7618	1	DUF3800 domain-containing protein	0		Aba3207_RS16685	3207
+7620	1	ISL3 family transposase	0		Aba3207_RS17045	3207
+7621	1	permease	0		Aba3207_RS17050	3207
+7622	1	ArsR family transcriptional regulator	0		Aba3207_RS17055	3207
+7623	1	hypothetical protein	0		Aba3207_RS17155	3207
+7624	1	hypothetical protein	0		Aba3207_RS17650	3207
+7625	1	IS5 family transposase ISAba13	0		Aba3207_RS17905	3207
+7626	1	hypothetical protein	0		Aba3207_RS18065	3207
+7627	1	transposase	0		Aba3207_RS18340	3207
+7629	1	IS5 family transposase ISAba13	0		Aba3207_RS18540	3207
+7630	1	IS30 family transposase	0		Aba3207_RS18995	3207
+7631	1	hypothetical protein	0		Aba3207_RS19240	3207
+7632	1	IS30 family transposase	0		Aba3207_RS19245	3207
+7633	1	hypothetical protein	0		Aba3207_RS19250	3207
+7634	1	IS30 family transposase	0		Aba3207_RS19260	3207
+7635	1	LysE family translocator	0		Aba3207_RS19285	3207
+7639	1	IS30 family transposase	0		Aba3207_RS19335	3207
+7640	1	ISL3 family transposase	0		Aba3207_RS19360	3207
+7641	1	hypothetical protein	0		Aba3207_RS19370	3207
+7642	1	SAM-dependent DNA methyltransferase	0		Aba3207_RS19380	3207
+7643	1	hypothetical protein	0		Aba3207_RS19385	3207
+7644	1	APH(3')-VI family aminoglycoside O-phosphotransferase	0		Aba3207_RS19330	3207
+7645	1	hypothetical protein	0		Aba3207_RS19570	3207
+7646	1	hypothetical protein	0		Aba3207_RS19575	3207
+7647	1	hypothetical protein	0		Aba3207_RS19580	3207
+7648	1	hypothetical protein	0		Aba3207_RS19660	3207
+7649	1	hypothetical protein	0		Aba3207_RS19805	3207
+7650	1	IS30 family transposase	0		Aba3207_RS19810	3207
+7651	1	hypothetical protein	0		RU84_RS19450	6200
+7652	1	IS30 family transposase	0		RU84_RS01095	6200
+7653	1	hypothetical protein	0		RU84_RS01100	6200
+7654	1	hypothetical protein	0		RU84_RS01800	6200
+7655	1	family 3 adenylate cyclase	0		RU84_RS01805	6200
+7656	1	IS30 family transposase	0		RU84_RS02435	6200
+7657	1	alkyl sulfatase	0		RU84_RS02440	6200
+7658	1	IS30-like element ISAba125 family transposase	0		RU84_RS02450	6200
+7659	1	site-specific integrase	0		RU84_RS02710	6200
+7660	1	hypothetical protein	0		RU84_RS02715	6200
+7661	1	hypothetical protein	0		RU84_RS02720	6200
+7662	1	single-stranded DNA-binding protein	0		RU84_RS02725	6200
+7663	1	hypothetical protein	0		RU84_RS02730	6200
+7664	1	hypothetical protein	0		RU84_RS02735	6200
+7665	1	hypothetical protein	0		RU84_RS02740	6200
+7666	1	hypothetical protein	0		RU84_RS02745	6200
+7667	1	hypothetical protein	0		RU84_RS02750	6200
+7668	1	hypothetical protein	0		RU84_RS02755	6200
+7669	1	hypothetical protein	0		RU84_RS02760	6200
+7670	1	XRE family transcriptional regulator	0		RU84_RS02765	6200
+7671	1	hypothetical protein	0		RU84_RS02770	6200
+7672	1	hypothetical protein	0		RU84_RS02775	6200
+7673	1	hypothetical protein	0		RU84_RS02780	6200
+7674	1	hypothetical protein	0		RU84_RS02790	6200
+7675	1	transcriptional activator Ogr/delta	0		RU84_RS02795	6200
+7676	1	DNA primase	0		RU84_RS02800	6200
+7677	1	oxidoreductase	0		RU84_RS02805	6200
+7678	1	phage tail tape measure protein	0		RU84_RS02810	6200
+7679	1	GpE family phage tail protein	0		RU84_RS19470	6200
+7680	1	phage tail assembly protein	0		RU84_RS02815	6200
+7681	1	major tail tube protein	0		RU84_RS02820	6200
+7682	1	tail sheath protein	0		RU84_RS02825	6200
+7683	1	acyltransferase	0		RU84_RS02830	6200
+7684	1	phage tail protein I	0		RU84_RS02840	6200
+7685	1	hypothetical protein	0		RU84_RS02845	6200
+7686	1	baseplate assembly protein	0		RU84_RS02850	6200
+7687	1	phage baseplate assembly protein V	0		RU84_RS02855	6200
+7688	1	phage virion morphogenesis protein	0		RU84_RS02860	6200
+7689	1	hypothetical protein	0		RU84_RS02865	6200
+7690	1	hydrolase	0		RU84_RS02870	6200
+7691	1	phage holin family protein	0		RU84_RS02875	6200
+7692	1	membrane protein	0		RU84_RS02880	6200
+7693	1	phage tail protein	0		RU84_RS02885	6200
+7694	1	phage capsid protein	0		RU84_RS02890	6200
+7695	1	terminase	0		RU84_RS02895	6200
+7696	1	phage capsid protein	0		RU84_RS02900	6200
+7697	1	phage capsid protein	0		RU84_RS02905	6200
+7698	1	terminase	0		RU84_RS02910	6200
+7699	1	phage portal protein	0		RU84_RS02915	6200
+7700	1	IS30 family transposase	0		RU84_RS04230	6200
+7701	1	hypothetical protein	0		RU84_RS04245	6200
+7702	1	IS30-like element ISAba125 family transposase	0		RU84_RS04450	6200
+7703	1	IS30 family transposase	0		RU84_RS04505	6200
+7704	1	IS30-like element ISAba125 family transposase	0		RU84_RS06090	6200
+7705	1	IS30-like element ISAba125 family transposase	0		RU84_RS06235	6200
+7706	1	IS30-like element ISAba125 family transposase	0		RU84_RS06415	6200
+7707	1	IS30-like element ISAba125 family transposase	0		RU84_RS06985	6200
+7708	1	IS30-like element ISAba125 family transposase	0		RU84_RS07230	6200
+7709	1	hypothetical protein	0		RU84_RS08220	6200
+7710	1	OmpW family protein	0		RU84_RS08305	6200
+7711	1	IS30 family transposase	0		RU84_RS08315	6200
+7712	1	IS30 family transposase	0		RU84_RS08320	6200
+7713	1	ImmA/IrrE family metallo-endopeptidase	0		RU84_RS08540	6200
+7714	1	hypothetical protein	0		RU84_RS08545	6200
+7715	1	IS30-like element ISAba125 family transposase	0		RU84_RS09880	6200
+7716	1	IS30 family transposase	0		RU84_RS10200	6200
+7717	1	IS30 family transposase	0		RU84_RS10305	6200
+7718	1	hypothetical protein	0		RU84_RS10570	6200
+7719	1	IS30-like element ISAba125 family transposase	0		RU84_RS10845	6200
+7720	1	IS30 family transposase	0		RU84_RS10855	6200
+7721	1	hypothetical protein	0		RU84_RS10860	6200
+7722	1	DUF4747 domain-containing protein	0		RU84_RS10865	6200
+7723	1	hypothetical protein	0		RU84_RS10910	6200
+7724	1	hypothetical protein	0		RU84_RS10915	6200
+7725	1	hypothetical protein	0		RU84_RS10920	6200
+7726	1	hypothetical protein	0		RU84_RS10925	6200
+7727	1	hypothetical protein	0		RU84_RS10930	6200
+7728	1	IS30-like element ISAba125 family transposase	0		RU84_RS10935	6200
+7729	1	IS30-like element ISAba125 family transposase	0		RU84_RS11450	6200
+7730	1	hypothetical protein	0		RU84_RS11900	6200
+7731	1	hypothetical protein	0		RU84_RS11905	6200
+7732	1	hypothetical protein	0		RU84_RS11920	6200
+7733	1	ABC transporter	0		RU84_RS11925	6200
+7734	1	restriction endonuclease subunit S	0		RU84_RS19405	6200
+7735	1	DNA methyltransferase	0		RU84_RS11935	6200
+7736	1	restriction endonuclease subunit R	0		RU84_RS11940	6200
+7737	1	hypothetical protein	0		RU84_RS11945	6200
+7738	1	YkgJ family cysteine cluster protein	0		RU84_RS19680	6200
+7739	1	hypothetical protein	0		RU84_RS11960	6200
+7740	1	hypothetical protein	0		RU84_RS11965	6200
+7741	1	IS30 family transposase	0		RU84_RS11970	6200
+7742	1	WYL domain-containing protein	0		RU84_RS11975	6200
+7743	1	2-keto-D-gluconate dehydrogenase	0		RU84_RS11980	6200
+7744	1	restriction endonuclease	0		RU84_RS11985	6200
+7745	1	DUF2513 domain-containing protein	0		RU84_RS11990	6200
+7746	1	DUF4276 domain-containing protein	0		RU84_RS12055	6200
+7747	1	DNA recombination protein RecF	0		RU84_RS12060	6200
+7748	1	hypothetical protein	0		RU84_RS12240	6200
+7749	1	hypothetical protein	0		RU84_RS12245	6200
+7750	1	hypothetical protein	0		RU84_RS12265	6200
+7752	1	hypothetical protein	0		RU84_RS12875	6200
+7753	1	IS30-like element ISAba125 family transposase	0		RU84_RS13175	6200
+7754	1	hypothetical protein	0		RU84_RS13190	6200
+7755	1	hypothetical protein	0		RU84_RS13215	6200
+7756	1	DUF1837 domain-containing protein	0		RU84_RS13220	6200
+7757	1	hypothetical protein	0		RU84_RS13310	6200
+7758	1	hypothetical protein	0		RU84_RS13315	6200
+7759	1	hypothetical protein	0		RU84_RS14010	6200
+7760	1	hypothetical protein	0		RU84_RS14015	6200
+7761	1	hypothetical protein	0		RU84_RS14045	6200
+7762	1	hypothetical protein	0		RU84_RS14050	6200
+7763	1	hypothetical protein	0		RU84_RS19410	6200
+7764	1	hypothetical protein	0		RU84_RS14145	6200
+7765	1	hypothetical protein	0		RU84_RS14185	6200
+7766	1	hypothetical protein	0		RU84_RS14190	6200
+7767	1	IS30 family transposase	0		RU84_RS14255	6200
+7768	1	hypothetical protein	0		RU84_RS14270	6200
+7769	1	hypothetical protein	0		RU84_RS19420	6200
+7770	1	ATPase AAA	0		RU84_RS14290	6200
+7771	1	hypothetical protein	0		RU84_RS14295	6200
+7772	1	hypothetical protein	0		RU84_RS14305	6200
+7773	1	hypothetical protein	0		RU84_RS15295	6200
+7774	1	hypothetical protein	0		RU84_RS15300	6200
+7775	1	IS30 family transposase	0		RU84_RS15685	6200
+7776	1	DUF3800 domain-containing protein	0		RU84_RS17880	6200
+7777	1	hypothetical protein	0		RU84_RS17885	6200
+7778	1	hypothetical protein	0		RU84_RS19425	6200
+7779	1	Lsg locus protein 1	0		RU84_RS18000	6200
+7780	1	pseudaminic acid synthase	0		RU84_RS18005	6200
+7781	1	UDP-4-amino-4, 6-dideoxy-N-acetyl-beta-L-altrosamine N-acetyltransferase	0		RU84_RS18010	6200
+7782	1	UDP-2,4-diacetamido-2,4, 6-trideoxy-beta-L-altropyranose hydrolase	0		RU84_RS18015	6200
+7783	1	pseudaminic acid cytidylyltransferase	0		RU84_RS18020	6200
+7784	1	UDP-4-amino-4, 6-dideoxy-N-acetyl-beta-L-altrosamine transaminase	0		RU84_RS18025	6200
+7785	1	UDP-N-acetylglucosamine 4,6-dehydratase (inverting)	0		RU84_RS18030	6200
+7786	1	lipid A phosphoethanolamine transferase	0		RU84_RS18630	6200
+7787	1	hypothetical protein	0		RU84_RS19825	6200
+7788	1	hypothetical protein	0		RU84_RS18635	6200
+7789	1	hypothetical protein	0		RU84_RS18640	6200
+7795	1	hypothetical protein	0		RU84_RS19840	6200
+7836	1	universal stress family protein	0		RU84_RS19335	6200
+7837	1	hypothetical protein	0		AB895_RS00010	B8342
+7838	1	hypothetical protein	0		AB895_RS00020	B8342
+7839	1	phage tail protein	0		AB895_RS00025	B8342
+7840	1	hypothetical protein	0		AB895_RS00030	B8342
+7841	1	hypothetical protein	0		AB895_RS00035	B8342
+7842	1	hypothetical protein	0		AB895_RS00040	B8342
+7843	1	phage tail length tape measure protein	0		AB895_RS00045	B8342
+7844	1	DUF4468 domain-containing protein	0		AB895_RS00050	B8342
+7845	1	hypothetical protein	0		AB895_RS00055	B8342
+7846	1	hypothetical protein	0		AB895_RS00060	B8342
+7847	1	hypothetical protein	0		AB895_RS00065	B8342
+7848	1	hypothetical protein	0		AB895_RS00070	B8342
+7849	1	hypothetical protein	0		AB895_RS00075	B8342
+7850	1	hypothetical protein	0		AB895_RS00080	B8342
+7851	1	hypothetical protein	0		AB895_RS00085	B8342
+7852	1	hypothetical protein	0		AB895_RS00090	B8342
+7853	1	hypothetical protein	0		AB895_RS00095	B8342
+7854	1	hypothetical protein	0		AB895_RS00100	B8342
+7855	1	hypothetical protein	0		AB895_RS00105	B8342
+7856	1	stress-responsive nuclear envelope protein	0		AB895_RS00110	B8342
+7857	1	hypothetical protein	0		AB895_RS00115	B8342
+7858	1	hypothetical protein	0		AB895_RS00120	B8342
+7859	1	hypothetical protein	0		AB895_RS00125	B8342
+7860	1	hypothetical protein	0		AB895_RS00135	B8342
+7861	1	hypothetical protein	0		AB895_RS00180	B8342
+7862	1	hypothetical protein	0		AB895_RS00195	B8342
+7863	1	hypothetical protein	0		AB895_RS00200	B8342
+7864	1	DNA-binding protein	0		AB895_RS00210	B8342
+7865	1	hypothetical protein	0		AB895_RS00215	B8342
+7866	1	hypothetical protein	0		AB895_RS00220	B8342
+7867	1	hypothetical protein	0		AB895_RS00230	B8342
+7868	1	hypothetical protein	0		AB895_RS00235	B8342
+7869	1	hypothetical protein	0		AB895_RS00240	B8342
+7870	1	hypothetical protein	0		AB895_RS00245	B8342
+7871	1	hypothetical protein	0		AB895_RS00250	B8342
+7872	1	hypothetical protein	0		AB895_RS00265	B8342
+7873	1	IS5-like element ISAba31 family transposase	0		AB895_RS00570	B8342
+7874	1	IS5-like element ISAha2 family transposase	0		AB895_RS02000	B8342
+7875	1	IS256 family transposase ISAba26	0		AB895_RS02655	B8342
+7876	1	IS5-like element ISAba31 family transposase	0		AB895_RS02805	B8342
+7877	1	hypothetical protein	0		AB895_RS03820	B8342
+7878	1	hypothetical protein	0		AB895_RS03825	B8342
+7879	1	IS5 family transposase	0		AB895_RS04000	B8342
+7888	1	transposase	0		AB895_RS04495	B8342
+7889	1	transposase	0		AB895_RS04500	B8342
+7890	1	DUF3387 domain-containing protein	0		AB895_RS04505	B8342
+7891	1	DUF2939 domain-containing protein	0		AB895_RS04525	B8342
+7892	1	restriction endonuclease subunit S	0		AB895_RS04530	B8342
+7893	1	SAM-dependent DNA methyltransferase	0		AB895_RS04535	B8342
+7894	1	hypothetical protein	0		AB895_RS04540	B8342
+7895	1	HNH endonuclease	0		AB895_RS04555	B8342
+7896	1	hypothetical protein	0		AB895_RS04560	B8342
+7897	1	IS256 family transposase ISAba26	0		AB895_RS04565	B8342
+7898	1	IS4 family transposase	0		AB895_RS05090	B8342
+7899	1	transposase	0		AB895_RS05610	B8342
+7900	1	transposase	0		AB895_RS05615	B8342
+7901	1	IS5-like element ISAba31 family transposase	0		AB895_RS06100	B8342
+7902	1	transposase	0		AB895_RS06130	B8342
+7903	1	transposase	0		AB895_RS06135	B8342
+7904	1	hypothetical protein	0		AB895_RS06155	B8342
+7905	1	restriction endonuclease subunit R	0		AB895_RS06160	B8342
+7906	1	site-specific DNA-methyltransferase	0		AB895_RS06165	B8342
+7907	1	purine NTPase	0		AB895_RS06170	B8342
+7908	1	hypothetical protein	0		AB895_RS06185	B8342
+7909	1	IS5-like element ISAha2 family transposase	0		AB895_RS06190	B8342
+7910	1	hypothetical protein	0		AB895_RS06200	B8342
+7911	1	DUF4433 domain-containing protein	0		AB895_RS06205	B8342
+7912	1	hypothetical protein	0		AB895_RS06210	B8342
+7913	1	hypothetical protein	0		AB895_RS06580	B8342
+7914	1	hypothetical protein	0		AB895_RS06600	B8342
+7915	1	hypothetical protein	0		AB895_RS06605	B8342
+7916	1	IS5 family transposase	0		AB895_RS06730	B8342
+7917	1	hypothetical protein	0		AB895_RS06905	B8342
+7918	1	hypothetical protein	0		AB895_RS06910	B8342
+7919	1	flippase	0		AB895_RS07735	B8342
+7920	1	UDP-N-acetyl glucosamine 2-epimerase	0		AB895_RS07740	B8342
+7921	1	glycosyltransferase family 1 protein	0		AB895_RS07745	B8342
+7922	1	hypothetical protein	0		AB895_RS07750	B8342
+7923	1	LysR family transcriptional regulator	0		AB895_RS07940	B8342
+7933	1	hypothetical protein	0		AB895_RS09270	B8342
+7934	1	transposase	0		AB895_RS09430	B8342
+7935	1	transposase	0		AB895_RS09435	B8342
+7936	1	DUF2523 domain-containing protein	0		AB895_RS09720	B8342
+7937	1	hypothetical protein	0		AB895_RS09725	B8342
+7938	1	hypothetical protein	0		AB895_RS09730	B8342
+7939	1	hypothetical protein	0		AB895_RS09735	B8342
+7940	1	hypothetical protein	0		AB895_RS09740	B8342
+7941	1	replication protein	0		AB895_RS09745	B8342
+7942	1	IS256 family transposase ISAba26	0		AB895_RS09865	B8342
+7943	1	OmpA family protein	0		AB895_RS10135	B8342
+7944	1	transposase	0		AB895_RS10370	B8342
+7945	1	transposase	0		AB895_RS10375	B8342
+7947	1	IS256 family transposase ISAba26	0		AB895_RS11565	B8342
+7948	1	transposase	0		AB895_RS11770	B8342
+7949	1	transposase	0		AB895_RS11775	B8342
+7950	1	hypothetical protein	0		AB895_RS11890	B8342
+7951	1	hypothetical protein	0		AB895_RS11930	B8342
+7952	1	IS5 family transposase ISAba13	0		AB895_RS11935	B8342
+7953	1	hypothetical protein	0		AB895_RS11940	B8342
+7954	1	hypothetical protein	0		AB895_RS11960	B8342
+7955	1	helix-turn-helix domain-containing protein	0		AB895_RS12015	B8342
+7956	1	IS5 family transposase ISAba13	0		AB895_RS12170	B8342
+7957	1	IS256 family transposase	0		AB895_RS12890	B8342
+7958	1	2-hydroxyacid dehydrogenase	0		AB895_RS12905	B8342
+7959	1	hypothetical protein	0		AB895_RS12910	B8342
+7960	1	FAD-dependent oxidoreductase	0		AB895_RS12915	B8342
+7961	1	RidA family protein	0		AB895_RS12920	B8342
+7962	1	DUF1028 domain-containing protein	0		AB895_RS12925	B8342
+7963	1	LysR family transcriptional regulator	0		AB895_RS12930	B8342
+7964	1	acetylornithine deacetylase	0		AB895_RS12935	B8342
+7965	1	amino acid ABC transporter ATPase	0		AB895_RS12940	B8342
+7966	1	hypothetical protein	0		AB895_RS12945	B8342
+7967	1	ABC transporter substrate-binding protein	0		AB895_RS12950	B8342
+7968	1	hypothetical protein	0		AB895_RS13010	B8342
+7969	1	hypothetical protein	0		AB895_RS13015	B8342
+7970	1	NYN domain-containing protein	0		AB895_RS13020	B8342
+7971	1	TetR/AcrR family transcriptional regulator	0		AB895_RS13050	B8342
+7972	1	IS66 family insertion sequence hypothetical protein	0		AB895_RS13100	B8342
+7973	1	IS66 family insertion sequence hypothetical protein	0		AB895_RS13105	B8342
+7974	1	IS66 family insertion sequence hypothetical protein	0		AB895_RS13125	B8342
+7975	1	IS66 family insertion sequence hypothetical protein	0		AB895_RS13130	B8342
+7976	1	transposase	0		AB895_RS13155	B8342
+7977	1	transposase	0		AB895_RS13160	B8342
+7978	1	hypothetical protein	0		AB895_RS13365	B8342
+7979	1	hypothetical protein	0		AB895_RS13405	B8342
+7980	1	hypothetical protein	0		AB895_RS13560	B8342
+7981	1	hypothetical protein	0		AB895_RS13565	B8342
+7982	1	hypothetical protein	0		AB895_RS13570	B8342
+7983	1	phage-like protein	0		AB895_RS13600	B8342
+7984	1	hypothetical protein	0		AB895_RS13605	B8342
+7985	1	tail protein	0		AB895_RS13610	B8342
+7986	1	tail protein	0		AB895_RS13615	B8342
+7987	1	tail assembly protein	0		AB895_RS13620	B8342
+7988	1	tail protein	0		AB895_RS13625	B8342
+7989	1	hypothetical protein	0		AB895_RS13660	B8342
+7990	1	hypothetical protein	0		AB895_RS13665	B8342
+7991	1	IS5-like element ISAba31 family transposase	0		AB895_RS14005	B8342
+7992	1	IS5 family transposase	0		AB895_RS14310	B8342
+7993	1	hypothetical protein	0		AB895_RS14500	B8342
+7994	1	hypothetical protein	0		AB895_RS14505	B8342
+7995	1	hypothetical protein	0		AB895_RS14510	B8342
+7996	1	aspartate aminotransferase family protein	0		AB895_RS14545	B8342
+7997	1	AraC family transcriptional regulator	0		AB895_RS14550	B8342
+7998	1	phosphoserine phosphatase	0		AB895_RS14555	B8342
+7999	1	serine kinase	0		AB895_RS14560	B8342
+8000	1	ethanolamine permease	0		AB895_RS14565	B8342
+8002	1	hypothetical protein	0		AB895_RS15000	B8342
+8003	1	site-specific integrase	0		AB895_RS15475	B8342
+8004	1	hypothetical protein	0		AB895_RS15480	B8342
+8005	1	DUF262 domain-containing protein	0		AB895_RS15485	B8342
+8006	1	hypothetical protein	0		AB895_RS15490	B8342
+8007	1	hypothetical protein	0		AB895_RS15520	B8342
+8008	1	helix-turn-helix transcriptional regulator	0		AB895_RS15530	B8342
+8009	1	hypothetical protein	0		AB895_RS15535	B8342
+8010	1	hypothetical protein	0		AB895_RS15565	B8342
+8011	1	hypothetical protein	0		AB895_RS15575	B8342
+8012	1	hypothetical protein	0		AB895_RS15580	B8342
+8013	1	hypothetical protein	0		AB895_RS15590	B8342
+8014	1	hypothetical protein	0		AB895_RS15600	B8342
+8015	1	hypothetical protein	0		AB895_RS15605	B8342
+8016	1	hypothetical protein	0		AB895_RS15700	B8342
+8017	1	tape measure domain-containing protein	0		AB895_RS15705	B8342
+8018	1	hypothetical protein	0		AB895_RS15710	B8342
+8019	1	phage tail protein	0		AB895_RS15715	B8342
+8020	1	hypothetical protein	0		AB895_RS15720	B8342
+8021	1	tail protein	0		AB895_RS15725	B8342
+8022	1	hypothetical protein	0		AB895_RS15730	B8342
+8023	1	tail protein	0		AB895_RS15735	B8342
+8024	1	tail assembly protein	0		AB895_RS15740	B8342
+8025	1	tail protein	0		AB895_RS15745	B8342
+8026	1	DUF4376 domain-containing protein	0		AB895_RS15750	B8342
+8027	1	holin	0		AB895_RS15755	B8342
+8028	1	lysozyme	0		AB895_RS15760	B8342
+8029	1	hypothetical protein	0		AB895_RS15770	B8342
+8030	1	hypothetical protein	0		AB895_RS16420	B8342
+8031	1	hypothetical protein	0		AB895_RS16440	B8342
+8032	1	hypothetical protein	0		AB895_RS16450	B8342
+8033	1	hypothetical protein	0		AB895_RS16470	B8342
+8034	1	IS5-like element ISAha2 family transposase	0		AB895_RS16950	B8342
+8035	1	IS5 family transposase	0		AB895_RS17090	B8342
+8036	1	IS5-like element ISAba31 family transposase	0		AB895_RS17340	B8342
+8037	1	hypothetical protein	0		AB895_RS17475	B8342
+8038	1	alpha/beta hydrolase	0		AB895_RS17480	B8342
+8039	1	hypothetical protein	0		AB895_RS17485	B8342
+8040	1	DUF2523 domain-containing protein	0		AB895_RS17490	B8342
+8041	1	zonula occludens toxin	0		AB895_RS17495	B8342
+8042	1	hypothetical protein	0		AB895_RS17500	B8342
+8043	1	hypothetical protein	0		AB895_RS17505	B8342
+8044	1	hypothetical protein	0		AB895_RS17510	B8342
+8045	1	hypothetical protein	0		AB895_RS17515	B8342
+8046	1	hypothetical protein	0		AB895_RS17520	B8342
+8047	1	hypothetical protein	0		AB895_RS17525	B8342
+8048	1	hypothetical protein	0		AB895_RS17530	B8342
+8049	1	ATP-binding protein	0		AB895_RS17535	B8342
+8050	1	hypothetical protein	0		AB895_RS17540	B8342
+8051	1	hypothetical protein	0		AB895_RS17545	B8342
+8052	1	hypothetical protein	0		AB895_RS17550	B8342
+8053	1	recombinase	0		AB895_RS17555	B8342
+8054	1	reverse transcriptase	0		AB895_RS17560	B8342
+8055	1	hypothetical protein	0		AB895_RS17565	B8342
+8056	1	N-acetyltransferase	0		AB895_RS17570	B8342
+8057	1	MFS transporter	0		AB895_RS17575	B8342
+8058	1	thioesterase	0		AB895_RS17580	B8342
+8059	1	hypothetical protein	0		AB895_RS17585	B8342
+8060	1	hypothetical protein	0		AB895_RS17590	B8342
+8061	1	ACP S-malonyltransferase	0		AB895_RS17595	B8342
+8062	1	acyl carrier protein	0		AB895_RS17600	B8342
+8063	1	hypothetical protein	0		AB895_RS17605	B8342
+8064	1	hypothetical protein	0		AB895_RS17610	B8342
+8065	1	D-alanine--poly(phosphoribitol) ligase subunit DltA	0		AB895_RS17615	B8342
+8066	1	hypothetical protein	0		AB895_RS17620	B8342
+8067	1	hypothetical protein	0		AB895_RS17625	B8342
+8068	1	XRE family transcriptional regulator	0		AB895_RS17630	B8342
+8069	1	XRE family transcriptional regulator	0		AB895_RS17635	B8342
+8070	1	serine/threonine-protein phosphatase 2	0		AB895_RS17640	B8342
+8071	1	hypothetical protein	0		AB895_RS17645	B8342
+8072	1	CoA transferase	0		AB895_RS17700	B8342
+8073	1	hydroxymethylglutaryl-CoA lyase	0		AB895_RS17705	B8342
+8074	1	citrate transporter	0		AB895_RS17710	B8342
+8075	1	IclR family transcriptional regulator	0		AB895_RS17715	B8342
+8076	1	outer membrane porin, OprD family	0		AB895_RS17730	B8342
+8077	1	MFS transporter	0		AB895_RS17735	B8342
+8078	1	KR domain-containing protein	0		AB895_RS17740	B8342
+8079	1	sugar phosphate isomerase/epimerase	0		AB895_RS17745	B8342
+8080	1	YciI family protein	0		AB895_RS17750	B8342
+8081	1	hypothetical protein	0		AB895_RS17780	B8342
+8082	1	hypothetical protein	0		AB895_RS17785	B8342
+8083	1	hypothetical protein	0		AB895_RS17790	B8342
+8084	1	tannase/feruloyl esterase family alpha/beta hydrolase	0		AB895_RS17965	B8342
+8085	1	DUF4113 domain-containing protein	0		AB895_RS19115	B8342
+8086	1	restriction endonuclease	0		AB895_RS19165	B8342
+8087	1	glycosyl hydrolase 108	0		AB895_RS19170	B8342
+8088	1	hypothetical protein	0		AB895_RS19175	B8342
+8089	1	hypothetical protein	0		AB895_RS19180	B8342
+8091	1	hypothetical protein	0		C2U32_RS00280	ABNIH28
+8092	1	IS5-like element ISAba10 family transposase	0		C2U32_RS00415	ABNIH28
+8093	1	hypothetical protein	0		C2U32_RS00630	ABNIH28
+8094	1	IS256 family transposase	0		C2U32_RS00745	ABNIH28
+8095	1	DUF3987 domain-containing protein	0		C2U32_RS00750	ABNIH28
+8096	1	hypothetical protein	0		C2U32_RS00755	ABNIH28
+8097	1	hypothetical protein	0		C2U32_RS00760	ABNIH28
+8098	1	hypothetical protein	0		C2U32_RS00765	ABNIH28
+8099	1	type I restriction endonuclease subunit R	0		C2U32_RS00770	ABNIH28
+8100	1	hypothetical protein	0		C2U32_RS00790	ABNIH28
+8101	1	restriction endonuclease subunit S	0	FS	C2U32_RS00800	ABNIH28
+8102	1	type I restriction-modification system subunit M	0		C2U32_RS00805	ABNIH28
+8103	1	IS5-like element ISAba31 family transposase	0		C2U32_RS00810	ABNIH28
+8104	1	hypothetical protein	0		C2U32_RS00815	ABNIH28
+8105	1	TIR domain-containing protein	0		C2U32_RS00820	ABNIH28
+8106	1	hypothetical protein	0		C2U32_RS00830	ABNIH28
+8107	1	IS5 family transposase	0		C2U32_RS00840	ABNIH28
+8108	1	IS5-like element ISAba31 family transposase	0		C2U32_RS00850	ABNIH28
+8109	1	hypothetical protein	0		C2U32_RS00855	ABNIH28
+8110	1	IS5/IS1182 family transposase	0		C2U32_RS01470	ABNIH28
+8111	1	IS256-like element ISAba26 family transposase	0		C2U32_RS01480	ABNIH28
+8112	1	IS5-like element ISAba31 family transposase	0		C2U32_RS01640	ABNIH28
+8113	1	IS3 family transposase	0		C2U32_RS01710	ABNIH28
+8114	1	hypothetical protein	0		C2U32_RS01960	ABNIH28
+8115	1	hypothetical protein	0		C2U32_RS01985	ABNIH28
+8116	1	IS3-like element ISAba22 family transposase	0		C2U32_RS01990	ABNIH28
+8117	1	hypothetical protein	0		C2U32_RS02065	ABNIH28
+8118	1	hypothetical protein	0		C2U32_RS02105	ABNIH28
+8119	1	hypothetical protein	0		C2U32_RS02115	ABNIH28
+8120	1	hypothetical protein	0		C2U32_RS02165	ABNIH28
+8121	1	hypothetical protein	0		C2U32_RS02170	ABNIH28
+8122	1	lysis protein	0		C2U32_RS02175	ABNIH28
+8123	1	hypothetical protein	0		C2U32_RS02185	ABNIH28
+8124	1	hypothetical protein	0		C2U32_RS02195	ABNIH28
+8125	1	DNA polymerase V	0		C2U32_RS02205	ABNIH28
+8126	1	hypothetical protein	0		C2U32_RS02215	ABNIH28
+8127	1	IS5 family transposase ISAba13	0		C2U32_RS02335	ABNIH28
+8128	1	IS5-like element IS17 family transposase	0		C2U32_RS02355	ABNIH28
+8129	1	IS5-like element ISAba31 family transposase	0		C2U32_RS02635	ABNIH28
+8130	1	IS3 family transposase	0		C2U32_RS02910	ABNIH28
+8131	1	helix-turn-helix domain-containing protein	0		C2U32_RS02915	ABNIH28
+8132	1	hypothetical protein	0		C2U32_RS03275	ABNIH28
+8133	1	IS256 family transposase	0		C2U32_RS03625	ABNIH28
+8134	1	IS5-like element ISAba31 family transposase	0		C2U32_RS03795	ABNIH28
+8135	1	transposase	0		C2U32_RS03950	ABNIH28
+8136	1	transposase	0		C2U32_RS03955	ABNIH28
+8137	1	IS5-like element ISAba31 family transposase	0		C2U32_RS04025	ABNIH28
+8138	1	IS5-like element ISAba31 family transposase	0		C2U32_RS04145	ABNIH28
+8139	1	hypothetical protein	0		C2U32_RS04150	ABNIH28
+8140	1	hypothetical protein	0		C2U32_RS04395	ABNIH28
+8141	1	IS5 family transposase ISAba27	0		C2U32_RS04880	ABNIH28
+8142	1	IS5 family transposase	0		C2U32_RS05000	ABNIH28
+8143	1	hypothetical protein	0		C2U32_RS05060	ABNIH28
+8144	1	hypothetical protein	0		C2U32_RS05065	ABNIH28
+8145	1	hypothetical protein	0		C2U32_RS05070	ABNIH28
+8146	1	hypothetical protein	0		C2U32_RS05345	ABNIH28
+8147	1	IS3-like element ISAba19 family transposase	0		C2U32_RS05510	ABNIH28
+8148	1	transposase	0		C2U32_RS05580	ABNIH28
+8149	1	transposase	0		C2U32_RS05585	ABNIH28
+8150	1	IS5-like element ISAba31 family transposase	0		C2U32_RS06435	ABNIH28
+8151	1	IS3-like element ISAba19 family transposase	0		C2U32_RS06585	ABNIH28
+8152	1	IS3-like element ISAba22 family transposase	0		C2U32_RS07630	ABNIH28
+8153	1	hypothetical protein	0		C2U32_RS08110	ABNIH28
+8154	1	IS3-like element ISAba22 family transposase	0		C2U32_RS08420	ABNIH28
+8155	1	hypothetical protein	0		C2U32_RS08450	ABNIH28
+8156	1	hypothetical protein	0		C2U32_RS08485	ABNIH28
+8157	1	hypothetical protein	0		C2U32_RS08490	ABNIH28
+8158	1	DUF3850 domain-containing protein	0		C2U32_RS08640	ABNIH28
+8159	1	hypothetical protein	0		C2U32_RS08655	ABNIH28
+8160	1	hypothetical protein	0	FG-Out	C2U32_RS08670	ABNIH28
+8161	1	hypothetical protein	0		C2U32_RS08675	ABNIH28
+8162	1	transcriptional regulator	0		C2U32_RS08680	ABNIH28
+8163	1	XRE family transcriptional regulator	0		C2U32_RS08685	ABNIH28
+8164	1	ATPase AAA	0		C2U32_RS08700	ABNIH28
+8165	1	hypothetical protein	0		C2U32_RS08715	ABNIH28
+8166	1	hypothetical protein	0		C2U32_RS08720	ABNIH28
+8167	1	hypothetical protein	0		C2U32_RS08725	ABNIH28
+8168	1	helix-turn-helix domain-containing protein	0		C2U32_RS08930	ABNIH28
+8169	1	IS3 family transposase	0		C2U32_RS08935	ABNIH28
+8170	1	IS3-like element ISAba19 family transposase	0		C2U32_RS09325	ABNIH28
+8171	1	IS5-like element ISAba13 family transposase	0		C2U32_RS09715	ABNIH28
+8172	1	IS3 family transposase	0		C2U32_RS09955	ABNIH28
+8173	1	hypothetical protein	0		C2U32_RS09960	ABNIH28
+8174	1	DDE transposase family protein	0		C2U32_RS09970	ABNIH28
+8175	1	hypothetical protein	0		C2U32_RS09975	ABNIH28
+8176	1	hypothetical protein	0		C2U32_RS09985	ABNIH28
+8177	1	IS5-like element ISAba31 family transposase	0		C2U32_RS10060	ABNIH28
+8178	1	helix-turn-helix domain-containing protein	0		C2U32_RS10115	ABNIH28
+8179	1	IS3 family transposase	0		C2U32_RS10120	ABNIH28
+8180	1	IS5/IS1182 family transposase	0		C2U32_RS10380	ABNIH28
+8181	1	IS256 family transposase ISAba26	0		C2U32_RS10585	ABNIH28
+8182	1	IS3 family transposase	0		C2U32_RS10790	ABNIH28
+8183	1	IS3-like element ISAba19 family transposase	0		C2U32_RS11050	ABNIH28
+8184	1	DDE transposase	0		C2U32_RS11235	ABNIH28
+8185	1	IS5/IS1182 family transposase	0		C2U32_RS11270	ABNIH28
+8186	1	IS5-like element ISAba13 family transposase	0		C2U32_RS11340	ABNIH28
+8187	1	IS3-like element ISAba19 family transposase	0		C2U32_RS11510	ABNIH28
+8188	1	DDE domain-containing protein	0		C2U32_RS11515	ABNIH28
+8189	1	prepilin-type cleavage/methylation domain-containing protein	0		C2U32_RS12635	ABNIH28
+8190	1	IS3-like element ISAba19 family transposase	0		C2U32_RS13015	ABNIH28
+8191	1	helix-turn-helix domain-containing protein	0		C2U32_RS13065	ABNIH28
+8192	1	IS3 family transposase	0		C2U32_RS13070	ABNIH28
+8193	1	IS5-like element ISAba31 family transposase	0		C2U32_RS13095	ABNIH28
+8194	1	hypothetical protein	0		C2U32_RS13125	ABNIH28
+8195	1	IS3-like element ISAba22 family transposase	0		C2U32_RS13160	ABNIH28
+8196	1	ImmA/IrrE family metallo-endopeptidase	0		C2U32_RS13170	ABNIH28
+8197	1	XRE family transcriptional regulator	0		C2U32_RS13175	ABNIH28
+8198	1	hypothetical protein	0		C2U32_RS13180	ABNIH28
+8199	1	hypothetical protein	0		C2U32_RS13185	ABNIH28
+8200	1	IS3-like element ISAba19 family transposase	0		C2U32_RS13190	ABNIH28
+8201	1	hypothetical protein	0		C2U32_RS13200	ABNIH28
+8202	1	DUF2813 domain-containing protein	0		C2U32_RS13205	ABNIH28
+8203	1	hypothetical protein	0		C2U32_RS13210	ABNIH28
+8204	1	hypothetical protein	0		C2U32_RS13830	ABNIH28
+8205	1	transposase	0		C2U32_RS14215	ABNIH28
+8206	1	transposase	0		C2U32_RS14220	ABNIH28
+8207	1	transposase	0		C2U32_RS14320	ABNIH28
+8208	1	transposase	0		C2U32_RS14325	ABNIH28
+8209	1	IS256 family transposase	0		C2U32_RS14540	ABNIH28
+8210	1	hypothetical protein	0		C2U32_RS14725	ABNIH28
+8211	1	2OG-Fe(II) oxygenase	0		C2U32_RS14735	ABNIH28
+8212	1	IS256 family transposase	0		C2U32_RS14775	ABNIH28
+8213	1	type II toxin-antitoxin system HipA family toxin	0		C2U32_RS14965	ABNIH28
+8214	1	XRE family transcriptional regulator	0		C2U32_RS14970	ABNIH28
+8215	1	site-specific recombinase	0		C2U32_RS14975	ABNIH28
+8216	1	hypothetical protein	0		C2U32_RS14980	ABNIH28
+8217	1	hypothetical protein	0		C2U32_RS14985	ABNIH28
+8218	1	IS5 family transposase ISAba27	0		C2U32_RS14990	ABNIH28
+8219	1	cell envelope biogenesis protein OmpA	0		C2U32_RS15005	ABNIH28
+8220	1	hypothetical protein	0		C2U32_RS15040	ABNIH28
+8221	1	type I secretion system permease/ATPase	0		C2U32_RS15045	ABNIH28
+8222	1	secretion protein HlyD	0		C2U32_RS15050	ABNIH28
+8223	1	catalase	0		C2U32_RS15065	ABNIH28
+8224	1	peroxidase	0		C2U32_RS15070	ABNIH28
+8225	1	hypothetical protein	0		C2U32_RS15075	ABNIH28
+8226	1	alkanesulfonate monooxygenase, FMNH(2)-dependent	0		C2U32_RS15080	ABNIH28
+8227	1	transposase	0		C2U32_RS15455	ABNIH28
+8228	1	transposase	0		C2U32_RS15460	ABNIH28
+8229	1	IS3-like element ISAba22 family transposase	0		C2U32_RS15565	ABNIH28
+8230	1	hypothetical protein	0		C2U32_RS15580	ABNIH28
+8231	1	IS3-like element ISAba19 family transposase	0		C2U32_RS15585	ABNIH28
+8232	1	hypothetical protein	0		C2U32_RS15590	ABNIH28
+8233	1	IS5-like element ISAba31 family transposase	0		C2U32_RS15665	ABNIH28
+8234	1	hypothetical protein	0		C2U32_RS15670	ABNIH28
+8235	1	HNH endonuclease	0		C2U32_RS15675	ABNIH28
+8236	1	hypothetical protein	0		C2U32_RS15680	ABNIH28
+8237	1	thiamine biosynthesis protein ThiF	0		C2U32_RS15685	ABNIH28
+8238	1	nucleotidyltransferase	0		C2U32_RS15690	ABNIH28
+8239	1	ImmA/IrrE family metallo-endopeptidase	0		C2U32_RS15695	ABNIH28
+8240	1	hypothetical protein	0		C2U32_RS15700	ABNIH28
+8241	1	hypothetical protein	0		C2U32_RS15705	ABNIH28
+8242	1	hypothetical protein	0		C2U32_RS15710	ABNIH28
+8243	1	IS5-like element ISAba31 family transposase	0		C2U32_RS15930	ABNIH28
+8244	1	IS256 family transposase	0		C2U32_RS16195	ABNIH28
+8245	1	IS5-like element ISAba31 family transposase	0		C2U32_RS16790	ABNIH28
+8246	1	IS3 family transposase	0		C2U32_RS17280	ABNIH28
+8247	1	helix-turn-helix domain-containing protein	0		C2U32_RS17285	ABNIH28
+8248	1	IS5 family transposase	0		C2U32_RS17955	ABNIH28
+8249	1	DUF1643 domain-containing protein	0		C2U32_RS18595	ABNIH28
+8250	1	IS256 family transposase	0		C2U32_RS18610	ABNIH28
+8251	1	hypothetical protein	0		C2U32_RS18620	ABNIH28
+8252	1	XRE family transcriptional regulator	0		C2U32_RS18680	ABNIH28
+8253	1	IS3-like element ISAba14 family transposase	0		C2U32_RS18765	ABNIH28
+8254	1	hypothetical protein	0		C2U32_RS19095	ABNIH28
+8255	1	hypothetical protein	0		C2U32_RS19130	ABNIH28
+8256	1	type I restriction-modification system subunit M	0		C2U32_RS19135	ABNIH28
+8257	1	restriction endonuclease subunit S	0		C2U32_RS19140	ABNIH28
+8258	1	hypothetical protein	0		C2U32_RS19145	ABNIH28
+8259	1	deoxyribonuclease HsdR	0		C2U32_RS19150	ABNIH28
+8260	1	hypothetical protein	0		C2U32_RS19160	ABNIH28
+8261	1	hypothetical protein	0		C2U32_RS18915	ABNIH28
+8262	1	alkyl sulfatase	0		C2U32_RS19215	ABNIH28
+8263	1	IS5-like element IS17 family transposase	0		C2U32_RS19220	ABNIH28
+8265	1	IS256 family transposase ISAba26	0		C2U32_RS19405	ABNIH28
+8266	1	GlxA family transcriptional regulator	0		C2U32_RS19510	ABNIH28
+8267	1	creatininase	0		C2U32_RS19515	ABNIH28
+8268	1	MFS transporter	0		C2U32_RS19520	ABNIH28
+8269	1	drug/metabolite DMT transporter permease	0		C2U32_RS19525	ABNIH28
+8270	1	hypothetical protein	0		C2U32_RS19560	ABNIH28
+8271	1	hypothetical protein	0	FG-Out	C2U32_RS19565	ABNIH28
+8272	1	sel1 repeat family protein	0		C2U32_RS19575	ABNIH28
+8273	1	diaminopimelate decarboxylase	0		C2U32_RS19580	ABNIH28
+8274	1	hypothetical protein	0		C2U32_RS19590	ABNIH28
+8275	1	IS3 family transposase	0		C2U32_RS19595	ABNIH28
+8276	1	hypothetical protein	0		C2U32_RS19600	ABNIH28
+8277	1	hypothetical protein	0		C2U32_RS19605	ABNIH28
+8278	1	ATPase AAA	0		C2U32_RS19615	ABNIH28
+8279	1	type II toxin-antitoxin system Phd/YefM family antitoxin	0		C2U32_RS19620	ABNIH28
+8280	1	type II toxin-antitoxin system RelE/ParE family toxin	0		C2U32_RS19625	ABNIH28
+8281	1	XRE family transcriptional regulator	0		C2U32_RS19630	ABNIH28
+8282	1	hypothetical protein	0		C2U32_RS19635	ABNIH28
+8283	1	hypothetical protein	0		C2U32_RS19640	ABNIH28
+8284	1	hypothetical protein	0		C2U32_RS19680	ABNIH28
+8285	1	site-specific integrase	0		C2U32_RS19690	ABNIH28
+8286	1	hypothetical protein	0		C2U32_RS19695	ABNIH28
+8287	1	hypothetical protein	0		C2U32_RS19700	ABNIH28
+8288	1	hypothetical protein	0		C2U32_RS19710	ABNIH28
+8289	1	AlpA family phage regulatory protein	0		C2U32_RS19715	ABNIH28
+8290	1	hypothetical protein	0		C2U32_RS19725	ABNIH28
+8291	1	NAD(+) diphosphatase	0		C2U32_RS19730	ABNIH28
+8292	1	cryptochrome/photolyase family protein	0		C2U32_RS19735	ABNIH28
+8293	1	DUF2256 domain-containing protein	0		C2U32_RS19740	ABNIH28
+8294	1	TIGR03643 family protein	0		C2U32_RS19745	ABNIH28
+8295	1	PLP-dependent aminotransferase family protein	0		C2U32_RS19750	ABNIH28
+8296	1	RepB family plasmid replication initiator protein	0		C2U32_RS19770	ABNIH28
+8297	1	hypothetical protein	0		C2U32_RS19775	ABNIH28
+8298	1	hypothetical protein	0		C2U32_RS19780	ABNIH28
+8299	1	hypothetical protein	0		C2U32_RS19785	ABNIH28
+8300	1	IS5 family transposase	0		C2U32_RS19790	ABNIH28
+8301	1	hypothetical protein	0		C2U32_RS19795	ABNIH28
+8302	1	alpha/beta hydrolase	0		C2U32_RS19815	ABNIH28
+8303	1	hypothetical protein	0		C2U32_RS19820	ABNIH28
+8304	1	MFS transporter	0		C2U32_RS19825	ABNIH28
+8305	1	IS6 family transposase	0		C2U32_RS19835	ABNIH28
+8306	1	hypothetical protein	0		C2U32_RS19840	ABNIH28
+8307	1	molecular chaperone	0		C2U32_RS19845	ABNIH28
+8308	1	fimbrial biogenesis outer membrane usher protein	0		C2U32_RS19850	ABNIH28
+8309	1	hypothetical protein	0		C2U32_RS19855	ABNIH28
+8310	1	hypothetical protein	0		C2U32_RS19895	ABNIH28
+8311	1	hypothetical protein	0		C2U32_RS19935	ABNIH28
+8312	1	hypothetical protein	0	FG-Out	C2U32_RS19940	ABNIH28
+8313	1	site-specific integrase	0		C2U32_RS19945	ABNIH28
+8314	1	site-specific integrase	0		C2U32_RS19950	ABNIH28
+8315	1	IS3 family transposase	0		C2U32_RS19960	ABNIH28
+8316	1	hypothetical protein	0		C2U32_RS19970	ABNIH28
+8317	1	hypothetical protein	0		C2U32_RS19975	ABNIH28
+8318	1	hypothetical protein	0		C2U32_RS19985	ABNIH28
+8319	1	hypothetical protein	0		C2U32_RS19990	ABNIH28
+8320	1	excinuclease ABC subunit UvrA	0		C2U32_RS20000	ABNIH28
+8321	1	NAD(P)/FAD-dependent oxidoreductase	0		C2U32_RS20005	ABNIH28
+8322	1	S-formylglutathione hydrolase	0		C2U32_RS20010	ABNIH28
+8323	1	DUF3422 domain-containing protein	0		C2U32_RS20015	ABNIH28
+8324	1	S-(hydroxymethyl)glutathione synthase	0		C2U32_RS20020	ABNIH28
+8325	1	S-(hydroxymethyl)glutathione dehydrogenase/class III alcohol dehydrogenase	0		C2U32_RS20025	ABNIH28
+8326	1	hypothetical protein	0		C2U32_RS20030	ABNIH28
+8327	1	glutamate--cysteine ligase	0		C2U32_RS20035	ABNIH28
+8328	1	hypothetical protein	0		C2U32_RS20040	ABNIH28
+8329	1	DUF2474 domain-containing protein	0		C2U32_RS20045	ABNIH28
+8330	1	IS3-like element ISAba19 family transposase	0		C2U32_RS20050	ABNIH28
+8331	1	cytochrome ubiquinol oxidase subunit I	0		C2U32_RS20060	ABNIH28
+8332	1	metal/formaldehyde-sensitive transcriptional repressor	0		C2U32_RS20065	ABNIH28
+8333	1	excinuclease ABC subunit UvrB	0		C2U32_RS20070	ABNIH28
+8334	1	DUF488 domain-containing protein	0		C2U32_RS20075	ABNIH28
+8335	1	hypothetical protein	0		C2U32_RS20080	ABNIH28
+8336	1	hypothetical protein	0		C2U32_RS20085	ABNIH28
+8337	1	ATP-dependent endonuclease	0		C2U32_RS20090	ABNIH28
+8338	1	helicase	0		C2U32_RS20095	ABNIH28
+8339	1	hypothetical protein	0		C2U32_RS20100	ABNIH28
+8340	1	LysR family transcriptional regulator	0		C2U32_RS20110	ABNIH28
+8341	1	hypothetical protein	0		C2U32_RS20115	ABNIH28
+8342	1	IS6 family transposase	0		C2U32_RS20125	ABNIH28
+8343	1	DUF4102 domain-containing protein	0		C2U32_RS20135	ABNIH28
+8344	1	hypothetical protein	0		P795_RS01090	ZW851
+8345	1	hypothetical protein	0		P795_RS03975	ZW851
+8346	1	hypothetical protein	0		P795_RS03980	ZW851
+8347	1	hypothetical protein	0		P795_RS05860	ZW851
+8348	1	hypothetical protein	0		P795_RS08050	ZW851
+8349	1	FAD-dependent oxidoreductase	0		P795_RS08055	ZW851
+8350	1	APC family permease	0		P795_RS08060	ZW851
+8351	1	aldehyde dehydrogenase	0	FG-Out	P795_RS08075	ZW851
+8352	1	APC family permease	0		P795_RS08080	ZW851
+8353	1	hypothetical protein	0		P795_RS08085	ZW851
+8354	1	RloB domain-containing protein	0		P795_RS08325	ZW851
+8355	1	hypothetical protein	0		P795_RS08330	ZW851
+8356	1	DNA recombination protein RecF	0		P795_RS10690	ZW851
+8357	1	hypothetical protein	0		P795_RS10695	ZW851
+8358	1	hypothetical protein	0		P795_RS11905	ZW851
+8359	1	hypothetical protein	0		P795_RS11910	ZW851
+8360	1	hypothetical protein	0		P795_RS11925	ZW851
+8361	1	SH3 domain-containing protein	0		P795_RS18430	ZW851
+8362	1	hypothetical protein	0		P795_RS12235	ZW851
+8363	1	hypothetical protein	0		P795_RS12250	ZW851
+8364	1	hypothetical protein	0		P795_RS12345	ZW851
+8365	1	restriction endonuclease subunit S	0		P795_RS13195	ZW851
+8366	1	site-specific DNA-methyltransferase (adenine-specific)	0		P795_RS13200	ZW851
+8367	1	type I restriction-modification system endonuclease	0		P795_RS13205	ZW851
+8368	1	hypothetical protein	0		P795_RS14075	ZW851
+8369	1	hypothetical protein	0		P795_RS14080	ZW851
+8370	1	methyltransferase domain-containing protein	0		P795_RS14085	ZW851
+8371	1	site-specific DNA-methyltransferase	0		P795_RS14090	ZW851
+8372	1	HD domain-containing protein	0		P795_RS14095	ZW851
+8373	1	hypothetical protein	0		P795_RS14120	ZW851
+8374	1	hypothetical protein	0		P795_RS14125	ZW851
+8375	1	TetR/AcrR family transcriptional regulator	0		P795_RS16880	ZW851
+8376	1	ACP phosphodiesterase	0		P795_RS16890	ZW851
+8377	1	hypothetical protein	0		P795_RS16895	ZW851
+8378	1	avrd-related protein	0		P795_RS16900	ZW851
+8379	1	zinc-binding alcohol dehydrogenase family protein	0		P795_RS16905	ZW851
+8380	1	hypothetical protein	0		P795_RS16925	ZW851
+8381	1	hypothetical protein	0		P795_RS16960	ZW851
+8382	1	hypothetical protein	0		P795_RS16980	ZW851
+8383	1	hypothetical protein	0		P795_RS16995	ZW851
+8384	1	EpsG family protein	0		P795_RS17085	ZW851
+8385	1	hypothetical protein	0		P795_RS17090	ZW851
+8386	1	nucleotide sugar dehydrogenase	0		P795_RS17115	ZW851
+8387	1	hypothetical protein	0		P795_RS17120	ZW851
+8388	1	glycosyltransferase family 2 protein	0		P795_RS17125	ZW851
+8389	1	glycosyl transferase	0		P795_RS17130	ZW851
+8390	1	hypothetical protein	0		P795_RS17715	ZW851
+8391	1	hypothetical protein	0		P795_RS17750	ZW851
+8392	1	hypothetical protein	0		P795_RS17755	ZW851
+8393	1	type I restriction endonuclease subunit R	0		P795_RS17765	ZW851
+8394	1	DUF4357 domain-containing protein	0		P795_RS17770	ZW851
+8395	1	restriction endonuclease subunit S	0		P795_RS17775	ZW851

@@ -26,6 +26,10 @@ fi
 if [ ! -d "$TMP_DIR" ]; then 
 	mkdir $TMP_DIR
 fi
+if [ ! -e "$TMP_DIR/PanACEA.flatfile.txt" ]; then
+	echo "Making Flatfile..."	
+	perl $SRC_DIR/make_panacea_flatfile.pl -i $PAN_DIR -o $TMP_DIR/PanACEA.flatfile.txt -t Pangenome
+fi
 
 if [ -e "$PAN_DIR/aro_centroid.list.txt" ];
 then

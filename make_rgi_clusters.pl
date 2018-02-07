@@ -25,7 +25,7 @@ make_rgi_clusters.pl
 make_rgi_clusters.pl [options] -d directory -t type -o outputFlatFile
 
 	Options:
-		-d	--input 	Location of dataSummary.txt file that is read. Required.
+		-i	--input 	Location of dataSummary.txt file that is read. Required.
 		-o	--output 	Output file. Default is aro_centroid.list.txt.
 		-t	--type		Output type of the file. "Best" (all) or "all".
 	

@@ -1,0 +1,3626 @@
+centroid_1497	Other	
+centroid_7594	Mobile & extrachromosomal element functions	GO:0006323
+centroid_3928	Other	
+centroid_8034	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1373	Transport & binding proteins	GO:0016887
+centroid_2113	Other	
+centroid_290	Other	
+centroid_4613	Other	
+centroid_7281	Other	
+centroid_3504	Other	
+centroid_8130	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4458	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5601	Other	
+centroid_7957	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1660	Other	
+centroid_8086	DNA Metabolism	GO:0009307
+centroid_7997	Regulatory functions	GO:0006355
+centroid_2771	Other	
+centroid_6701	Other	
+centroid_6041	Other	
+centroid_2671	Transport & binding proteins	GO:0006810
+centroid_2508	Other	
+centroid_1131	Other	
+centroid_7103	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5146	Protein synthesis/fate	GO:0006508
+centroid_208	Other	
+centroid_1378	Other	
+centroid_4681	Other	
+centroid_3134	Other	
+centroid_5251	DNA Metabolism	GO:0006281
+centroid_236	Regulatory functions	GO:0006355
+centroid_3801	Other	
+centroid_8305	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3279	Transport & binding proteins	GO:0015696
+centroid_3388	Other	
+centroid_4283	Mobile & extrachromosomal element functions	GO:0004803
+centroid_20	Other	
+centroid_4788	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6229	Other	
+centroid_1900	Protein synthesis/fate	GO:0006508
+centroid_3378	Other	
+centroid_2568	Other	
+centroid_5052	Other	
+centroid_590	Other	
+centroid_1544	Transport & binding proteins	GO:0009401
+centroid_1385	Other	
+centroid_8131	Mobile & extrachromosomal element functions	GO:0004803
+centroid_633	Other	
+centroid_1325	Other	
+centroid_515	Other	
+centroid_6809	Protein synthesis/fate	GO:0006508
+centroid_4170	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6955	Regulatory functions	GO:0006355
+centroid_2226	Other	
+centroid_3670	Other	
+centroid_2297	Other	
+centroid_5731	Other	
+centroid_6711	Other	
+centroid_4866	Regulatory functions	GO:0006355
+centroid_2525	Other	
+centroid_1482	Other	
+centroid_5595	Other	
+centroid_1909	Energy Metabolism	GO:0006097
+centroid_2195	Energy Metabolism	GO:0009055
+centroid_8056	Other	
+centroid_2815	Other	
+centroid_977	Protein synthesis/fate	GO:0006457
+centroid_159	Other	
+centroid_7213	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3505	Transport & binding proteins	GO:0006812
+centroid_4244	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4946	Other	
+centroid_3245	Transport & binding proteins	GO:0006810
+centroid_165	Regulatory functions	GO:0006355
+centroid_683	Other	
+centroid_926	Transport & binding proteins	GO:0006810
+centroid_6917	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4214	Protein synthesis/fate	GO:0006508
+centroid_1754	Other	
+centroid_1280	Other	
+centroid_196	Other	
+centroid_2950	Transport & binding proteins	GO:0015693
+centroid_4608	Other	
+centroid_4063	Regulatory functions	GO:0006355
+centroid_3177	Other	
+centroid_5614	Other	
+centroid_1779	Transport & binding proteins	GO:0006810
+centroid_3211	Cellular processes	GO:0006950
+centroid_6048	Other	
+centroid_6635	Other	
+centroid_5639	Transport & binding proteins	GO:0006810
+centroid_2301	Other	
+centroid_6644	Other	
+centroid_5307	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2436	Other	
+centroid_3467	Transport & binding proteins	GO:0006810
+centroid_3208	Other	
+centroid_611	Other	
+centroid_1517	Protein synthesis/fate	GO:0006508
+centroid_2746	Other	
+centroid_3046	Transport & binding proteins	GO:0015031
+centroid_6824	Transport & binding proteins	GO:0015694
+centroid_5042	Other	
+centroid_5574	Other	
+centroid_3061	Other	
+centroid_2661	Other	
+centroid_3939	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4120	Other	
+centroid_7232	Other	
+centroid_5018	Regulatory functions	GO:0006355
+centroid_4924	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2072	Other	
+centroid_3648	Other	
+centroid_3797	Other	
+centroid_1312	Other	
+centroid_1224	Regulatory functions	GO:0006355
+centroid_82	Other	
+centroid_1095	Transport & binding proteins	GO:0006810
+centroid_3230	Other	
+centroid_7257	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2895	Other	
+centroid_4482	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3079	Transport & binding proteins	GO:0016887
+centroid_8267	Other	
+centroid_5153	Other	
+centroid_5245	Other	
+centroid_2065	Other	
+centroid_5686	Other	
+centroid_7253	Other	
+centroid_6723	Other	
+centroid_5121	Other	
+centroid_4891	Other	
+centroid_1525	DNA Metabolism	GO:0006281
+centroid_1311	Other	
+centroid_3010	Protein synthesis/fate	GO:0006418
+centroid_7711	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1318	Other	
+centroid_490	Other	
+centroid_1780	Other	
+centroid_1277	Energy Metabolism	GO:0009060
+centroid_1961	Other	
+centroid_3850	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3282	Transport & binding proteins	GO:0016887
+centroid_3002	Other	
+centroid_4145	Other	
+centroid_449	Transport & binding proteins	GO:0006810
+centroid_5372	Regulatory functions	GO:0006355
+centroid_2136	Regulatory functions	GO:0006355
+centroid_5379	Other	
+centroid_7094	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7122	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5815	Other	
+centroid_5989	Mobile & extrachromosomal element functions	GO:0004803
+centroid_902	Other	
+centroid_1193	Other	
+centroid_7811	Transport & binding proteins	GO:0006810
+centroid_730	Protein synthesis/fate	GO:0006412
+centroid_1789	Other	
+centroid_2626	Other	
+centroid_6799	Other	
+centroid_4122	Other	
+centroid_5119	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1016	Transport & binding proteins	GO:0016887
+centroid_88	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009231
+centroid_6241	Other	
+centroid_7450	Other	
+centroid_27	Other	
+centroid_125	Transport & binding proteins	GO:0006810
+centroid_4930	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6363	Other	
+centroid_2497	Other	
+centroid_1628	Regulatory functions	GO:0006355
+centroid_1886	DNA Metabolism	GO:0006281
+centroid_2715	Other	
+centroid_51	Transport & binding proteins	GO:0006810
+centroid_5126	Other	
+centroid_4535	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3917	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8311	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7879	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2218	Other	
+centroid_3159	Other	
+centroid_3458	Other	
+centroid_615	Transport & binding proteins	GO:0006810
+centroid_1793	Other	
+centroid_7317	Other	
+centroid_6199	Other	
+centroid_790	Other	
+centroid_101	Regulatory functions	GO:0006355
+centroid_4810	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1547	Other	
+centroid_1117	Other	
+centroid_1049	Other	
+centroid_392	Other	
+centroid_5299	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3269	Other	
+centroid_3097	Other	
+centroid_4578	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3188	Other	
+centroid_192	Other	
+centroid_1220	Regulatory functions	GO:0006355
+centroid_1598	Other	
+centroid_2665	Transport & binding proteins	GO:0015171
+centroid_1245	Central intermediary metabolism	GO:0006807
+centroid_1694	Other	
+centroid_1568	Other	
+centroid_1745	Regulatory functions	GO:0006355
+centroid_7887	Other	
+centroid_2864	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009435
+centroid_3037	Transport & binding proteins	GO:0006810
+centroid_7487	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3491	Other	
+centroid_8214	Other	
+centroid_3345	Transport & binding proteins	GO:0015078
+centroid_4778	Other	
+centroid_7700	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3071	Other	
+centroid_145	Other	
+centroid_2282	Regulatory functions	GO:0006355
+centroid_2919	Protein synthesis/fate	GO:0006412
+centroid_1284	Other	
+centroid_2317	Protein synthesis/fate	GO:0006418
+centroid_2870	Other	
+centroid_5605	Transport & binding proteins	GO:0006810
+centroid_7885	Other	
+centroid_5	Energy Metabolism	GO:0009055
+centroid_1394	Other	
+centroid_3144	Transport & binding proteins	GO:0006813
+centroid_891	Other	
+centroid_8246	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3422	Other	
+centroid_1085	Other	
+centroid_8142	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2926	Other	
+centroid_1898	Transport & binding proteins	GO:0006810
+centroid_2733	Other	
+centroid_2862	Other	
+centroid_7193	Other	
+centroid_3103	Cellular processes	GO:0006979
+centroid_8116	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4173	Mobile & extrachromosomal element functions	GO:0015074
+centroid_854	Transport & binding proteins	GO:0016887
+centroid_2740	Other	
+centroid_8084	Protein synthesis/fate	GO:0006508
+centroid_752	Other	
+centroid_937	Other	
+centroid_1145	Transport & binding proteins	GO:0016887
+centroid_3122	Protein synthesis/fate	GO:0006412
+centroid_5878	Other	
+centroid_98	Cell Envelope	GO:0008654
+centroid_892	Other	
+centroid_7351	Other	
+centroid_7634	Mobile & extrachromosomal element functions	GO:0015074
+centroid_19	Regulatory functions	GO:0006355
+centroid_1511	Transcription	GO:0009451
+centroid_2590	Protein synthesis/fate	GO:0006418
+centroid_5334	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1110	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_3170	Transport & binding proteins	GO:0015075
+centroid_6022	Other	
+centroid_1234	Other	
+centroid_1802	Other	
+centroid_7071	Other	
+centroid_4255	Other	
+centroid_8188	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2208	Other	
+centroid_325	Other	
+centroid_1905	Transport & binding proteins	GO:0006810
+centroid_2943	Other	
+centroid_2236	Other	
+centroid_3336	Cellular processes	GO:0006979
+centroid_2782	Regulatory functions	GO:0006355
+centroid_3354	Other	
+centroid_981	Energy Metabolism	GO:0006099
+centroid_109	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006750
+centroid_4919	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7963	Regulatory functions	GO:0006355
+centroid_5111	Mobile & extrachromosomal element functions	GO:0004803
+centroid_346	Energy Metabolism	GO:0006527
+centroid_405	Other	
+centroid_3272	Other	
+centroid_273	Transport & binding proteins	GO:0015171
+centroid_216	Other	
+centroid_1625	Other	
+centroid_44	Other	
+centroid_4886	Protein synthesis/fate	GO:0006508
+centroid_6712	Regulatory functions	GO:0006355
+centroid_4999	DNA Metabolism	GO:0006304
+centroid_2739	Other	
+centroid_729	Other	
+centroid_3989	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3201	Other	
+centroid_2312	Transport & binding proteins	GO:0016887
+centroid_8068	Other	
+centroid_1030	Regulatory functions	GO:0006355
+centroid_3479	Protein synthesis/fate	GO:0006508
+centroid_545	Transport & binding proteins	GO:0006810
+centroid_4419	Regulatory functions	GO:0006355
+centroid_2385	Other	
+centroid_1328	Other	
+centroid_7622	Regulatory functions	GO:0006355
+centroid_3292	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5906	Protein synthesis/fate	GO:0006412
+centroid_5310	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2026	Other	
+centroid_5165	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3719	Other	
+centroid_2849	Regulatory functions	GO:0006355
+centroid_676	Other	
+centroid_3426	Other	
+centroid_773	Other	
+centroid_1814	Transport & binding proteins	GO:0016887
+centroid_2057	Other	
+centroid_5059	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3239	Other	
+centroid_8152	Mobile & extrachromosomal element functions	GO:0015074
+centroid_8328	Transport & binding proteins	GO:0030001
+centroid_6348	Regulatory functions	GO:0006355
+centroid_2859	Other	
+centroid_3303	Other	
+centroid_8202	Other	
+centroid_7786	Other	
+centroid_2178	Other	
+centroid_419	Transport & binding proteins	GO:0015031
+centroid_1062	Other	
+centroid_2574	Other	
+centroid_1957	Other	
+centroid_1194	Other	
+centroid_3319	Other	
+centroid_1002	Other	
+centroid_1214	Other	
+centroid_5905	Other	
+centroid_1109	Other	
+centroid_5927	Regulatory functions	GO:0006355
+centroid_1879	Other	
+centroid_2709	Other	
+centroid_1703	Other	
+centroid_4786	Transport & binding proteins	GO:0006810
+centroid_570	Other	
+centroid_5547	DNA Metabolism	GO:0006304
+centroid_479	Other	
+centroid_4917	Mobile & extrachromosomal element functions	GO:0004803
+centroid_199	Other	
+centroid_2978	Transport & binding proteins	GO:0016887
+centroid_2856	Other	
+centroid_8049	Other	
+centroid_5168	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5083	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1770	Other	
+centroid_5131	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8181	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3882	Protein synthesis/fate	GO:0006508
+centroid_2876	Protein synthesis/fate	GO:0006508
+centroid_8168	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3031	Other	
+centroid_3442	Other	
+centroid_1356	Other	
+centroid_845	Other	
+centroid_7947	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4931	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1654	Other	
+centroid_4481	Mobile & extrachromosomal element functions	GO:0004803
+centroid_61	Regulatory functions	GO:0006355
+centroid_262	Transport & binding proteins	GO:0016887
+centroid_3729	Transport & binding proteins	GO:0016887
+centroid_335	Other	
+centroid_3970	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6623	Regulatory functions	GO:0006355
+centroid_5367	Other	
+centroid_2547	Other	
+centroid_162	Other	
+centroid_458	Other	
+centroid_1708	Regulatory functions	GO:0006355
+centroid_3116	Other	
+centroid_3874	Regulatory functions	GO:0006355
+centroid_327	Other	
+centroid_2097	Other	
+centroid_6845	Transport & binding proteins	GO:0006812
+centroid_5898	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3890	Other	
+centroid_2800	Protein synthesis/fate	GO:0006418
+centroid_7453	Other	
+centroid_2914	Other	
+centroid_1849	Other	
+centroid_7781	Other	
+centroid_3228	Other	
+centroid_1971	Other	
+centroid_4651	Mobile & extrachromosomal element functions	GO:0004803
+centroid_132	Cell Envelope	GO:0017004
+centroid_2531	Transport & binding proteins	GO:0006810
+centroid_5441	Other	
+centroid_7559	Protein synthesis/fate	GO:0006508
+centroid_95	Other	
+centroid_2646	Other	
+centroid_1092	Other	
+centroid_7803	Other	
+centroid_585	Other	
+centroid_309	Transport & binding proteins	GO:0008565
+centroid_3385	Other	
+centroid_6672	Transport & binding proteins	GO:0006810
+centroid_2087	Other	
+centroid_459	Other	
+centroid_789	Other	
+centroid_1981	Other	
+centroid_5748	Other	
+centroid_4659	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2428	Other	
+centroid_7707	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4004	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7736	DNA Metabolism	GO:0006304
+centroid_6239	Other	
+centroid_3310	Other	
+centroid_5394	Cellular processes	GO:0009405
+centroid_1730	Other	
+centroid_3868	Regulatory functions	GO:0006355
+centroid_2652	Transport & binding proteins	GO:0015293
+centroid_2617	Other	
+centroid_641	Cellular processes	GO:0006950
+centroid_3125	Other	
+centroid_2844	Other	
+centroid_5174	Other	
+centroid_7068	Other	
+centroid_1805	Other	
+centroid_2474	Other	
+centroid_704	Other	
+centroid_4564	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5242	Transport & binding proteins	GO:0016887
+centroid_2076	Transport & binding proteins	GO:0006865
+centroid_1638	Regulatory functions	GO:0006355
+centroid_2999	Other	
+centroid_7264	Other	
+centroid_947	Other	
+centroid_5222	Other	
+centroid_875	Transport & binding proteins	GO:0006810
+centroid_397	Other	
+centroid_2610	Other	
+centroid_3722	Regulatory functions	GO:0006355
+centroid_1578	Transport & binding proteins	GO:0006813
+centroid_2869	Other	
+centroid_6835	Other	
+centroid_2093	Regulatory functions	GO:0006355
+centroid_1354	Transport & binding proteins	GO:0006810
+centroid_8148	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3357	Other	
+centroid_4560	Other	
+centroid_469	Other	
+centroid_240	Regulatory functions	GO:0006355
+centroid_6228	Other	
+centroid_2349	Other	
+centroid_7465	Other	
+centroid_243	Other	
+centroid_1149	Regulatory functions	GO:0006355
+centroid_3192	Regulatory functions	GO:0006355
+centroid_2075	Other	
+centroid_1585	Other	
+centroid_1824	Other	
+centroid_375	Other	
+centroid_7715	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4741	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1492	Other	
+centroid_2015	Other	
+centroid_837	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1551	Other	
+centroid_6317	Other	
+centroid_959	Other	
+centroid_669	Other	
+centroid_3266	Regulatory functions	GO:0006355
+centroid_1066	Transport & binding proteins	GO:0016887
+centroid_8183	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7941	Regulatory functions	GO:0003916
+centroid_4729	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7615	Mobile & extrachromosomal element functions	GO:0015074
+centroid_963	Other	
+centroid_3737	Other	
+centroid_420	Protein synthesis/fate	GO:0006412
+centroid_6694	Other	
+centroid_4424	Other	
+centroid_4722	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4280	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4644	Regulatory functions	GO:0003916
+centroid_68	Other	
+centroid_1489	Other	
+centroid_6201	Other	
+centroid_3180	Other	
+centroid_7874	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1772	Other	
+centroid_169	Other	
+centroid_37	Regulatory functions	GO:0006355
+centroid_2037	Transport & binding proteins	GO:0006810
+centroid_4012	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4901	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3472	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009231
+centroid_713	Other	
+centroid_2979	Transport & binding proteins	GO:0006810
+centroid_1209	Other	
+centroid_1762	Regulatory functions	GO:0006355
+centroid_7696	Other	
+centroid_3641	Protein synthesis/fate	GO:0006508
+centroid_4392	Other	
+centroid_5643	Regulatory functions	GO:0006355
+centroid_988	Transport & binding proteins	GO:0015293
+centroid_2521	Other	
+centroid_1079	Other	
+centroid_8076	Transport & binding proteins	GO:0006810
+centroid_247	Other	
+centroid_1150	Other	
+centroid_7550	Regulatory functions	GO:0006355
+centroid_2933	Other	
+centroid_6778	Other	
+centroid_2186	Transport & binding proteins	GO:0006810
+centroid_4909	Transport & binding proteins	GO:0006810
+centroid_1874	Other	
+centroid_1950	Other	
+centroid_4331	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3126	Other	
+centroid_2191	Other	
+centroid_8179	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5141	Mobile & extrachromosomal element functions	GO:0004803
+centroid_619	Other	
+centroid_785	Other	
+centroid_24	Regulatory functions	GO:0006355
+centroid_2753	Other	
+centroid_1507	Energy Metabolism	GO:0006520
+centroid_2868	Transport & binding proteins	GO:0006812
+centroid_3249	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009228
+centroid_1839	Other	
+centroid_5261	Other	
+centroid_2669	Other	
+centroid_4966	Other	
+centroid_7930	Mobile & extrachromosomal element functions	GO:0015074
+centroid_435	Protein synthesis/fate	GO:0006508
+centroid_1258	Purines, pyrimidines, nucleosides, & nucleotides	GO:0006164
+centroid_3311	Other	
+centroid_1782	Other	
+centroid_1485	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006777
+centroid_7208	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5373	Other	
+centroid_5805	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7225	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4228	Other	
+centroid_8233	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8376	Other	
+centroid_445	Other	
+centroid_5348	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7815	Other	
+centroid_3637	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5847	Other	
+centroid_6684	Other	
+centroid_2956	Other	
+centroid_6705	Energy Metabolism	GO:0006096
+centroid_3925	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3464	Transport & binding proteins	GO:0006810
+centroid_8259	DNA Metabolism	GO:0006304
+centroid_2702	Other	
+centroid_1067	Other	
+centroid_3967	Other	
+centroid_4229	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1136	Protein synthesis/fate	GO:0006508
+centroid_7944	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2890	Other	
+centroid_2446	Other	
+centroid_55	Other	
+centroid_3787	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8112	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1374	Cellular processes	GO:0006950
+centroid_3021	Other	
+centroid_5324	Other	
+centroid_2714	Other	
+centroid_5591	Other	
+centroid_4511	Other	
+centroid_5362	Other	
+centroid_595	Regulatory functions	GO:0006355
+centroid_738	Transport & binding proteins	GO:0015171
+centroid_5632	Protein synthesis/fate	GO:0006508
+centroid_2534	Other	
+centroid_3181	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0015937
+centroid_3718	Other	
+centroid_493	Protein synthesis/fate	GO:0006508
+centroid_3593	Other	
+centroid_6785	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5143	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8350	Transport & binding proteins	GO:0015171
+centroid_2027	Other	
+centroid_7905	Other	
+centroid_718	Other	
+centroid_946	Other	
+centroid_2484	Other	
+centroid_3065	Protein synthesis/fate	GO:0006412
+centroid_874	Transport & binding proteins	GO:0006810
+centroid_4079	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7652	Mobile & extrachromosomal element functions	GO:0015074
+centroid_781	Other	
+centroid_5578	Other	
+centroid_8327	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006750
+centroid_3333	Other	
+centroid_3024	Other	
+centroid_8192	Mobile & extrachromosomal element functions	GO:0015074
+centroid_982	Transcription	GO:0009451
+centroid_122	Other	
+centroid_1819	Other	
+centroid_8250	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5722	Transport & binding proteins	GO:0016887
+centroid_944	DNA Metabolism	GO:0006310
+centroid_5540	Other	
+centroid_6678	Other	
+centroid_1028	Other	
+centroid_1257	Other	
+centroid_2658	Transport & binding proteins	GO:0006810
+centroid_2293	Other	
+centroid_4049	Other	
+centroid_4550	Other	
+centroid_5314	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7234	Other	
+centroid_1715	Other	
+centroid_2043	Transport & binding proteins	GO:0005215
+centroid_2730	Energy Metabolism	GO:0009055
+centroid_857	Protein synthesis/fate	GO:0006508
+centroid_2334	Other	
+centroid_1290	Regulatory functions	GO:0006355
+centroid_6285	Mobile & extrachromosomal element functions	GO:0015074
+centroid_374	Other	
+centroid_5356	Protein synthesis/fate	GO:0006508
+centroid_921	Other	
+centroid_3983	Mobile & extrachromosomal element functions	GO:0004803
+centroid_989	Other	
+centroid_2578	Central intermediary metabolism	GO:0006807
+centroid_1010	Regulatory functions	GO:0006355
+centroid_464	Other	
+centroid_6828	Other	
+centroid_4790	Mobile & extrachromosomal element functions	GO:0004803
+centroid_598	Other	
+centroid_1716	Other	
+centroid_749	Other	
+centroid_5070	Other	
+centroid_1270	Other	
+centroid_832	Transport & binding proteins	GO:0015171
+centroid_4548	Mobile & extrachromosomal element functions	GO:0004803
+centroid_322	Transcription	GO:0009451
+centroid_1315	Energy Metabolism	GO:0006099
+centroid_2498	Regulatory functions	GO:0006355
+centroid_5282	Other	
+centroid_1593	Other	
+centroid_4593	Other	
+centroid_1044	Other	
+centroid_2560	Other	
+centroid_2309	Other	
+centroid_7302	Regulatory functions	GO:0006355
+centroid_282	Cell Envelope	GO:0009252
+centroid_94	Other	
+centroid_1345	Other	
+centroid_2987	Other	
+centroid_5397	Regulatory functions	GO:0006355
+centroid_2276	Transport & binding proteins	GO:0006821
+centroid_2117	Other	
+centroid_79	Transport & binding proteins	GO:0006865
+centroid_2511	Other	
+centroid_5524	Other	
+centroid_5461	Mobile & extrachromosomal element functions	GO:0015074
+centroid_8172	Mobile & extrachromosomal element functions	GO:0015074
+centroid_8343	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7996	Other	
+centroid_3285	Cellular processes	GO:0006950
+centroid_5584	Other	
+centroid_1329	Other	
+centroid_5065	Other	
+centroid_1089	Other	
+centroid_5214	DNA Metabolism	GO:0006304
+centroid_4604	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4862	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8101	DNA Metabolism	GO:0006304
+centroid_6271	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5175	Cellular processes	GO:0009405
+centroid_3469	Other	
+centroid_6713	Other	
+centroid_580	Other	
+centroid_7623	Mobile & extrachromosomal element functions	GO:0004803
+centroid_645	Protein synthesis/fate	GO:0006418
+centroid_1540	Cellular processes	GO:0006950
+centroid_1288	Other	
+centroid_798	Other	
+centroid_4287	Other	
+centroid_1534	Transport & binding proteins	GO:0015171
+centroid_1306	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_608	Other	
+centroid_155	Other	
+centroid_6349	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4203	DNA Metabolism	GO:0006304
+centroid_4655	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_2359	Other	
+centroid_7927	Other	
+centroid_2214	Energy Metabolism	GO:0010124
+centroid_4616	Regulatory functions	GO:0006355
+centroid_3030	Other	
+centroid_1934	Mobile & extrachromosomal element functions	GO:0006323
+centroid_7474	Regulatory functions	GO:0006355
+centroid_4367	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7683	Other	
+centroid_826	Other	
+centroid_7729	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2207	Other	
+centroid_1099	Protein synthesis/fate	GO:0006508
+centroid_912	Other	
+centroid_2887	Other	
+centroid_7755	Other	
+centroid_8187	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3784	Other	
+centroid_2855	Regulatory functions	GO:0006355
+centroid_362	Other	
+centroid_2660	Other	
+centroid_3961	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2355	Fatty acid & phospholipid metabolism	GO:0006633
+centroid_2391	DNA Metabolism	GO:0006281
+centroid_383	Other	
+centroid_7628	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5359	Other	
+centroid_1076	Other	
+centroid_5557	Regulatory functions	GO:0006306
+centroid_1114	Other	
+centroid_1199	Other	
+centroid_3062	Other	
+centroid_1642	Other	
+centroid_4821	Other	
+centroid_1719	Other	
+centroid_129	Other	
+centroid_4878	Other	
+centroid_15	Other	
+centroid_1140	Other	
+centroid_1248	Other	
+centroid_6685	Other	
+centroid_1295	Other	
+centroid_4284	Mobile & extrachromosomal element functions	GO:0015074
+centroid_968	Other	
+centroid_3330	Other	
+centroid_4963	Other	
+centroid_1620	Regulatory functions	GO:0006355
+centroid_171	Other	
+centroid_2330	Transport & binding proteins	GO:0006865
+centroid_5743	Transport & binding proteins	GO:0015694
+centroid_1473	Other	
+centroid_5384	Regulatory functions	GO:0006355
+centroid_2632	Other	
+centroid_1698	Other	
+centroid_4711	Other	
+centroid_3259	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4538	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1389	Other	
+centroid_5902	Other	
+centroid_4983	Other	
+centroid_1476	DNA Metabolism	GO:0006281
+centroid_343	Transport & binding proteins	GO:0015171
+centroid_2543	Transport & binding proteins	GO:0006865
+centroid_1190	Other	
+centroid_3475	Protein synthesis/fate	GO:0006457
+centroid_7976	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7382	Other	
+centroid_4684	Other	
+centroid_58	Transport & binding proteins	GO:0006855
+centroid_1381	Transport & binding proteins	GO:0006865
+centroid_3483	Regulatory functions	GO:0006355
+centroid_4574	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7717	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1	Transport & binding proteins	GO:0016887
+centroid_4251	Other	
+centroid_424	Other	
+centroid_6662	Other	
+centroid_7974	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1854	Other	
+centroid_267	Other	
+centroid_3612	DNA Metabolism	GO:0006310
+centroid_8209	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4803	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4768	DNA Metabolism	GO:0006304
+centroid_2108	Other	
+centroid_8331	Other	
+centroid_142	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006750
+centroid_484	Other	
+centroid_1852	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009236
+centroid_6054	Other	
+centroid_4415	Other	
+centroid_2582	Regulatory functions	GO:0006355
+centroid_2565	Other	
+centroid_5598	Transport & binding proteins	GO:0015833
+centroid_7408	Other	
+centroid_2479	Transport & binding proteins	GO:0006810
+centroid_4430	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4262	Other	
+centroid_4326	Other	
+centroid_4730	Other	
+centroid_7638	Regulatory functions	GO:0006355
+centroid_5049	Other	
+centroid_4755	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6643	Other	
+centroid_688	Other	
+centroid_694	Other	
+centroid_3312	DNA Metabolism	GO:0006281
+centroid_2974	Protein synthesis/fate	GO:0006418
+centroid_1146	Other	
+centroid_2173	Other	
+centroid_8092	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3861	Regulatory functions	GO:0006355
+centroid_3174	Other	
+centroid_4486	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4641	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2381	Protein synthesis/fate	GO:0006508
+centroid_6668	Regulatory functions	GO:0006355
+centroid_5005	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2907	Other	
+centroid_8239	Other	
+centroid_793	Other	
+centroid_3666	Other	
+centroid_4219	Protein synthesis/fate	GO:0006508
+centroid_3686	Other	
+centroid_7897	Mobile & extrachromosomal element functions	GO:0004803
+centroid_622	Transport & binding proteins	GO:0008565
+centroid_2174	Other	
+centroid_2811	Other	
+centroid_2182	Transport & binding proteins	GO:0006865
+centroid_2705	Other	
+centroid_1510	Regulatory functions	GO:0006355
+centroid_1723	Regulatory functions	GO:0006355
+centroid_582	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_486	Other	
+centroid_2833	Other	
+centroid_2462	Other	
+centroid_1659	Other	
+centroid_8263	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4701	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8008	Other	
+centroid_6146	Other	
+centroid_1202	Protein synthesis/fate	GO:0006412
+centroid_4382	Other	
+centroid_8336	Other	
+centroid_3998	Mobile & extrachromosomal element functions	GO:0004803
+centroid_842	Transport & binding proteins	GO:0006810
+centroid_2608	Other	
+centroid_232	Other	
+centroid_3873	Other	
+centroid_8222	Other	
+centroid_3732	Other	
+centroid_2149	Other	
+centroid_5164	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1106	Other	
+centroid_291	Transport & binding proteins	GO:0016887
+centroid_3001	Other	
+centroid_759	Protein synthesis/fate	GO:0006418
+centroid_1339	Energy Metabolism	GO:0006520
+centroid_1704	Regulatory functions	GO:0006355
+centroid_560	Other	
+centroid_8395	DNA Metabolism	GO:0006304
+centroid_1977	Transport & binding proteins	GO:0008565
+centroid_6447	Regulatory functions	GO:0006306
+centroid_4690	Other	
+centroid_879	DNA Metabolism	GO:0006310
+centroid_3591	Transport & binding proteins	GO:0015684
+centroid_349	Other	
+centroid_2048	Other	
+centroid_6000	Other	
+centroid_2130	Regulatory functions	GO:0006355
+centroid_4889	Other	
+centroid_7886	Transport & binding proteins	GO:0006810
+centroid_3387	Other	
+centroid_281	Other	
+centroid_2150	Regulatory functions	GO:0006355
+centroid_5860	Other	
+centroid_2137	Other	
+centroid_2227	Other	
+centroid_4016	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3294	Transport & binding proteins	GO:0016887
+centroid_2079	Other	
+centroid_8063	Other	
+centroid_251	Other	
+centroid_5600	Regulatory functions	GO:0006355
+centroid_1005	Regulatory functions	GO:0006355
+centroid_1794	Energy Metabolism	GO:0006520
+centroid_1305	Transport & binding proteins	GO:0006813
+centroid_2911	Other	
+centroid_6240	Other	
+centroid_4007	Other	
+centroid_3714	Other	
+centroid_1039	Other	
+centroid_1607	Other	
+centroid_244	Other	
+centroid_2229	Regulatory functions	GO:0006355
+centroid_2647	Cellular processes	GO:0042710
+centroid_2814	Regulatory functions	GO:0006355
+centroid_626	Transport & binding proteins	GO:0015171
+centroid_1750	Other	
+centroid_455	Other	
+centroid_465	Other	
+centroid_4421	Other	
+centroid_2775	Central intermediary metabolism	GO:0005992
+centroid_831	Protein synthesis/fate	GO:0006508
+centroid_4258	Other	
+centroid_3251	Other	
+centroid_3694	Other	
+centroid_8072	Other	
+centroid_1539	Other	
+centroid_3015	Other	
+centroid_897	Transport & binding proteins	GO:0006810
+centroid_1231	Transport & binding proteins	GO:0006810
+centroid_4884	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8180	Mobile & extrachromosomal element functions	GO:0004803
+centroid_757	Other	
+centroid_357	Protein synthesis/fate	GO:0006508
+centroid_3704	Regulatory functions	GO:0006355
+centroid_1676	Other	
+centroid_7278	Other	
+centroid_884	Regulatory functions	GO:0006355
+centroid_4445	Other	
+centroid_7670	Other	
+centroid_414	Protein synthesis/fate	GO:0006412
+centroid_1891	Other	
+centroid_4554	Other	
+centroid_3508	Other	
+centroid_4587	Other	
+centroid_733	Protein synthesis/fate	GO:0006418
+centroid_1187	Other	
+centroid_4054	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_5610	Transport & binding proteins	GO:0006810
+centroid_5950	Other	
+centroid_3643	Other	
+centroid_1866	Other	
+centroid_3353	Other	
+centroid_2344	Regulatory functions	GO:0006355
+centroid_5611	Transport & binding proteins	GO:0006810
+centroid_1159	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009228
+centroid_1748	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_6651	Other	
+centroid_7411	DNA Metabolism	GO:0006310
+centroid_3769	Other	
+centroid_995	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009228
+centroid_1734	Other	
+centroid_6298	Regulatory functions	GO:0006306
+centroid_2466	Protein synthesis/fate	GO:0006508
+centroid_1168	Other	
+centroid_2305	Other	
+centroid_829	Protein synthesis/fate	GO:0006418
+centroid_3757	Other	
+centroid_6235	Other	
+centroid_7398	DNA Metabolism	GO:0006310
+centroid_8227	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2354	Transport & binding proteins	GO:0006810
+centroid_8036	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2002	Regulatory functions	GO:0006355
+centroid_8369	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0015937
+centroid_6786	Protein synthesis/fate	GO:0006508
+centroid_6017	Other	
+centroid_4624	Transport & binding proteins	GO:0016887
+centroid_886	Other	
+centroid_583	Regulatory functions	GO:0006355
+centroid_526	Transport & binding proteins	GO:0015684
+centroid_4308	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1154	Transport & binding proteins	GO:0006810
+centroid_4813	Other	
+centroid_7719	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3231	Other	
+centroid_6461	Other	
+centroid_1254	Transport & binding proteins	GO:0006810
+centroid_3070	Other	
+centroid_3227	Other	
+centroid_326	Other	
+centroid_5741	Protein synthesis/fate	GO:0006508
+centroid_2496	Energy Metabolism	GO:0006527
+centroid_1889	Other	
+centroid_1481	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_2143	Regulatory functions	GO:0006355
+centroid_3455	Other	
+centroid_7893	Regulatory functions	GO:0006306
+centroid_3240	Other	
+centroid_7814	Other	
+centroid_4717	Other	
+centroid_1526	Other	
+centroid_83	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0008299
+centroid_4275	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1611	Other	
+centroid_8322	Other	
+centroid_1046	Other	
+centroid_1778	Energy Metabolism	GO:0006099
+centroid_1177	Regulatory functions	GO:0006355
+centroid_7744	Transport & binding proteins	GO:0016887
+centroid_2329	Regulatory functions	GO:0006355
+centroid_2210	Energy Metabolism	GO:0009055
+centroid_5998	Transport & binding proteins	GO:0016887
+centroid_2212	Energy Metabolism	GO:0010124
+centroid_2603	Other	
+centroid_637	Other	
+centroid_110	Other	
+centroid_7121	Other	
+centroid_5190	Energy Metabolism	GO:0009055
+centroid_7119	Energy Metabolism	GO:0006520
+centroid_1873	Regulatory functions	GO:0006355
+centroid_5098	Other	
+centroid_4003	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8304	Other	
+centroid_4286	Transport & binding proteins	GO:0006810
+centroid_2826	Other	
+centroid_1755	Regulatory functions	GO:0006355
+centroid_7410	Regulatory functions	GO:0006355
+centroid_5118	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5814	Other	
+centroid_1244	Other	
+centroid_2478	Other	
+centroid_1285	Cellular processes	GO:0042710
+centroid_799	Transport & binding proteins	GO:0006810
+centroid_7873	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8178	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4572	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4881	Transport & binding proteins	GO:0015689
+centroid_696	Transport & binding proteins	GO:0015171
+centroid_1247	Other	
+centroid_3392	Transport & binding proteins	GO:0015171
+centroid_2861	Regulatory functions	GO:0006355
+centroid_5086	Other	
+centroid_1608	Other	
+centroid_3189	Other	
+centroid_820	Other	
+centroid_3616	Other	
+centroid_5130	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7488	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7269	Other	
+centroid_1204	Other	
+centroid_4929	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1744	Protein synthesis/fate	GO:0006508
+centroid_4699	Other	
+centroid_3291	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3342	Transport & binding proteins	GO:0015992
+centroid_3421	Other	
+centroid_5581	Other	
+centroid_1695	Regulatory functions	GO:0006355
+centroid_649	Other	
+centroid_1096	Central intermediary metabolism	GO:0006807
+centroid_4	Other	
+centroid_1601	Cellular processes	GO:0007049
+centroid_2602	Transport & binding proteins	GO:0016887
+centroid_65	Transport & binding proteins	GO:0015171
+centroid_2475	Other	
+centroid_2769	Transcription	GO:0009451
+centroid_2316	Other	
+centroid_1393	Fatty acid & phospholipid metabolism	GO:0006633
+centroid_5494	Other	
+centroid_1221	Other	
+centroid_104	Transport & binding proteins	GO:0006855
+centroid_753	Energy Metabolism	GO:0009055
+centroid_8340	Regulatory functions	GO:0006355
+centroid_614	Other	
+centroid_7909	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2909	Fatty acid & phospholipid metabolism	GO:0006633
+centroid_2925	Protein synthesis/fate	GO:0006418
+centroid_6246	Other	
+centroid_8105	Other	
+centroid_2517	Other	
+centroid_200	Other	
+centroid_1370	Transport & binding proteins	GO:0006810
+centroid_8094	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4779	Other	
+centroid_2311	Transport & binding proteins	GO:0006810
+centroid_7697	Other	
+centroid_1897	Transport & binding proteins	GO:0015833
+centroid_276	Transport & binding proteins	GO:0006810
+centroid_2077	Regulatory functions	GO:0006355
+centroid_8243	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4854	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7958	Other	
+centroid_1380	Regulatory functions	GO:0006355
+centroid_5166	Other	
+centroid_929	Transport & binding proteins	GO:0006810
+centroid_4638	Mobile & extrachromosomal element functions	GO:0004803
+centroid_836	Transport & binding proteins	GO:0006865
+centroid_105	Other	
+centroid_3780	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5306	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6676	Other	
+centroid_3756	Other	
+centroid_3169	Transport & binding proteins	GO:0006812
+centroid_3375	Other	
+centroid_1503	Other	
+centroid_668	Other	
+centroid_268	Transport & binding proteins	GO:0006810
+centroid_2569	Regulatory functions	GO:0006306
+centroid_191	Other	
+centroid_5592	Other	
+centroid_4612	Other	
+centroid_516	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_2148	Transport & binding proteins	GO:0006810
+centroid_5573	Other	
+centroid_209	Regulatory functions	GO:0006355
+centroid_1633	Other	
+centroid_8355	Transport & binding proteins	GO:0016887
+centroid_3379	Other	
+centroid_1543	Regulatory functions	GO:0006355
+centroid_2092	Other	
+centroid_4808	Mobile & extrachromosomal element functions	GO:0015074
+centroid_8383	Other	
+centroid_7593	Other	
+centroid_3178	Transport & binding proteins	GO:0006810
+centroid_8069	Other	
+centroid_3927	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8296	Other	
+centroid_8330	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3908	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2784	Protein synthesis/fate	GO:0006464
+centroid_5508	Other	
+centroid_1379	Transport & binding proteins	GO:0042919
+centroid_1281	Other	
+centroid_7494	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7902	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4447	Other	
+centroid_7482	Regulatory functions	GO:0006355
+centroid_632	Other	
+centroid_4468	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1219	Transport & binding proteins	GO:0006865
+centroid_1324	Transcription	GO:0009451
+centroid_2779	DNA Metabolism	GO:0006281
+centroid_5829	Mobile & extrachromosomal element functions	GO:0006323
+centroid_6956	Other	
+centroid_2036	Other	
+centroid_524	Transport & binding proteins	GO:0006810
+centroid_8028	Other	
+centroid_4267	Other	
+centroid_8070	Other	
+centroid_5137	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1967	Other	
+centroid_5945	Other	
+centroid_1990	Other	
+centroid_7019	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2921	Other	
+centroid_295	Other	
+centroid_2537	Protein synthesis/fate	GO:0006508
+centroid_4298	Transport & binding proteins	GO:0006810
+centroid_1979	Other	
+centroid_7992	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3222	Other	
+centroid_1166	Other	
+centroid_2662	Energy Metabolism	GO:0006099
+centroid_7354	Regulatory functions	GO:0003916
+centroid_1293	Other	
+centroid_2458	Other	
+centroid_8190	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2645	Other	
+centroid_1302	Other	
+centroid_999	Other	
+centroid_477	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0008615
+centroid_4938	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2597	Other	
+centroid_2563	Other	
+centroid_3034	Transport & binding proteins	GO:0016887
+centroid_5440	Other	
+centroid_750	Other	
+centroid_2377	Other	
+centroid_460	Cell Envelope	GO:0008654
+centroid_594	Other	
+centroid_3418	Other	
+centroid_6358	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6850	Protein synthesis/fate	GO:0006508
+centroid_3060	Transport & binding proteins	GO:0006810
+centroid_6700	Regulatory functions	GO:0006355
+centroid_321	Protein synthesis/fate	GO:0006457
+centroid_1274	Other	
+centroid_2747	Other	
+centroid_8136	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3466	Other	
+centroid_3094	Other	
+centroid_3150	Other	
+centroid_2728	Central intermediary metabolism	GO:0006807
+centroid_1268	Other	
+centroid_5019	Other	
+centroid_8184	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8275	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7708	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2899	Regulatory functions	GO:0006355
+centroid_5115	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7948	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1972	Other	
+centroid_1775	Regulatory functions	GO:0006355
+centroid_6816	Other	
+centroid_2839	Other	
+centroid_3728	DNA Metabolism	GO:0006304
+centroid_3090	Regulatory functions	GO:0006355
+centroid_161	Other	
+centroid_2361	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_7733	Other	
+centroid_3265	Regulatory functions	GO:0006355
+centroid_652	Other	
+centroid_8229	Mobile & extrachromosomal element functions	GO:0015074
+centroid_376	Transport & binding proteins	GO:0016887
+centroid_2958	Other	
+centroid_8224	Other	
+centroid_5730	Cellular processes	GO:0009405
+centroid_3027	Other	
+centroid_2175	Other	
+centroid_1120	Protein synthesis/fate	GO:0006412
+centroid_4902	Other	
+centroid_8182	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5060	Other	
+centroid_5690	Transport & binding proteins	GO:0015031
+centroid_4544	Other	
+centroid_6640	DNA Metabolism	GO:0006304
+centroid_554	Other	
+centroid_5172	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2967	Other	
+centroid_1800	Other	
+centroid_1764	Transport & binding proteins	GO:0015128
+centroid_4565	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2913	Other	
+centroid_6233	Transport & binding proteins	GO:0008643
+centroid_1984	Cell Envelope	GO:0009245
+centroid_3162	Other	
+centroid_3954	Transport & binding proteins	GO:0016887
+centroid_2750	Purines, pyrimidines, nucleosides, & nucleotides	GO:0009165
+centroid_2805	Other	
+centroid_71	Other	
+centroid_4600	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5609	Transport & binding proteins	GO:0006810
+centroid_872	Transport & binding proteins	GO:0015031
+centroid_703	Other	
+centroid_4734	Other	
+centroid_6355	Other	
+centroid_2968	Other	
+centroid_2168	Regulatory functions	GO:0006355
+centroid_1586	Transport & binding proteins	GO:0016887
+centroid_5064	Other	
+centroid_7577	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8231	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3089	Transcription	GO:0009451
+centroid_7952	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1091	Transport & binding proteins	GO:0006810
+centroid_3413	Other	
+centroid_6563	Mobile & extrachromosomal element functions	GO:0009291
+centroid_3401	Transcription	GO:0009451
+centroid_1846	Other	
+centroid_7222	Other	
+centroid_7227	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6836	Other	
+centroid_3838	Other	
+centroid_6204	Regulatory functions	GO:0006355
+centroid_1647	Other	
+centroid_964	Other	
+centroid_5393	Other	
+centroid_187	Other	
+centroid_8315	Mobile & extrachromosomal element functions	GO:0015074
+centroid_436	Other	
+centroid_4354	Other	
+centroid_1097	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006744
+centroid_8060	Other	
+centroid_3214	Other	
+centroid_2291	Regulatory functions	GO:0006355
+centroid_920	Other	
+centroid_3145	Protein synthesis/fate	GO:0006457
+centroid_237	Fatty acid & phospholipid metabolism	GO:0006633
+centroid_7942	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1065	Transport & binding proteins	GO:0005215
+centroid_5629	Protein synthesis/fate	GO:0006508
+centroid_5739	Regulatory functions	GO:0006355
+centroid_3055	Purines, pyrimidines, nucleosides, & nucleotides	GO:0009165
+centroid_6860	Other	
+centroid_2843	Other	
+centroid_5134	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1514	Cell Envelope	GO:0009252
+centroid_4015	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3234	Regulatory functions	GO:0006355
+centroid_4225	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1709	Other	
+centroid_3117	Other	
+centroid_3351	Transport & binding proteins	GO:0005215
+centroid_3470	Other	
+centroid_1073	Other	
+centroid_441	Other	
+centroid_5477	Other	
+centroid_1491	Regulatory functions	GO:0006355
+centroid_1577	Transport & binding proteins	GO:0006812
+centroid_4254	Other	
+centroid_2271	Other	
+centroid_6407	DNA Metabolism	GO:0006304
+centroid_7466	Other	
+centroid_4561	Other	
+centroid_6938	Other	
+centroid_4672	Other	
+centroid_1803	Other	
+centroid_1343	Regulatory functions	GO:0006355
+centroid_1840	Other	
+centroid_5002	DNA Metabolism	GO:0006304
+centroid_5399	Other	
+centroid_1031	Protein synthesis/fate	GO:0006508
+centroid_3683	Cell Envelope	GO:0009245
+centroid_4180	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2006	Transport & binding proteins	GO:0006810
+centroid_1991	Other	
+centroid_917	Other	
+centroid_778	Other	
+centroid_7561	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3981	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3503	Other	
+centroid_2942	Other	
+centroid_2302	Other	
+centroid_3677	Other	
+centroid_767	DNA Metabolism	GO:0006281
+centroid_5250	Other	
+centroid_1626	Transport & binding proteins	GO:0006810
+centroid_2123	Other	
+centroid_5364	Other	
+centroid_774	Other	
+centroid_471	Other	
+centroid_4190	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1327	Transcription	GO:0009451
+centroid_3356	Other	
+centroid_5056	Other	
+centroid_708	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_404	Protein synthesis/fate	GO:0006412
+centroid_7799	Other	
+centroid_3425	Transport & binding proteins	GO:0015727
+centroid_3478	Protein synthesis/fate	GO:0006457
+centroid_1736	Other	
+centroid_3896	Other	
+centroid_1009	Other	
+centroid_1348	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009228
+centroid_1728	Transport & binding proteins	GO:0006810
+centroid_2235	Other	
+centroid_1132	Other	
+centroid_170	Other	
+centroid_1630	Other	
+centroid_1904	Transport & binding proteins	GO:0006810
+centroid_1862	Other	
+centroid_4057	Other	
+centroid_2223	Other	
+centroid_4418	Other	
+centroid_7367	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5241	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009236
+centroid_1997	Energy Metabolism	GO:0006096
+centroid_4861	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2822	Other	
+centroid_452	Transcription	GO:0009451
+centroid_2499	Other	
+centroid_2989	Other	
+centroid_684	Other	
+centroid_4713	Other	
+centroid_2625	Regulatory functions	GO:0006355
+centroid_5621	Other	
+centroid_180	Transport & binding proteins	GO:0006810
+centroid_2575	Other	
+centroid_8171	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3858	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5057	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1118	Other	
+centroid_5907	Protein synthesis/fate	GO:0006412
+centroid_7572	Other	
+centroid_2772	Other	
+centroid_2635	Other	
+centroid_1711	Transport & binding proteins	GO:0005215
+centroid_2587	Other	
+centroid_2179	Regulatory functions	GO:0006355
+centroid_3988	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7142	Other	
+centroid_5012	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2490	Regulatory functions	GO:0006355
+centroid_2972	Other	
+centroid_8365	DNA Metabolism	GO:0006304
+centroid_7091	Regulatory functions	GO:0006355
+centroid_3297	Other	
+centroid_2372	Regulatory functions	GO:0006306
+centroid_3590	Other	
+centroid_3471	Other	
+centroid_818	Other	
+centroid_4787	Transport & binding proteins	GO:0006810
+centroid_5685	Other	
+centroid_2875	Protein synthesis/fate	GO:0006508
+centroid_1053	Regulatory functions	GO:0006355
+centroid_3742	Regulatory functions	GO:0006355
+centroid_2104	Transport & binding proteins	GO:0016887
+centroid_7747	Transport & binding proteins	GO:0016887
+centroid_1416	Other	
+centroid_3692	Other	
+centroid_1994	Other	
+centroid_5332	DNA Metabolism	GO:0006310
+centroid_2693	Other	
+centroid_8300	Mobile & extrachromosomal element functions	GO:0004803
+centroid_348	Other	
+centroid_2634	Other	
+centroid_78	Central intermediary metabolism	GO:0006807
+centroid_4743	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2614	Transport & binding proteins	GO:0006817
+centroid_2949	Other	
+centroid_3888	Other	
+centroid_7080	Transport & binding proteins	GO:0006810
+centroid_2028	Other	
+centroid_1107	Regulatory functions	GO:0006355
+centroid_895	Other	
+centroid_825	Other	
+centroid_4056	Other	
+centroid_7472	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5238	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5313	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4796	Mobile & extrachromosomal element functions	GO:0004803
+centroid_47	Other	
+centroid_1903	Transport & binding proteins	GO:0006810
+centroid_2640	Other	
+centroid_1798	Regulatory functions	GO:0006355
+centroid_896	Other	
+centroid_1402	Other	
+centroid_3869	Transport & binding proteins	GO:0006810
+centroid_6011	Other	
+centroid_8291	Other	
+centroid_2234	Other	
+centroid_1714	Regulatory functions	GO:0006355
+centroid_529	Regulatory functions	GO:0006355
+centroid_3596	Other	
+centroid_6714	Protein synthesis/fate	GO:0006418
+centroid_2350	Energy Metabolism	GO:0009055
+centroid_5355	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4035	Other	
+centroid_2939	Other	
+centroid_3028	Other	
+centroid_2683	Other	
+centroid_2363	Other	
+centroid_1884	Other	
+centroid_3348	Transport & binding proteins	GO:0030001
+centroid_1162	Other	
+centroid_3101	Other	
+centroid_1015	Transport & binding proteins	GO:0006810
+centroid_835	Other	
+centroid_5585	Other	
+centroid_4585	Other	
+centroid_627	Other	
+centroid_3625	Other	
+centroid_3019	Protein synthesis/fate	GO:0006508
+centroid_6502	DNA Metabolism	GO:0006281
+centroid_795	Other	
+centroid_3185	Other	
+centroid_2639	Other	
+centroid_1259	Other	
+centroid_6464	Other	
+centroid_69	Regulatory functions	GO:0006355
+centroid_1700	Other	
+centroid_5978	Other	
+centroid_2454	Other	
+centroid_3977	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3085	Other	
+centroid_2781	Other	
+centroid_4240	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1307	Regulatory functions	GO:0006355
+centroid_4257	Regulatory functions	GO:0006355
+centroid_722	Transport & binding proteins	GO:0006810
+centroid_2215	Other	
+centroid_7469	Other	
+centroid_7413	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2930	Other	
+centroid_1535	Other	
+centroid_2622	Other	
+centroid_156	Transport & binding proteins	GO:0006810
+centroid_2120	Other	
+centroid_5942	Other	
+centroid_3041	Other	
+centroid_4767	DNA Metabolism	GO:0006304
+centroid_996	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_5636	Other	
+centroid_7704	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4920	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2105	Transport & binding proteins	GO:0006810
+centroid_1663	Regulatory functions	GO:0006355
+centroid_4373	Other	
+centroid_1555	Energy Metabolism	GO:0009055
+centroid_5077	Other	
+centroid_1250	Other	
+centroid_5631	Regulatory functions	GO:0006355
+centroid_1208	Other	
+centroid_635	Transport & binding proteins	GO:0006810
+centroid_168	Other	
+centroid_4875	Mobile & extrachromosomal element functions	GO:0015074
+centroid_8387	Other	
+centroid_272	Other	
+centroid_579	Other	
+centroid_3332	Other	
+centroid_5262	Other	
+centroid_3255	Other	
+centroid_4162	Regulatory functions	GO:0006355
+centroid_7906	Regulatory functions	GO:0006306
+centroid_2682	Other	
+centroid_7919	Other	
+centroid_3182	Other	
+centroid_987	Regulatory functions	GO:0006355
+centroid_2030	Other	
+centroid_1484	Other	
+centroid_2196	Other	
+centroid_2957	Other	
+centroid_4215	Other	
+centroid_1516	Other	
+centroid_2752	Other	
+centroid_31	Other	
+centroid_1699	Other	
+centroid_2867	Other	
+centroid_7231	DNA Metabolism	GO:0006310
+centroid_5604	Transport & binding proteins	GO:0016887
+centroid_6532	Regulatory functions	GO:0006306
+centroid_3980	Transport & binding proteins	GO:0006810
+centroid_5625	Regulatory functions	GO:0006355
+centroid_2657	Transport & binding proteins	GO:0006810
+centroid_8075	Regulatory functions	GO:0006355
+centroid_4271	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6219	Other	
+centroid_2648	Other	
+centroid_3735	Other	
+centroid_2795	Transport & binding proteins	GO:0006865
+centroid_3968	Other	
+centroid_945	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0008615
+centroid_2881	Other	
+centroid_2794	Other	
+centroid_8247	Mobile & extrachromosomal element functions	GO:0004803
+centroid_587	Other	
+centroid_4045	Other	
+centroid_600	Other	
+centroid_7260	Other	
+centroid_3487	Protein synthesis/fate	GO:0006508
+centroid_2261	Transport & binding proteins	GO:0016887
+centroid_2668	Regulatory functions	GO:0006355
+centroid_664	Other	
+centroid_8314	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2934	Other	
+centroid_2091	Regulatory functions	GO:0006355
+centroid_7390	Other	
+centroid_5114	Other	
+centroid_1646	Other	
+centroid_655	Other	
+centroid_2852	Regulatory functions	GO:0006355
+centroid_164	Other	
+centroid_8151	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6529	Other	
+centroid_5363	Regulatory functions	GO:0006355
+centroid_2032	Other	
+centroid_2903	Other	
+centroid_8197	Other	
+centroid_3235	Fatty acid & phospholipid metabolism	GO:0006633
+centroid_4577	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2081	Transport & binding proteins	GO:0015293
+centroid_6450	Other	
+centroid_175	Other	
+centroid_8128	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4941	Regulatory functions	GO:0006355
+centroid_4444	Other	
+centroid_5599	Other	
+centroid_3463	Other	
+centroid_5409	Energy Metabolism	GO:0006032
+centroid_3064	Protein synthesis/fate	GO:0003735
+centroid_494	Other	
+centroid_693	Regulatory functions	GO:0006355
+centroid_1653	Other	
+centroid_2802	Transport & binding proteins	GO:0006865
+centroid_7209	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5725	Other	
+centroid_7880	Other	
+centroid_7626	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2618	Other	
+centroid_4263	Other	
+centroid_5162	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3530	DNA Metabolism	GO:0006281
+centroid_5723	DNA Metabolism	GO:0006304
+centroid_121	Other	
+centroid_1963	Other	
+centroid_6104	Other	
+centroid_2594	Transport & binding proteins	GO:0006813
+centroid_1237	Other	
+centroid_4302	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1197	Protein synthesis/fate	GO:0006508
+centroid_6677	Other	
+centroid_8326	Regulatory functions	GO:0006355
+centroid_23	Other	
+centroid_6512	Other	
+centroid_415	Protein synthesis/fate	GO:0006412
+centroid_710	Transport & binding proteins	GO:0015696
+centroid_1795	Other	
+centroid_1057	Other	
+centroid_4793	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1369	Other	
+centroid_1637	Other	
+centroid_6205	Protein synthesis/fate	GO:0006508
+centroid_3153	Other	
+centroid_8221	Protein synthesis/fate	GO:0006508
+centroid_6350	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2588	Other	
+centroid_2776	Central intermediary metabolism	GO:0005992
+centroid_4870	Other	
+centroid_2722	Protein synthesis/fate	GO:0006412
+centroid_4934	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6564	DNA Metabolism	GO:0006281
+centroid_4590	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4411	Other	
+centroid_3453	Other	
+centroid_1583	Other	
+centroid_998	Transcription	GO:0009451
+centroid_408	Protein synthesis/fate	GO:0006412
+centroid_1344	Other	
+centroid_6290	Other	
+centroid_8366	Regulatory functions	GO:0006306
+centroid_1677	Other	
+centroid_2085	Other	
+centroid_198	Regulatory functions	GO:0006355
+centroid_2151	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_250	Other	
+centroid_1278	Other	
+centroid_5301	DNA Metabolism	GO:0006310
+centroid_5648	Other	
+centroid_6849	Transport & binding proteins	GO:0006812
+centroid_5169	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4006	Mobile & extrachromosomal element functions	GO:0015074
+centroid_520	Other	
+centroid_7650	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7820	Other	
+centroid_6008	Other	
+centroid_233	Transport & binding proteins	GO:0006865
+centroid_650	Other	
+centroid_2917	Other	
+centroid_6200	Other	
+centroid_2467	Other	
+centroid_1123	Regulatory functions	GO:0006355
+centroid_7616	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1674	Other	
+centroid_1351	Other	
+centroid_7553	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1867	Other	
+centroid_6169	Other	
+centroid_3715	Energy Metabolism	GO:0006527
+centroid_1362	Other	
+centroid_7999	Other	
+centroid_2306	Cellular processes	GO:0006950
+centroid_2127	Other	
+centroid_7459	Transport & binding proteins	GO:0006810
+centroid_3241	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_741	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009107
+centroid_3443	Transport & binding proteins	GO:0015774
+centroid_572	Protein synthesis/fate	GO:0006418
+centroid_3997	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6844	Regulatory functions	GO:0006355
+centroid_3990	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2609	Other	
+centroid_1294	Regulatory functions	GO:0006355
+centroid_215	Other	
+centroid_4671	Other	
+centroid_547	Other	
+centroid_6943	Other	
+centroid_2021	Other	
+centroid_1230	Other	
+centroid_1186	Regulatory functions	GO:0006355
+centroid_1604	Other	
+centroid_7462	Regulatory functions	GO:0006355
+centroid_3507	Other	
+centroid_3113	Other	
+centroid_4905	Transport & binding proteins	GO:0006810
+centroid_75	Other	
+centroid_4619	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3252	Other	
+centroid_1946	Other	
+centroid_8035	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2345	Transport & binding proteins	GO:0030001
+centroid_2003	Transport & binding proteins	GO:0015293
+centroid_1210	Transport & binding proteins	GO:0015171
+centroid_1825	Other	
+centroid_2505	Transport & binding proteins	GO:0015171
+centroid_758	Other	
+centroid_7775	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5329	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2748	Transport & binding proteins	GO:0015031
+centroid_2938	Other	
+centroid_5239	Other	
+centroid_2053	Transport & binding proteins	GO:0016887
+centroid_1751	Transport & binding proteins	GO:0006810
+centroid_1263	Other	
+centroid_306	Other	
+centroid_1360	Regulatory functions	GO:0006355
+centroid_1336	Protein synthesis/fate	GO:0006457
+centroid_853	Other	
+centroid_6765	Mobile & extrachromosomal element functions	GO:0006323
+centroid_5589	Other	
+centroid_786	Other	
+centroid_470	Other	
+centroid_3870	Transport & binding proteins	GO:0006810
+centroid_3693	Other	
+centroid_2743	Transcription	GO:0009451
+centroid_2734	Transport & binding proteins	GO:0006810
+centroid_3396	Regulatory functions	GO:0006355
+centroid_3195	Cell Envelope	GO:0008654
+centroid_1275	Other	
+centroid_4784	Other	
+centroid_1718	Other	
+centroid_2367	Other	
+centroid_5548	DNA Metabolism	GO:0006304
+centroid_1658	Protein synthesis/fate	GO:0006508
+centroid_7475	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4407	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4898	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4423	Other	
+centroid_530	DNA Metabolism	GO:0009307
+centroid_2356	Transport & binding proteins	GO:0006810
+centroid_1121	Other	
+centroid_1872	Other	
+centroid_246	Other	
+centroid_1621	Regulatory functions	GO:0006355
+centroid_6709	Other	
+centroid_4783	Transport & binding proteins	GO:0006810
+centroid_2559	Other	
+centroid_7720	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7388	Other	
+centroid_4506	Mobile & extrachromosomal element functions	GO:0006323
+centroid_2294	Other	
+centroid_427	Other	
+centroid_371	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_3258	Other	
+centroid_4654	Regulatory functions	GO:0006355
+centroid_1838	Transport & binding proteins	GO:0016887
+centroid_3276	Other	
+centroid_8064	Other	
+centroid_294	Central intermediary metabolism	GO:0006807
+centroid_3484	Protein synthesis/fate	GO:0006457
+centroid_7574	Other	
+centroid_7627	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2542	Regulatory functions	GO:0006355
+centroid_423	Other	
+centroid_204	Other	
+centroid_5046	Other	
+centroid_2912	Other	
+centroid_1842	Transport & binding proteins	GO:0006810
+centroid_2863	Other	
+centroid_2463	Regulatory functions	GO:0006355
+centroid_7565	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2788	Other	
+centroid_384	Other	
+centroid_1968	Other	
+centroid_2470	Other	
+centroid_4250	Other	
+centroid_390	Transport & binding proteins	GO:0015293
+centroid_2701	Other	
+centroid_4539	Regulatory functions	GO:0006355
+centroid_446	Other	
+centroid_7518	Mobile & extrachromosomal element functions	GO:0006323
+centroid_517	Regulatory functions	GO:0006355
+centroid_953	Other	
+centroid_4804	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6665	Other	
+centroid_2564	Other	
+centroid_663	Transport & binding proteins	GO:0006810
+centroid_3014	Other	
+centroid_2908	Other	
+centroid_2713	Other	
+centroid_147	Cellular processes	GO:0007049
+centroid_1321	Regulatory functions	GO:0006355
+centroid_8085	DNA Metabolism	GO:0006281
+centroid_1341	Transport & binding proteins	GO:0015171
+centroid_4210	Other	
+centroid_4209	DNA Metabolism	GO:0006304
+centroid_5804	Mobile & extrachromosomal element functions	GO:0004803
+centroid_138	Other	
+centroid_680	Other	
+centroid_2260	Transport & binding proteins	GO:0006810
+centroid_1519	Other	
+centroid_3865	Energy Metabolism	GO:0009055
+centroid_2848	Other	
+centroid_8212	Mobile & extrachromosomal element functions	GO:0004803
+centroid_401	Protein synthesis/fate	GO:0006412
+centroid_7785	Other	
+centroid_6332	Other	
+centroid_3173	Other	
+centroid_4080	Other	
+centroid_6781	Other	
+centroid_8059	Other	
+centroid_1205	Other	
+centroid_8268	Other	
+centroid_794	Protein synthesis/fate	GO:0006457
+centroid_279	Other	
+centroid_6683	Other	
+centroid_8000	Transport & binding proteins	GO:0015171
+centroid_3636	Mobile & extrachromosomal element functions	GO:0015074
+centroid_257	Other	
+centroid_689	Regulatory functions	GO:0006355
+centroid_84	Other	
+centroid_1912	Other	
+centroid_1004	Other	
+centroid_4640	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5895	Regulatory functions	GO:0006355
+centroid_485	Other	
+centroid_659	Other	
+centroid_483	Other	
+centroid_6457	Other	
+centroid_5744	Transport & binding proteins	GO:0030001
+centroid_2827	Other	
+centroid_3315	Other	
+centroid_4857	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1488	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006777
+centroid_2115	Regulatory functions	GO:0006355
+centroid_7452	Other	
+centroid_4159	Other	
+centroid_1025	Protein synthesis/fate	GO:0006508
+centroid_5493	Regulatory functions	GO:0006306
+centroid_2975	Other	
+centroid_4490	Other	
+centroid_8191	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5286	Regulatory functions	GO:0006306
+centroid_206	Other	
+centroid_3699	Regulatory functions	GO:0006355
+centroid_5095	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2690	Transport & binding proteins	GO:0006810
+centroid_2994	Other	
+centroid_341	Other	
+centroid_1627	Transport & binding proteins	GO:0006810
+centroid_1008	Energy Metabolism	GO:0006520
+centroid_4716	Regulatory functions	GO:0006306
+centroid_2310	Transport & binding proteins	GO:0006810
+centroid_2180	Other	
+centroid_3051	Cell Envelope	GO:0042158
+centroid_345	Other	
+centroid_3194	Regulatory functions	GO:0006355
+centroid_1471	Other	
+centroid_6347	Other	
+centroid_5953	Other	
+centroid_3408	Other	
+centroid_707	Regulatory functions	GO:0006355
+centroid_4618	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7483	Other	
+centroid_1137	Energy Metabolism	GO:0006520
+centroid_8393	DNA Metabolism	GO:0006304
+centroid_3391	Transport & binding proteins	GO:0015171
+centroid_2078	Cellular processes	GO:0006979
+centroid_4253	Regulatory functions	GO:0006355
+centroid_3164	Other	
+centroid_1705	Other	
+centroid_2783	Other	
+centroid_4091	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7407	Other	
+centroid_2835	Other	
+centroid_7528	Regulatory functions	GO:0006355
+centroid_5386	Protein synthesis/fate	GO:0006508
+centroid_1841	Cell Envelope	GO:0009245
+centroid_3866	Other	
+centroid_2545	Regulatory functions	GO:0006355
+centroid_8375	Other	
+centroid_5113	Transport & binding proteins	GO:0016887
+centroid_3	Transport & binding proteins	GO:0016887
+centroid_6666	Other	
+centroid_1881	Other	
+centroid_1347	Other	
+centroid_8108	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3091	Other	
+centroid_983	Other	
+centroid_3610	Other	
+centroid_1337	Protein synthesis/fate	GO:0006418
+centroid_7064	Other	
+centroid_1232	Cell Envelope	GO:0009289
+centroid_56	Other	
+centroid_1111	Protein synthesis/fate	GO:0006508
+centroid_3449	Other	
+centroid_780	Transport & binding proteins	GO:0016887
+centroid_2707	Other	
+centroid_6796	Other	
+centroid_8150	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2592	Cellular processes	GO:0006950
+centroid_2513	Other	
+centroid_1093	Other	
+centroid_2924	Other	
+centroid_4801	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6357	Other	
+centroid_2238	Protein synthesis/fate	GO:0006508
+centroid_2089	Other	
+centroid_1001	Other	
+centroid_1303	Transport & binding proteins	GO:0006813
+centroid_4318	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8237	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_3743	Other	
+centroid_3363	Purines, pyrimidines, nucleosides, & nucleotides	GO:0006164
+centroid_8341	Transport & binding proteins	GO:0006813
+centroid_3352	Transport & binding proteins	GO:0006865
+centroid_1689	Other	
+centroid_3305	Other	
+centroid_8223	Other	
+centroid_7431	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1340	Energy Metabolism	GO:0006520
+centroid_4297	Protein synthesis/fate	GO:0006508
+centroid_1670	Other	
+centroid_791	Energy Metabolism	GO:0006094
+centroid_2624	Other	
+centroid_678	Other	
+centroid_6670	Other	
+centroid_6190	Other	
+centroid_1487	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006777
+centroid_4420	Other	
+centroid_5340	Regulatory functions	GO:0006306
+centroid_5089	Mobile & extrachromosomal element functions	GO:0015074
+centroid_8262	Other	
+centroid_385	Other	
+centroid_5319	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3629	Transport & binding proteins	GO:0008272
+centroid_4772	Other	
+centroid_305	Other	
+centroid_3428	Energy Metabolism	GO:0006096
+centroid_1292	Other	
+centroid_3225	Regulatory functions	GO:0006355
+centroid_1851	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009236
+centroid_2562	Energy Metabolism	GO:0006520
+centroid_3630	Cellular processes	GO:0006950
+centroid_1032	Other	
+centroid_2941	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_201	Regulatory functions	GO:0006355
+centroid_4239	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2299	Other	
+centroid_1985	Transport & binding proteins	GO:0006810
+centroid_260	Regulatory functions	GO:0006355
+centroid_6442	Regulatory functions	GO:0006306
+centroid_5196	Mobile & extrachromosomal element functions	GO:0006323
+centroid_3417	Other	
+centroid_7741	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5742	Regulatory functions	GO:0006355
+centroid_1064	Transport & binding proteins	GO:0005215
+centroid_249	Other	
+centroid_412	Protein synthesis/fate	GO:0006412
+centroid_93	Other	
+centroid_377	Transport & binding proteins	GO:0006810
+centroid_3438	Other	
+centroid_3317	Regulatory functions	GO:0006355
+centroid_2139	Other	
+centroid_8333	Other	
+centroid_828	Other	
+centroid_847	Other	
+centroid_1847	Other	
+centroid_5506	Cell Envelope	GO:0009103
+centroid_1870	Other	
+centroid_801	Protein synthesis/fate	GO:0006508
+centroid_2142	Transport & binding proteins	GO:0006865
+centroid_3635	Other	
+centroid_2804	Other	
+centroid_4879	Other	
+centroid_1104	Protein synthesis/fate	GO:0006508
+centroid_7662	Other	
+centroid_8211	Other	
+centroid_143	Other	
+centroid_1071	Other	
+centroid_7584	Other	
+centroid_4470	Mobile & extrachromosomal element functions	GO:0004803
+centroid_771	Other	
+centroid_6322	Other	
+centroid_7734	DNA Metabolism	GO:0006304
+centroid_7915	Transport & binding proteins	GO:0016887
+centroid_7396	DNA Metabolism	GO:0006310
+centroid_4384	Regulatory functions	GO:0006306
+centroid_2756	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009231
+centroid_2171	Other	
+centroid_4553	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5474	Other	
+centroid_3474	Protein synthesis/fate	GO:0006508
+centroid_8113	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4336	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3398	Transport & binding proteins	GO:0006810
+centroid_8177	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5934	Other	
+centroid_5163	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4198	Other	
+centroid_8270	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5357	Other	
+centroid_7642	Regulatory functions	GO:0006306
+centroid_4669	Other	
+centroid_5107	Other	
+centroid_3892	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1404	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1826	Transport & binding proteins	GO:0006810
+centroid_2013	Other	
+centroid_7159	Other	
+centroid_6020	Other	
+centroid_4906	Transport & binding proteins	GO:0006810
+centroid_4562	Other	
+centroid_3450	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009435
+centroid_3290	Other	
+centroid_403	Protein synthesis/fate	GO:0006412
+centroid_1207	Regulatory functions	GO:0006355
+centroid_2169	Other	
+centroid_877	Other	
+centroid_1710	Other	
+centroid_2450	Energy Metabolism	GO:0009055
+centroid_4756	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1572	Other	
+centroid_6530	Other	
+centroid_1863	Other	
+centroid_7575	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4698	Other	
+centroid_6930	Regulatory functions	GO:0006355
+centroid_2022	Central intermediary metabolism	GO:0006556
+centroid_5683	Other	
+centroid_2831	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_8338	Other	
+centroid_2744	Other	
+centroid_2153	Regulatory functions	GO:0006355
+centroid_395	Other	
+centroid_5608	Other	
+centroid_3118	Transport & binding proteins	GO:0006855
+centroid_333	Other	
+centroid_4014	Other	
+centroid_3871	Transport & binding proteins	GO:0016887
+centroid_1455	Other	
+centroid_8193	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1383	Regulatory functions	GO:0006355
+centroid_6742	Other	
+centroid_7578	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2160	Other	
+centroid_551	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6283	Regulatory functions	GO:0006355
+centroid_1371	Other	
+centroid_6483	Other	
+centroid_2132	Other	
+centroid_6708	Other	
+centroid_4068	Mobile & extrachromosomal element functions	GO:0004803
+centroid_474	Other	
+centroid_8302	Protein synthesis/fate	GO:0006508
+centroid_4859	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6812	Regulatory functions	GO:0003916
+centroid_936	Fatty acid & phospholipid metabolism	GO:0006633
+centroid_2476	Other	
+centroid_1531	Other	
+centroid_1669	Regulatory functions	GO:0006355
+centroid_3727	Regulatory functions	GO:0006306
+centroid_8185	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3253	Other	
+centroid_3175	Other	
+centroid_2054	Transport & binding proteins	GO:0006810
+centroid_3376	Other	
+centroid_1752	Transport & binding proteins	GO:0016887
+centroid_8244	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6953	Other	
+centroid_6829	Other	
+centroid_2488	Other	
+centroid_4809	Mobile & extrachromosomal element functions	GO:0004803
+centroid_39	Regulatory functions	GO:0006355
+centroid_2119	Other	
+centroid_4853	Regulatory functions	GO:0006355
+centroid_7391	Other	
+centroid_513	Other	
+centroid_3511	Protein synthesis/fate	GO:0006412
+centroid_1907	Transport & binding proteins	GO:0006810
+centroid_2687	Other	
+centroid_230	Transport & binding proteins	GO:0015079
+centroid_3243	Other	
+centroid_3919	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6113	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3326	Transport & binding proteins	GO:0006810
+centroid_5305	Other	
+centroid_723	Transport & binding proteins	GO:0006810
+centroid_2224	Other	
+centroid_3264	Regulatory functions	GO:0006355
+centroid_1011	Other	
+centroid_8133	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2889	Other	
+centroid_7562	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6703	Other	
+centroid_3277	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009231
+centroid_1536	Protein synthesis/fate	GO:0006508
+centroid_8307	Other	
+centroid_6675	Other	
+centroid_3343	Energy Metabolism	GO:0015986
+centroid_2929	Other	
+centroid_4469	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3132	Central intermediary metabolism	GO:0006807
+centroid_6803	Other	
+centroid_5369	Other	
+centroid_1591	Other	
+centroid_7763	Other	
+centroid_5054	Other	
+centroid_6577	Transport & binding proteins	GO:0016887
+centroid_317	Other	
+centroid_8170	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2483	Regulatory functions	GO:0006355
+centroid_5000	Regulatory functions	GO:0006306
+centroid_1837	Transport & binding proteins	GO:0006810
+centroid_8295	Regulatory functions	GO:0006355
+centroid_5944	Other	
+centroid_7612	Other	
+centroid_3502	Other	
+centroid_7635	Transport & binding proteins	GO:0006865
+centroid_284	Other	
+centroid_7358	Regulatory functions	GO:0003916
+centroid_4882	Transport & binding proteins	GO:0006810
+centroid_8351	Other	
+centroid_1133	Transport & binding proteins	GO:0016887
+centroid_3608	Other	
+centroid_2751	Protein synthesis/fate	GO:0006412
+centroid_8058	Other	
+centroid_856	Other	
+centroid_1098	Other	
+centroid_35	Other	
+centroid_3012	Other	
+centroid_213	Regulatory functions	GO:0006355
+centroid_4673	Other	
+centroid_1054	Other	
+centroid_716	Protein synthesis/fate	GO:0006418
+centroid_768	Cellular processes	GO:0006950
+centroid_690	Other	
+centroid_7535	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6179	Transport & binding proteins	GO:0006810
+centroid_5637	Other	
+centroid_3923	Other	
+centroid_4912	Other	
+centroid_7892	DNA Metabolism	GO:0006304
+centroid_2134	Other	
+centroid_3623	Mobile & extrachromosomal element functions	GO:0015074
+centroid_120	Other	
+centroid_808	Other	
+centroid_5050	Other	
+centroid_4687	Other	
+centroid_4537	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3543	Transport & binding proteins	GO:0006810
+centroid_4179	Mobile & extrachromosomal element functions	GO:0004803
+centroid_462	Other	
+centroid_685	Other	
+centroid_4837	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3226	Protein synthesis/fate	GO:0006886
+centroid_3335	Regulatory functions	GO:0006355
+centroid_2090	Other	
+centroid_3604	Other	
+centroid_2504	Other	
+centroid_4890	Transport & binding proteins	GO:0006813
+centroid_979	Protein synthesis/fate	GO:0006508
+centroid_6637	Regulatory functions	GO:0006306
+centroid_3280	Other	
+centroid_1255	Transport & binding proteins	GO:0016887
+centroid_5413	Other	
+centroid_3703	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3654	Mobile & extrachromosomal element functions	GO:0004803
+centroid_957	Other	
+centroid_6718	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2678	Other	
+centroid_915	Other	
+centroid_4926	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1239	Other	
+centroid_3395	Other	
+centroid_7932	Other	
+centroid_3026	Transport & binding proteins	GO:0015128
+centroid_6885	Other	
+centroid_3859	Mobile & extrachromosomal element functions	GO:0004803
+centroid_124	Other	
+centroid_5374	Transport & binding proteins	GO:0006810
+centroid_3081	Other	
+centroid_3099	Regulatory functions	GO:0006355
+centroid_3372	Other	
+centroid_8137	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2101	Central intermediary metabolism	GO:0006807
+centroid_160	Other	
+centroid_754	Other	
+centroid_2741	Other	
+centroid_6255	Other	
+centroid_1143	Transport & binding proteins	GO:0006810
+centroid_3183	Other	
+centroid_7716	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6329	Other	
+centroid_468	Other	
+centroid_6704	Other	
+centroid_7883	Other	
+centroid_2860	Other	
+centroid_300	Cell Envelope	GO:0009289
+centroid_823	Other	
+centroid_3105	Regulatory functions	GO:0006355
+centroid_7311	Other	
+centroid_3077	Other	
+centroid_1609	Other	
+centroid_6018	Other	
+centroid_1783	Transport & binding proteins	GO:0016887
+centroid_5684	Protein synthesis/fate	GO:0006412
+centroid_7971	Other	
+centroid_2823	Energy Metabolism	GO:0009055
+centroid_1650	Regulatory functions	GO:0006355
+centroid_5596	Other	
+centroid_29	Transport & binding proteins	GO:0006810
+centroid_653	Other	
+centroid_1610	Other	
+centroid_4264	Other	
+centroid_5798	Other	
+centroid_6247	Regulatory functions	GO:0006306
+centroid_613	Regulatory functions	GO:0006355
+centroid_2659	Other	
+centroid_2636	Other	
+centroid_100	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_2192	Regulatory functions	GO:0006355
+centroid_4944	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5800	Other	
+centroid_2209	Other	
+centroid_1115	Other	
+centroid_5628	Other	
+centroid_7629	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5349	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1546	Transport & binding proteins	GO:0009401
+centroid_5365	Transport & binding proteins	GO:0006810
+centroid_1222	Transport & binding proteins	GO:0015813
+centroid_2631	Other	
+centroid_3456	Other	
+centroid_6458	Transport & binding proteins	GO:0015171
+centroid_3681	Cell Envelope	GO:0009103
+centroid_523	Other	
+centroid_887	Other	
+centroid_1272	Protein synthesis/fate	GO:0006412
+centroid_1480	Other	
+centroid_5148	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7988	Other	
+centroid_1759	Other	
+centroid_2604	Other	
+centroid_2185	Other	
+centroid_7581	Other	
+centroid_4413	Other	
+centroid_1153	Other	
+centroid_3138	Central intermediary metabolism	GO:0006807
+centroid_2243	Transport & binding proteins	GO:0016887
+centroid_73	Transport & binding proteins	GO:0015171
+centroid_5327	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4285	Cell Envelope	GO:0009289
+centroid_1289	Other	
+centroid_7255	Regulatory functions	GO:0006355
+centroid_7025	Other	
+centroid_5712	Transport & binding proteins	GO:0016887
+centroid_492	Other	
+centroid_2893	Regulatory functions	GO:0006355
+centroid_4868	Transport & binding proteins	GO:0006813
+centroid_737	Other	
+centroid_3047	Other	
+centroid_3120	Other	
+centroid_3424	Regulatory functions	GO:0006355
+centroid_2731	Other	
+centroid_1102	Other	
+centroid_6197	Regulatory functions	GO:0006355
+centroid_4307	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3617	Other	
+centroid_6820	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4976	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1171	Other	
+centroid_229	Regulatory functions	GO:0006355
+centroid_7241	Other	
+centroid_873	Transport & binding proteins	GO:0006810
+centroid_3270	Other	
+centroid_4819	Other	
+centroid_5297	Transport & binding proteins	GO:0016887
+centroid_1391	Transport & binding proteins	GO:0016887
+centroid_908	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6354	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1392	Other	
+centroid_46	Protein synthesis/fate	GO:0006508
+centroid_387	Transport & binding proteins	GO:0006810
+centroid_6327	Other	
+centroid_2366	Other	
+centroid_7489	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1690	Other	
+centroid_3254	Other	
+centroid_394	Other	
+centroid_4276	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8386	Other	
+centroid_5281	Other	
+centroid_5852	DNA Metabolism	GO:0006259
+centroid_4515	Other	
+centroid_647	Other	
+centroid_1644	Other	
+centroid_7639	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7779	Other	
+centroid_2763	Protein synthesis/fate	GO:0006412
+centroid_5354	Other	
+centroid_7152	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3803	Other	
+centroid_7342	Other	
+centroid_5582	Regulatory functions	GO:0006355
+centroid_7076	Other	
+centroid_834	Other	
+centroid_269	Transport & binding proteins	GO:0006812
+centroid_4374	DNA Metabolism	GO:0006310
+centroid_7698	Other	
+centroid_2495	Transport & binding proteins	GO:0015171
+centroid_1074	Transport & binding proteins	GO:0006810
+centroid_603	Other	
+centroid_5526	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3420	Regulatory functions	GO:0006355
+centroid_1478	Other	
+centroid_4785	Transport & binding proteins	GO:0006810
+centroid_3454	Other	
+centroid_3172	Other	
+centroid_7386	Other	
+centroid_3477	Other	
+centroid_7735	DNA Metabolism	GO:0006304
+centroid_2905	Other	
+centroid_1602	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0008299
+centroid_1553	Regulatory functions	GO:0006355
+centroid_5156	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7878	Other	
+centroid_1297	Other	
+centroid_5546	Regulatory functions	GO:0006306
+centroid_4154	DNA Metabolism	GO:0006281
+centroid_4584	Other	
+centroid_4473	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3146	Transport & binding proteins	GO:0006865
+centroid_4766	Regulatory functions	GO:0006306
+centroid_1622	Other	
+centroid_134	Other	
+centroid_5912	Protein synthesis/fate	GO:0006412
+centroid_422	Protein synthesis/fate	GO:0006412
+centroid_7972	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5603	Transport & binding proteins	GO:0015031
+centroid_2976	Other	
+centroid_2749	Other	
+centroid_4876	Regulatory functions	GO:0006355
+centroid_8379	Other	
+centroid_41	Other	
+centroid_2289	Other	
+centroid_4464	Mobile & extrachromosomal element functions	GO:0004803
+centroid_927	Transport & binding proteins	GO:0006810
+centroid_205	Other	
+centroid_7143	Other	
+centroid_4943	Other	
+centroid_74	Energy Metabolism	GO:0006548
+centroid_13	Other	
+centroid_6687	Regulatory functions	GO:0006355
+centroid_6002	Other	
+centroid_3897	Other	
+centroid_806	Other	
+centroid_7558	DNA Metabolism	GO:0006310
+centroid_4422	Regulatory functions	GO:0006355
+centroid_2780	Other	
+centroid_3186	Other	
+centroid_6055	Other	
+centroid_2703	Other	
+centroid_2649	Other	
+centroid_7389	Other	
+centroid_3862	Other	
+centroid_1706	Other	
+centroid_2787	Cell Envelope	GO:0017004
+centroid_381	Transport & binding proteins	GO:0030001
+centroid_4451	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4915	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6254	Other	
+centroid_7092	Other	
+centroid_2147	Transport & binding proteins	GO:0006810
+centroid_3855	Other	
+centroid_6572	DNA Metabolism	GO:0006310
+centroid_140	Transport & binding proteins	GO:0006810
+centroid_185	Transport & binding proteins	GO:0016887
+centroid_5085	Regulatory functions	GO:0006355
+centroid_1003	Other	
+centroid_8038	Other	
+centroid_2961	Other	
+centroid_8269	Other	
+centroid_2383	Purines, pyrimidines, nucleosides, & nucleotides	GO:0006164
+centroid_2712	Other	
+centroid_543	Other	
+centroid_4686	Transport & binding proteins	GO:0016887
+centroid_1427	Other	
+centroid_5498	Other	
+centroid_7069	Regulatory functions	GO:0006355
+centroid_4101	DNA Metabolism	GO:0006310
+centroid_2471	Energy Metabolism	GO:0009055
+centroid_2268	Other	
+centroid_6839	Other	
+centroid_7451	Other	
+centroid_2670	Other	
+centroid_4986	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2491	Other	
+centroid_4434	Mobile & extrachromosomal element functions	GO:0004803
+centroid_347	Other	
+centroid_1725	Other	
+centroid_8256	DNA Metabolism	GO:0006304
+centroid_3261	Energy Metabolism	GO:0006520
+centroid_2051	Regulatory functions	GO:0006355
+centroid_1823	Energy Metabolism	GO:0006520
+centroid_5279	DNA Metabolism	GO:0006304
+centroid_4092	DNA Metabolism	GO:0009307
+centroid_4269	Other	
+centroid_5922	Other	
+centroid_5017	Other	
+centroid_2572	Central intermediary metabolism	GO:0006807
+centroid_6756	Other	
+centroid_400	Protein synthesis/fate	GO:0006412
+centroid_2464	Other	
+centroid_278	Cellular processes	GO:0007049
+centroid_1196	Purines, pyrimidines, nucleosides, & nucleotides	GO:0009152
+centroid_7086	Other	
+centroid_7089	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3660	Regulatory functions	GO:0006306
+centroid_86	Regulatory functions	GO:0006355
+centroid_4576	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4160	Other	
+centroid_4972	Other	
+centroid_692	Other	
+centroid_6242	Transport & binding proteins	GO:0006810
+centroid_2650	Protein synthesis/fate	GO:0006457
+centroid_8074	Other	
+centroid_4235	Mobile & extrachromosomal element functions	GO:0015074
+centroid_399	Protein synthesis/fate	GO:0006412
+centroid_3154	Other	
+centroid_1108	Other	
+centroid_1090	Other	
+centroid_4256	Other	
+centroid_3746	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3875	Other	
+centroid_3268	Other	
+centroid_2073	Other	
+centroid_540	Other	
+centroid_8220	Transport & binding proteins	GO:0006810
+centroid_1691	Other	
+centroid_8321	Other	
+centroid_561	Other	
+centroid_6813	Other	
+centroid_5536	Other	
+centroid_2184	Other	
+centroid_2099	Regulatory functions	GO:0006355
+centroid_5326	DNA Metabolism	GO:0006310
+centroid_5388	Other	
+centroid_1636	Energy Metabolism	GO:0009055
+centroid_3614	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1226	Other	
+centroid_4066	Mobile & extrachromosomal element functions	GO:0004803
+centroid_416	Protein synthesis/fate	GO:0006412
+centroid_743	Regulatory functions	GO:0006355
+centroid_5693	Other	
+centroid_4951	DNA Metabolism	GO:0006310
+centroid_2992	Other	
+centroid_2198	Other	
+centroid_2379	Regulatory functions	GO:0006355
+centroid_7254	Other	
+centroid_7460	Other	
+centroid_3013	Other	
+centroid_2920	Protein synthesis/fate	GO:0006412
+centroid_2112	Other	
+centroid_4660	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6034	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3712	Transport & binding proteins	GO:0015171
+centroid_840	Regulatory functions	GO:0003916
+centroid_1605	Other	
+centroid_651	Other	
+centroid_4233	Other	
+centroid_1397	Other	
+centroid_6135	Other	
+centroid_2584	Other	
+centroid_5309	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2084	Other	
+centroid_1790	Other	
+centroid_1301	Other	
+centroid_2549	Other	
+centroid_3080	Transport & binding proteins	GO:0006865
+centroid_2339	Transport & binding proteins	GO:0006865
+centroid_2931	Other	
+centroid_1157	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_476	Protein synthesis/fate	GO:0006412
+centroid_1576	Other	
+centroid_5979	Other	
+centroid_3191	Transport & binding proteins	GO:0006810
+centroid_7659	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1200	Protein synthesis/fate	GO:0006508
+centroid_727	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0008299
+centroid_8265	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4735	Other	
+centroid_1774	Regulatory functions	GO:0006355
+centroid_702	Other	
+centroid_8065	Other	
+centroid_4410	Other	
+centroid_2468	Transport & binding proteins	GO:0006810
+centroid_2128	Other	
+centroid_556	Other	
+centroid_2346	Transport & binding proteins	GO:0030001
+centroid_2109	Other	
+centroid_253	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_2719	Other	
+centroid_951	Other	
+centroid_7674	Other	
+centroid_1701	Other	
+centroid_4928	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2352	Transport & binding proteins	GO:0042919
+centroid_3205	Other	
+centroid_7774	Other	
+centroid_2970	Other	
+centroid_628	Transport & binding proteins	GO:0006810
+centroid_3350	Transport & binding proteins	GO:0016887
+centroid_2503	Transport & binding proteins	GO:0015171
+centroid_4933	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2777	Other	
+centroid_4611	Other	
+centroid_1299	Other	
+centroid_1363	Transport & binding proteins	GO:0006810
+centroid_1975	Other	
+centroid_2347	Regulatory functions	GO:0006355
+centroid_3114	Regulatory functions	GO:0006355
+centroid_6583	Other	
+centroid_2558	Transport & binding proteins	GO:0016887
+centroid_6848	Regulatory functions	GO:0006355
+centroid_1943	Other	
+centroid_442	Regulatory functions	GO:0006355
+centroid_7155	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4314	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7392	Regulatory functions	GO:0006355
+centroid_4543	Other	
+centroid_1993	Other	
+centroid_3955	Regulatory functions	GO:0006355
+centroid_3382	Other	
+centroid_1810	Other	
+centroid_8218	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2135	Other	
+centroid_528	Transport & binding proteins	GO:0006812
+centroid_4639	Other	
+centroid_1960	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1760	Other	
+centroid_7292	Other	
+centroid_7705	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3124	Other	
+centroid_5885	Other	
+centroid_2035	Cell Envelope	GO:0009289
+centroid_2880	Other	
+centroid_7499	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1077	Other	
+centroid_2681	Other	
+centroid_7552	Other	
+centroid_5845	Regulatory functions	GO:0006355
+centroid_8248	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4968	Other	
+centroid_4683	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2058	Other	
+centroid_396	Other	
+centroid_7625	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6191	Other	
+centroid_5445	Other	
+centroid_3102	Transport & binding proteins	GO:0009401
+centroid_2853	Other	
+centroid_4954	Other	
+centroid_128	Other	
+centroid_1330	Other	
+centroid_3023	Other	
+centroid_7276	DNA Metabolism	GO:0006259
+centroid_7566	Other	
+centroid_6198	Other	
+centroid_8257	DNA Metabolism	GO:0006304
+centroid_1037	Other	
+centroid_4061	Other	
+centroid_5375	Other	
+centroid_2557	Cellular processes	GO:0009405
+centroid_5926	Other	
+centroid_1966	Other	
+centroid_431	Other	
+centroid_1022	Other	
+centroid_5076	Other	
+centroid_5689	Protein synthesis/fate	GO:0006412
+centroid_3063	Other	
+centroid_712	Regulatory functions	GO:0006355
+centroid_2527	Transport & binding proteins	GO:0006810
+centroid_6783	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2847	Transport & binding proteins	GO:0006865
+centroid_5877	Regulatory functions	GO:0006355
+centroid_6707	Other	
+centroid_2886	Other	
+centroid_4184	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2691	Transport & binding proteins	GO:0006810
+centroid_5381	Regulatory functions	GO:0006355
+centroid_8099	DNA Metabolism	GO:0006304
+centroid_3247	Other	
+centroid_8078	Other	
+centroid_4940	Other	
+centroid_868	Other	
+centroid_5280	Other	
+centroid_1246	Other	
+centroid_148	Other	
+centroid_5624	Other	
+centroid_3045	Transport & binding proteins	GO:0015031
+centroid_2080	Other	
+centroid_4805	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5009	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2985	Energy Metabolism	GO:0009055
+centroid_2011	Transport & binding proteins	GO:0006810
+centroid_6788	Other	
+centroid_6625	Other	
+centroid_6807	Other	
+centroid_7349	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1466	Other	
+centroid_7888	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6682	Regulatory functions	GO:0006355
+centroid_986	Other	
+centroid_656	Other	
+centroid_7252	DNA Metabolism	GO:0006308
+centroid_5724	DNA Metabolism	GO:0006304
+centroid_4910	Transport & binding proteins	GO:0006810
+centroid_4011	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1251	Transport & binding proteins	GO:0015293
+centroid_8356	Other	
+centroid_320	Other	
+centroid_3339	Energy Metabolism	GO:0015986
+centroid_2828	Other	
+centroid_2029	DNA Metabolism	GO:0006310
+centroid_3738	Other	
+centroid_3716	Other	
+centroid_26	Energy Metabolism	GO:0006099
+centroid_7261	Protein synthesis/fate	GO:0006457
+centroid_2866	DNA Metabolism	GO:0006281
+centroid_7054	Other	
+centroid_4036	Other	
+centroid_5908	Protein synthesis/fate	GO:0006412
+centroid_3389	Other	
+centroid_935	Protein synthesis/fate	GO:0006508
+centroid_7955	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4485	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1562	Other	
+centroid_2952	Other	
+centroid_6924	Other	
+centroid_6621	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6826	Other	
+centroid_5402	Other	
+centroid_3149	Transport & binding proteins	GO:0030001
+centroid_5401	Other	
+centroid_178	Regulatory functions	GO:0006355
+centroid_681	Other	
+centroid_5746	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_5396	Fatty acid & phospholipid metabolism	GO:0006633
+centroid_3731	DNA Metabolism	GO:0006304
+centroid_8349	Other	
+centroid_942	Other	
+centroid_6736	Mobile & extrachromosomal element functions	GO:0015074
+centroid_589	Transport & binding proteins	GO:0006810
+centroid_2487	Other	
+centroid_2937	Other	
+centroid_2094	Energy Metabolism	GO:0009055
+centroid_7099	Other	
+centroid_1883	Energy Metabolism	GO:0009055
+centroid_8200	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3773	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2679	Other	
+centroid_6010	Protein synthesis/fate	GO:0006508
+centroid_2216	Energy Metabolism	GO:0006094
+centroid_7010	Other	
+centroid_2600	Other	
+centroid_5738	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7189	Other	
+centroid_3445	Cell Envelope	GO:0009103
+centroid_2336	Other	
+centroid_5136	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5377	Other	
+centroid_5370	Other	
+centroid_1080	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_7900	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1986	Transport & binding proteins	GO:0006810
+centroid_636	Other	
+centroid_2615	Other	
+centroid_4936	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2786	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006777
+centroid_4629	Other	
+centroid_1652	Regulatory functions	GO:0006355
+centroid_407	Protein synthesis/fate	GO:0006412
+centroid_2067	Regulatory functions	GO:0006355
+centroid_7632	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5488	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3948	Other	
+centroid_1014	Transport & binding proteins	GO:0006817
+centroid_1692	Regulatory functions	GO:0006355
+centroid_1532	Regulatory functions	GO:0006355
+centroid_2189	Regulatory functions	GO:0006355
+centroid_8205	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7935	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4865	Other	
+centroid_8313	Mobile & extrachromosomal element functions	GO:0015074
+centroid_197	Transport & binding proteins	GO:0015171
+centroid_5117	Mobile & extrachromosomal element functions	GO:0015074
+centroid_174	Other	
+centroid_2041	Other	
+centroid_1713	Other	
+centroid_153	Other	
+centroid_8103	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3059	Transport & binding proteins	GO:0006810
+centroid_7807	Mobile & extrachromosomal element functions	GO:0009291
+centroid_8127	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3039	Other	
+centroid_8154	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3074	Regulatory functions	GO:0003916
+centroid_5067	Other	
+centroid_617	Other	
+centroid_6463	Other	
+centroid_5040	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7658	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1769	Regulatory functions	GO:0006355
+centroid_607	Other	
+centroid_6168	Regulatory functions	GO:0006306
+centroid_3322	Other	
+centroid_7991	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1588	Other	
+centroid_859	Other	
+centroid_910	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3915	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2205	Other	
+centroid_3778	Transport & binding proteins	GO:0006810
+centroid_2536	Other	
+centroid_7120	Other	
+centroid_7300	Other	
+centroid_4365	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4546	Energy Metabolism	GO:0009055
+centroid_1175	Other	
+centroid_1784	Transport & binding proteins	GO:0006810
+centroid_7712	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3349	Regulatory functions	GO:0006355
+centroid_7476	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2768	Other	
+centroid_2735	Other	
+centroid_796	Cell Envelope	GO:0008654
+centroid_6274	DNA Metabolism	GO:0009307
+centroid_214	Other	
+centroid_2643	Regulatory functions	GO:0006355
+centroid_1787	Other	
+centroid_4626	Other	
+centroid_1614	Transport & binding proteins	GO:0006810
+centroid_1161	Other	
+centroid_2630	Other	
+centroid_1523	Other	
+centroid_3029	Other	
+centroid_3497	Other	
+centroid_7694	Other	
+centroid_3221	Protein synthesis/fate	GO:0006412
+centroid_1012	Transport & binding proteins	GO:0015171
+centroid_5351	Other	
+centroid_1888	Other	
+centroid_254	Regulatory functions	GO:0006355
+centroid_6818	Other	
+centroid_4259	Other	
+centroid_1612	Other	
+centroid_5539	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2100	Transport & binding proteins	GO:0005215
+centroid_7767	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7093	Other	
+centroid_8367	DNA Metabolism	GO:0006304
+centroid_772	Other	
+centroid_4588	Mobile & extrachromosomal element functions	GO:0004803
+centroid_413	Protein synthesis/fate	GO:0006412
+centroid_2045	Regulatory functions	GO:0006355
+centroid_5928	Other	
+centroid_308	Other	
+centroid_4668	Other	
+centroid_671	Protein synthesis/fate	GO:0006508
+centroid_6202	Other	
+centroid_8332	Regulatory functions	GO:0006355
+centroid_1518	Other	
+centroid_261	Energy Metabolism	GO:0006520
+centroid_2607	Transport & binding proteins	GO:0006810
+centroid_5687	Protein synthesis/fate	GO:0006412
+centroid_1773	Other	
+centroid_6047	Other	
+centroid_248	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009236
+centroid_8285	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4736	Other	
+centroid_6321	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6238	Other	
+centroid_7394	Other	
+centroid_5475	Regulatory functions	GO:0006355
+centroid_2946	Other	
+centroid_7397	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6196	Other	
+centroid_5225	Other	
+centroid_6006	Other	
+centroid_5395	Other	
+centroid_3384	Other	
+centroid_1184	Regulatory functions	GO:0006355
+centroid_2451	Other	
+centroid_6968	Other	
+centroid_8147	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1308	Central intermediary metabolism	GO:0006807
+centroid_7576	Mobile & extrachromosomal element functions	GO:0004803
+centroid_532	Other	
+centroid_166	Other	
+centroid_3057	Other	
+centroid_3304	Regulatory functions	GO:0003916
+centroid_2593	Other	
+centroid_1148	Protein synthesis/fate	GO:0006508
+centroid_3143	Other	
+centroid_5231	DNA Metabolism	GO:0006310
+centroid_574	Transport & binding proteins	GO:0006810
+centroid_2395	Other	
+centroid_1382	Other	
+centroid_3695	Other	
+centroid_1668	Other	
+centroid_550	Other	
+centroid_1864	Other	
+centroid_6652	Other	
+centroid_3043	Other	
+centroid_1645	Other	
+centroid_3110	Transcription	GO:0009451
+centroid_1075	Transport & binding proteins	GO:0006810
+centroid_4900	Other	
+centroid_7299	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1144	Transport & binding proteins	GO:0006810
+centroid_661	Other	
+centroid_5106	Other	
+centroid_2884	Protein synthesis/fate	GO:0006508
+centroid_7964	Other	
+centroid_7703	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3038	Other	
+centroid_4478	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2530	Transport & binding proteins	GO:0006810
+centroid_3473	Protein synthesis/fate	GO:0006418
+centroid_144	Other	
+centroid_7946	Mobile & extrachromosomal element functions	GO:0004803
+centroid_34	Other	
+centroid_1164	Other	
+centroid_4563	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4559	Regulatory functions	GO:0006355
+centroid_4461	Other	
+centroid_4053	Regulatory functions	GO:0006355
+centroid_6230	Other	
+centroid_5358	Other	
+centroid_7784	Energy Metabolism	GO:0006520
+centroid_4674	Other	
+centroid_4164	Transport & binding proteins	GO:0006810
+centroid_4059	Other	
+centroid_3112	Other	
+centroid_2732	Other	
+centroid_7614	Mobile & extrachromosomal element functions	GO:0004803
+centroid_960	Other	
+centroid_2012	Regulatory functions	GO:0006355
+centroid_4270	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6594	Other	
+centroid_475	Protein synthesis/fate	GO:0006412
+centroid_2688	Other	
+centroid_2461	Other	
+centroid_1995	Other	
+centroid_8169	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3510	Other	
+centroid_6171	Other	
+centroid_2577	Other	
+centroid_6039	Other	
+centroid_4222	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6030	Other	
+centroid_14	Protein synthesis/fate	GO:0006418
+centroid_762	Transport & binding proteins	GO:0006812
+centroid_4855	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3685	Other	
+centroid_2	Other	
+centroid_4715	Other	
+centroid_6834	Other	
+centroid_5055	Other	
+centroid_1906	Transport & binding proteins	GO:0006810
+centroid_8325	Other	
+centroid_409	Protein synthesis/fate	GO:0006412
+centroid_3867	Other	
+centroid_967	Other	
+centroid_7477	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1007	Other	
+centroid_344	Energy Metabolism	GO:0006520
+centroid_3355	Other	
+centroid_7484	Regulatory functions	GO:0006355
+centroid_4723	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1129	Other	
+centroid_1112	Other	
+centroid_5613	Transport & binding proteins	GO:0006810
+centroid_355	Regulatory functions	GO:0006355
+centroid_388	Other	
+centroid_1771	Other	
+centroid_2025	Other	
+centroid_3016	Other	
+centroid_2296	Transport & binding proteins	GO:0030001
+centroid_7875	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4167	Transport & binding proteins	GO:0006810
+centroid_3447	Protein synthesis/fate	GO:0006457
+centroid_402	Protein synthesis/fate	GO:0006412
+centroid_706	Other	
+centroid_2273	Other	
+centroid_7836	Cellular processes	GO:0006950
+centroid_924	Regulatory functions	GO:0006355
+centroid_6945	Regulatory functions	GO:0006355
+centroid_235	Transport & binding proteins	GO:0006810
+centroid_739	Other	
+centroid_6346	Other	
+centroid_3260	Other	
+centroid_8252	Other	
+centroid_1390	Other	
+centroid_1346	Transport & binding proteins	GO:0016887
+centroid_5041	Other	
+centroid_1537	Transport & binding proteins	GO:0008272
+centroid_1738	Other	
+centroid_7409	Energy Metabolism	GO:0009055
+centroid_3986	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1138	Transport & binding proteins	GO:0006810
+centroid_4008	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5366	Other	
+centroid_2386	Other	
+centroid_3299	Transport & binding proteins	GO:0006810
+centroid_2375	Transport & binding proteins	GO:0016887
+centroid_2300	Regulatory functions	GO:0006355
+centroid_1556	Other	
+centroid_792	Other	
+centroid_256	Transport & binding proteins	GO:0008272
+centroid_698	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0008299
+centroid_809	Other	
+centroid_319	Protein synthesis/fate	GO:0006412
+centroid_2219	Other	
+centroid_5069	Other	
+centroid_2277	Other	
+centroid_1395	Other	
+centroid_5335	Other	
+centroid_5330	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2220	Regulatory functions	GO:0006355
+centroid_3427	Other	
+centroid_559	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_7549	Other	
+centroid_4781	Regulatory functions	GO:0006355
+centroid_2225	Regulatory functions	GO:0006355
+centroid_605	Other	
+centroid_2237	Regulatory functions	GO:0006355
+centroid_5616	Other	
+centroid_172	Other	
+centroid_2820	Other	
+centroid_5775	Other	
+centroid_5909	Transport & binding proteins	GO:0015031
+centroid_4609	Other	
+centroid_1359	Other	
+centroid_7150	Other	
+centroid_682	Other	
+centroid_2677	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006750
+centroid_2232	Other	
+centroid_1712	Transport & binding proteins	GO:0016887
+centroid_3219	Other	
+centroid_1962	Regulatory functions	GO:0006355
+centroid_3151	Protein synthesis/fate	GO:0006412
+centroid_182	Transport & binding proteins	GO:0006810
+centroid_6330	Other	
+centroid_2125	Regulatory functions	GO:0006355
+centroid_3971	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5051	Other	
+centroid_1702	Other	
+centroid_7656	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3702	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4860	Mobile & extrachromosomal element functions	GO:0004803
+centroid_386	Other	
+centroid_5764	Other	
+centroid_4102	Other	
+centroid_2102	Other	
+centroid_679	Other	
+centroid_3163	Other	
+centroid_4824	Other	
+centroid_3506	Regulatory functions	GO:0006355
+centroid_1878	Other	
+centroid_3419	Other	
+centroid_5139	Other	
+centroid_87	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009231
+centroid_454	Other	
+centroid_8102	Regulatory functions	GO:0006306
+centroid_5088	Other	
+centroid_5645	Other	
+centroid_7710	Other	
+centroid_5525	Other	
+centroid_6244	Regulatory functions	GO:0006355
+centroid_5353	Other	
+centroid_1969	Other	
+centroid_7118	Other	
+centroid_2824	Other	
+centroid_5747	Regulatory functions	GO:0006355
+centroid_822	Other	
+centroid_2343	Other	
+centroid_28	Other	
+centroid_4194	Regulatory functions	GO:0006355
+centroid_210	Other	
+centroid_6693	Regulatory functions	GO:0006355
+centroid_2193	Other	
+centroid_602	Other	
+centroid_373	Other	
+centroid_612	Other	
+centroid_7458	Transport & binding proteins	GO:0006810
+centroid_8253	Mobile & extrachromosomal element functions	GO:0015074
+centroid_50	Transport & binding proteins	GO:0016887
+centroid_1048	Protein synthesis/fate	GO:0006508
+centroid_2088	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_755	Other	
+centroid_238	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009228
+centroid_3020	Other	
+centroid_7728	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7876	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6719	Other	
+centroid_6033	Mobile & extrachromosomal element functions	GO:0015074
+centroid_6328	Other	
+centroid_4749	Other	
+centroid_149	Cell Envelope	GO:0009245
+centroid_1072	Other	
+centroid_8215	Mobile & extrachromosomal element functions	GO:0015074
+centroid_901	Protein synthesis/fate	GO:0006508
+centroid_5597	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1086	Other	
+centroid_4436	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5720	Regulatory functions	GO:0006306
+centroid_1655	Other	
+centroid_8320	Transport & binding proteins	GO:0016887
+centroid_5841	Other	
+centroid_7882	Other	
+centroid_63	Other	
+centroid_1400	Other	
+centroid_6019	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1953	Other	
+centroid_7229	Mobile & extrachromosomal element functions	GO:0015074
+centroid_533	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7706	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4871	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1832	Transport & binding proteins	GO:0006810
+centroid_2523	Other	
+centroid_1509	Regulatory functions	GO:0006355
+centroid_6459	Other	
+centroid_3128	Other	
+centroid_1223	Other	
+centroid_1206	Other	
+centroid_2365	Other	
+centroid_2892	Other	
+centroid_6326	Mobile & extrachromosomal element functions	GO:0004803
+centroid_950	Other	
+centroid_4108	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2832	Regulatory functions	GO:0006355
+centroid_5530	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5385	Other	
+centroid_8110	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2842	DNA Metabolism	GO:0009307
+centroid_3494	Other	
+centroid_3423	Other	
+centroid_5147	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4867	Other	
+centroid_2837	Other	
+centroid_2894	Other	
+centroid_5874	Mobile & extrachromosomal element functions	GO:0004803
+centroid_629	Other	
+centroid_1597	Purines, pyrimidines, nucleosides, & nucleotides	GO:0006221
+centroid_889	Other	
+centroid_5296	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5045	Regulatory functions	GO:0006355
+centroid_4579	Other	
+centroid_176	Regulatory functions	GO:0006355
+centroid_6689	Transport & binding proteins	GO:0006810
+centroid_5583	Other	
+centroid_3390	Regulatory functions	GO:0006355
+centroid_2114	Regulatory functions	GO:0006355
+centroid_2473	Regulatory functions	GO:0006355
+centroid_4288	Cell Envelope	GO:0009289
+centroid_1792	Regulatory functions	GO:0006355
+centroid_2501	Regulatory functions	GO:0006355
+centroid_202	Other	
+centroid_57	Other	
+centroid_634	Other	
+centroid_667	Other	
+centroid_8195	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1156	Regulatory functions	GO:0006355
+centroid_8129	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1569	Other	
+centroid_3698	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_2766	Other	
+centroid_3682	Other	
+centroid_425	Protein synthesis/fate	GO:0006412
+centroid_2038	Cell Envelope	GO:0009289
+centroid_930	Other	
+centroid_3193	Other	
+centroid_5284	Other	
+centroid_7695	Other	
+centroid_3263	Protein synthesis/fate	GO:0006508
+centroid_1661	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009231
+centroid_3857	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6141	Regulatory functions	GO:0006355
+centroid_2001	Other	
+centroid_4880	Other	
+centroid_2281	Transport & binding proteins	GO:0006810
+centroid_6702	Other	
+centroid_4449	Energy Metabolism	GO:0006520
+centroid_5311	Other	
+centroid_1603	Other	
+centroid_2063	Transport & binding proteins	GO:0016887
+centroid_715	Other	
+centroid_4466	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3710	Regulatory functions	GO:0006355
+centroid_6476	Other	
+centroid_1859	Transport & binding proteins	GO:0006810
+centroid_2323	Other	
+centroid_4176	Other	
+centroid_8057	Other	
+centroid_724	Other	
+centroid_1766	Other	
+centroid_705	Transport & binding proteins	GO:0006810
+centroid_3176	Other	
+centroid_3011	Other	
+centroid_6486	Other	
+centroid_3373	Other	
+centroid_3340	Transport & binding proteins	GO:0015992
+centroid_2055	Transport & binding proteins	GO:0006810
+centroid_2177	Other	
+centroid_4231	Transport & binding proteins	GO:0006810
+centroid_6804	Other	
+centroid_2544	Transport & binding proteins	GO:0006812
+centroid_8352	Transport & binding proteins	GO:0015171
+centroid_4078	Other	
+centroid_1238	Other	
+centroid_1169	Other	
+centroid_2666	Other	
+centroid_3877	Other	
+centroid_4517	Other	
+centroid_5001	DNA Metabolism	GO:0006304
+centroid_21	Other	
+centroid_4969	Mobile & extrachromosomal element functions	GO:0015074
+centroid_8107	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4885	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7753	Mobile & extrachromosomal element functions	GO:0015074
+centroid_285	Other	
+centroid_1498	Energy Metabolism	GO:0006099
+centroid_5482	DNA Metabolism	GO:0006259
+centroid_193	Other	
+centroid_4653	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1545	Other	
+centroid_1139	Transport & binding proteins	GO:0006810
+centroid_118	Other	
+centroid_6940	Other	
+centroid_8342	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3130	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_978	Other	
+centroid_5915	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2628	Other	
+centroid_7352	Other	
+centroid_1871	Other	
+centroid_8141	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3906	Other	
+centroid_3468	Transport & binding proteins	GO:0016887
+centroid_4663	Other	
+centroid_4062	Signal Transduction & Quorum Sensing	GO:0000155
+centroid_4614	Other	
+centroid_2154	Transport & binding proteins	GO:0006865
+centroid_3066	Transport & binding proteins	GO:0006813
+centroid_2745	Other	
+centroid_3238	Other	
+centroid_7797	DNA Metabolism	GO:0006310
+centroid_4442	Other	
+centroid_2873	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009435
+centroid_1788	Regulatory functions	GO:0006355
+centroid_6294	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2357	Cellular processes	GO:0006979
+centroid_274	Other	
+centroid_5638	Other	
+centroid_6894	Regulatory functions	GO:0006355
+centroid_1276	Other	
+centroid_2514	Regulatory functions	GO:0006355
+centroid_1283	Other	
+centroid_2489	Other	
+centroid_514	Other	
+centroid_2194	Regulatory functions	GO:0006355
+centroid_4811	Transport & binding proteins	GO:0006810
+centroid_123	Other	
+centroid_2858	Other	
+centroid_3334	Other	
+centroid_3885	Other	
+centroid_5371	Other	
+centroid_3586	Regulatory functions	GO:0003916
+centroid_596	Other	
+centroid_6846	Protein synthesis/fate	GO:0006508
+centroid_5084	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7624	Mobile & extrachromosomal element functions	GO:0004803
+centroid_609	Other	
+centroid_7742	Regulatory functions	GO:0006355
+centroid_1195	Other	
+centroid_1043	Other	
+centroid_8138	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8134	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4265	Other	
+centroid_7310	Other	
+centroid_1520	Cell Envelope	GO:0009245
+centroid_8186	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6784	Mobile & extrachromosomal element functions	GO:0015074
+centroid_925	Transport & binding proteins	GO:0016887
+centroid_4678	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3224	Protein synthesis/fate	GO:0006412
+centroid_2986	Transport & binding proteins	GO:0015031
+centroid_539	Other	
+centroid_7140	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2133	Regulatory functions	GO:0006355
+centroid_900	Transport & binding proteins	GO:0006855
+centroid_4795	Mobile & extrachromosomal element functions	GO:0004803
+centroid_360	Other	
+centroid_8337	Other	
+centroid_4727	Other	
+centroid_6827	Other	
+centroid_1342	Other	
+centroid_5093	Mobile & extrachromosomal element functions	GO:0004803
+centroid_522	Transport & binding proteins	GO:0006810
+centroid_3341	Energy Metabolism	GO:0015986
+centroid_4067	Other	
+centroid_5185	Other	
+centroid_6671	Other	
+centroid_426	Energy Metabolism	GO:0006099
+centroid_3096	Other	
+centroid_4602	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3007	Transport & binding proteins	GO:0016887
+centroid_878	Transport & binding proteins	GO:0016887
+centroid_2819	Other	
+centroid_2010	Other	
+centroid_4296	Other	
+centroid_848	Transport & binding proteins	GO:0006810
+centroid_6639	DNA Metabolism	GO:0006304
+centroid_4932	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5398	Other	
+centroid_7365	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7783	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0008299
+centroid_323	Other	
+centroid_4542	Other	
+centroid_2049	Other	
+centroid_4409	Other	
+centroid_5856	Mobile & extrachromosomal element functions	GO:0015074
+centroid_841	Other	
+centroid_2387	Mobile & extrachromosomal element functions	GO:0015074
+centroid_17	Other	
+centroid_2901	Transport & binding proteins	GO:0006810
+centroid_1338	Other	
+centroid_4733	Other	
+centroid_2074	Other	
+centroid_4234	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1848	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009236
+centroid_8308	Transport & binding proteins	GO:0006810
+centroid_6243	Transport & binding proteins	GO:0006810
+centroid_6318	Other	
+centroid_3267	Protein synthesis/fate	GO:0006508
+centroid_1377	Other	
+centroid_2176	Other	
+centroid_2656	Other	
+centroid_564	Other	
+centroid_2040	Regulatory functions	GO:0006355
+centroid_3713	Energy Metabolism	GO:0006520
+centroid_3295	Regulatory functions	GO:0006355
+centroid_5740	Transport & binding proteins	GO:0006812
+centroid_3872	Other	
+centroid_1999	Other	
+centroid_1116	Other	
+centroid_1304	Other	
+centroid_2692	Regulatory functions	GO:0006355
+centroid_2188	Transport & binding proteins	GO:0006810
+centroid_7657	Other	
+centroid_779	Other	
+centroid_7156	Other	
+centroid_7555	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6642	Other	
+centroid_4753	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2452	Transport & binding proteins	GO:0006810
+centroid_280	Other	
+centroid_8003	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1332	Other	
+centroid_3439	Energy Metabolism	GO:0006520
+centroid_1298	Other	
+centroid_519	Other	
+centroid_3383	Other	
+centroid_5622	Other	
+centroid_6653	Other	
+centroid_6941	Other	
+centroid_7457	Other	
+centroid_3323	Other	
+centroid_4720	Mobile & extrachromosomal element functions	GO:0015074
+centroid_756	Other	
+centroid_1679	Other	
+centroid_1541	Regulatory functions	GO:0006355
+centroid_646	Transport & binding proteins	GO:0006810
+centroid_4712	Other	
+centroid_186	Other	
+centroid_5387	Transport & binding proteins	GO:0006810
+centroid_6610	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7780	Other	
+centroid_1806	Other	
+centroid_1261	Other	
+centroid_6234	Other	
+centroid_4754	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1836	Transport & binding proteins	GO:0006810
+centroid_4652	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4425	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3127	Other	
+centroid_2778	Other	
+centroid_6691	Other	
+centroid_8371	Regulatory functions	GO:0006306
+centroid_8345	Other	
+centroid_3500	Other	
+centroid_2008	Regulatory functions	GO:0006355
+centroid_252	Other	
+centroid_1894	Other	
+centroid_8266	Regulatory functions	GO:0006355
+centroid_3881	Other	
+centroid_2807	Other	
+centroid_5303	Other	
+centroid_3501	Other	
+centroid_1217	Other	
+centroid_1892	Protein synthesis/fate	GO:0006412
+centroid_1020	Other	
+centroid_7498	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2736	Regulatory functions	GO:0006355
+centroid_824	Other	
+centroid_1052	Other	
+centroid_3446	Protein synthesis/fate	GO:0006457
+centroid_255	Other	
+centroid_3197	Other	
+centroid_6062	Other	
+centroid_3656	Regulatory functions	GO:0006355
+centroid_2477	Other	
+centroid_2348	Other	
+centroid_3257	Transport & binding proteins	GO:0015684
+centroid_8226	Other	
+centroid_2103	Transport & binding proteins	GO:0006810
+centroid_2469	Other	
+centroid_788	Other	
+centroid_5102	Other	
+centroid_2915	Other	
+centroid_973	Other	
+centroid_734	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_7393	Other	
+centroid_7473	Other	
+centroid_3486	Protein synthesis/fate	GO:0006508
+centroid_7777	Other	
+centroid_361	Other	
+centroid_1639	Other	
+centroid_2971	Other	
+centroid_1580	Energy Metabolism	GO:0009052
+centroid_7267	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1353	Other	
+centroid_1364	Other	
+centroid_3250	Other	
+centroid_2548	Other	
+centroid_2221	Other	
+centroid_1656	Other	
+centroid_1508	Other	
+centroid_2865	Other	
+centroid_2059	Other	
+centroid_2846	Regulatory functions	GO:0006355
+centroid_5881	Other	
+centroid_3171	Transport & binding proteins	GO:0015992
+centroid_3271	Protein synthesis/fate	GO:0006508
+centroid_2485	Other	
+centroid_2877	Other	
+centroid_368	Other	
+centroid_1249	Other	
+centroid_3331	Other	
+centroid_4903	Transport & binding proteins	GO:0006810
+centroid_4352	Other	
+centroid_1273	Protein synthesis/fate	GO:0006412
+centroid_316	Protein synthesis/fate	GO:0006412
+centroid_5914	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5189	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006777
+centroid_7402	Other	
+centroid_7387	Other	
+centroid_8208	Mobile & extrachromosomal element functions	GO:0004803
+centroid_928	Other	
+centroid_5890	Other	
+centroid_421	Protein synthesis/fate	GO:0006412
+centroid_6706	Other	
+centroid_1707	Other	
+centroid_4685	Mobile & extrachromosomal element functions	GO:0004803
+centroid_450	Other	
+centroid_1023	Other	
+centroid_3213	Other	
+centroid_4748	Mobile & extrachromosomal element functions	GO:0015074
+centroid_302	Other	
+centroid_3300	Other	
+centroid_8281	Regulatory functions	GO:0006355
+centroid_1113	Other	
+centroid_6696	Other	
+centroid_2711	Transport & binding proteins	GO:0006865
+centroid_1587	Other	
+centroid_4433	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4096	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7320	Other	
+centroid_2187	Transport & binding proteins	GO:0016887
+centroid_2906	Other	
+centroid_5220	Other	
+centroid_1641	Other	
+centroid_451	Other	
+centroid_3441	Other	
+centroid_6130	DNA Metabolism	GO:0006310
+centroid_2141	Energy Metabolism	GO:0006520
+centroid_2146	Transport & binding proteins	GO:0016887
+centroid_2472	Regulatory functions	GO:0006355
+centroid_2977	Other	
+centroid_1287	Other	
+centroid_1469	DNA Metabolism	GO:0006281
+centroid_4465	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2540	Other	
+centroid_5044	Transport & binding proteins	GO:0006810
+centroid_370	Other	
+centroid_7454	Other	
+centroid_1980	Other	
+centroid_7916	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3451	Other	
+centroid_6496	Other	
+centroid_7348	Other	
+centroid_3430	Other	
+centroid_5499	Other	
+centroid_3199	Other	
+centroid_6830	Other	
+centroid_852	Other	
+centroid_7898	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1035	Protein synthesis/fate	GO:0006412
+centroid_7557	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2720	Other	
+centroid_1565	Other	
+centroid_5918	Other	
+centroid_4827	Other	
+centroid_2605	Other	
+centroid_6360	Other	
+centroid_4077	Other	
+centroid_3200	Other	
+centroid_406	Protein synthesis/fate	GO:0006412
+centroid_3697	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0009435
+centroid_4168	Other	
+centroid_1203	Other	
+centroid_4691	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1987	Transport & binding proteins	GO:0006810
+centroid_1861	Other	
+centroid_3592	Regulatory functions	GO:0006355
+centroid_3220	Other	
+centroid_8240	Other	
+centroid_1105	Other	
+centroid_5011	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1317	Transport & binding proteins	GO:0006811
+centroid_6521	Regulatory functions	GO:0006355
+centroid_2573	Other	
+centroid_49	Other	
+centroid_6549	Other	
+centroid_2785	Other	
+centroid_3346	Energy Metabolism	GO:0015986
+centroid_277	Other	
+centroid_7444	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5315	Regulatory functions	GO:0006355
+centroid_356	Other	
+centroid_3907	Other	
+centroid_2556	Other	
+centroid_2064	Transport & binding proteins	GO:0006810
+centroid_6792	Other	
+centroid_2601	Other	
+centroid_625	Other	
+centroid_3618	Mobile & extrachromosomal element functions	GO:0015074
+centroid_4292	Regulatory functions	GO:0003916
+centroid_3362	Other	
+centroid_352	Protein synthesis/fate	GO:0006508
+centroid_5587	Regulatory functions	GO:0006355
+centroid_6482	Other	
+centroid_3167	Other	
+centroid_2947	Other	
+centroid_245	Other	
+centroid_6145	Other	
+centroid_2596	Regulatory functions	GO:0006355
+centroid_4896	Transport & binding proteins	GO:0016887
+centroid_3918	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4916	Mobile & extrachromosomal element functions	GO:0015074
+centroid_328	Other	
+centroid_2716	Other	
+centroid_6745	Other	
+centroid_6833	Mobile & extrachromosomal element functions	GO:0015074
+centroid_5641	Other	
+centroid_2955	Regulatory functions	GO:0006355
+centroid_4277	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1574	Transport & binding proteins	GO:0006810
+centroid_1017	Protein synthesis/fate	GO:0006508
+centroid_1533	Other	
+centroid_3863	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4261	Other	
+centroid_3979	Transport & binding proteins	GO:0016887
+centroid_2515	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_1634	Other	
+centroid_7515	Other	
+centroid_905	Mobile & extrachromosomal element functions	GO:0004803
+centroid_7412	Other	
+centroid_5378	Other	
+centroid_3139	Other	
+centroid_1575	Protein synthesis/fate	GO:0006508
+centroid_3779	Other	
+centroid_606	Other	
+centroid_1524	Other	
+centroid_7965	Transport & binding proteins	GO:0006810
+centroid_99	Protein synthesis/fate	GO:0006508
+centroid_4575	Other	
+centroid_3964	Other	
+centroid_5246	Other	
+centroid_751	Other	
+centroid_5439	Other	
+centroid_2983	Transport & binding proteins	GO:0016887
+centroid_6710	Other	
+centroid_2206	Other	
+centroid_3611	Regulatory functions	GO:0006355
+centroid_5127	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3344	Energy Metabolism	GO:0015986
+centroid_3457	Other	
+centroid_6359	Transport & binding proteins	GO:0006813
+centroid_3386	Other	
+centroid_1165	Transport & binding proteins	GO:0015293
+centroid_599	Other	
+centroid_2370	Energy Metabolism	GO:0006520
+centroid_938	Other	
+centroid_3597	Mobile & extrachromosomal element functions	GO:0015074
+centroid_7926	Other	
+centroid_1882	Other	
+centroid_2046	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1151	Other	
+centroid_2642	Other	
+centroid_2060	Other	
+centroid_7924	Transcription	GO:0006401
+centroid_2529	Transport & binding proteins	GO:0015833
+centroid_893	Other	
+centroid_527	Other	
+centroid_2353	Other	
+centroid_1757	Other	
+centroid_3083	Transport & binding proteins	GO:0015293
+centroid_4935	Mobile & extrachromosomal element functions	GO:0015074
+centroid_898	Other	
+centroid_4908	Other	
+centroid_3206	Regulatory functions	GO:0006355
+centroid_3308	Other	
+centroid_8053	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1899	Transport & binding proteins	GO:0006810
+centroid_3476	Other	
+centroid_2637	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006779
+centroid_4863	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1094	Other	
+centroid_1796	Other	
+centroid_5580	Regulatory functions	GO:0006355
+centroid_7485	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2773	Energy Metabolism	GO:0006520
+centroid_5606	Transport & binding proteins	GO:0006810
+centroid_25	Transport & binding proteins	GO:0006810
+centroid_2620	Regulatory functions	GO:0006355
+centroid_64	Energy Metabolism	GO:0006559
+centroid_2854	Transport & binding proteins	GO:0006810
+centroid_4682	Other	
+centroid_2797	Other	
+centroid_5688	Protein synthesis/fate	GO:0006412
+centroid_4877	Regulatory functions	GO:0006355
+centroid_1749	Regulatory functions	GO:0006355
+centroid_1505	Other	
+centroid_5376	Other	
+centroid_7147	Other	
+centroid_1829	Other	
+centroid_1665	Other	
+centroid_1976	Transport & binding proteins	GO:0008565
+centroid_1965	Other	
+centroid_630	Transport & binding proteins	GO:0006810
+centroid_4927	Mobile & extrachromosomal element functions	GO:0004803
+centroid_934	Other	
+centroid_1761	Other	
+centroid_3005	Other	
+centroid_7207	Mobile & extrachromosomal element functions	GO:0015074
+centroid_1296	Other	
+centroid_5292	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4252	Other	
+centroid_2888	Other	
+centroid_5087	DNA Metabolism	GO:0009307
+centroid_1141	Regulatory functions	GO:0006355
+centroid_8175	Other	
+centroid_3380	Regulatory functions	GO:0006355
+centroid_2528	Other	
+centroid_266	Transport & binding proteins	GO:0006810
+centroid_6789	Regulatory functions	GO:0006355
+centroid_33	Other	
+centroid_2107	Other	
+centroid_6808	Cellular processes	GO:0006950
+centroid_6686	Other	
+centroid_1038	Other	
+centroid_3893	Other	
+centroid_7551	Other	
+centroid_1475	Other	
+centroid_2083	Other	
+centroid_2217	Transport & binding proteins	GO:0015171
+centroid_2803	Other	
+centroid_2932	Other	
+centroid_3058	Transport & binding proteins	GO:0006810
+centroid_4310	DNA Metabolism	GO:0006281
+centroid_6925	Other	
+centroid_4391	Regulatory functions	GO:0006355
+centroid_7486	Mobile & extrachromosomal element functions	GO:0015074
+centroid_3429	Other	
+centroid_5256	Other	
+centroid_4459	Energy Metabolism	GO:0009055
+centroid_4605	Mobile & extrachromosomal element functions	GO:0004803
+centroid_40	Other	
+centroid_914	Other	
+centroid_8245	Mobile & extrachromosomal element functions	GO:0004803
+centroid_3490	Other	
+centroid_1047	Regulatory functions	GO:0006355
+centroid_3717	Other	
+centroid_867	Regulatory functions	GO:0006355
+centroid_5323	Transport & binding proteins	GO:0008272
+centroid_7470	Other	
+centroid_4806	Mobile & extrachromosomal element functions	GO:0004803
+centroid_1068	Transport & binding proteins	GO:0006810
+centroid_7960	Other	
+centroid_7262	Other	
+centroid_3246	Other	
+centroid_5925	Other	
+centroid_2581	Other	
+centroid_2098	Regulatory functions	GO:0006355
+centroid_7901	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4450	Other	
+centroid_4980	Mobile & extrachromosomal element functions	GO:0004803
+centroid_6223	Mobile & extrachromosomal element functions	GO:0015074
+centroid_8324	Other	
+centroid_443	Other	
+centroid_5322	Mobile & extrachromosomal element functions	GO:0015074
+centroid_2172	Other	
+centroid_5623	Other	
+centroid_7251	DNA Metabolism	GO:0006281
+centroid_2897	Central intermediary metabolism	GO:0006807
+centroid_5308	Other	
+centroid_5170	Mobile & extrachromosomal element functions	GO:0004803
+centroid_5080	Other	
+centroid_4460	Other	
+centroid_536	Other	
+centroid_3284	Transport & binding proteins	GO:0008272
+centroid_3720	Other	
+centroid_4484	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4017	Other	
+centroid_5593	Transport & binding proteins	GO:0005215
+centroid_5735	Regulatory functions	GO:0006355
+centroid_6679	Other	
+centroid_1811	Regulatory functions	GO:0006306
+centroid_5361	Other	
+centroid_7702	Mobile & extrachromosomal element functions	GO:0015074
+centroid_8077	Other	
+centroid_7956	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4791	Mobile & extrachromosomal element functions	GO:0004803
+centroid_8073	Other	
+centroid_8045	Regulatory functions	GO:0003916
+centroid_670	Transport & binding proteins	GO:0006810
+centroid_7630	Mobile & extrachromosomal element functions	GO:0015074
+centroid_8111	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4300	Mobile & extrachromosomal element functions	GO:0004803
+centroid_2953	Other	
+centroid_4922	Mobile & extrachromosomal element functions	GO:0004803
+centroid_941	Other	
+centroid_5702	Other	
+centroid_5590	Other	
+centroid_3107	Other	
+centroid_7259	Mobile & extrachromosomal element functions	GO:0004803
+centroid_4211	Other	
+centroid_2447	Other	
+centroid_5403	Regulatory functions	GO:0006355
+centroid_735	Other	
+centroid_621	Other	
+centroid_2936	Other	
+centroid_8357	Other	
+centroid_2850	Other	
+centroid_4745	Other	
+centroid_4185	Transcription	GO:0006401
+centroid_1310	Biosynthesis of cofactors, prosthetic groups, & carriers	GO:0006744
+centroid_173	Regulatory functions	GO:0006355
+centroid_7	Transport & binding proteins	GO:0016887
+centroid_3036	Transport & binding proteins	GO:0015031
+centroid_2812	Regulatory functions	GO:0006355
+centroid_5472	Other	
+centroid_2923	Other	

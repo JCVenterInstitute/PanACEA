@@ -1,0 +1,2613 @@
+1	CL_1	1	1395	chromosomal replication initiator protein DnaA	CL	465
+1	CL_2	1396	2541	DNA polymerase III subunit beta	CL	382
+1	CL_3	2542	3621	DNA replication and repair protein RecF	CL	360
+1	CL_4	3622	6087	DNA topoisomerase (ATP-hydrolyzing) subunit B	CL	822
+1	CL_5	6088	6477	cytochrome b	CL	130
+1	CL_6	7032	6478	membrane protein	CL	185
+1	CL_7	8961	7033	ABC transporter ATP-binding protein	CL	643
+1	CL_8	8962	9963	RND transporter	CL	334
+1	CL_9	9964	10968	hypothetical protein	CL	335
+1	CL_10	10969	11970	hypothetical protein	CL	334
+1	CL_11	11971	12303	iron-sulfur cluster insertion protein ErpA	CL	111
+1	CL_12	13146	12304	alpha/beta hydrolase	CL	281
+1	CL_13	14271	13147	anhydro-N-acetylmuramic acid kinase	CL	375
+1	CL_14	14272	15483	tyrosine--tRNA ligase	CL	404
+1	CL_INS_1	15484	16347	fGI_50;2	fGI	288
+1	CL_16	17037	16348	membrane protein	CL	230
+1	CL_INS_2	17038	18513	fGI_50;1	fGI	492
+1	CL_18	18514	18654	putative methionine/alanine importer small subunit	CL	47
+1	CL_19	19956	18655	16S rRNA (cytosine(967)-C(5))-methyltransferase RsmB	CL	434
+1	CL_20	20916	19957	methionyl-tRNA formyltransferase	CL	320
+1	CL_21	20917	22743	dihydroxy-acid dehydratase	CL	609
+1	CL_22	22744	24030	hypothetical protein	CL	429
+1	CL_23	24031	24759	sulfite exporter TauE/SafE family protein	CL	243
+1	CL_24	25647	24760	LysR family transcriptional regulator	CL	296
+1	CL_25	26940	25648	pyrimidine permease	CL	431
+1	CL_26	29622	26941	phosphoenolpyruvate carboxylase	CL	894
+1	CL_27	30243	29623	TetR/AcrR family transcriptional regulator	CL	207
+1	CL_28	30244	31341	efflux RND transporter periplasmic adaptor subunit	CL	366
+1	CL_29	31342	34464	AcrB/AcrD/AcrF family protein	CL	1041
+1	CL_30	34465	34839	hypothetical protein	CL	125
+1	CL_31	34840	35949	molecular chaperone DnaJ	CL	370
+1	CL_32	36297	35950	hypothetical protein	CL	116
+1	CL_33	36298	37116	4-hydroxy-tetrahydrodipicolinate reductase	CL	273
+1	CL_34	37117	37767	hypothetical protein	CL	217
+1	CL_INS_3	37768	40656	fGI_50;1	fGI	963
+1	CL_38	41028	40657	hypothetical protein	CL	124
+1	CL_INS_4	41029	41148	fGI_25;1	fGI	40
+1	CL_39	41149	42570	PLP-dependent aminotransferase family protein	CL	474
+1	CL_40	43596	42571	NAD(P)-dependent alcohol dehydrogenase	CL	342
+1	CL_41	44154	43597	DNA-3-methyladenine glycosylase I	CL	186
+1	CL_42	44397	44155	hypothetical protein	CL	81
+1	CL_43	44931	44398	M23 family peptidase	CL	178
+1	CL_44	45963	44932	A/G-specific adenine glycosylase	CL	344
+1	CL_45	46323	45964	HIT family protein	CL	120
+1	CL_46	47058	46324	dienelactone hydrolase family protein	CL	245
+1	CL_47	47214	47059	DUF1328 domain-containing protein	CL	52
+1	CL_48	47215	47670	YcgN family cysteine cluster protein	CL	152
+1	CL_49	47671	48837	PQQ-dependent sugar dehydrogenase	CL	389
+1	CL_50	48838	50100	replication-associated recombination protein A	CL	421
+1	CL_INS_5	50101	50937	fGI_50;1	fGI	279
+1	CL_52	51138	50938	hypothetical protein	CL	67
+1	CL_53	51855	51139	phosphoribosylaminoimidazolesuccinocarboxamide synthase	CL	239
+1	CL_54	52458	51856	hypothetical protein	CL	201
+1	CL_55	53349	52459	4-hydroxy-tetrahydrodipicolinate synthase	CL	297
+1	CL_56	53350	53991	bifunctional nicotinamidase/pyrazinamidase	CL	214
+1	CL_57	53992	54927	bile acid:sodium symporter family protein	CL	312
+1	CL_INS_6	54928	56268	fGI_50;1	fGI	447
+1	CL_59	56739	56269	DUF523 domain-containing protein	CL	157
+1	CL_60	56740	57792	4-hydroxyphenylpyruvate dioxygenase	CL	351
+1	CL_61	58569	57793	IclR family transcriptional regulator	CL	259
+1	CL_62	59115	58570	VOC family protein	CL	182
+1	CL_63	59745	59116	maleylacetoacetate isomerase	CL	210
+1	CL_64	61050	59746	fumarylacetoacetase	CL	435
+1	CL_INS_7	61051	62436	fGI_50;1	fGI	462
+1	CL_66	62437	63117	hypothetical protein	CL	227
+1	CL_INS_8	63118	65454	fGI_50;1	fGI	779
+1	CL_69	65455	66204	histidine utilization repressor	CL	250
+1	CL_70	66205	66777	hypothetical protein	CL	191
+1	CL_71	66778	68451	urocanate hydratase	CL	558
+1	CL_72	68452	69987	histidine ammonia-lyase	CL	512
+1	CL_73	69988	71397	amino acid permease	CL	470
+1	CL_74	71398	72600	imidazolonepropionase	CL	401
+1	CL_75	72601	73518	formimidoylglutamase	CL	306
+1	CL_INS_9	73519	78609	fGI_50;2	fGI	1697
+1	CL_82	80445	78610	glutamine--fructose-6-phosphate transaminase (isomerizing)	CL	612
+1	CL_83	81807	80446	UDP-N-acetylglucosamine diphosphorylase/glucosamine-1-phosphate N-acetyltransferase	CL	454
+1	CL_84	82320	81808	phosphatidylglycerophosphatase A	CL	171
+1	CL_85	83235	82321	thiamine-phosphate kinase	CL	305
+1	CL_86	83682	83236	N utilization substance protein B	CL	149
+1	CL_87	84150	83683	6,7-dimethyl-8-ribityllumazine synthase	CL	156
+1	CL_88	85269	84151	bifunctional 3,4-dihydroxy-2-butanone-4-phosphate synthase/GTP cyclohydrolase II	CL	373
+1	CL_89	86556	85270	hypothetical protein	CL	429
+1	CL_90	86557	87777	phosphoserine phosphatase SerB	CL	407
+1	CL_91	87778	88110	hypothetical protein	CL	111
+1	CL_INS_10	88111	88587	fGI_50;1	fGI	159
+1	CL_93	89028	88588	D-aminoacyl-tRNA deacylase	CL	147
+1	CL_INS_11	89029	91032	fGI_25;1	fGI	668
+1	CL_96	91033	92244	nicotinate phosphoribosyltransferase	CL	404
+1	CL_97	92245	93090	sulfurtransferase	CL	282
+1	CL_98	93091	93939	phosphatidylserine decarboxylase proenzyme	CL	283
+1	CL_INS_12	93940	96330	fGI_10;1	fGI	797
+1	CL_99	96331	97524	hypothetical protein	CL	398
+1	CL_100	98880	97525	phosphate regulon sensor histidine kinase PhoR	CL	452
+1	CL_101	99588	98881	phosphate regulon transcriptional regulatory protein PhoB	CL	236
+1	CL_102	100257	99589	TetR/AcrR family transcriptional regulator	CL	223
+1	CL_103	100258	101088	short-chain dehydrogenase	CL	277
+1	CL_104	102453	101089	MATE family efflux transporter	CL	455
+1	CL_105	103605	102454	pyridoxal phosphate-dependent aminotransferase	CL	384
+1	CL_106	104913	103606	DUF445 domain-containing protein	CL	436
+1	CL_107	105474	104914	hypothetical protein	CL	187
+1	CL_108	106011	105475	DUF924 domain-containing protein	CL	179
+1	CL_109	106012	107586	glutamate--cysteine ligase	CL	525
+1	CL_110	107587	108099	disulfide bond formation protein B	CL	171
+1	CL_INS_13	108100	113955	fGI_50;4	fGI	1952
+1	CL_118	115296	113956	hypothetical protein	CL	447
+1	CL_119	115297	115875	esterase	CL	193
+1	CL_120	115876	117756	DNA topoisomerase IV subunit B	CL	627
+1	CL_INS_14	117757	118548	fGI_50;1	fGI	264
+1	CL_121	119049	118549	ureidoglycolate lyase	CL	167
+1	CL_122	120057	119050	allantoicase	CL	336
+1	CL_123	120058	121212	monooxygenase	CL	385
+1	CL_124	121935	121213	ion channel protein Tsx	CL	241
+1	CL_INS_15	121936	123300	fGI_50;1	fGI	455
+1	CL_126	123621	123301	hydroxyisourate hydrolase	CL	107
+1	CL_127	124122	123622	OHCU decarboxylase	CL	167
+1	CL_128	125085	124123	allantoinase PuuE	CL	321
+1	CL_129	125086	125433	hypothetical protein	CL	116
+1	CL_130	125434	125976	ankyrin repeat domain-containing protein	CL	181
+1	CL_131	125977	126741	transporter	CL	255
+1	CL_132	126742	128553	protein-disulfide reductase DsbD	CL	604
+1	CL_133	129744	128554	GGDEF domain-containing protein	CL	397
+1	CL_INS_16	129745	130653	fGI_50;1	fGI	303
+1	CL_135	130654	131088	DUF2147 domain-containing protein	CL	145
+1	CL_136	131436	131089	arsenate reductase	CL	116
+1	CL_137	132258	131437	exodeoxyribonuclease III	CL	274
+1	CL_138	132259	132906	orotate phosphoribosyltransferase	CL	216
+1	CL_INS_17	132907	135093	fGI_50;1	fGI	729
+1	CL_141	135303	135094	DUF1737 domain-containing protein	CL	70
+1	CL_142	135304	136245	glutathione synthase	CL	314
+1	CL_143	136246	137340	undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase	CL	365
+1	CL_144	137341	138786	UDP-N-acetylmuramate--L-alanine ligase	CL	482
+1	CL_145	138787	139710	D-alanine--D-alanine ligase	CL	308
+1	CL_146	139711	140562	cell division protein FtsQ	CL	284
+1	CL_147	140563	141822	cell division protein FtsA	CL	420
+1	CL_148	141823	142995	cell division protein FtsZ	CL	391
+1	CL_149	142996	143895	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase	CL	300
+1	CL_150	144333	143896	DUF721 domain-containing protein	CL	146
+1	CL_151	144334	145023	M23 family peptidase	CL	230
+1	CL_152	145024	147738	pyruvate dehydrogenase (acetyl-transferring), homodimeric type	CL	905
+1	CL_153	147739	149718	dihydrolipoamide acetyltransferase	CL	660
+1	CL_154	149719	149988	hypothetical protein	CL	90
+1	CL_155	149989	150561	UPF0016 domain-containing protein	CL	191
+1	CL_INS_18	150562	152715	fGI_50;1	fGI	718
+1	CL_157	152716	153510	MBL fold metallo-hydrolase	CL	265
+1	CL_158	153511	153873	zinc/iron-chelating domain-containing protein	CL	121
+1	CL_159	153874	155337	IMP dehydrogenase	CL	488
+1	CL_160	155338	156672	phosphoglucosamine mutase	CL	445
+1	CL_161	156673	157326	pyridoxamine 5'-phosphate oxidase	CL	218
+1	CL_162	157327	159024	single-stranded-DNA-specific exonuclease RecJ	CL	566
+1	CL_163	159789	159025	putative porin	CL	255
+1	CL_164	159790	160839	peptide chain release factor 2	CL	350
+1	CL_165	160840	161139	transcriptional regulator	CL	100
+1	CL_166	161140	162195	alkene reductase	CL	352
+1	CL_167	162196	163485	3-deoxy-D-manno-octulosonic acid transferase	CL	430
+1	CL_168	163486	164190	16S rRNA (uracil(1498)-N(3))-methyltransferase	CL	235
+1	CL_169	165168	164191	mechanosensitive ion channel family protein	CL	326
+1	CL_170	165741	165169	DUF805 domain-containing protein	CL	191
+1	CL_INS_19	165742	167688	fGI_50;1	fGI	649
+1	CL_172	168228	167689	cysteine hydrolase	CL	180
+1	CL_INS_20	168229	168639	fGI_50;1	fGI	137
+1	CL_174	169749	168640	dimethyl sulfone monooxygenase SfnG	CL	370
+1	CL_175	170484	169750	FMN reductase	CL	245
+1	CL_176	170485	171132	DNA-binding response regulator	CL	216
+1	CL_177	171897	171133	hypothetical protein	CL	255
+1	CL_178	175392	171898	hybrid sensor histidine kinase/response regulator	CL	1165
+1	CL_179	175393	175722	DUF485 domain-containing protein	CL	110
+1	CL_180	175723	177435	cation acetate symporter	CL	571
+1	CL_181	177436	178125	hypothetical protein	CL	230
+1	CL_INS_21	178126	180987	fGI_50;1	fGI	954
+1	CL_184	180988	182691	GGDEF domain-containing protein	CL	568
+1	CL_INS_22	182692	184344	fGI_10;1	fGI	551
+1	CL_185	187176	184345	excinuclease ABC subunit UvrA	CL	944
+1	CL_186	187177	187776	TetR/AcrR family transcriptional regulator	CL	200
+1	CL_187	187777	188751	NADPH:quinone oxidoreductase	CL	325
+1	CL_188	188752	189102	DUF1304 domain-containing protein	CL	117
+1	CL_189	189103	189441	GlpM family protein	CL	113
+1	CL_190	190113	189442	thiaminase II	CL	224
+1	CL_191	190114	191193	DUF475 domain-containing protein	CL	360
+1	CL_INS_23	191194	192555	fGI_50;1	fGI	454
+1	CL_193	192556	193134	single-stranded DNA-binding protein	CL	193
+1	CL_194	193455	193135	AzlD domain-containing protein	CL	107
+1	CL_195	194148	193456	branched-chain amino acid ABC transporter permease	CL	231
+1	CL_196	194149	194694	XRE family transcriptional regulator	CL	182
+1	CL_197	194695	196134	GABA permease	CL	480
+1	CL_198	197631	196135	PLP-dependent aminotransferase family protein	CL	499
+1	CL_199	197632	198921	4-aminobutyrate--2-oxoglutarate transaminase	CL	430
+1	CL_200	198922	200367	NAD-dependent succinate-semialdehyde dehydrogenase	CL	482
+1	CL_201	201339	200368	LysR family transcriptional regulator	CL	324
+1	CL_202	201963	201340	hydrolase	CL	208
+1	CL_INS_24	201964	202833	fGI_50;1	fGI	290
+1	CL_204	202834	204129	hypothetical protein	CL	432
+1	CL_205	204130	204954	class I SAM-dependent methyltransferase	CL	275
+1	CL_206	204955	205374	aldehyde-activating protein	CL	140
+1	CL_INS_25	205375	228489	fGI_50;8	fGI	7705
+1	CL_230	228490	230364	potassium transporter Kup	CL	625
+1	CL_231	230805	230365	hypothetical protein	CL	147
+1	CL_232	230806	231882	DNA/RNA non-specific endonuclease	CL	359
+1	CL_INS_26	231883	232479	fGI_50;1	fGI	199
+1	CL_234	232480	232719	hypothetical protein	CL	80
+1	CL_INS_27	232720	233406	fGI_50;1	fGI	229
+1	CL_236	234408	233407	AraC family transcriptional regulator	CL	334
+1	CL_237	234409	235044	hypothetical protein	CL	212
+1	CL_238	235800	235045	imidazole glycerol phosphate synthase cyclase subunit	CL	252
+1	CL_239	235801	236748	homoserine kinase	CL	316
+1	CL_240	236749	237375	DUF1294 domain-containing protein	CL	209
+1	CL_241	237376	237765	membrane protein	CL	130
+1	CL_INS_28	237766	238974	fGI_50;1	fGI	403
+1	CL_244	238975	239523	XRE family transcriptional regulator	CL	183
+1	CL_INS_29	239524	241212	fGI_25;1	fGI	563
+1	CL_245	241941	241213	1-(5-phosphoribosyl)-5-((5- phosphoribosylamino)methylideneamino)imidazole-4- carboxamide isomerase	CL	243
+1	CL_246	242580	241942	3'-5' exonuclease domain-containing protein 2	CL	213
+1	CL_247	243126	242581	DUF805 domain-containing protein	CL	182
+1	CL_248	243741	243127	imidazole glycerol phosphate synthase subunit HisH	CL	205
+1	CL_INS_30	243742	244332	fGI_50;1	fGI	197
+1	CL_250	244333	244713	GNAT family N-acetyltransferase	CL	127
+1	CL_251	245142	244714	GNAT family acetyltransferase	CL	143
+1	CL_252	246654	245143	acetyl-CoA hydrolase	CL	504
+1	CL_INS_31	246655	246780	fGI_10;1	fGI	42
+1	CL_253	248235	246781	two-component sensor histidine kinase	CL	485
+1	CL_254	248997	248236	two-component system response regulator OmpR	CL	254
+1	CL_255	248998	251343	RNA-binding transcriptional accessory protein	CL	782
+1	CL_256	251344	253530	sulfate permease	CL	729
+1	CL_257	254418	253531	KR domain-containing protein	CL	296
+1	CL_INS_32	254419	255693	fGI_50;1	fGI	425
+1	CL_262	255694	257352	energy-dependent translational throttle protein EttA	CL	553
+1	CL_INS_33	257353	259617	fGI_50;2	fGI	755
+1	CL_265	259618	260013	hypothetical protein	CL	132
+1	CL_266	260014	261426	TolC family protein	CL	471
+1	CL_267	261427	262641	efflux RND transporter periplasmic adaptor subunit	CL	405
+1	CL_268	262642	265797	CusA/CzcA family heavy metal efflux RND transporter	CL	1052
+1	CL_269	265798	266751	cation transporter	CL	318
+1	CL_270	267087	266752	hypothetical protein	CL	112
+1	CL_271	267088	268032	hypothetical protein	CL	315
+1	CL_INS_34	268033	270330	fGI_50;1	fGI	766
+1	CL_274	271836	270331	glutamate--tRNA ligase	CL	502
+1	CL_275	272133	271837	hypothetical protein	CL	99
+1	CL_276	272134	273132	sulfate ABC transporter substrate-binding protein	CL	333
+1	CL_277	273133	274053	ribosomal RNA small subunit methyltransferase H	CL	307
+1	CL_278	274054	274383	cell division protein FtsL	CL	110
+1	CL_279	274384	276213	penicillin-binding protein 2	CL	610
+1	CL_280	276214	277710	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2, 6-diaminopimelate ligase	CL	499
+1	CL_281	277711	279108	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase	CL	466
+1	CL_282	279109	280224	phospho-N-acetylmuramoyl-pentapeptide- transferase	CL	372
+1	CL_283	280225	280554	hypothetical protein	CL	110
+1	CL_284	280555	281358	methyltransferase domain-containing protein	CL	268
+1	CL_285	283911	281359	penicillin-binding protein 1A	CL	851
+1	CL_286	283912	284967	pilus assembly protein PilM	CL	352
+1	CL_INS_35	284968	285606	fGI_50;1	fGI	213
+1	CL_288	285607	286344	hypothetical protein	CL	246
+1	CL_289	286345	286869	hypothetical protein	CL	175
+1	CL_290	286870	289032	type IV pilus secretin PilQ	CL	721
+1	CL_291	289033	289599	shikimate kinase AroK	CL	189
+1	CL_292	289600	290679	3-dehydroquinate synthase	CL	360
+1	CL_293	290680	291552	hypothetical protein	CL	291
+1	CL_294	291553	296031	glutamate synthase large subunit	CL	1493
+1	CL_INS_36	296032	300003	fGI_50;1	fGI	1324
+1	CL_299	300004	300561	hypothetical protein	CL	186
+1	CL_INS_37	300562	302301	fGI_50;1	fGI	580
+1	CL_301	302302	303927	hypothetical protein	CL	542
+1	CL_302	304389	303928	bacterioferritin	CL	154
+1	CL_303	304581	304390	regulatory or redox protein complexing with Bfr in iron storage and mobility (BFD)	CL	64
+1	CL_304	304962	304582	RidA family protein	CL	127
+1	CL_305	307065	304963	bifunctional (p)ppGpp synthetase/guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase	CL	701
+1	CL_306	307341	307066	DNA-directed RNA polymerase subunit omega	CL	92
+1	CL_307	307968	307342	guanylate kinase	CL	209
+1	CL_308	307969	308916	4-hydroxy-3-methylbut-2-enyl diphosphate reductase	CL	316
+1	CL_309	308917	309387	prepilin-type cleavage/methylation domain-containing protein	CL	157
+1	CL_310	309388	309939	type IV pilus modification protein PilV	CL	184
+1	CL_311	309940	310938	prepilin-type N-terminal cleavage/methylation domain-containing protein	CL	333
+1	CL_312	310939	311754	hypothetical protein	CL	272
+1	CL_INS_38	311755	315606	fGI_50;1	fGI	1284
+1	CL_314	315607	316086	prepilin-type N-terminal cleavage/methylation domain-containing protein	CL	160
+1	CL_315	316087	316509	pilus assembly protein PilE	CL	141
+1	CL_316	316510	316812	30S ribosomal protein S16	CL	101
+1	CL_317	316813	317358	ribosome maturation factor RimM	CL	182
+1	CL_318	317359	318096	tRNA (guanosine(37)-N1)-methyltransferase TrmD	CL	246
+1	CL_319	318097	318462	50S ribosomal protein L19	CL	122
+1	CL_320	319434	318463	lipase	CL	324
+1	CL_INS_39	319435	320463	fGI_50;1	fGI	343
+1	CL_322	320464	321366	tRNA pseudouridine(55) synthase TruB	CL	301
+1	CL_323	321367	322134	membrane protein	CL	256
+1	CL_324	322135	322575	hemerythrin	CL	147
+1	CL_325	323433	322576	EamA family transporter	CL	286
+1	CL_326	324315	323434	EamA family transporter	CL	294
+1	CL_327	325545	324316	phosphoglycerate dehydrogenase	CL	410
+1	CL_328	325546	326952	FAD-binding oxidoreductase	CL	469
+1	CL_329	326953	327318	hypothetical protein	CL	122
+1	CL_330	327630	327319	antibiotic biosynthesis monooxygenase	CL	104
+1	CL_INS_40	327631	328215	fGI_50;1	fGI	195
+1	CL_332	328216	328578	hypothetical protein	CL	121
+1	CL_333	328579	329805	multidrug transporter MdfA	CL	409
+1	CL_334	331953	329806	TIGR01666 family membrane protein	CL	716
+1	CL_335	332526	331954	hypothetical protein	CL	191
+1	CL_336	333642	332527	AI-2E family transporter	CL	372
+1	CL_337	334284	333643	ParA family protein	CL	214
+1	CL_338	334285	334749	endonuclease	CL	155
+1	CL_339	334750	335310	hypothetical protein	CL	187
+1	CL_340	335841	335311	hypothetical protein	CL	177
+1	CL_341	336633	335842	class I SAM-dependent methyltransferase	CL	264
+1	CL_342	336634	337908	hypothetical protein	CL	425
+1	CL_343	337909	339339	amino acid permease	CL	477
+1	CL_344	339340	340608	Glu/Leu/Phe/Val dehydrogenase	CL	423
+1	CL_345	340609	341820	aspartate aminotransferase family protein	CL	404
+1	CL_INS_41	341821	342849	fGI_50;1	fGI	343
+1	CL_347	342850	344316	succinylglutamate-semialdehyde dehydrogenase	CL	489
+1	CL_348	344317	345657	succinylarginine dihydrolase	CL	447
+1	CL_349	345658	346629	succinylglutamate desuccinylase	CL	324
+1	CL_350	347388	346630	hypothetical protein	CL	253
+1	CL_351	347389	347697	hypothetical protein	CL	103
+1	CL_INS_42	347698	349050	fGI_50;1	fGI	451
+1	CL_353	349479	349051	hypothetical protein	CL	143
+1	CL_354	349896	349480	hypothetical protein	CL	139
+1	CL_355	350760	349897	LysR family transcriptional regulator	CL	288
+1	CL_INS_43	350761	353748	fGI_50;2	fGI	996
+1	CL_360	355815	353749	glycine--tRNA ligase subunit beta	CL	689
+1	CL_361	356790	355816	glycine--tRNA ligase subunit alpha	CL	325
+1	CL_INS_44	356791	359232	fGI_50;2	fGI	814
+1	CL_364	359233	360027	DNA metabolism protein	CL	265
+1	CL_365	360028	361125	HPP family protein	CL	366
+1	CL_366	361377	361126	PspC domain-containing protein	CL	84
+1	CL_367	361378	362022	hypothetical protein	CL	215
+1	CL_368	363843	362023	acyl-CoA dehydrogenase	CL	607
+1	CL_369	363844	366144	hypothetical protein	CL	767
+1	CL_370	366930	366145	shikimate dehydrogenase (NADP+)	CL	262
+1	CL_371	367878	366931	oxygen-dependent coproporphyrinogen oxidase	CL	316
+1	CL_372	368478	367879	GTP cyclohydrolase II	CL	200
+1	CL_373	368479	370380	1-deoxy-D-xylulose-5-phosphate synthase	CL	634
+1	CL_374	370381	371208	inositol monophosphatase	CL	276
+1	CL_375	371209	373053	DEAD/DEAH box helicase	CL	615
+1	CL_376	373054	373869	ABC transporter ATP-binding protein	CL	272
+1	CL_377	373870	374643	ABC transporter permease	CL	258
+1	CL_378	374644	375321	outer membrane lipid asymmetry maintenance protein MlaD	CL	226
+1	CL_379	375322	375960	toluene tolerance protein	CL	213
+1	CL_380	375961	376245	STAS domain-containing protein	CL	95
+1	CL_381	377256	376246	magnesium transporter	CL	337
+1	CL_382	377257	377835	TIGR00730 family Rossman fold protein	CL	193
+1	CL_383	377836	378234	NUDIX domain-containing protein	CL	133
+1	CL_384	378867	378235	ComF family protein	CL	211
+1	CL_385	380910	378868	DNA helicase RecG	CL	681
+1	CL_386	380911	381723	nucleoside-diphosphate sugar epimerase	CL	271
+1	CL_INS_45	381724	382707	fGI_50;1	fGI	328
+1	CL_388	385278	382708	glycerol-3-phosphate 1-O-acyltransferase PlsB	CL	857
+1	CL_389	385279	386148	acyl-CoA thioesterase II	CL	290
+1	CL_390	386149	387411	dicarboxylate/amino acid:cation symporter	CL	421
+1	CL_391	388356	387412	metal-dependent hydrolase	CL	315
+1	CL_392	389130	388357	YihA family ribosome biogenesis GTP-binding protein	CL	258
+1	CL_393	389565	389131	hypothetical protein	CL	145
+1	CL_394	390327	389566	flavohemoprotein	CL	254
+1	CL_395	391872	390328	ATP-binding protein	CL	515
+1	CL_396	393060	391873	cystathionine beta-lyase	CL	396
+1	CL_397	393061	393786	GMP synthase	CL	242
+1	CL_398	393787	394095	30S ribosomal protein S10	CL	103
+1	CL_399	394096	394731	50S ribosomal protein L3	CL	212
+1	CL_400	394732	395331	50S ribosomal protein L4	CL	200
+1	CL_401	395332	395649	50S ribosomal protein L23	CL	106
+1	CL_402	395650	396471	50S ribosomal protein L2	CL	274
+1	CL_403	396472	396744	30S ribosomal protein S19	CL	91
+1	CL_404	396745	397071	50S ribosomal protein L22	CL	109
+1	CL_405	397072	397821	30S ribosomal protein S3	CL	250
+1	CL_406	397822	398232	50S ribosomal protein L16	CL	137
+1	CL_407	398233	398427	50S ribosomal protein L29	CL	65
+1	CL_408	398428	398682	30S ribosomal protein S17	CL	85
+1	CL_409	398683	399048	50S ribosomal protein L14	CL	122
+1	CL_410	399049	399363	50S ribosomal protein L24	CL	105
+1	CL_411	399364	399897	50S ribosomal protein L5	CL	178
+1	CL_412	399898	400200	30S ribosomal protein S14	CL	101
+1	CL_413	400201	400593	30S ribosomal protein S8	CL	131
+1	CL_414	400594	401124	50S ribosomal protein L6	CL	177
+1	CL_415	401125	401472	50S ribosomal protein L18	CL	116
+1	CL_416	401473	401967	30S ribosomal protein S5	CL	165
+1	CL_417	401968	402141	50S ribosomal protein L30	CL	58
+1	CL_418	402142	402579	50S ribosomal protein L15	CL	146
+1	CL_INS_46	402580	405405	fGI_50;1	fGI	942
+1	CL_424	405406	406410	DNA-directed RNA polymerase subunit alpha	CL	335
+1	CL_425	406411	406785	50S ribosomal protein L17	CL	125
+1	CL_426	406786	408273	NAD(P)/FAD-dependent oxidoreductase	CL	496
+1	CL_427	409443	408274	acyl-CoA dehydrogenase	CL	390
+1	CL_428	409444	409698	succinate dehydrogenase assembly factor 2	CL	85
+1	CL_429	409699	410085	membrane protein	CL	129
+1	CL_430	410086	411168	hypothetical protein	CL	361
+1	CL_INS_47	411169	411732	fGI_50;1	fGI	188
+1	CL_432	411733	413925	membrane protein	CL	731
+1	CL_433	414354	413926	hypothetical protein	CL	143
+1	CL_434	414561	414355	metal-binding protein	CL	69
+1	CL_435	416613	414562	M3 family peptidase	CL	684
+1	CL_436	419028	416614	ribonuclease R	CL	805
+1	CL_INS_48	419029	422040	fGI_50;1	fGI	1004
+1	CL_439	422730	422041	hypothetical protein	CL	230
+1	CL_440	422731	423225	hypothetical protein	CL	165
+1	CL_441	423226	423864	fumarylacetoacetate hydrolase	CL	213
+1	CL_INS_49	423865	425568	fGI_50;1	fGI	568
+1	CL_444	426813	425569	membrane protein	CL	415
+1	CL_445	426814	427404	NAD(P)H:quinone oxidoreductase	CL	197
+1	CL_446	427977	427405	xanthine phosphoribosyltransferase	CL	191
+1	CL_447	428688	427978	DUF3108 domain-containing protein	CL	237
+1	CL_448	429357	428689	hypothetical protein	CL	223
+1	CL_INS_50	429358	430239	fGI_50;1	fGI	294
+1	CL_450	430713	430240	endoribonuclease YbeY	CL	158
+1	CL_451	431799	430714	PhoH family protein	CL	362
+1	CL_452	433248	431800	tRNA (N6-isopentenyl adenosine(37)-C2)-methylthiotransferase MiaB	CL	483
+1	CL_453	433249	435189	lytic transglycosylase	CL	647
+1	CL_INS_51	435190	435849	fGI_50;1	fGI	220
+1	CL_455	435850	436833	malate dehydrogenase	CL	328
+1	CL_456	436834	437076	DUF2789 domain-containing protein	CL	81
+1	CL_457	437601	437077	hypothetical protein	CL	175
+1	CL_458	438204	437602	oxidoreductase	CL	201
+1	CL_459	438205	439059	23S rRNA (adenine(2030)-N(6))-methyltransferase RlmJ	CL	285
+1	CL_INS_52	439060	441348	fGI_50;2	fGI	763
+1	CL_463	441349	441909	DUF4256 domain-containing protein	CL	187
+1	CL_INS_53	441910	449979	fGI_50;1	fGI	2690
+1	CL_471	449980	451917	acetyl/propionyl/methylcrotonyl-CoA carboxylase subunit alpha	CL	646
+1	CL_472	452571	451918	hypothetical protein	CL	218
+1	CL_473	452997	452572	ClpXP protease specificity-enhancing factor	CL	142
+1	CL_474	453648	452998	starvation protein A	CL	217
+1	CL_475	454032	453649	30S ribosomal protein S9	CL	128
+1	CL_476	454458	454033	50S ribosomal protein L13	CL	142
+1	CL_477	454459	455430	4-hydroxythreonine-4-phosphate dehydrogenase PdxA	CL	324
+1	CL_478	455431	456240	16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))- dimethyltransferase RsmA	CL	270
+1	CL_479	456241	457077	symmetrical bis(5'-nucleosyl)-tetraphosphatase	CL	279
+1	CL_480	457518	457078	DUF2147 domain-containing protein	CL	147
+1	CL_481	458190	457519	LrgB family protein	CL	224
+1	CL_482	458559	458191	hypothetical protein	CL	123
+1	CL_483	459891	458560	GTPase HflX	CL	444
+1	CL_INS_54	459892	460698	fGI_50;1	fGI	269
+1	CL_485	462321	460699	phospholipase D family protein	CL	541
+1	CL_486	462322	463329	phosphohydrolase	CL	336
+1	CL_487	463806	463330	OmpA family protein	CL	159
+1	CL_488	465027	463807	GGDEF domain-containing protein	CL	407
+1	CL_489	465528	465028	DUF4154 domain-containing protein	CL	167
+1	CL_490	466899	465529	dihydrolipoyl dehydrogenase	CL	457
+1	CL_INS_55	466900	468372	fGI_50;2	fGI	491
+1	CL_492	468705	468373	TIGR01244 family phosphatase	CL	111
+1	CL_493	468706	469599	alpha/beta hydrolase	CL	298
+1	CL_494	469600	470034	thioredoxin TrxC	CL	145
+1	CL_495	470035	470454	acyl-CoA thioesterase	CL	140
+1	CL_496	470946	470455	DUF4442 domain-containing protein	CL	164
+1	CL_534	471432	470947	YajQ family cyclic di-GMP-binding protein	CL	162
+1	CL_535	471433	471744	sulfurtransferase	CL	104
+1	CL_536	473613	471745	FAD-dependent cmnm(5)s(2)U34 oxidoreductase	CL	623
+1	CL_537	474090	473614	hypothetical protein	CL	159
+1	CL_538	474390	474091	hypothetical protein	CL	100
+1	CL_539	475002	474391	intracellular septation protein (IspZ)	CL	204
+1	CL_540	475003	475851	phosphatase	CL	283
+1	CL_541	476760	475852	hypothetical protein	CL	303
+1	CL_542	477465	476761	JAB domain-containing protein	CL	235
+1	CL_543	477466	478716	bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC	CL	417
+1	CL_544	479676	478717	protein translocase subunit SecF	CL	320
+1	CL_545	481575	479677	protein translocase subunit SecD	CL	633
+1	CL_546	481902	481576	preprotein translocase subunit YajC	CL	109
+1	CL_547	483033	481903	tRNA guanosine(34) transglycosylase Tgt	CL	377
+1	CL_548	483600	483034	LemA family protein	CL	189
+1	CL_549	484626	483601	hypothetical protein	CL	342
+1	CL_INS_56	484627	485625	fGI_25;1	fGI	333
+1	CL_550	486660	485626	tRNA preQ1(34) S-adenosylmethionine ribosyltransferase-isomerase QueA	CL	345
+1	CL_559	486661	487926	sensor histidine kinase	CL	422
+1	CL_560	487927	490674	bifunctional [glutamate--ammonia ligase]-adenylyl-L-tyrosine phosphorylase/[glutamate--ammonia-ligase] adenylyltransferase	CL	916
+1	CL_561	490675	491598	branched-chain amino acid transaminase	CL	308
+1	CL_562	491599	492483	nucleoside-diphosphate sugar epimerase	CL	295
+1	CL_INS_57	492484	500658	fGI_50;3	fGI	2725
+1	CL_571	500874	500659	hypothetical protein	CL	72
+1	CL_INS_58	500875	501900	fGI_25;1	fGI	342
+1	CL_572	503676	501901	aspartate--tRNA ligase	CL	592
+1	CL_573	504438	503677	DUF4184 domain-containing protein	CL	254
+1	CL_574	504439	506511	TonB-dependent receptor	CL	691
+1	CL_575	506512	507972	phospholipase D	CL	487
+1	CL_576	508416	507973	hypothetical protein	CL	148
+1	CL_577	508417	508797	hypothetical protein	CL	127
+1	CL_578	509277	508798	hypothetical protein	CL	160
+1	CL_579	511056	509278	acyl-CoA dehydrogenase	CL	593
+1	CL_580	512856	511057	acyl-CoA dehydrogenase	CL	600
+1	CL_581	513234	512857	hypothetical protein	CL	126
+1	CL_582	513235	514890	sensor histidine kinase efflux regulator BaeS	CL	552
+1	CL_583	514891	515574	DNA-binding response regulator	CL	228
+1	CL_584	517014	515575	YdiU family protein	CL	480
+1	CL_585	518184	517015	acyl-CoA desaturase	CL	390
+1	CL_586	518185	518712	META domain-containing protein	CL	176
+1	CL_INS_59	518713	519423	fGI_50;1	fGI	237
+1	CL_588	519999	519424	ATP:cob(I)alamin adenosyltransferase	CL	192
+1	CL_589	521868	520000	TonB-dependent receptor	CL	623
+1	CL_590	521869	522525	phosphoribosylanthranilate isomerase	CL	219
+1	CL_591	522526	523752	tryptophan synthase subunit beta	CL	409
+1	CL_592	523753	524262	DUF1543 domain-containing protein	CL	170
+1	CL_593	524263	525255	DUF2804 domain-containing protein	CL	331
+1	CL_INS_60	525256	527175	fGI_50;1	fGI	640
+1	CL_596	527176	527976	tryptophan synthase subunit alpha	CL	267
+1	CL_597	527977	528870	acetyl-CoA carboxylase carboxyl transferase subunit beta	CL	298
+1	CL_598	528871	530154	bifunctional tetrahydrofolate synthase/dihydrofolate synthase	CL	428
+1	CL_599	530155	531216	SPOR domain-containing protein	CL	354
+1	CL_INS_61	531217	532566	fGI_50;1	fGI	450
+1	CL_602	533205	532567	peroxiredoxin	CL	213
+1	CL_603	533206	535926	protein translocase subunit SecA	CL	907
+1	CL_604	535927	536367	hypothetical protein	CL	147
+1	CL_605	537675	536368	MFS transporter	CL	436
+1	CL_606	538314	537676	hemolysin III	CL	213
+1	CL_INS_62	538315	539550	fGI_50;1	fGI	412
+1	CL_608	539551	539967	N-acetyltransferase	CL	139
+1	CL_609	540825	539968	patatin family protein	CL	286
+1	CL_610	541077	540826	hypothetical protein	CL	84
+1	CL_INS_63	541078	543210	fGI_50;1	fGI	711
+1	CL_612	544413	543211	acetyl-CoA acetyltransferase	CL	401
+1	CL_INS_64	544414	545421	fGI_50;1	fGI	336
+1	CL_614	545422	546537	CoA transferase	CL	372
+1	CL_615	546538	547788	porin	CL	417
+1	CL_616	547789	550191	glucose/quinate/shikimate family membrane-bound PQQ-dependent dehydrogenase	CL	801
+1	CL_617	550192	551832	sulfite reductase	CL	547
+1	CL_618	551833	552315	DUF934 domain-containing protein	CL	161
+1	CL_619	552316	552666	quaternary ammonium transporter	CL	117
+1	CL_620	553107	552667	VOC family protein	CL	147
+1	CL_621	554280	553108	acetyl-CoA C-acyltransferase	CL	391
+1	CL_622	554793	554281	prepilin-type N-terminal cleavage/methylation domain-containing protein	CL	171
+1	CL_623	554794	555861	membrane protein	CL	356
+1	CL_INS_65	555862	556038	fGI_25;1	fGI	59
+1	CL_625	557241	556039	RtcB family protein	CL	401
+1	CL_INS_66	557242	558699	fGI_50;1	fGI	486
+1	CL_627	559710	558700	16S rRNA methyltransferase	CL	337
+1	CL_628	561066	559711	xanthine permease	CL	452
+1	CL_629	561067	562899	translational GTPase TypA	CL	611
+1	CL_630	562900	563328	large conductance mechanosensitive channel protein MscL	CL	143
+1	CL_631	563329	563679	gamma-glutamylcyclotransferase	CL	117
+1	CL_632	563967	563680	peptidyl-prolyl cis-trans isomerase	CL	96
+1	CL_INS_67	563968	564789	fGI_50;1	fGI	274
+1	CL_634	564790	565353	DNA-3-methyladenine glycosylase	CL	188
+1	CL_INS_68	565354	567480	fGI_50;1	fGI	709
+1	CL_636	567481	568587	NADH:flavin oxidoreductase/NADH oxidase	CL	369
+1	CL_637	568588	569508	transporter	CL	307
+1	CL_638	570330	569509	sel1 repeat family protein	CL	274
+1	CL_639	571038	570331	thiol:disulfide interchange protein	CL	236
+1	CL_640	571758	571039	folate-binding protein YgfZ	CL	240
+1	CL_INS_69	571759	572205	fGI_50;1	fGI	149
+1	CL_642	572206	572559	DUF488 domain-containing protein	CL	118
+1	CL_643	572560	572901	hypothetical protein	CL	114
+1	CL_INS_70	572902	573240	fGI_50;1	fGI	113
+1	CL_645	574953	573241	proline--tRNA ligase	CL	571
+1	CL_646	578049	574954	AcrB/AcrD/AcrF family protein	CL	1032
+1	CL_647	579165	578050	efflux RND transporter periplasmic adaptor subunit	CL	372
+1	CL_648	579801	579166	hypothetical protein	CL	212
+1	CL_649	579802	580182	response regulator	CL	127
+1	CL_650	580183	580542	response regulator	CL	120
+1	CL_651	580543	581076	chemotaxis protein CheW	CL	178
+1	CL_652	581077	583152	methyl-accepting chemotaxis protein	CL	692
+1	CL_INS_71	583153	590400	fGI_50;2	fGI	2416
+1	CL_655	591534	590401	succinyl-diaminopimelate desuccinylase	CL	378
+1	CL_656	591672	591535	entericidin, EcnA/B family	CL	46
+1	CL_657	592578	591673	DUF1853 domain-containing protein	CL	302
+1	CL_INS_72	592579	592944	fGI_50;1	fGI	122
+1	CL_659	592945	593445	L,D-transpeptidase	CL	167
+1	CL_660	594228	593446	YdcF family protein	CL	261
+1	CL_661	596772	594229	membrane protein	CL	848
+1	CL_662	597345	596773	hypothetical protein	CL	191
+1	CL_663	599517	597346	TIGR01666 family membrane protein	CL	724
+1	CL_INS_73	599518	600729	fGI_50;1	fGI	404
+1	CL_665	601431	600730	P-nitrobenzoate reductase NfnB	CL	234
+1	CL_666	601432	601632	hypothetical protein	CL	67
+1	CL_INS_74	601633	601770	fGI_10;1	fGI	46
+1	CL_667	601771	603243	alanine:cation symporter family protein	CL	491
+1	CL_668	603244	604212	alpha/beta hydrolase	CL	323
+1	CL_669	604213	605445	threonine ammonia-lyase	CL	411
+1	CL_670	605446	606636	peptide transporter	CL	397
+1	CL_INS_75	606637	609429	fGI_50;1	fGI	931
+1	CL_673	609430	610494	DUF1176 domain-containing protein	CL	355
+1	CL_674	610495	611010	hypothetical protein	CL	172
+1	CL_675	611586	611011	protease	CL	192
+1	CL_676	613053	611587	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB	CL	489
+1	CL_677	614529	613054	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase GatCAB subunit A	CL	492
+1	CL_678	614841	614530	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatC	CL	104
+1	CL_679	614842	615879	rod shape-determining protein	CL	346
+1	CL_680	615880	616734	rod shape-determining protein MreC	CL	285
+1	CL_681	616735	617223	rod shape-determining protein MreD	CL	163
+1	CL_682	617224	617781	septum formation inhibitor Maf	CL	186
+1	CL_683	617782	619233	ribonuclease G	CL	484
+1	CL_INS_76	619234	619404	fGI_10;1	fGI	57
+1	CL_684	620787	619405	wax ester/triacylglycerol synthase family O-acyltransferase	CL	461
+1	CL_685	621519	620788	phosphoadenylyl-sulfate reductase	CL	244
+1	CL_INS_77	621520	622134	fGI_50;1	fGI	205
+1	CL_687	623562	622135	hypothetical protein	CL	476
+1	CL_688	624258	623563	flavodoxin family protein	CL	232
+1	CL_INS_78	624259	625290	fGI_50;1	fGI	344
+1	CL_690	626280	625291	fatty acid desaturase	CL	330
+1	CL_691	627078	626281	PaaX family transcriptional regulator	CL	266
+1	CL_692	627079	627894	undecaprenyl-diphosphatase	CL	272
+1	CL_693	627895	628785	AraC family transcriptional regulator	CL	297
+1	CL_694	628786	629781	NAD(P)H quinone oxidoreductase	CL	332
+1	CL_695	629782	630654	protein deglycase HchA	CL	291
+1	CL_INS_79	630655	648813	fGI_50;3	fGI	6053
+1	CL_702	649728	648814	esterase	CL	305
+1	CL_703	650352	649729	acyltransferase	CL	208
+1	CL_704	650353	651597	MFS transporter	CL	415
+1	CL_705	651598	652899	hypothetical protein	CL	434
+1	CL_706	652900	654546	lipid A phosphoethanolamine transferase	CL	549
+1	CL_707	654547	655218	DNA-binding response regulator PmrA	CL	224
+1	CL_708	655219	656550	two-component system sensor histidine kinase PmrB	CL	444
+1	CL_709	657246	656551	PAP2 family protein	CL	232
+1	CL_710	658431	657247	ammonium transporter	CL	395
+1	CL_INS_80	658432	658623	fGI_50;1	fGI	64
+1	CL_712	659505	658624	LysR family transcriptional regulator	CL	294
+1	CL_INS_81	659506	660408	fGI_50;1	fGI	301
+1	CL_714	660409	661422	molecular chaperone DnaJ	CL	338
+1	CL_INS_82	661423	662004	fGI_50;1	fGI	194
+1	CL_716	664881	662005	valine--tRNA ligase	CL	959
+1	CL_717	664882	665556	hypothetical protein	CL	225
+1	CL_718	665557	666360	oxidoreductase	CL	268
+1	CL_719	666361	666792	polyketide cyclase	CL	144
+1	CL_720	667224	666793	YbjQ family protein	CL	144
+1	CL_721	667572	667225	YbjQ family protein	CL	116
+1	CL_722	669024	667573	multidrug efflux RND transporter AdeIJK outer membrane channel subunit AdeK	CL	484
+1	CL_723	672198	669025	AdeB family multidrug efflux RND transporter permease subunit	CL	1058
+1	CL_724	673446	672199	AdeA/AdeI family multidrug efflux RND transporter periplasmic adaptor subunit	CL	416
+1	CL_INS_83	673447	674070	fGI_50;1	fGI	208
+1	CL_726	676128	674071	recombinase	CL	686
+1	CL_727	677103	676129	solanesyl diphosphate synthase	CL	325
+1	CL_INS_84	677104	677400	fGI_50;1	fGI	99
+1	CL_729	677401	677709	50S ribosomal protein L21	CL	103
+1	CL_730	677710	677964	50S ribosomal protein L27	CL	85
+1	CL_731	677965	678657	outer membrane lipoprotein carrier protein LolA	CL	231
+1	CL_732	678658	679443	DUF3298 domain-containing protein	CL	262
+1	CL_733	679444	680712	serine--tRNA ligase	CL	423
+1	CL_734	680713	682083	uroporphyrinogen-III C-methyltransferase	CL	457
+1	CL_735	682084	682554	tRNA (cytidine(34)-2'-O)-methyltransferase	CL	157
+1	CL_INS_85	682555	683490	fGI_50;1	fGI	312
+1	CL_738	684888	683491	APC family permease	CL	466
+1	CL_739	686070	684889	alcohol dehydrogenase EutG	CL	394
+1	CL_740	686601	686071	hypothetical protein	CL	177
+1	CL_741	687252	686602	lipoyl(octanoyl) transferase LipB	CL	217
+1	CL_742	687537	687253	DUF493 domain-containing protein	CL	95
+1	CL_743	689421	687538	RNA polymerase sigma factor RpoD	CL	628
+1	CL_744	689422	689625	hypothetical protein	CL	68
+1	CL_745	689626	690147	YecA family protein	CL	174
+1	CL_INS_86	690148	691266	fGI_10;1	fGI	373
+1	CL_747	692196	691267	rhodanese-like domain-containing protein	CL	310
+1	CL_748	692197	692661	DUF1289 domain-containing protein	CL	155
+1	CL_749	693933	692662	type II citrate synthase	CL	424
+1	CL_750	693934	694323	succinate dehydrogenase, cytochrome b556 subunit	CL	130
+1	CL_751	694324	694686	succinate dehydrogenase, hydrophobic membrane anchor protein	CL	121
+1	CL_752	694687	696519	succinate dehydrogenase flavoprotein subunit	CL	611
+1	CL_753	696520	697227	succinate dehydrogenase iron-sulfur subunit	CL	236
+1	CL_INS_87	697228	697359	fGI_10;1	fGI	44
+1	CL_754	697360	700197	2-oxoglutarate dehydrogenase E1 component	CL	946
+1	CL_755	700198	701391	dihydrolipoyllysine-residue succinyltransferase	CL	398
+1	CL_756	701392	702822	dihydrolipoyl dehydrogenase	CL	477
+1	CL_757	702823	703986	succinyl-CoA ligase subunit beta	CL	388
+1	CL_758	703987	704874	succinate--CoA ligase subunit alpha	CL	296
+1	CL_INS_88	704875	705885	fGI_50;1	fGI	337
+1	CL_760	705886	706806	DUF808 domain-containing protein	CL	307
+1	CL_761	706807	707703	hypothetical protein	CL	299
+1	CL_762	707704	709203	sodium:proton antiporter	CL	500
+1	CL_INS_89	709204	731832	fGI_50;1	fGI	7543
+1	CL_767	731833	732171	methyltransferase	CL	113
+1	CL_768	732606	732172	universal stress protein	CL	145
+1	CL_769	733236	732607	chloramphenicol acetyltransferase CAT	CL	210
+1	CL_INS_90	733237	734214	fGI_25;1	fGI	326
+1	CL_772	734688	734215	transcription elongation factor GreA	CL	158
+1	CL_773	737916	734689	carbamoyl-phosphate synthase large subunit	CL	1076
+1	CL_774	739053	737917	carbamoyl-phosphate synthase small subunit	CL	379
+1	CL_INS_91	739054	739266	fGI_50;1	fGI	71
+1	CL_776	739267	739851	hypothetical protein	CL	195
+1	CL_777	740385	739852	hypothetical protein	CL	178
+1	CL_INS_92	740386	740706	fGI_50;1	fGI	107
+1	CL_779	740707	741354	ribosomal RNA large subunit methyltransferase E	CL	216
+1	CL_780	741355	743247	ATP-dependent zinc metalloprotease FtsH	CL	631
+1	CL_781	743248	744096	dihydropteroate synthase	CL	283
+1	CL_782	744097	744408	hypothetical protein	CL	104
+1	CL_INS_93	744409	746532	fGI_50;1	fGI	708
+1	CL_785	746533	747378	bifunctional methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase	CL	282
+1	CL_786	747379	748044	methyltransferase	CL	222
+1	CL_787	748464	748045	hypothetical protein	CL	140
+1	CL_INS_94	748465	751287	fGI_50;1	fGI	941
+1	CL_790	751288	752802	glycerol-3-phosphate dehydrogenase	CL	505
+1	CL_791	754632	752803	phosphoenolpyruvate carboxykinase	CL	610
+1	CL_792	754633	755568	diacylglycerol kinase	CL	312
+1	CL_793	755569	756324	3',5'-cyclic-nucleotide phosphodiesterase	CL	252
+1	CL_INS_95	756325	766152	fGI_25;1	fGI	3276
+1	CL_794	766153	766440	molecular chaperone GroES	CL	96
+1	CL_795	766441	768072	molecular chaperone GroEL	CL	544
+1	CL_796	768444	768073	diacylglycerol kinase	CL	124
+1	CL_INS_96	768445	770544	fGI_50;1	fGI	700
+1	CL_799	770545	773637	multidrug efflux RND transporter permease subunit	CL	1031
+1	CL_800	773638	774210	DUF4112 domain-containing protein	CL	191
+1	CL_801	775113	774211	protease HtpX	CL	301
+1	CL_802	775974	775114	transglycosylase	CL	287
+1	CL_803	775975	776877	tRNA 2-thiocytidine(32) synthetase TtcA	CL	301
+1	CL_804	776878	777258	hypothetical protein	CL	127
+1	CL_805	778368	777259	ABC transporter substrate-binding protein	CL	370
+1	CL_806	778369	778860	transcription elongation factor GreB	CL	164
+1	CL_INS_97	778861	793521	fGI_25;1	fGI	4887
+1	CL_807	794049	793522	DUF4440 domain-containing protein	CL	176
+1	CL_808	794050	798045	non-ribosomal peptide synthase	CL	1332
+1	CL_INS_98	798046	801240	fGI_25;2	fGI	1065
+1	CL_818	801241	801918	TetR/AcrR family transcriptional regulator	CL	226
+1	CL_INS_99	801919	823335	fGI_50;1	fGI	7139
+1	CL_821	823938	823336	nitroreductase family protein	CL	201
+1	CL_INS_100	823939	824718	fGI_50;1	fGI	260
+1	CL_823	824719	825282	TetR/AcrR family transcriptional regulator	CL	188
+1	CL_INS_101	825283	826437	fGI_50;1	fGI	385
+1	CL_825	826438	828843	hypothetical protein	CL	802
+1	CL_826	828844	829632	sulfurtransferase FdhD	CL	263
+1	CL_827	829633	830022	DUF1232 domain-containing protein	CL	130
+1	CL_828	830023	831087	DUF3410 domain-containing protein	CL	355
+1	CL_829	831088	832059	EF-P lysine aminoacylase GenX	CL	324
+1	CL_830	833034	832060	Tim44 domain-containing protein	CL	325
+1	CL_831	834420	833035	DNA repair protein RadA	CL	462
+1	CL_832	834421	835824	alanine glycine permease	CL	468
+1	CL_833	835825	836046	hypothetical protein	CL	74
+1	CL_834	836047	837294	diaminopimelate decarboxylase	CL	416
+1	CL_835	837295	838137	diaminopimelate epimerase	CL	281
+1	CL_INS_102	838138	838779	fGI_25;1	fGI	214
+1	CL_836	839400	838780	LysE family translocator	CL	207
+1	CL_INS_103	839401	840324	fGI_50;1	fGI	308
+1	CL_838	840325	841071	electron transfer flavoprotein subunit beta/FixA family protein	CL	249
+1	CL_839	841072	842001	electron transfer flavoprotein subunit alpha	CL	310
+1	CL_840	842002	844713	DNA gyrase subunit A	CL	904
+1	CL_INS_104	844714	846357	fGI_50;1	fGI	548
+1	CL_842	846735	846358	GtrA family protein	CL	126
+1	CL_843	847713	846736	glycosyltransferase	CL	326
+1	CL_INS_105	847714	848505	fGI_50;1	fGI	264
+1	CL_845	849594	848506	ABC transporter permease	CL	363
+1	CL_846	850662	849595	ABC transporter permease	CL	356
+1	CL_847	851781	850663	HlyD family secretion protein	CL	373
+1	CL_848	853266	851782	TolC family protein	CL	495
+1	CL_849	853267	854343	3-phosphoserine/phosphohydroxythreonine aminotransferase	CL	359
+1	CL_850	855282	854344	hypothetical protein	CL	313
+1	CL_851	855283	855747	YaiI/YqxD family protein	CL	155
+1	CL_INS_106	855748	856653	fGI_50;1	fGI	302
+1	CL_853	856654	857886	lipoprotein-releasing system transmembrane subunit LolC	CL	411
+1	CL_854	857887	858570	lipoprotein-releasing system ATP-binding protein LolD	CL	228
+1	CL_INS_107	858571	861000	fGI_50;1	fGI	810
+1	CL_856	861957	861001	lipid A biosynthesis acyltransferase	CL	319
+1	CL_857	861958	862971	signal peptide peptidase SppA	CL	338
+1	CL_858	862972	863778	alpha/beta hydrolase	CL	269
+1	CL_859	864405	863779	phosphoribosylglycinamide formyltransferase	CL	209
+1	CL_860	865473	864406	phosphoribosylformylglycinamidine cyclo-ligase	CL	356
+1	CL_861	865474	866664	AI-2E family transporter	CL	397
+1	CL_862	866665	867360	DnaA regulatory inactivator Hda	CL	232
+1	CL_INS_108	867361	871656	fGI_50;1	fGI	1432
+1	CL_865	872043	871657	DUF3106 domain-containing protein	CL	129
+1	CL_866	872361	872044	hypothetical protein	CL	106
+1	CL_867	872973	872362	RNA polymerase sigma factor	CL	204
+1	CL_868	873747	872974	RNA methyltransferase	CL	258
+1	CL_869	874716	873748	fructose 1,6-bisphosphatase	CL	323
+1	CL_870	874717	874902	hypothetical protein	CL	62
+1	CL_871	875463	874903	peptidoglycan-associated lipoprotein Pal	CL	187
+1	CL_872	876741	875464	Tol-Pal system beta propeller repeat protein TolB	CL	426
+1	CL_873	878142	876742	cell envelope integrity protein TolA	CL	467
+1	CL_874	878592	878143	protein TolR	CL	150
+1	CL_875	879288	878593	protein TolQ	CL	232
+1	CL_876	879693	879289	tol-pal system-associated acyl-CoA thioesterase	CL	135
+1	CL_INS_109	879694	881025	fGI_50;1	fGI	444
+1	CL_878	882027	881026	Holliday junction branch migration DNA helicase RuvB	CL	334
+1	CL_879	882624	882028	Holliday junction branch migration protein RuvA	CL	199
+1	CL_880	883962	882625	deoxyguanosinetriphosphate triphosphohydrolase	CL	446
+1	CL_881	883963	887793	phosphoribosylformylglycinamidine synthase	CL	1277
+1	CL_912	887794	888996	Bcr/CflA family drug resistance efflux transporter	CL	401
+1	CL_913	888997	889311	NIF3 1	CL	105
+1	CL_914	890109	889312	enol-CoA hydratase	CL	266
+1	CL_915	890110	890739	nicotinamide-nucleotide adenylyltransferase	CL	210
+1	CL_916	891306	890740	CAP domain-containing protein	CL	189
+1	CL_917	891765	891307	peroxiredoxin	CL	153
+1	CL_INS_110	891766	892449	fGI_50;1	fGI	228
+1	CL_919	892863	892450	hypothetical protein	CL	138
+1	CL_920	893544	892864	7-cyano-7-deazaguanine synthase QueC	CL	227
+1	CL_921	894252	893545	7-carboxy-7-deazaguanine synthase QueE	CL	236
+1	CL_922	895071	894253	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase	CL	273
+1	CL_923	895072	895818	hypothetical protein	CL	249
+1	CL_924	896739	895819	CysB family HTH-type transcriptional regulator	CL	307
+1	CL_925	897798	896740	sulfate ABC transporter ATP-binding protein	CL	353
+1	CL_926	898680	897799	sulfate ABC transporter permease subunit CysW	CL	294
+1	CL_927	899511	898681	sulfate ABC transporter permease subunit CysT	CL	277
+1	CL_928	900117	899512	alpha/beta hydrolase	CL	202
+1	CL_929	901122	900118	sulfate ABC transporter substrate-binding protein	CL	335
+1	CL_930	901123	901932	aminodeoxychorismate lyase	CL	270
+1	CL_931	901933	903000	endolytic transglycosylase MltG	CL	356
+1	CL_932	903001	903597	thymidylate kinase	CL	199
+1	CL_933	903598	904011	PaaI family thioesterase	CL	138
+1	CL_934	905652	904012	L-aspartate oxidase	CL	547
+1	CL_935	905653	907026	serine protease	CL	458
+1	CL_936	907027	907473	acyl-CoA thioesterase	CL	149
+1	CL_INS_111	907474	908019	fGI_25;1	fGI	182
+1	CL_938	908020	909834	elongation factor 4	CL	605
+1	CL_939	909835	910659	signal peptidase I	CL	275
+1	CL_940	910660	911031	DUF4845 domain-containing protein	CL	124
+1	CL_941	911032	911721	ribonuclease 3	CL	230
+1	CL_942	911722	912747	GTPase Era	CL	342
+1	CL_943	912748	912945	hypothetical protein	CL	66
+1	CL_944	912946	913656	DNA repair protein RecO	CL	237
+1	CL_945	913657	914379	pyridoxine 5'-phosphate synthase	CL	241
+1	CL_946	914380	915021	tRNA-(ms[2]io[6]A)-hydroxylase	CL	214
+1	CL_947	915022	915777	NAD(P)-dependent oxidoreductase	CL	252
+1	CL_INS_112	915778	915909	fGI_10;1	fGI	44
+1	CL_948	915910	916335	hypothetical protein	CL	142
+1	CL_949	916770	916336	PaaI family thioesterase	CL	145
+1	CL_INS_113	916771	920835	fGI_50;2	fGI	1355
+1	CL_953	922068	920836	pyridoxal phosphate-dependent aminotransferase	CL	411
+1	CL_954	922069	922245	hypothetical protein	CL	59
+1	CL_955	923679	922246	GGDEF domain-containing protein	CL	478
+1	CL_956	924468	923680	hypothetical protein	CL	263
+1	CL_957	924469	926487	excinuclease ABC subunit UvrB	CL	673
+1	CL_958	926488	927072	membrane protein	CL	195
+1	CL_INS_114	927073	928014	fGI_50;1	fGI	314
+1	CL_960	928015	929469	glyceraldehyde-3-phosphate dehydrogenase	CL	485
+1	CL_961	929470	930201	hypothetical protein	CL	244
+1	CL_962	930202	930873	hypothetical protein	CL	224
+1	CL_963	930874	932091	GTPase ObgE	CL	406
+1	CL_964	932092	933222	glutamate 5-kinase	CL	377
+1	CL_965	933876	933223	HAD-IB family hydrolase	CL	218
+1	CL_966	935082	933877	DUF1615 domain-containing protein	CL	402
+1	CL_967	935083	936105	tRNA dihydrouridine synthase DusB	CL	341
+1	CL_968	937149	936106	nitronate monooxygenase	CL	348
+1	CL_969	937848	937150	VIT family protein	CL	233
+1	CL_970	937849	939018	hypothetical protein	CL	390
+1	CL_INS_115	939019	941055	fGI_50;1	fGI	679
+1	CL_972	942897	941056	hypothetical protein	CL	614
+1	CL_INS_116	942898	945777	fGI_50;1	fGI	960
+1	CL_976	947217	945778	deoxyribodipyrimidine photo-lyase	CL	480
+1	CL_977	947697	947218	peptidylprolyl isomerase	CL	160
+1	CL_978	948981	947698	NAD(P)/FAD-dependent oxidoreductase	CL	428
+1	CL_979	950298	948982	D-alanyl-D-alanine carboxypeptidase	CL	439
+1	CL_980	950299	951999	serine protease	CL	567
+1	CL_981	952000	954234	NADP-dependent isocitrate dehydrogenase	CL	745
+1	CL_982	955020	954235	rRNA large subunit pseudouridine synthase E	CL	262
+1	CL_983	955021	956274	NADP-dependent isocitrate dehydrogenase	CL	418
+1	CL_INS_117	956275	956763	fGI_50;1	fGI	163
+1	CL_985	957171	956764	hypothetical protein	CL	136
+1	CL_INS_118	957172	957294	fGI_10;1	fGI	41
+1	CL_986	958470	957295	MFS transporter	CL	392
+1	CL_987	958471	959349	LysR family transcriptional regulator	CL	293
+1	CL_988	959350	960741	L-cystine transporter	CL	464
+1	CL_989	960742	961554	PhzF family phenazine biosynthesis protein	CL	271
+1	CL_990	961555	964314	insulinase family protein	CL	920
+1	CL_991	964695	964315	DUF3144 domain-containing protein	CL	127
+1	CL_992	964696	965325	hypothetical protein	CL	210
+1	CL_993	966786	965326	inorganic triphosphatase	CL	487
+1	CL_994	966787	967161	DUF962 domain-containing protein	CL	125
+1	CL_INS_119	967162	975246	fGI_10;1	fGI	2695
+1	CL_995	975247	975855	thiamine phosphate synthase	CL	203
+1	CL_996	975856	977151	glutamate-1-semialdehyde 2,1-aminomutase	CL	432
+1	CL_997	977152	977853	isochorismatase	CL	234
+1	CL_998	977854	978489	RluA family pseudouridine synthase	CL	212
+1	CL_999	978490	981315	RNA polymerase-associated protein RapA	CL	942
+1	CL_INS_120	981316	982329	fGI_50;1	fGI	338
+1	CL_1001	983022	982330	HTH-type transcriptional repressor FabR	CL	231
+1	CL_1002	983023	984090	ferredoxin reductase	CL	356
+1	CL_1003	984091	985182	acyl-CoA desaturase	CL	364
+1	CL_INS_121	985183	987348	fGI_50;2	fGI	722
+1	CL_1007	987349	988719	diaminobutyrate--2-oxoglutarate transaminase	CL	457
+1	CL_1008	988720	990249	aspartate aminotransferase family protein	CL	510
+1	CL_1009	990250	991677	aldehyde dehydrogenase	CL	476
+1	CL_1010	992160	991678	Lrp/AsnC family transcriptional regulator	CL	161
+1	CL_1011	992161	993879	pyruvate decarboxylase	CL	573
+1	CL_1012	993880	995256	aromatic amino acid transporter AroP	CL	459
+1	CL_1013	995257	996285	phosphonate ABC transporter substrate-binding protein	CL	343
+1	CL_1014	996286	997662	phosphate ABC transporter permease subunit PstC	CL	459
+1	CL_1015	997663	999057	phosphate ABC transporter, permease protein PstA	CL	465
+1	CL_1016	999058	999957	phosphate ABC transporter ATP-binding protein	CL	300
+1	CL_1017	999958	1000917	protease SohB	CL	320
+1	CL_1018	1000918	1003101	adhesin	CL	728
+1	CL_1019	1003740	1003102	DUF2238 domain-containing protein	CL	213
+1	CL_1020	1005126	1003741	adenylosuccinate lyase	CL	462
+1	CL_1021	1005858	1005127	lysogenization protein HflD	CL	244
+1	CL_1022	1006989	1005859	tRNA 2-thiouridine(34) synthase MnmA	CL	377
+1	CL_INS_122	1006990	1007475	fGI_50;1	fGI	162
+1	CL_1024	1008018	1007476	gamma carbonic anhydrase family protein	CL	181
+1	CL_1025	1009164	1008019	D-alanyl-D-alanine carboxypeptidase	CL	382
+1	CL_1026	1009584	1009165	hypothetical protein	CL	140
+1	CL_1027	1009953	1009585	hypothetical protein	CL	123
+1	CL_1028	1009954	1010718	5'-nucleotidase SurE	CL	255
+1	CL_1029	1010719	1011546	peptidoglycan-binding protein	CL	276
+1	CL_1030	1011547	1012473	LysR family transcriptional regulator	CL	309
+1	CL_1031	1015089	1012474	ATP-dependent protease	CL	872
+1	CL_1032	1015090	1017276	MFS transporter	CL	729
+1	CL_1033	1017277	1017675	lactoylglutathione lyase	CL	133
+1	CL_1034	1017676	1018638	bile acid:sodium symporter	CL	321
+1	CL_1035	1018639	1018860	50S ribosomal protein L31	CL	74
+1	CL_1036	1020981	1018861	diguanylate phosphodiesterase	CL	707
+1	CL_INS_123	1020982	1022724	fGI_50;1	fGI	581
+1	CL_1037	1023738	1022725	EF-P beta-lysylation protein EpmB	CL	338
+1	CL_1038	1023739	1024305	elongation factor P	CL	189
+1	CL_1039	1024306	1026399	carbon starvation protein A	CL	698
+1	CL_1040	1026400	1026699	DUF466 domain-containing protein	CL	100
+1	CL_INS_124	1026700	1044576	fGI_50;4	fGI	5959
+1	CL_1058	1045260	1044577	pirin family protein	CL	228
+1	CL_INS_125	1045261	1046226	fGI_50;1	fGI	322
+1	CL_1060	1046227	1046847	DNA-binding protein	CL	207
+1	CL_1061	1047705	1046848	siderophore-interacting protein	CL	286
+1	CL_1062	1047706	1049550	peptide synthetase	CL	615
+1	CL_1063	1051641	1049551	acinetobactin biosynthesis protein	CL	697
+1	CL_1064	1051642	1052580	iron ABC transporter permease	CL	313
+1	CL_1065	1052581	1053525	iron ABC transporter permease	CL	315
+1	CL_1066	1053526	1054293	siderophore ABC transporter ATP-binding protein	CL	256
+1	CL_1067	1054294	1055259	ferric anguibactin-binding protein	CL	322
+1	CL_1068	1055260	1057557	TonB-dependent siderophore receptor	CL	766
+1	CL_1069	1058865	1057558	putative histamine N-monooxygenase	CL	436
+1	CL_1070	1061805	1058866	peptide synthetase	CL	980
+1	CL_INS_126	1061806	1065600	fGI_50;2	fGI	1265
+1	CL_1074	1065601	1067208	ABC transporter ATP-binding protein	CL	536
+1	CL_1075	1067209	1068801	ABC transporter ATP-binding protein	CL	531
+1	CL_1076	1068802	1069533	thioesterase	CL	244
+1	CL_1077	1069534	1070286	4'-phosphopantetheinyl transferase	CL	251
+1	CL_INS_127	1070287	1071453	fGI_50;1	fGI	389
+1	CL_1079	1072698	1071454	murein L,D-transpeptidase	CL	415
+1	CL_1080	1072699	1073769	uroporphyrinogen decarboxylase	CL	357
+1	CL_1081	1073770	1074561	DUF817 domain-containing protein	CL	264
+1	CL_INS_128	1074562	1075029	fGI_50;1	fGI	156
+1	CL_1082	1075030	1076919	DUF4105 domain-containing protein	CL	630
+1	CL_1083	1078068	1076920	class C beta-lactamase ADC-158	CL	383
+1	CL_1084	1078620	1078069	GTP cyclohydrolase I FolE	CL	184
+1	CL_1085	1078621	1080117	xanthine dehydrogenase small subunit	CL	499
+1	CL_1086	1080118	1082490	xanthine dehydrogenase molybdopterin binding subunit	CL	791
+1	CL_1087	1082491	1083471	xanthine dehydrogenase accessory protein XdhC	CL	327
+1	CL_1088	1084164	1083472	hypothetical protein	CL	231
+1	CL_1089	1084968	1084165	indole-3-glycerol-phosphate synthase	CL	268
+1	CL_1090	1086015	1084969	anthranilate phosphoribosyltransferase	CL	349
+1	CL_1091	1086016	1088745	TonB-dependent receptor	CL	910
+1	CL_INS_129	1088746	1091508	fGI_50;1	fGI	921
+1	CL_1093	1092090	1091509	type 1 glutamine amidotransferase	CL	194
+1	CL_INS_130	1092091	1095084	fGI_50;2	fGI	998
+1	CL_1095	1096623	1095085	MFS transporter	CL	513
+1	CL_1096	1096624	1098030	type I glutamate--ammonia ligase	CL	469
+1	CL_1097	1098031	1098537	chorismate--pyruvate lyase	CL	169
+1	CL_1098	1098538	1099413	4-hydroxybenzoate octaprenyltransferase	CL	292
+1	CL_INS_131	1099414	1100868	fGI_50;1	fGI	485
+1	CL_1100	1100869	1101066	hypothetical protein	CL	66
+1	CL_1101	1101507	1101067	DUF2726 domain-containing protein	CL	147
+1	CL_1102	1102131	1101508	superoxide dismutase	CL	208
+1	CL_1103	1102887	1102132	Nif3-like dinuclear metal center hexameric protein	CL	252
+1	CL_INS_132	1102888	1134033	fGI_25;2	fGI	10382
+1	CL_1104	1134034	1135206	2-alkenal reductase	CL	391
+1	CL_1105	1136442	1135207	multifunctional CCA tRNA nucleotidyl transferase/2'3'-cyclic phosphodiesterase/2'nucleotidase/phosphatase	CL	412
+1	CL_1106	1138710	1136443	NADP-dependent malic enzyme	CL	756
+1	CL_1107	1141557	1138711	histidine kinase	CL	949
+1	CL_1108	1142277	1141558	16S rRNA (uracil(1498)-N(3))-methyltransferase	CL	240
+1	CL_1109	1143111	1142278	methylenetetrahydrofolate reductase [NAD(P)H]	CL	278
+1	CL_1110	1144491	1143112	adenosylhomocysteinase	CL	460
+1	CL_1111	1144492	1145025	peptidase C39	CL	178
+1	CL_1112	1145406	1145026	4-carboxymuconolactone decarboxylase	CL	127
+1	CL_1113	1147869	1145407	acyl-CoA dehydrogenase	CL	821
+1	CL_1114	1148880	1147870	lipoyl synthase	CL	337
+1	CL_1115	1148881	1150290	Si-specific NAD(P)(+) transhydrogenase	CL	470
+1	CL_1116	1151502	1150291	MFS transporter	CL	404
+1	CL_1117	1152846	1151503	MFS transporter	CL	448
+1	CL_1118	1153962	1152847	OmpW family protein	CL	372
+1	CL_1119	1154787	1153963	type I methionyl aminopeptidase	CL	275
+1	CL_1120	1154788	1155537	30S ribosomal protein S2	CL	250
+1	CL_1121	1155538	1156410	elongation factor Ts	CL	291
+1	CL_INS_133	1156411	1156893	fGI_50;1	fGI	161
+1	CL_1123	1156894	1157715	AraC family transcriptional regulator	CL	274
+1	CL_INS_134	1157716	1159194	fGI_50;1	fGI	493
+1	CL_1127	1159809	1159195	septal ring lytic transglycosylase RlpA family protein	CL	205
+1	CL_1128	1160808	1159810	lytic murein transglycosylase B	CL	333
+1	CL_1129	1161948	1160809	rod shape-determining protein RodA	CL	380
+1	CL_1130	1162596	1161949	hypothetical protein	CL	216
+1	CL_1131	1163406	1162597	NADPH-dependent 7-cyano-7-deazaguanine reductase QueF	CL	270
+1	CL_1132	1164177	1163407	ABC transporter permease	CL	257
+1	CL_1133	1165110	1164178	ABC transporter ATP-binding protein	CL	311
+1	CL_INS_135	1165111	1189428	fGI_25;1	fGI	8106
+1	CL_1134	1190058	1189429	hypothetical protein	CL	210
+1	CL_1135	1190742	1190059	DNA exonuclease	CL	228
+1	CL_INS_136	1190743	1193220	fGI_50;2	fGI	826
+1	CL_1138	1194666	1193221	RND transporter	CL	482
+1	CL_1139	1197843	1194667	multidrug efflux RND transporter permease subunit	CL	1059
+1	CL_1140	1199061	1197844	MexE family multidrug efflux RND transporter periplasmic adaptor subunit	CL	406
+1	CL_INS_137	1199062	1203045	fGI_50;1	fGI	1328
+1	CL_1146	1203372	1203046	QacE family quaternary ammonium compound efflux SMR transporter	CL	109
+1	CL_1147	1203633	1203373	hypothetical protein	CL	87
+1	CL_1148	1205001	1203634	U32 family peptidase	CL	456
+1	CL_INS_138	1205002	1206459	fGI_50;1	fGI	486
+1	CL_1150	1206460	1207326	PhzF family phenazine biosynthesis protein	CL	289
+1	CL_1151	1208103	1207327	ferredoxin--NADP reductase	CL	259
+1	CL_1152	1208104	1208829	tRNA (N6-threonylcarbamoyladenosine(37)-N6)-methyltransferase TrmO	CL	242
+1	CL_1153	1210095	1208830	DUF4010 domain-containing protein	CL	422
+1	CL_INS_139	1210096	1211850	fGI_50;1	fGI	585
+1	CL_1155	1211851	1212207	hypothetical protein	CL	119
+1	CL_1156	1212208	1212867	DNA-binding response regulator	CL	220
+1	CL_1157	1212868	1214223	two-component sensor histidine kinase	CL	452
+1	CL_1158	1214391	1214224	hemin uptake protein HemP	CL	56
+1	CL_1159	1214392	1215288	hypothetical protein	CL	299
+1	CL_1160	1215837	1215289	hypothetical protein	CL	183
+1	CL_1161	1218231	1215838	penicillin-binding protein 1B	CL	798
+1	CL_1162	1218232	1219137	NAD(+) kinase	CL	302
+1	CL_1163	1219138	1219407	DUF1315 domain-containing protein	CL	90
+1	CL_1164	1220418	1219408	glycosyl transferase family protein	CL	337
+1	CL_1165	1220419	1221774	dicarboxylate/amino acid:cation symporter	CL	452
+1	CL_1166	1221775	1222917	acyl-CoA dehydrogenase	CL	381
+1	CL_1167	1223793	1222918	alpha/beta hydrolase	CL	292
+1	CL_1168	1223794	1224900	chorismate mutase	CL	369
+1	CL_1169	1224901	1227144	bifunctional prephenate dehydrogenase/3-phosphoshikimate 1-carboxyvinyltransferase	CL	748
+1	CL_1170	1227145	1227525	hypothetical protein	CL	127
+1	CL_1171	1227526	1228983	aminoacyl-histidine dipeptidase	CL	486
+1	CL_INS_140	1228984	1232130	fGI_25;1	fGI	1049
+1	CL_1176	1233084	1232131	ribonuclease Z	CL	318
+1	CL_INS_141	1233085	1234683	fGI_25;1	fGI	533
+1	CL_1178	1235313	1234684	hydrolase	CL	210
+1	CL_1179	1235314	1236084	peroxide stress protein YaaA	CL	257
+1	CL_INS_142	1236085	1236705	fGI_50;1	fGI	207
+1	CL_1181	1237488	1236706	thiazole synthase	CL	261
+1	CL_1182	1237683	1237489	thiamine biosynthesis protein ThiS	CL	65
+1	CL_1183	1238046	1237684	DUF423 domain-containing protein	CL	121
+1	CL_1184	1238910	1238047	RNA polymerase sigma factor RpoH	CL	288
+1	CL_1185	1239153	1238911	sulfurtransferase TusA family protein	CL	81
+1	CL_1186	1239154	1239363	cold-shock protein	CL	70
+1	CL_1187	1239364	1240512	ATP-dependent RNA helicase RhlB	CL	383
+1	CL_1188	1240890	1240513	hypothetical protein	CL	126
+1	CL_1189	1240891	1241463	nitroreductase	CL	191
+1	CL_1190	1241464	1242534	glycerol-3-phosphate dehydrogenase (NAD(P)(+))	CL	357
+1	CL_1191	1242535	1242987	phosphohistidine phosphatase	CL	151
+1	CL_1192	1242988	1244124	general secretion pathway protein GspL	CL	379
+1	CL_1193	1244125	1244601	hypothetical protein	CL	159
+1	CL_1194	1244602	1245603	dihydroorotate dehydrogenase (quinone)	CL	334
+1	CL_1195	1245604	1246188	colicin V biosynthesis protein	CL	195
+1	CL_1196	1246189	1247727	amidophosphoribosyltransferase	CL	513
+1	CL_INS_143	1247728	1249557	fGI_50;1	fGI	610
+1	CL_1198	1249558	1250205	hypothetical protein	CL	216
+1	CL_1199	1250206	1251168	D-glycerate dehydrogenase	CL	321
+1	CL_1200	1251169	1252602	hypothetical protein	CL	478
+1	CL_1201	1253046	1252603	GatB/YqeY domain-containing protein	CL	148
+1	CL_1202	1253259	1253047	30S ribosomal protein S21	CL	71
+1	CL_1203	1253260	1254267	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex transferase subunit TsaD	CL	336
+1	CL_INS_144	1254268	1255368	fGI_50;1	fGI	367
+1	CL_1204	1256247	1255369	DUF815 domain-containing protein	CL	293
+1	CL_1205	1256248	1257753	DUF3336 domain-containing protein	CL	502
+1	CL_1206	1257754	1258554	protein kinase	CL	267
+1	CL_INS_145	1258555	1276353	fGI_25;3	fGI	5933
+1	CL_1207	1277268	1276354	LysR family transcriptional regulator	CL	305
+1	CL_1208	1277269	1278642	aspartate aminotransferase family protein	CL	458
+1	CL_INS_146	1278643	1280208	fGI_50;1	fGI	522
+1	CL_1210	1280209	1281603	amino acid permease	CL	465
+1	CL_1211	1281834	1281604	DUF2171 domain-containing protein	CL	77
+1	CL_1212	1281835	1282806	acyl-CoA dehydrogenase	CL	324
+1	CL_1213	1282807	1283598	PIG-L family deacetylase	CL	264
+1	CL_1214	1283599	1284195	class I SAM-dependent methyltransferase	CL	199
+1	CL_1215	1284196	1284837	glycosyl transferase	CL	214
+1	CL_1216	1284838	1285197	DNA-binding protein	CL	120
+1	CL_1217	1285198	1285665	hypothetical protein	CL	156
+1	CL_1218	1285989	1285666	hypothetical protein	CL	108
+1	CL_INS_147	1285990	1286592	fGI_50;1	fGI	201
+1	CL_1220	1287426	1286593	AraC family transcriptional regulator	CL	278
+1	CL_1221	1288572	1287427	alpha/beta hydrolase	CL	382
+1	CL_1222	1288573	1289805	sodium/glutamate symporter	CL	411
+1	CL_1223	1290705	1289806	DUF815 domain-containing protein	CL	300
+1	CL_1224	1290706	1291401	FadR family transcriptional regulator	CL	232
+1	CL_INS_148	1291402	1301241	fGI_50;2	fGI	3280
+1	CL_1239	1301242	1302129	EamA/RhaT family transporter	CL	296
+1	CL_INS_149	1302130	1305408	fGI_25;1	fGI	1093
+1	CL_1240	1305409	1306023	paraquat-inducible protein A	CL	205
+1	CL_1241	1306024	1306827	paraquat-inducible protein A	CL	268
+1	CL_1242	1306828	1308525	MCE family protein	CL	566
+1	CL_1243	1308526	1309233	hypothetical protein	CL	236
+1	CL_INS_150	1309234	1322370	fGI_50;1	fGI	4379
+1	CL_1245	1322371	1323096	aspartate/glutamate racemase family protein	CL	242
+1	CL_1246	1324005	1323097	drug/metabolite DMT transporter permease	CL	303
+1	CL_1247	1324006	1325370	sorbosone dehydrogenase	CL	455
+1	CL_INS_151	1325371	1327020	fGI_50;1	fGI	550
+1	CL_1250	1327021	1327584	TetR family transcriptional regulator	CL	188
+1	CL_INS_152	1327585	1328880	fGI_50;1	fGI	432
+1	CL_1252	1329081	1328881	hypothetical protein	CL	67
+1	CL_1253	1329810	1329082	hydroxyacylglutathione hydrolase	CL	243
+1	CL_1254	1330503	1329811	ABC transporter permease	CL	231
+1	CL_1255	1331526	1330504	methionine ABC transporter ATP-binding protein	CL	341
+1	CL_1256	1332390	1331527	hypothetical protein	CL	288
+1	CL_1257	1333674	1332391	phosphoribosylamine--glycine ligase	CL	428
+1	CL_1258	1335246	1333675	bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase PurH	CL	524
+1	CL_1259	1335513	1335247	DNA-binding transcriptional regulator Fis	CL	89
+1	CL_1260	1336353	1335514	DUF3426 domain-containing protein	CL	280
+1	CL_1261	1337256	1336354	50S ribosomal protein L11 methyltransferase	CL	301
+1	CL_1262	1337484	1337257	hypothetical protein	CL	76
+1	CL_1263	1337485	1339362	tRNA uridine-5-carboxymethylaminomethyl(34) synthesis enzyme MnmG	CL	626
+1	CL_1264	1340367	1339363	WYL domain-containing protein	CL	335
+1	CL_INS_153	1340368	1341915	fGI_50;1	fGI	516
+1	CL_1266	1341916	1342509	hypothetical protein	CL	198
+1	CL_1267	1342510	1343286	transglutaminase family protein	CL	259
+1	CL_1268	1343287	1344018	peptidase	CL	244
+1	CL_1269	1345086	1344019	alanine racemase	CL	356
+1	CL_1270	1346529	1345087	replicative DNA helicase	CL	481
+1	CL_1271	1346973	1346530	50S ribosomal protein L9	CL	148
+1	CL_1272	1347198	1346974	30S ribosomal protein S18	CL	75
+1	CL_1273	1347579	1347199	30S ribosomal protein S6	CL	127
+1	CL_1274	1348455	1347580	protoheme IX farnesyltransferase	CL	292
+1	CL_1275	1348782	1348456	cytochrome o ubiquinol oxidase subunit IV	CL	109
+1	CL_1276	1349400	1348783	cytochrome o ubiquinol oxidase subunit III	CL	206
+1	CL_1277	1351389	1349401	cytochrome o ubiquinol oxidase subunit I	CL	663
+1	CL_1278	1352439	1351390	ubiquinol oxidase subunit II	CL	350
+1	CL_1279	1353192	1352440	RDD family protein	CL	251
+1	CL_1280	1355568	1353193	phosphoenolpyruvate synthase	CL	792
+1	CL_1281	1355569	1356402	phosphoenolpyruvate synthase regulatory protein	CL	278
+1	CL_1282	1356403	1358838	poly-beta-1,6 N-acetyl-D-glucosamine export porin PgaA	CL	812
+1	CL_1283	1358839	1360665	poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase PgaB	CL	609
+1	CL_1284	1360666	1361910	poly-beta-1,6 N-acetyl-D-glucosamine synthase	CL	415
+1	CL_INS_154	1361911	1362372	fGI_50;1	fGI	154
+1	CL_1286	1362933	1362373	hypothetical protein	CL	187
+1	CL_1287	1363935	1362934	LLM class flavin-dependent oxidoreductase	CL	334
+1	CL_1288	1364436	1363936	hypothetical protein	CL	167
+1	CL_INS_155	1364437	1364670	fGI_25;1	fGI	78
+1	CL_1289	1365090	1364671	hypothetical protein	CL	140
+1	CL_1290	1365990	1365091	LysR family transcriptional regulator	CL	300
+1	CL_1291	1365991	1366827	type 1 glutamine amidotransferase domain-containing protein	CL	279
+1	CL_1292	1366828	1367913	peptide chain release factor 1	CL	362
+1	CL_1293	1367914	1368732	peptide chain release factor N(5)-glutamine methyltransferase	CL	273
+1	CL_INS_156	1368733	1370541	fGI_25;1	fGI	603
+1	CL_1294	1371567	1370542	AraC family transcriptional regulator	CL	342
+1	CL_1295	1371568	1372335	3-hydroxyacyl-CoA dehydrogenase	CL	256
+1	CL_INS_157	1372336	1373469	fGI_50;1	fGI	378
+1	CL_1297	1373470	1375110	AMP-binding protein	CL	547
+1	CL_1298	1375686	1375111	flavin reductase	CL	192
+1	CL_1299	1375687	1376460	molybdopterin biosynthesis protein	CL	258
+1	CL_1300	1376461	1377756	AarF/ABC1/UbiB kinase family protein	CL	432
+1	CL_1301	1377757	1378134	dihydroneopterin aldolase	CL	126
+1	CL_1302	1378135	1378569	2-amino-4-hydroxy-6- hydroxymethyldihydropteridine pyrophosphokinase	CL	145
+1	CL_1303	1378570	1380276	potassium-transporting ATPase subunit KdpA	CL	569
+1	CL_INS_158	1380277	1382313	fGI_50;1	fGI	679
+1	CL_1305	1382314	1382916	potassium-transporting ATPase subunit KdpC	CL	201
+1	CL_1306	1382917	1385568	sensor histidine kinase KdpD	CL	884
+1	CL_1307	1385569	1386282	DNA-binding response regulator	CL	238
+1	CL_1308	1387704	1386283	glutamine synthetase	CL	474
+1	CL_1309	1387705	1388250	DUF2799 domain-containing protein	CL	182
+1	CL_1310	1388883	1388251	2-nonaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase	CL	211
+1	CL_1311	1390200	1388884	MFS transporter	CL	439
+1	CL_1312	1390201	1392918	outer membrane protein assembly factor	CL	906
+1	CL_1313	1392919	1397421	DUF490 domain-containing protein	CL	1501
+1	CL_1314	1397422	1397778	hypothetical protein	CL	119
+1	CL_1315	1397779	1400415	bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase	CL	879
+1	CL_1316	1400416	1400847	hypothetical protein	CL	144
+1	CL_1317	1400848	1401828	ion transporter	CL	327
+1	CL_1318	1403025	1401829	MFS transporter	CL	399
+1	CL_INS_159	1403026	1403451	fGI_50;1	fGI	142
+1	CL_1320	1403452	1404243	DUF4198 domain-containing protein	CL	264
+1	CL_1321	1404244	1405161	LysR family transcriptional regulator	CL	306
+1	CL_1322	1405611	1405162	DUF441 domain-containing protein	CL	150
+1	CL_1323	1405612	1405827	hypothetical protein	CL	72
+1	CL_1324	1405828	1406529	rRNA pseudouridine synthase	CL	234
+1	CL_INS_160	1406530	1406970	fGI_50;1	fGI	147
+1	CL_1326	1407276	1406971	type II toxin-antitoxin system antitoxin, RelB/DinJ family	CL	102
+1	CL_1327	1408182	1407277	pseudouridylate synthase	CL	302
+1	CL_1328	1408183	1408653	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex ATPase subunit type 1 TsaE	CL	157
+1	CL_1329	1408654	1410603	DNA mismatch repair endonuclease MutL	CL	650
+1	CL_1330	1410604	1411545	tRNA (adenosine(37)-N6)-dimethylallyltransferase MiaA	CL	314
+1	CL_1331	1411546	1412049	RNA chaperone Hfq	CL	168
+1	CL_INS_161	1412050	1412904	fGI_50;1	fGI	285
+1	CL_1333	1413555	1412905	oxygen-insensitive NAD(P)H nitroreductase	CL	217
+1	CL_INS_162	1413556	1413771	fGI_50;1	fGI	72
+1	CL_1335	1414488	1413772	UDP-2,3-diacylglucosamine diphosphatase	CL	239
+1	CL_1336	1414995	1414489	cyclophilin	CL	169
+1	CL_1337	1414996	1416720	glutamine--tRNA ligase/YqeY domain fusion protein	CL	575
+1	CL_1338	1417440	1416721	GMP synthase	CL	240
+1	CL_1339	1418253	1417441	ethanolamine ammonia-lyase subunit EutC	CL	271
+1	CL_INS_163	1418254	1419636	fGI_50;1	fGI	461
+1	CL_1341	1421070	1419637	ethanolamine permease	CL	478
+1	CL_1342	1422579	1421071	aldehyde dehydrogenase	CL	503
+1	CL_1343	1422580	1423767	transcriptional regulator	CL	396
+1	CL_1344	1424733	1423768	alpha/beta hydrolase	CL	322
+1	CL_1345	1425903	1424734	alcohol dehydrogenase	CL	390
+1	CL_1346	1425904	1427613	helicase	CL	570
+1	CL_1347	1427614	1427970	5-carboxymethyl-2-hydroxymuconate isomerase	CL	119
+1	CL_INS_164	1427971	1428819	fGI_25;1	fGI	283
+1	CL_1348	1429644	1428820	hydroxyethylthiazole kinase	CL	275
+1	CL_1349	1430799	1429645	hypothetical protein	CL	385
+1	CL_1350	1431054	1430800	hypothetical protein	CL	85
+1	CL_1351	1431055	1433658	aminopeptidase N	CL	868
+1	CL_INS_165	1433659	1438362	fGI_50;1	fGI	1568
+1	CL_1356	1438363	1439046	glutathione S-transferase family protein	CL	228
+1	CL_INS_166	1439047	1439805	fGI_50;1	fGI	253
+1	CL_1358	1439806	1440486	hypothetical protein	CL	227
+1	CL_INS_167	1440487	1441041	fGI_50;1	fGI	185
+1	CL_1360	1441524	1441042	Lrp/AsnC family transcriptional regulator	CL	161
+1	CL_INS_168	1441525	1446630	fGI_50;1	fGI	1702
+1	CL_1367	1446631	1446909	hypothetical protein	CL	93
+1	CL_1368	1446910	1447290	hypothetical protein	CL	127
+1	CL_INS_169	1447291	1447794	fGI_50;1	fGI	168
+1	CL_1370	1447795	1449948	TonB-dependent siderophore receptor	CL	718
+1	CL_1371	1449949	1451001	OmpW family protein	CL	351
+1	CL_INS_170	1451002	1451553	fGI_50;2	fGI	184
+1	CL_1373	1453134	1451554	ABC transporter ATP-binding protein	CL	527
+1	CL_1374	1453575	1453135	universal stress protein	CL	147
+1	CL_1375	1453576	1453800	hypothetical protein	CL	75
+1	CL_1376	1453801	1454241	RDD family protein	CL	147
+1	CL_INS_171	1454242	1459353	fGI_50;1	fGI	1704
+1	CL_1381	1460001	1459354	leucine efflux protein LeuE	CL	216
+1	CL_1382	1460988	1460002	transaldolase	CL	329
+1	CL_1383	1461879	1460989	LysR family transcriptional regulator	CL	297
+1	CL_INS_172	1461880	1462311	fGI_50;1	fGI	144
+1	CL_1385	1463877	1462312	acetyl-CoA C-acyltransferase	CL	522
+1	CL_1386	1463878	1465266	3-oxoacyl-ACP reductase	CL	463
+1	CL_1387	1465267	1466118	hypothetical protein	CL	284
+1	CL_1388	1466119	1467375	esterase	CL	419
+1	CL_1389	1467951	1467376	TetR family transcriptional regulator	CL	192
+1	CL_1390	1467952	1469427	methyl viologen resistance protein SmvA	CL	492
+1	CL_INS_173	1469428	1471836	fGI_25;1	fGI	803
+1	CL_1391	1471837	1473948	DNA polymerase III subunit gamma/tau	CL	704
+1	CL_INS_174	1473949	1476174	fGI_50;1	fGI	742
+1	CL_1393	1476606	1476175	acyl-CoA thioesterase	CL	144
+1	CL_1394	1477761	1476607	alcohol dehydrogenase	CL	385
+1	CL_1395	1477762	1479003	lactonase family protein	CL	414
+1	CL_1396	1479004	1479504	low molecular weight phosphotyrosine protein phosphatase	CL	167
+1	CL_1397	1479505	1480536	UDP-N-acetylmuramate dehydrogenase	CL	344
+1	CL_1398	1480537	1481664	YdcF family protein	CL	376
+1	CL_1399	1481665	1482690	alpha/beta hydrolase	CL	342
+1	CL_INS_175	1482691	1484241	fGI_10;1	fGI	517
+1	CL_1400	1485912	1484242	FMN-binding glutamate synthase family protein	CL	557
+1	CL_1401	1487247	1485913	PepSY domain-containing protein	CL	445
+1	CL_1402	1487817	1487248	TetR/AcrR family transcriptional regulator	CL	190
+1	CL_1403	1487818	1488678	hypothetical protein	CL	287
+1	CL_INS_176	1488679	1489938	fGI_25;1	fGI	420
+1	CL_1471	1489939	1491084	MFS transporter	CL	382
+1	CL_1472	1491085	1491585	hypothetical protein	CL	167
+1	CL_1473	1492953	1491586	acetyl-CoA carboxylase biotin carboxylase subunit	CL	456
+1	CL_1474	1493370	1492954	acetyl-CoA carboxylase biotin carboxyl carrier protein	CL	139
+1	CL_1475	1493823	1493371	3-dehydroquinate dehydratase	CL	151
+1	CL_1476	1495149	1493824	Y-family DNA polymerase	CL	442
+1	CL_1477	1496157	1495150	nitrate transporter	CL	336
+1	CL_1478	1496745	1496158	response regulator	CL	196
+1	CL_1479	1496746	1497084	hypothetical protein	CL	113
+1	CL_1480	1497085	1499628	nitrite reductase large subunit	CL	848
+1	CL_1481	1499629	1501248	nitrite reductase (NAD(P)H) small subunit	CL	540
+1	CL_INS_177	1501249	1504026	fGI_50;1	fGI	926
+1	CL_1483	1504027	1504653	molybdenum cofactor guanylyltransferase	CL	209
+1	CL_1484	1504654	1506924	hypothetical protein	CL	757
+1	CL_1485	1506925	1507956	GTP 3',8-cyclase MoaA	CL	344
+1	CL_1486	1507957	1508208	MoaD/ThiS family protein	CL	84
+1	CL_1487	1508209	1508691	molybdenum cofactor biosynthesis protein MoaE	CL	161
+1	CL_1488	1508692	1509612	bifunctional molybdenum cofactor biosynthesis protein MoaC/MoaB	CL	307
+1	CL_1489	1509613	1510845	molybdopterin molybdenumtransferase MoeA	CL	411
+1	CL_1490	1510846	1511325	transcriptional regulator	CL	160
+1	CL_INS_178	1511326	1512762	fGI_50;1	fGI	479
+1	CL_1492	1512763	1513623	EamA/RhaT family transporter	CL	287
+1	CL_1493	1513932	1513624	sulfite reductase	CL	103
+1	CL_1494	1514214	1513933	hypothetical protein	CL	94
+1	CL_1495	1514562	1514215	hypothetical protein	CL	116
+1	CL_1496	1514928	1514563	sulfurtransferase TusD	CL	122
+1	CL_1497	1514929	1515933	UDP-glucose 4-epimerase GalE	CL	335
+1	CL_1498	1515934	1517325	class II fumarate hydratase	CL	464
+1	CL_1499	1517619	1517326	hypothetical protein	CL	98
+1	CL_1500	1518078	1517620	hypothetical protein	CL	153
+1	CL_INS_179	1518079	1518282	fGI_50;1	fGI	68
+1	CL_1502	1518283	1518771	hypothetical protein	CL	163
+1	CL_1503	1518772	1520013	D-amino acid dehydrogenase	CL	414
+1	CL_1504	1520655	1520014	hypothetical protein	CL	214
+1	CL_1505	1520656	1521135	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase	CL	160
+1	CL_1506	1521657	1521136	hypothetical protein	CL	174
+1	CL_1507	1522575	1521658	ornithine carbamoyltransferase	CL	306
+1	CL_INS_180	1522576	1523226	fGI_50;1	fGI	217
+1	CL_1509	1524717	1523227	nitrogen regulation protein NR(I)	CL	497
+1	CL_1510	1525824	1524718	PAS domain-containing sensor histidine kinase	CL	369
+1	CL_INS_181	1525825	1526007	fGI_25;1	fGI	61
+1	CL_1511	1526008	1527348	30S ribosomal protein S12 methylthiotransferase RimO	CL	447
+1	CL_1512	1527349	1528074	UMP kinase	CL	242
+1	CL_1513	1528075	1528626	ribosome-recycling factor	CL	184
+1	CL_1514	1528627	1529376	di-trans,poly-cis-decaprenylcistransferase	CL	250
+1	CL_1515	1529377	1530198	CDP-archaeol synthase	CL	274
+1	CL_1516	1530199	1531392	1-deoxy-D-xylulose-5-phosphate reductoisomerase	CL	398
+1	CL_1517	1531393	1532745	RIP metalloprotease RseP	CL	451
+1	CL_1518	1532746	1535268	outer membrane protein assembly factor BamA	CL	841
+1	CL_1519	1535269	1535769	membrane protein	CL	167
+1	CL_1520	1535770	1536837	UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase	CL	356
+1	CL_1521	1536838	1537320	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ	CL	161
+1	CL_1522	1537321	1538106	acyl-ACP--UDP-N-acetylglucosamine O-acyltransferase	CL	262
+1	CL_1523	1538988	1538107	hypothetical protein	CL	294
+1	CL_1524	1539468	1538989	regulatory protein RecX	CL	160
+1	CL_1525	1540515	1539469	DNA recombination/repair protein RecA	CL	349
+1	CL_1526	1540953	1540516	RNA-binding protein	CL	146
+1	CL_INS_182	1540954	1541637	fGI_50;1	fGI	228
+1	CL_1528	1541638	1541994	hypothetical protein	CL	119
+1	CL_1529	1541995	1542228	hypothetical protein	CL	78
+1	CL_1530	1542229	1542519	hypothetical protein	CL	97
+1	CL_1531	1543053	1542520	N-acetyltransferase	CL	178
+1	CL_INS_183	1543054	1543500	fGI_50;1	fGI	149
+1	CL_1533	1543501	1544748	kynureninase	CL	416
+1	CL_1534	1544749	1546152	amino acid permease	CL	468
+1	CL_1535	1546153	1546896	alpha/beta hydrolase	CL	248
+1	CL_1536	1546897	1548072	serine protease	CL	392
+1	CL_1537	1549524	1548073	SulP family inorganic anion transporter	CL	484
+1	CL_1538	1550151	1549525	DUF159 family protein	CL	209
+1	CL_1539	1550152	1551591	quinoprotein glucose dehydrogenase	CL	480
+1	CL_1540	1552032	1551592	universal stress protein	CL	147
+1	CL_INS_184	1552033	1554123	fGI_50;1	fGI	697
+1	CL_1542	1554336	1554124	hypothetical protein	CL	71
+1	CL_1543	1554798	1554337	MarR family transcriptional regulator	CL	154
+1	CL_INS_185	1554799	1555302	fGI_25;1	fGI	168
+1	CL_1544	1557018	1555303	PTS fructose transporter subunit IIBC	CL	572
+1	CL_1545	1557963	1557019	1-phosphofructokinase	CL	315
+1	CL_1546	1560819	1557964	phosphoenolpyruvate--protein phosphotransferase	CL	952
+1	CL_1547	1561677	1560820	alpha/beta hydrolase	CL	286
+1	CL_INS_186	1561678	1562130	fGI_50;1	fGI	151
+1	CL_1549	1562373	1562131	hypothetical protein	CL	81
+1	CL_1550	1562790	1562374	hypothetical protein	CL	139
+1	CL_1551	1564089	1562791	branched-chain amino acid transport system II carrier protein	CL	433
+1	CL_1552	1564090	1564881	type I methionyl aminopeptidase	CL	264
+1	CL_1553	1565781	1564882	LysR family transcriptional regulator	CL	300
+1	CL_1554	1565782	1566102	hypothetical protein	CL	107
+1	CL_1555	1566441	1566103	monothiol glutaredoxin, Grx4 family	CL	113
+1	CL_1556	1566442	1567647	aspartate aminotransferase family protein	CL	402
+1	CL_1557	1568076	1567648	CBS domain-containing protein	CL	143
+1	CL_1558	1568499	1568077	DUF2750 domain-containing protein	CL	141
+1	CL_INS_187	1568500	1568694	fGI_50;1	fGI	65
+1	CL_1559	1568925	1568695	hypothetical protein	CL	77
+1	CL_1560	1568926	1569282	hypothetical protein	CL	119
+1	CL_1561	1569283	1569606	hypothetical protein	CL	108
+1	CL_1562	1569607	1570710	signal recognition particle-docking protein FtsY	CL	368
+1	CL_1563	1570711	1571304	oxidoreductase	CL	198
+1	CL_1564	1571305	1571973	DUF2057 domain-containing protein	CL	223
+1	CL_INS_188	1571974	1572495	fGI_50;1	fGI	174
+1	CL_1566	1572789	1572496	hypothetical protein	CL	98
+1	CL_1567	1572888	1572790	cytochrome bd-I oxidase subunit CydX	CL	33
+1	CL_1568	1574031	1572889	cytochrome d ubiquinol oxidase subunit II	CL	381
+1	CL_INS_189	1574032	1575615	fGI_50;1	fGI	528
+1	CL_1570	1575807	1575616	hypothetical protein	CL	64
+1	CL_1571	1576413	1575808	DUF1449 domain-containing protein	CL	202
+1	CL_1572	1576734	1576414	Rieske (2Fe-2S) protein	CL	107
+1	CL_1573	1577736	1576735	adenosine kinase	CL	334
+1	CL_1574	1577737	1579836	TonB-dependent siderophore receptor	CL	700
+1	CL_1575	1579837	1582773	peptidase M16	CL	979
+1	CL_1576	1582774	1583922	phospholipase	CL	383
+1	CL_1577	1585257	1583923	potassium transporter TrkH	CL	445
+1	CL_1578	1585905	1585258	TrkA family potassium uptake protein	CL	216
+1	CL_1579	1587444	1585906	threonine ammonia-lyase, biosynthetic	CL	513
+1	CL_1580	1587445	1588113	ribose-5-phosphate isomerase	CL	223
+1	CL_1581	1588114	1588791	M48 family peptidase	CL	226
+1	CL_1582	1590309	1588792	hypothetical protein	CL	506
+1	CL_1583	1590310	1591356	N-acetyl-gamma-glutamyl-phosphate reductase	CL	349
+1	CL_INS_190	1591357	1592106	fGI_50;1	fGI	250
+1	CL_1585	1592107	1592517	ATP-dependent Clp protease adapter ClpS	CL	137
+1	CL_1586	1592518	1594791	ATP-dependent Clp protease ATP-binding subunit ClpA	CL	758
+1	CL_1587	1594792	1595151	YnfA family protein	CL	120
+1	CL_1588	1595152	1596204	3-deoxy-7-phosphoheptulonate synthase	CL	351
+1	CL_1589	1597119	1596205	alpha/beta hydrolase	CL	305
+1	CL_1590	1597677	1597120	PadR family transcriptional regulator	CL	186
+1	CL_1591	1597678	1599699	NADPH-dependent 2,4-dienoyl-CoA reductase	CL	674
+1	CL_1592	1599700	1600104	nuclear transport factor 2 family protein	CL	135
+1	CL_1593	1600105	1600818	SGNH/GDSL hydrolase family protein	CL	238
+1	CL_1594	1600819	1601910	alpha/beta hydrolase	CL	364
+1	CL_1595	1602753	1601911	metal-dependent hydrolase	CL	281
+1	CL_1596	1603239	1602754	hypothetical protein	CL	162
+1	CL_1597	1603240	1604874	CTP synthetase	CL	545
+1	CL_1598	1604875	1605729	2-dehydro-3-deoxyphosphooctonate aldolase	CL	285
+1	CL_1599	1605730	1607016	enolase	CL	429
+1	CL_INS_191	1607017	1607691	fGI_50;1	fGI	225
+1	CL_1601	1607692	1608078	cell division protein FtsB	CL	129
+1	CL_1602	1608079	1608792	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase	CL	238
+1	CL_INS_192	1608793	1609461	fGI_50;1	fGI	223
+1	CL_1604	1609462	1610112	CoA transferase subunit B	CL	217
+1	CL_1605	1610113	1611321	3-oxoadipyl-CoA thiolase	CL	403
+1	CL_1606	1611322	1612674	3-carboxy-cis,cis-muconate cycloisomerase	CL	451
+1	CL_1607	1612675	1613457	3-oxoadipate enol-lactonase	CL	261
+1	CL_INS_193	1613458	1614810	fGI_50;1	fGI	451
+1	CL_1609	1614811	1615221	4-carboxymuconolactone decarboxylase	CL	137
+1	CL_1610	1615222	1615944	protocatechuate 3,4-dioxygenase subunit beta	CL	241
+1	CL_1611	1615945	1616571	protocatechuate 3,4-dioxygenase subunit alpha	CL	209
+1	CL_1612	1616572	1617402	type I 3-dehydroquinate dehydratase	CL	277
+1	CL_1613	1617403	1618851	3-dehydroshikimate dehydratase	CL	483
+1	CL_INS_194	1618852	1620168	fGI_50;1	fGI	439
+1	CL_1615	1620169	1622595	glucose/quinate/shikimate family membrane-bound PQQ-dependent dehydrogenase	CL	809
+1	CL_1616	1622596	1623060	hypothetical protein	CL	155
+1	CL_1617	1623061	1623471	hypothetical protein	CL	137
+1	CL_1618	1623472	1623882	hypothetical protein	CL	137
+1	CL_1619	1623883	1624746	MBL fold metallo-hydrolase	CL	288
+1	CL_1620	1625556	1624747	IclR family transcriptional regulator	CL	270
+1	CL_1621	1626474	1625557	LysR family transcriptional regulator	CL	306
+1	CL_1622	1626475	1627713	acyl-CoA dehydrogenase	CL	413
+1	CL_1623	1627714	1628832	phosphotransferase family protein	CL	373
+1	CL_1624	1628833	1629528	histidine phosphatase family protein	CL	232
+1	CL_INS_195	1629529	1714620	fGI_50;14	fGI	28364
+1	CL_1716	1714621	1715502	hypothetical protein	CL	294
+1	CL_1717	1715503	1716993	nicotinate phosphoribosyltransferase	CL	497
+1	CL_1718	1716994	1717758	NUDIX domain-containing protein	CL	255
+1	CL_1719	1717759	1719150	methylenetetrahydrofolate reductase	CL	464
+1	CL_INS_196	1719151	1727658	fGI_50;2	fGI	2836
+1	CL_1729	1727659	1728819	hypothetical protein	CL	387
+1	CL_INS_197	1728820	1801842	fGI_50;13	fGI	24341
+1	CL_1769	1801843	1802721	LysR family transcriptional regulator	CL	293
+1	CL_1770	1802722	1803423	CoA transferase subunit A	CL	234
+1	CL_1771	1803424	1804062	CoA transferase subunit B	CL	213
+1	CL_1772	1804063	1805469	hypothetical protein	CL	469
+1	CL_1773	1805470	1806639	acetyl-CoA C-acyltransferase	CL	390
+1	CL_1774	1807533	1806640	LysR family transcriptional regulator	CL	298
+1	CL_1775	1808427	1807534	LysR family transcriptional regulator	CL	298
+1	CL_1776	1808652	1808428	hypothetical protein	CL	75
+1	CL_1777	1808835	1808653	hypothetical protein	CL	61
+1	CL_1778	1808836	1810251	aspartate ammonia-lyase	CL	472
+1	CL_INS_198	1810252	1820103	fGI_50;1	fGI	3284
+1	CL_1788	1820844	1820104	GntR family transcriptional regulator	CL	247
+1	CL_1789	1820845	1822191	chromate transporter	CL	449
+1	CL_1790	1822797	1822192	FMN-dependent NADH-azoreductase	CL	202
+1	CL_1791	1822798	1823190	transcriptional regulator	CL	131
+1	CL_1792	1824042	1823191	AraC family transcriptional regulator	CL	284
+1	CL_1793	1824043	1824957	DMT transporter permease	CL	305
+1	CL_1794	1825959	1824958	homoserine dehydrogenase	CL	334
+1	CL_1795	1826748	1825960	sulfite exporter TauE/SafE family protein	CL	263
+1	CL_1796	1828401	1826749	TIGR01244 family phosphatase	CL	551
+1	CL_1797	1829094	1828402	MBL fold metallo-hydrolase	CL	231
+1	CL_1798	1829095	1830363	sigma-54-dependent Fis family transcriptional regulator	CL	423
+1	CL_1799	1830364	1831272	hypothetical protein	CL	303
+1	CL_1800	1832328	1831273	2,3-butanediol dehydrogenase	CL	352
+1	CL_1801	1833111	1832329	diacetyl reductase	CL	261
+1	CL_INS_199	1833112	1834512	fGI_50;1	fGI	467
+1	CL_1803	1836045	1834513	pyruvate dehydrogenase complex dihydrolipoamide acetyltransferase	CL	511
+1	CL_1804	1837062	1836046	alpha-ketoacid dehydrogenase subunit beta	CL	339
+1	CL_1805	1838022	1837063	ABC transporter substrate-binding protein	CL	320
+1	CL_1806	1838023	1839006	lipoyl synthase	CL	328
+1	CL_1807	1839007	1840143	transcriptional regulator	CL	379
+1	CL_INS_200	1840144	1842120	fGI_50;1	fGI	659
+1	CL_1810	1843209	1842121	chorismate synthase	CL	363
+1	CL_1811	1844211	1843210	50S ribosomal protein L3 N(5)-glutamine methyltransferase	CL	334
+1	CL_INS_201	1844212	1849860	fGI_50;2	fGI	1883
+1	CL_1820	1850454	1849861	recombination protein RecR	CL	198
+1	CL_1821	1850781	1850455	YbaB/EbfC family nucleoid-associated protein	CL	109
+1	CL_1822	1851015	1850782	hypothetical protein	CL	78
+1	CL_1823	1852200	1851016	O-succinylhomoserine sulfhydrylase	CL	395
+1	CL_1824	1852201	1853283	poly(R)-hydroxyalkanoic acid synthase	CL	361
+1	CL_1825	1854048	1853284	class I SAM-dependent methyltransferase	CL	255
+1	CL_INS_202	1854049	1854819	fGI_50;2	fGI	257
+1	CL_1828	1855017	1854820	hypothetical protein	CL	66
+1	CL_INS_203	1855018	1855440	fGI_50;1	fGI	141
+1	CL_1830	1855441	1855707	YARHG domain-containing protein	CL	89
+1	CL_1831	1855708	1856118	HIT family protein	CL	137
+1	CL_1832	1856119	1857222	porin	CL	368
+1	CL_1833	1857810	1857223	DUF937 domain-containing protein	CL	196
+1	CL_1834	1858269	1857811	hypothetical protein	CL	153
+1	CL_1835	1858270	1859136	DUF2797 domain-containing protein	CL	289
+1	CL_INS_204	1859137	1869891	fGI_50;1	fGI	3585
+1	CL_1845	1869892	1870191	hypothetical protein	CL	100
+1	CL_INS_205	1870192	1871076	fGI_50;1	fGI	295
+1	CL_1847	1871077	1872183	3-deoxy-7-phosphoheptulonate synthase	CL	369
+1	CL_1848	1872924	1872184	adenosylcobinamide-GDP ribazoletransferase	CL	247
+1	CL_1849	1874490	1872925	histidine-type phosphatase	CL	522
+1	CL_1850	1875087	1874491	histidine phosphatase family protein	CL	199
+1	CL_1851	1876140	1875088	nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase	CL	351
+1	CL_1852	1876656	1876141	bifunctional adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase	CL	172
+1	CL_1853	1877280	1876657	hypothetical protein	CL	208
+1	CL_1854	1879380	1877281	hypothetical protein	CL	700
+1	CL_1855	1879998	1879381	N-acetyltransferase	CL	206
+1	CL_1856	1880334	1879999	hypothetical protein	CL	112
+1	CL_INS_206	1880335	1882146	fGI_50;1	fGI	604
+1	CL_1859	1884462	1882147	TonB-dependent receptor	CL	772
+1	CL_1860	1885077	1884463	demethylmenaquinone methyltransferase	CL	205
+1	CL_1861	1885845	1885078	(2Fe-2S)-binding protein	CL	256
+1	CL_1862	1887753	1885846	IucA/IucC family siderophore biosynthesis protein	CL	636
+1	CL_1863	1889592	1887754	siderophore achromobactin biosynthesis protein AcsC	CL	613
+1	CL_1864	1891029	1889593	MFS transporter	CL	479
+1	CL_1865	1892460	1891030	lysine/ornithine N-monooxygenase	CL	477
+1	CL_INS_207	1892461	1894242	fGI_50;1	fGI	594
+1	CL_1867	1894704	1894243	Cys-tRNA(Pro) deacylase	CL	154
+1	CL_1868	1894705	1895004	hypothetical protein	CL	100
+1	CL_1869	1895005	1896375	ABC transporter	CL	457
+1	CL_1870	1896376	1897665	acyl-CoA dehydrogenase	CL	430
+1	CL_1871	1897666	1898868	acyl-CoA dehydrogenase	CL	401
+1	CL_INS_208	1898869	1902897	fGI_50;1	fGI	1343
+1	CL_1874	1903167	1902898	HU family DNA-binding protein	CL	90
+1	CL_1875	1903620	1903168	poly(hydroxyalcanoate) granule associated protein	CL	151
+1	CL_1876	1903621	1904265	hypothetical protein	CL	215
+1	CL_1877	1904266	1904736	transcriptional regulator	CL	157
+1	CL_1878	1904737	1905951	IscS subfamily cysteine desulfurase	CL	405
+1	CL_1879	1905952	1906335	Fe-S cluster assembly scaffold IscU	CL	128
+1	CL_1880	1906336	1906653	iron-sulfur cluster assembly protein IscA	CL	106
+1	CL_1881	1906654	1907169	co-chaperone protein HscB	CL	172
+1	CL_1882	1907170	1909026	Fe-S protein assembly chaperone HscA	CL	619
+1	CL_1883	1909027	1909362	ISC system 2Fe-2S type ferredoxin	CL	112
+1	CL_INS_209	1909363	1910829	fGI_50;1	fGI	489
+1	CL_1885	1911261	1910830	HIT domain-containing protein	CL	144
+1	CL_1886	1914720	1911262	transcription-repair coupling factor	CL	1153
+1	CL_1887	1915074	1914721	hypothetical protein	CL	118
+1	CL_1888	1916013	1915075	peroxidase	CL	313
+1	CL_1889	1916790	1916014	glutathione S-transferase	CL	259
+1	CL_1890	1917294	1916791	ribonuclease	CL	168
+1	CL_1891	1917957	1917295	hypothetical protein	CL	221
+1	CL_1892	1917958	1918221	30S ribosomal protein S20	CL	88
+1	CL_1893	1918953	1918222	phosphoglycerate mutase family protein	CL	244
+1	CL_INS_210	1918954	1919808	fGI_50;1	fGI	285
+1	CL_1895	1919809	1920174	hypothetical protein	CL	122
+1	CL_1896	1920831	1920175	DUF159 family protein	CL	219
+1	CL_1897	1922559	1920832	ABC transporter ATP-binding protein	CL	576
+1	CL_INS_211	1922560	1923699	fGI_50;1	fGI	380
+1	CL_1899	1924635	1923700	ABC transporter permease	CL	312
+1	CL_1900	1926645	1924636	Zn-dependent oligopeptidase	CL	670
+1	CL_1901	1928463	1926646	heme-binding protein	CL	606
+1	CL_1902	1930245	1928464	heme-binding protein	CL	594
+1	CL_INS_212	1930246	1932942	fGI_50;1	fGI	899
+1	CL_1904	1932943	1933656	energy transducer TonB	CL	238
+1	CL_1905	1933657	1934535	MotA/TolQ/ExbB proton channel family protein	CL	293
+1	CL_1906	1934536	1934955	biopolymer transporter ExbD	CL	140
+1	CL_1907	1934956	1935366	biopolymer transporter ExbD	CL	137
+1	CL_1908	1935498	1935367	hypothetical protein	CL	44
+1	CL_1909	1937661	1935499	malate synthase G	CL	721
+1	CL_INS_213	1937662	1968924	fGI_25;1	fGI	10421
+1	CL_1961	1970064	1968925	cell division protein ZapE	CL	380
+1	CL_INS_214	1970065	1972587	fGI_50;1	fGI	841
+1	CL_1964	1972588	1973496	DUF340 domain-containing protein	CL	303
+1	CL_1965	1974192	1973497	orotidine-5'-phosphate decarboxylase	CL	232
+1	CL_1966	1974555	1974193	DUF1049 domain-containing protein	CL	121
+1	CL_1967	1974855	1974556	integration host factor subunit beta	CL	100
+1	CL_1968	1976526	1974856	30S ribosomal protein S1	CL	557
+1	CL_1969	1977210	1976527	cytidylate kinase	CL	228
+1	CL_INS_215	1977211	1977651	fGI_50;1	fGI	147
+1	CL_1971	1978152	1977652	tRNA adenosine(34) deaminase TadA	CL	167
+1	CL_1972	1979271	1978153	enoyl-CoA hydratase/isomerase family protein	CL	373
+1	CL_1973	1979982	1979272	uracil-DNA glycosylase	CL	237
+1	CL_1974	1980576	1979983	6-carboxytetrahydropterin synthase	CL	198
+1	CL_1975	1981533	1980577	general secretion pathway protein GspK	CL	319
+1	CL_1976	1982232	1981534	type II secretion system protein GspJ	CL	233
+1	CL_1977	1982610	1982233	type II secretion system protein GspI	CL	126
+1	CL_1978	1983162	1982611	type II secretion system protein	CL	184
+1	CL_1979	1983768	1983163	TetR/AcrR family transcriptional regulator	CL	202
+1	CL_1980	1984539	1983769	YchF/TatD family DNA exonuclease	CL	257
+1	CL_1981	1984878	1984540	type 4 fimbrial biogenesis protein	CL	113
+1	CL_1982	1985856	1984879	DNA polymerase III subunit delta'	CL	326
+1	CL_1983	1986615	1985857	3-deoxy-manno-octulosonate cytidylyltransferase	CL	253
+1	CL_1984	1987623	1986616	tetraacyldisaccharide 4'-kinase	CL	336
+1	CL_INS_216	1987624	1989348	fGI_50;1	fGI	575
+1	CL_1986	1989774	1989349	biopolymer transporter ExbD	CL	142
+1	CL_1987	1990407	1989775	MotA/TolQ/ExbB proton channel family protein	CL	211
+1	CL_1988	1991292	1990408	chromosome partitioning protein	CL	295
+1	CL_1989	1992072	1991293	ParA family protein	CL	260
+1	CL_1990	1992702	1992073	ribosomal RNA small subunit methyltransferase G	CL	210
+1	CL_1991	1993389	1992703	nucleotidyltransferase family protein	CL	229
+1	CL_1992	1994400	1993390	phosphotransferase	CL	337
+1	CL_1993	1994401	1996839	LPS-assembly protein LptD	CL	813
+1	CL_1994	1996840	1998147	peptidylprolyl isomerase	CL	436
+1	CL_1995	1999182	1998148	fructose-bisphosphate aldolase class II	CL	345
+1	CL_1996	1999422	1999183	hypothetical protein	CL	80
+1	CL_1997	2000607	1999423	phosphoglycerate kinase	CL	395
+1	CL_1998	2000608	2000988	DUF2237 domain-containing protein	CL	127
+1	CL_1999	2000989	2001579	septum formation protein Maf	CL	197
+1	CL_2000	2001580	2002740	cupin	CL	387
+1	CL_2001	2002741	2003304	TetR/AcrR family transcriptional regulator	CL	188
+1	CL_2002	2003305	2003610	transcriptional regulator	CL	102
+1	CL_2003	2003611	2004810	serine/threonine transporter SstT	CL	400
+1	CL_2004	2004811	2005488	DUF1275 domain-containing protein	CL	226
+1	CL_2005	2005489	2006022	DUF2058 domain-containing protein	CL	178
+1	CL_2006	2006023	2007867	ABC transporter ATP-binding protein	CL	615
+1	CL_2007	2007868	2008305	dehydratase	CL	146
+1	CL_2008	2008306	2009328	AraC family transcriptional regulator	CL	341
+1	CL_2009	2009329	2009700	glycine cleavage system protein H	CL	124
+1	CL_2010	2009701	2010396	NAD-dependent deacetylase	CL	232
+1	CL_2011	2010397	2011884	sodium/proline symporter PutP	CL	496
+1	CL_2012	2012370	2011885	hypothetical protein	CL	162
+1	CL_2013	2012371	2016120	trifunctional transcriptional regulator/proline dehydrogenase/L-glutamate gamma-semialdehyde dehydrogenase	CL	1250
+1	CL_INS_217	2016121	2016591	fGI_50;1	fGI	157
+1	CL_2015	2016592	2017674	tRNA (uridine(54)-C5)-methyltransferase TrmA	CL	361
+1	CL_2016	2017675	2017902	hypothetical protein	CL	76
+1	CL_2017	2018646	2017903	hypothetical protein	CL	248
+1	CL_2018	2018647	2019234	hypothetical protein	CL	196
+1	CL_2019	2019822	2019235	polyisoprenoid-binding protein	CL	196
+1	CL_2020	2019823	2020227	OsmC family peroxiredoxin	CL	135
+1	CL_2021	2022213	2020228	transketolase	CL	662
+1	CL_2022	2022214	2023377	S-adenosylmethionine synthase	CL	388
+1	CL_2023	2023623	2023378	hypothetical protein	CL	82
+1	CL_2024	2023624	2023806	hypothetical protein	CL	61
+1	CL_2025	2024364	2023807	FxsA cytoplasmic membrane protein	CL	186
+1	CL_2026	2024365	2025186	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-259	CL	274
+1	CL_2027	2025729	2025187	N-acetyltransferase	CL	181
+1	CL_2028	2026320	2025730	XRE family transcriptional regulator	CL	197
+1	CL_2029	2026321	2026863	crossover junction endodeoxyribonuclease RuvC	CL	181
+1	CL_2030	2028321	2026864	bifunctional ADP-dependent NAD(P)H-hydrate dehydratase/NAD(P)H-hydrate epimerase	CL	486
+1	CL_2031	2028322	2029407	tRNA epoxyqueuosine(34) reductase QueG	CL	362
+1	CL_2032	2029408	2030394	biotin synthase	CL	329
+1	CL_2033	2030604	2030395	hypothetical protein	CL	70
+1	CL_2034	2030952	2030605	hypothetical protein	CL	116
+1	CL_INS_218	2030953	2042058	fGI_50;2	fGI	3702
+1	CL_2047	2042919	2042059	hypothetical protein	CL	287
+1	CL_2048	2042920	2043477	TetR/AcrR family transcriptional regulator	CL	186
+1	CL_2049	2043478	2044020	acyltransferase	CL	181
+1	CL_2050	2044021	2044767	YebC/PmpR family DNA-binding transcriptional regulator	CL	249
+1	CL_2051	2045235	2044768	Lrp/AsnC family transcriptional regulator	CL	156
+1	CL_2052	2045236	2046564	porin	CL	443
+1	CL_2053	2047305	2046565	amino acid ABC transporter ATP-binding protein	CL	247
+1	CL_2054	2047980	2047306	amino acid ABC transporter permease	CL	225
+1	CL_2055	2048820	2047981	amino acid ABC transporter permease	CL	280
+1	CL_2056	2049711	2048821	amino acid ABC transporter substrate-binding protein	CL	297
+1	CL_2057	2050473	2049712	glutathione S-transferase	CL	254
+1	CL_2058	2050474	2051682	SfnB family sulfur acquisition oxidoreductase	CL	403
+1	CL_2059	2051683	2052903	SfnB family sulfur acquisition oxidoreductase	CL	407
+1	CL_2060	2052904	2054313	LLM class flavin-dependent oxidoreductase	CL	470
+1	CL_2061	2054314	2055141	methionine transporter	CL	276
+1	CL_INS_219	2055142	2057040	fGI_50;1	fGI	633
+1	CL_2064	2057041	2057697	ABC transporter permease	CL	219
+1	CL_2065	2057698	2058786	redox-regulated ATPase YchF	CL	363
+1	CL_2066	2059305	2058787	DUF962 domain-containing protein	CL	173
+1	CL_INS_220	2059306	2060010	fGI_50;1	fGI	235
+1	CL_2068	2060011	2060343	hypothetical protein	CL	111
+1	CL_2069	2060811	2060344	hypothetical protein	CL	156
+1	CL_2070	2060812	2061549	branched-chain amino acid ABC transporter permease	CL	246
+1	CL_2071	2061550	2061888	L-valine transporter subunit YgaH	CL	113
+1	CL_2072	2061889	2062275	tautomerase family protein	CL	129
+1	CL_2073	2062276	2063481	phosphoribosylglycinamide formyltransferase 2	CL	402
+1	CL_2074	2063482	2066142	bifunctional uridylyltransferase/uridylyl-removing protein	CL	887
+1	CL_INS_221	2066143	2067309	fGI_50;1	fGI	389
+1	CL_2076	2067939	2067310	LysE family translocator	CL	210
+1	CL_2077	2068782	2067940	AraC family transcriptional regulator	CL	281
+1	CL_2078	2069265	2068783	glutathione peroxidase	CL	161
+1	CL_2079	2069682	2069266	peptide-methionine (R)-S-oxide reductase	CL	139
+1	CL_2080	2069683	2071110	pyridoxal phosphate-dependent aminotransferase	CL	476
+1	CL_2081	2071111	2072415	dicarboxylate/amino acid:cation symporter	CL	435
+1	CL_2082	2072416	2073480	type II asparaginase	CL	355
+1	CL_2083	2073481	2077041	DNA polymerase III subunit alpha	CL	1187
+1	CL_2084	2077042	2077878	RNA methyltransferase	CL	279
+1	CL_2085	2077879	2078691	serine O-acetyltransferase	CL	271
+1	CL_2086	2078692	2079630	hypothetical protein	CL	313
+1	CL_2087	2079631	2081634	hypothetical protein	CL	668
+1	CL_2088	2083197	2081635	alkyl hydroperoxide reductase subunit F	CL	521
+1	CL_2089	2083716	2083198	chromate transporter	CL	173
+1	CL_2090	2084274	2083717	chromate transporter	CL	186
+1	CL_2091	2084275	2085174	LysR family transcriptional regulator	CL	300
+1	CL_2092	2086206	2085175	arsenical-resistance protein	CL	344
+1	CL_2093	2086533	2086207	transcriptional regulator	CL	109
+1	CL_2094	2086534	2086959	arsenate reductase (glutaredoxin)	CL	142
+1	CL_2095	2087118	2086960	DUF1427 domain-containing protein	CL	53
+1	CL_INS_222	2087119	2099700	fGI_50;1	fGI	4194
+1	CL_2108	2101089	2099701	FMN-dependent monooxygenase	CL	463
+1	CL_2109	2102382	2101090	acyl-CoA dehydrogenase	CL	431
+1	CL_2110	2103198	2102383	hypothetical protein	CL	272
+1	CL_2111	2103199	2103462	hypothetical protein	CL	88
+1	CL_2112	2103463	2104905	cytochrome ubiquinol oxidase subunit I	CL	481
+1	CL_2113	2104906	2105907	cytochrome d ubiquinol oxidase subunit II	CL	334
+1	CL_INS_223	2105908	2106039	fGI_25;1	fGI	44
+1	CL_2114	2106040	2107455	PLP-dependent aminotransferase family protein	CL	472
+1	CL_2115	2107456	2108370	LysR family transcriptional regulator	CL	305
+1	CL_2116	2109132	2108371	malonate transporter subunit MadM	CL	254
+1	CL_2117	2109546	2109133	malonate transporter subunit MadL	CL	138
+1	CL_2118	2110482	2109547	malonate decarboxylase subunit epsilon	CL	312
+1	CL_2119	2111088	2110483	malonate decarboxylase holo-ACP synthase	CL	202
+1	CL_INS_224	2111089	2111913	fGI_50;1	fGI	275
+1	CL_2121	2112762	2111914	biotin-independent malonate decarboxylase subunit beta	CL	283
+1	CL_2122	2113059	2112763	malonate decarboxylase acyl carrier protein	CL	99
+1	CL_INS_225	2113060	2118387	fGI_50;2	fGI	1776
+1	CL_2128	2118978	2118388	N-acetyltransferase	CL	197
+1	CL_2129	2119611	2118979	FMN-binding negative transcriptional regulator	CL	211
+1	CL_2130	2119612	2121099	PLP-dependent aminotransferase family protein	CL	496
+1	CL_2131	2121786	2121100	LrgB family protein	CL	229
+1	CL_2132	2122215	2121787	murein hydrolase transporter LrgA	CL	143
+1	CL_2133	2122216	2123118	LysR family transcriptional regulator	CL	301
+1	CL_2134	2123119	2123742	glutathione S-transferase	CL	208
+1	CL_2135	2123743	2124600	glutathione-dependent disulfide-bond oxidoreductase	CL	286
+1	CL_2136	2125518	2124601	LysR family transcriptional regulator	CL	306
+1	CL_INS_226	2125519	2126253	fGI_50;1	fGI	245
+1	CL_2138	2126254	2126760	rhodanese-like domain-containing protein	CL	169
+1	CL_2139	2126761	2127681	serine acetyltransferase	CL	307
+1	CL_INS_227	2127682	2128611	fGI_50;1	fGI	310
+1	CL_2141	2128612	2130570	cysteine desulfurase	CL	653
+1	CL_2142	2131206	2130571	LysE family translocator	CL	212
+1	CL_2143	2131207	2132139	LysR family transcriptional regulator	CL	311
+1	CL_2144	2133003	2132140	amino acid ABC transporter substrate-binding protein	CL	288
+1	CL_2145	2133861	2133004	ArtI protein	CL	286
+1	CL_INS_228	2133862	2134590	fGI_50;1	fGI	243
+1	CL_2147	2135253	2134591	amino acid ABC transporter permease	CL	221
+1	CL_2148	2135910	2135254	amino acid ABC transporter permease	CL	219
+1	CL_INS_229	2135911	2136060	fGI_10;1	fGI	50
+1	CL_2149	2136342	2136061	N-acetyltransferase	CL	94
+1	CL_INS_230	2136343	2137299	fGI_50;1	fGI	319
+1	CL_2151	2140770	2137300	hybrid sensor histidine kinase/response regulator	CL	1157
+1	CL_2152	2140771	2142384	allantoin permease	CL	538
+1	CL_2153	2142837	2142385	Lrp/AsnC family transcriptional regulator	CL	151
+1	CL_2154	2142838	2143446	LysE family translocator	CL	203
+1	CL_2155	2144055	2143447	DNA polymerase V	CL	203
+1	CL_2156	2144056	2144289	hypothetical protein	CL	78
+1	CL_INS_231	2144290	2145933	fGI_50;1	fGI	548
+1	CL_2159	2145934	2146809	NAD(P)-dependent oxidoreductase	CL	292
+1	CL_2160	2148945	2146810	catalase HPII	CL	712
+1	CL_2161	2150352	2148946	iron-containing redox enzyme family protein	CL	469
+1	CL_2162	2150353	2150829	damage-inducible protein CinA	CL	159
+1	CL_INS_232	2150830	2151048	fGI_50;1	fGI	73
+1	CL_2164	2151049	2151363	hypothetical protein	CL	105
+1	CL_2165	2151582	2151364	hypothetical protein	CL	73
+1	CL_2166	2152008	2151583	hypothetical protein	CL	142
+1	CL_2167	2152009	2152296	hypothetical protein	CL	96
+1	CL_INS_233	2152297	2320446	fGI_50;6	fGI	56050
+1	CL_2299	2321304	2320447	transporter	CL	286
+1	CL_INS_234	2321305	2321769	fGI_50;1	fGI	155
+1	CL_2301	2321770	2324412	DNA mismatch repair protein MutS	CL	881
+1	CL_2302	2324413	2324985	GNAT family N-acetyltransferase	CL	191
+1	CL_2303	2324986	2325306	ferredoxin family protein	CL	107
+1	CL_2304	2325307	2325975	hypothetical protein	CL	223
+1	CL_2305	2325976	2326641	O-methyltransferase	CL	222
+1	CL_2306	2327481	2326642	universal stress protein	CL	280
+1	CL_2307	2328090	2327482	chloramphenicol acetyltransferase CAT	CL	203
+1	CL_2308	2328687	2328091	DUF1949 domain-containing protein	CL	199
+1	CL_2309	2329875	2328688	HlyD family type I secretion periplasmic adaptor subunit	CL	396
+1	CL_2310	2332014	2329876	type I secretion system permease/ATPase	CL	713
+1	CL_INS_235	2332015	2333478	fGI_50;1	fGI	488
+1	CL_2312	2334222	2333479	LPS export ABC transporter ATP-binding protein	CL	248
+1	CL_2313	2334768	2334223	lipopolysaccharide transport periplasmic protein LptA	CL	182
+1	CL_2314	2335314	2334769	LPS export ABC transporter periplasmic protein LptC	CL	182
+1	CL_2315	2335851	2335315	3-deoxy-D-manno-octulosonate 8-phosphate phosphatase	CL	179
+1	CL_2316	2336826	2335852	KpsF/GutQ family sugar-phosphate isomerase	CL	325
+1	CL_2317	2336827	2338245	cysteine--tRNA ligase	CL	473
+1	CL_INS_236	2338246	2376552	fGI_50;3	fGI	12769
+1	CL_2328	2376774	2376553	hypothetical protein	CL	74
+1	CL_INS_237	2376775	2376987	fGI_50;1	fGI	71
+1	CL_2330	2376988	2377602	LysE family translocator	CL	205
+1	CL_2331	2378145	2377603	hypothetical protein	CL	181
+1	CL_2332	2378532	2378146	hypothetical protein	CL	129
+1	CL_INS_238	2378533	2378727	fGI_50;1	fGI	65
+1	CL_2334	2378728	2379396	peptidase S24	CL	223
+1	CL_2335	2379627	2379397	transposase	CL	77
+1	CL_2336	2379628	2380887	exodeoxyribonuclease VII large subunit	CL	420
+1	CL_2337	2380888	2381079	exodeoxyribonuclease VII	CL	64
+1	CL_2338	2381301	2381080	hypothetical protein	CL	74
+1	CL_2339	2381892	2381302	multidrug transporter MatE	CL	197
+1	CL_INS_239	2381893	2382072	fGI_50;1	fGI	60
+1	CL_2341	2382073	2382399	hypothetical protein	CL	109
+1	CL_2342	2382400	2382753	four-helix bundle copper-binding protein	CL	118
+1	CL_2343	2383158	2382754	GFA family protein	CL	135
+1	CL_2344	2383557	2383159	Cu(I)-responsive transcriptional regulator	CL	133
+1	CL_2345	2386026	2383558	copper-translocating P-type ATPase	CL	823
+1	CL_2346	2386027	2386218	heavy metal-associated domain protein	CL	64
+1	CL_INS_240	2386219	2393253	fGI_25;1	fGI	2345
+1	CL_2347	2394210	2393254	LysR family transcriptional regulator	CL	319
+1	CL_INS_241	2394211	2396088	fGI_50;1	fGI	626
+1	CL_2350	2396089	2397102	NADH oxidase	CL	338
+1	CL_2351	2397103	2397885	1,6-dihydroxycyclohexa-2,4-diene-1-carboxylate dehydrogenase	CL	261
+1	CL_2352	2397886	2399076	benzoate transporter	CL	397
+1	CL_INS_242	2399077	2400432	fGI_50;1	fGI	452
+1	CL_2354	2400433	2401692	outer membrane porin, OprD family	CL	420
+1	CL_2355	2402796	2401693	beta-ketoacyl-ACP synthase III	CL	368
+1	CL_2356	2406651	2402797	ATP-dependent RNA helicase HrpA	CL	1285
+1	CL_2357	2406652	2407212	peroxiredoxin	CL	187
+1	CL_2358	2407213	2407425	KTSC domain-containing protein	CL	71
+1	CL_2359	2408010	2407426	DUF1442 domain-containing protein	CL	195
+1	CL_2360	2408226	2408011	DUF1653 domain-containing protein	CL	72
+1	CL_2361	2408227	2409789	alkyl hydroperoxide reductase subunit F	CL	521
+1	CL_2362	2409790	2410131	hypothetical protein	CL	114
+1	CL_2363	2410740	2410132	glutathione S-transferase	CL	203
+1	CL_2364	2413176	2410741	nuclease	CL	812
+1	CL_2365	2413177	2413890	tRNA (guanosine(46)-N7)-methyltransferase TrmB	CL	238
+1	CL_2366	2413891	2414514	glutathione S-transferase	CL	208
+1	CL_2367	2415291	2414515	DUF2520 domain-containing protein	CL	259
+1	CL_2368	2416704	2415292	OmpA family protein	CL	471
+1	CL_2369	2417937	2416705	aspartate carbamoyltransferase	CL	411
+1	CL_2370	2418951	2417938	aspartate carbamoyltransferase	CL	338
+1	CL_2371	2419293	2418952	hypothetical protein	CL	114
+1	CL_2372	2419294	2421495	ribosomal RNA large subunit methyltransferase K/L	CL	734
+1	CL_2373	2421909	2421496	hypothetical protein	CL	138
+1	CL_2374	2421910	2422395	CinA family protein	CL	162
+1	CL_2375	2424972	2422396	ATP-dependent chaperone ClpB	CL	859
+1	CL_2376	2424973	2425776	M23 family peptidase	CL	268
+1	CL_2377	2426199	2425777	GNAT family N-acetyltransferase	CL	141
+1	CL_INS_243	2426200	2426619	fGI_50;1	fGI	140
+1	CL_2379	2426620	2427324	cAMP-activated global transcriptional regulator CRP	CL	235
+1	CL_2380	2427325	2428371	NADP(H)-dependent aldo-keto reductase	CL	349
+1	CL_2381	2429154	2428372	M48 family peptidase	CL	261
+1	CL_2382	2429469	2429155	hypothetical protein	CL	105
+1	CL_2383	2430786	2429470	adenylosuccinate synthase	CL	439
+1	CL_2384	2431950	2430787	ATP phosphoribosyltransferase regulatory subunit	CL	388
+1	CL_2385	2432973	2431951	type I glyceraldehyde-3-phosphate dehydrogenase	CL	341
+1	CL_2386	2432974	2435607	alanine--tRNA ligase	CL	878
+1	CL_INS_244	2435608	2438598	fGI_25;1	fGI	997
+1	CL_2446	2438599	2439876	aspartate kinase	CL	426
+1	CL_2447	2439877	2440128	carbon storage regulator	CL	84
+1	CL_2448	2440692	2440129	ribonuclease HII	CL	188
+1	CL_2449	2441079	2440693	hypothetical protein	CL	129
+1	CL_2450	2441080	2441634	cytochrome b	CL	185
+1	CL_2451	2442630	2441635	adenosine deaminase	CL	332
+1	CL_2452	2443947	2442631	NCS2 family permease	CL	439
+1	CL_INS_245	2443948	2519994	fGI_50;9	fGI	25349
+1	CL_2521	2522022	2519995	NADPH-dependent 2,4-dienoyl-CoA reductase	CL	676
+1	CL_INS_246	2522023	2522415	fGI_25;1	fGI	131
+1	CL_2523	2522416	2523756	argininosuccinate synthase	CL	447
+1	CL_INS_247	2523757	2525016	fGI_50;1	fGI	420
+1	CL_2525	2525017	2526048	dihydroorotase	CL	344
+1	CL_2526	2526049	2526708	ribonuclease T	CL	220
+1	CL_2527	2526709	2528820	TonB-dependent siderophore receptor	CL	704
+1	CL_2528	2530062	2528821	NADH oxidase	CL	414
+1	CL_2529	2531649	2530063	ABC transporter ATP-binding protein	CL	529
+1	CL_2530	2532657	2531650	ABC transporter permease	CL	336
+1	CL_2531	2533707	2532658	microcin C ABC transporter permease YejB	CL	350
+1	CL_2532	2535540	2533708	ABC transporter substrate-binding protein	CL	611
+1	CL_2533	2538753	2535541	lytic transglycosylase	CL	1071
+1	CL_2534	2538754	2540130	DNA polymerase III subunit epsilon	CL	459
+1	CL_2535	2540131	2541771	hypothetical protein	CL	547
+1	CL_2536	2541772	2542512	NAD(+) diphosphatase	CL	247
+1	CL_2537	2543373	2542513	DUF1749 domain-containing protein	CL	287
+1	CL_2538	2544078	2543374	BON domain-containing protein	CL	235
+1	CL_2539	2544477	2544079	YraN family protein	CL	133
+1	CL_2540	2544478	2545311	16S rRNA (cytidine(1402)-2'-O)-methyltransferase	CL	278
+1	CL_2541	2545312	2545695	hypothetical protein	CL	128
+1	CL_2542	2546583	2545696	transcriptional regulator ArgP	CL	296
+1	CL_2543	2546584	2547183	amino acid transporter	CL	200
+1	CL_2544	2547822	2547184	cation transporter	CL	213
+1	CL_2545	2547823	2548221	MerR family transcriptional regulator	CL	133
+1	CL_INS_248	2548222	2548470	fGI_50;1	fGI	83
+1	CL_2547	2549700	2548471	FAD-dependent monooxygenase	CL	410
+1	CL_2548	2550906	2549701	ubiquinone biosynthesis protein UbiH	CL	402
+1	CL_2549	2552226	2550907	Xaa-Pro aminopeptidase	CL	440
+1	CL_2550	2552856	2552227	YecA family protein	CL	210
+1	CL_2551	2552857	2553414	hypothetical protein	CL	186
+1	CL_2552	2553415	2553696	cell division protein ZapA	CL	94
+1	CL_INS_249	2553697	2586261	fGI_50;3	fGI	10855
+1	CL_2554	2586600	2586262	hypothetical protein	CL	113
+1	CL_2555	2586601	2587182	5-formyltetrahydrofolate cyclo-ligase	CL	194
+1	CL_INS_250	2587183	2594790	fGI_50;1	fGI	2536
+1	CL_2558	2594791	2597217	Lon protease	CL	809
+1	CL_2559	2597218	2597694	23S rRNA (pseudouridine(1915)-N(3))-methyltransferase RlmH	CL	159
+1	CL_2560	2597695	2598468	dioxygenase	CL	258
+1	CL_2561	2598469	2599575	META domain-containing protein	CL	369
+1	CL_INS_251	2599576	2600961	fGI_50;1	fGI	462
+1	CL_2563	2600962	2601750	iron-sulfur protein	CL	263
+1	CL_2564	2601751	2602440	endonuclease III	CL	230
+1	CL_2565	2603091	2602441	adenylate kinase	CL	217
+1	CL_2566	2604402	2603092	membrane protein	CL	437
+1	CL_INS_252	2604403	2604918	fGI_50;1	fGI	172
+1	CL_2568	2604919	2606934	penicillin-binding protein 2	CL	672
+1	CL_2569	2606935	2607483	16S rRNA (guanine(966)-N(2))-methyltransferase RsmD	CL	183
+1	CL_2570	2608050	2607484	urease accessory protein	CL	189
+1	CL_2571	2608662	2608051	urease accessory protein UreG	CL	204
+1	CL_2572	2609325	2608663	urease accessory protein	CL	221
+1	CL_2573	2609805	2609326	urease accessory protein UreE	CL	160
+1	CL_2574	2611503	2609806	urease subunit alpha	CL	566
+1	CL_INS_253	2611504	2611959	fGI_25;1	fGI	152
+1	CL_2576	2612265	2611960	urease subunit beta	CL	102
+1	CL_2577	2612565	2612266	urease subunit gamma	CL	100
+1	CL_2578	2613438	2612566	urease accessory protein UreD	CL	291
+1	CL_2579	2613439	2613759	hypothetical protein	CL	107
+1	CL_2580	2613760	2614236	copper resistance protein NlpE	CL	159
+1	CL_2581	2615838	2614237	isocitrate lyase	CL	534
+1	CL_2582	2615839	2616825	LysR family transcriptional regulator	CL	329
+1	CL_2583	2616826	2618148	HlyC/CorC family transporter	CL	441
+1	CL_2584	2618149	2619483	citrate transporter	CL	445
+1	CL_INS_254	2619484	2619993	fGI_50;1	fGI	170
+1	CL_2586	2619994	2620539	DUF2239 domain-containing protein	CL	182
+1	CL_2587	2622150	2620540	sulfate adenylyltransferase subunit CysN	CL	537
+1	CL_2588	2623056	2622151	sulfate adenylyltransferase subunit CysD	CL	302
+1	CL_INS_255	2623057	2623185	fGI_10;1	fGI	43
+1	CL_2589	2624625	2623186	capsule assembly Wzi family protein	CL	480
+1	CL_2590	2626152	2624626	lysine--tRNA ligase	CL	509
+1	CL_2591	2626153	2626638	esterase	CL	162
+1	CL_2592	2627073	2626639	SRPBCC domain-containing protein	CL	145
+1	CL_2593	2627074	2627235	rubredoxin	CL	54
+1	CL_2594	2627236	2628414	FAD-dependent oxidoreductase	CL	393
+1	CL_2595	2628415	2629356	alpha/beta hydrolase	CL	314
+1	CL_2596	2629357	2630262	hydrogen peroxide-inducible genes activator	CL	302
+1	CL_2597	2630850	2630263	cell division protein	CL	196
+1	CL_INS_256	2630851	2633052	fGI_50;2	fGI	734
+1	CL_2599	2633727	2633053	monofunctional biosynthetic peptidoglycan transglycosylase	CL	225
+1	CL_2600	2633728	2634534	rhomboid family intramembrane serine protease	CL	269
+1	CL_2601	2636991	2634535	ABC transporter permease	CL	819
+1	CL_2602	2637681	2636992	ABC transporter ATP-binding protein	CL	230
+1	CL_2603	2637682	2638302	arylesterase	CL	207
+1	CL_2604	2638914	2638303	carbonic anhydrase	CL	204
+1	CL_INS_257	2638915	2639937	fGI_50;1	fGI	341
+1	CL_2606	2639938	2640942	hypothetical protein	CL	335
+1	CL_INS_258	2640943	2643204	fGI_50;1	fGI	754
+1	CL_2608	2643840	2643205	Fe-S biogenesis protein NfuA	CL	212
+1	CL_2609	2643841	2644455	rhomboid family intramembrane serine protease	CL	205
+1	CL_2610	2644456	2646129	arylsulfatase	CL	558
+1	CL_2611	2646130	2647134	formylglycine-generating enzyme family protein	CL	335
+1	CL_INS_259	2647135	2648841	fGI_50;2	fGI	569
+1	CL_2613	2650173	2648842	D-serine ammonia-lyase	CL	444
+1	CL_2614	2651802	2650174	inorganic phosphate transporter	CL	543
+1	CL_2615	2651803	2655486	methionine synthase	CL	1228
+1	CL_INS_260	2655487	2660286	fGI_50;1	fGI	1600
+1	CL_2621	2660730	2660287	hypothetical protein	CL	148
+1	CL_2622	2660731	2661873	galactose-1-epimerase	CL	381
+1	CL_INS_261	2661874	2665197	fGI_50;1	fGI	1108
+1	CL_2627	2665677	2665198	peptide deformylase	CL	160
+1	CL_2628	2665678	2666973	MFS transporter	CL	432
+1	CL_2629	2668167	2666974	hypothetical protein	CL	398
+1	CL_INS_262	2668168	2679975	fGI_50;1	fGI	3936
+1	CL_2643	2679976	2680785	IclR family transcriptional regulator	CL	270
+1	CL_2644	2681082	2680786	hypothetical protein	CL	99
+1	CL_2645	2681661	2681083	nicotinamide riboside transporter PnuC	CL	193
+1	CL_2646	2681662	2682447	enoyl-CoA hydratase	CL	262
+1	CL_2647	2682864	2682448	poly-beta-1,6-N-acetyl-D-glucosamine biosynthesis protein PgaD	CL	139
+1	CL_2648	2684121	2682865	poly-beta-1,6 N-acetyl-D-glucosamine synthase	CL	419
+1	CL_2649	2686113	2684122	poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase PgaB	CL	664
+1	CL_2650	2686452	2686114	peptidylprolyl isomerase	CL	113
+1	CL_2651	2686980	2686453	hypothetical protein	CL	176
+1	CL_INS_263	2686981	2688240	fGI_50;1	fGI	420
+1	CL_2653	2689236	2688241	GTP-binding protein	CL	332
+1	CL_2654	2689237	2689434	hypothetical protein	CL	66
+1	CL_2655	2689947	2689435	acyl-CoA thioesterase	CL	171
+1	CL_2656	2690559	2689948	MarC family protein	CL	204
+1	CL_2657	2692623	2690560	high-affinity choline transporter BetT	CL	688
+1	CL_2658	2694243	2692624	BCCT family transporter	CL	540
+1	CL_2659	2694244	2694864	transcriptional regulator BetI	CL	207
+1	CL_2660	2694865	2696334	betaine-aldehyde dehydrogenase	CL	490
+1	CL_2661	2696335	2697990	oxygen-dependent choline dehydrogenase	CL	552
+1	CL_2662	2697991	2699628	malate:quinone oxidoreductase	CL	546
+1	CL_2663	2699629	2700096	hypothetical protein	CL	156
+1	CL_2664	2700097	2700972	homocysteine S-methyltransferase family protein	CL	292
+1	CL_2665	2700973	2702304	arginine:ornithine antiporter	CL	444
+1	CL_INS_264	2702305	2776584	fGI_50;53	fGI	24760
+1	CL_2677	2778567	2776585	gamma-glutamyltransferase	CL	661
+1	CL_2678	2780088	2778568	MFS transporter	CL	507
+1	CL_2679	2781237	2780089	EmrA/EmrK family multidrug efflux transporter periplasmic adaptor subunit	CL	383
+1	CL_2680	2781732	2781238	hypothetical protein	CL	165
+1	CL_2681	2781733	2782743	porphobilinogen synthase	CL	337
+1	CL_2682	2782744	2783856	FAD-dependent oxidoreductase	CL	371
+1	CL_2683	2784759	2783857	TIGR01777 family protein	CL	301
+1	CL_2684	2785209	2784760	hypothetical protein	CL	150
+1	CL_2685	2785210	2785584	VOC family protein	CL	125
+1	CL_INS_265	2785585	2786073	fGI_50;1	fGI	163
+1	CL_2687	2786074	2787339	exonuclease SbcCD subunit D	CL	422
+1	CL_2688	2787340	2790933	exonuclease SbcCD, C subunit	CL	1198
+1	CL_2689	2791623	2790934	YggS family pyridoxal phosphate-dependent enzyme	CL	230
+1	CL_2690	2791624	2792658	type IV pili twitching motility protein PilT	CL	345
+1	CL_2691	2792659	2793774	twitching motility protein PilT	CL	372
+1	CL_2692	2794209	2793775	ferric iron uptake transcriptional regulator	CL	145
+1	CL_2693	2794210	2794605	outer membrane protein assembly factor BamE	CL	132
+1	CL_2694	2794926	2794606	RnfH family protein	CL	107
+1	CL_2695	2795991	2794927	hypothetical protein	CL	355
+1	CL_2696	2795992	2796186	hypothetical protein	CL	65
+1	CL_2697	2796639	2796187	hemerythrin	CL	151
+1	CL_2698	2797485	2796640	class II glutamine amidotransferase	CL	282
+1	CL_2699	2798265	2797486	GNAT family N-acetyltransferase	CL	260
+1	CL_2700	2799171	2798266	acetylglutamate kinase	CL	302
+1	CL_2701	2800587	2799172	phosphomannomutase/phosphoglucomutase	CL	472
+1	CL_2702	2801037	2800588	dUTP diphosphatase	CL	150
+1	CL_2703	2803074	2801038	DNA helicase Rep	CL	679
+1	CL_2704	2803725	2803075	outer membrane protein	CL	217
+1	CL_2705	2803726	2804649	acyltransferase	CL	308
+1	CL_INS_266	2804650	2805693	fGI_50;1	fGI	348
+1	CL_2707	2805694	2806413	septum site-determining protein MinC	CL	240
+1	CL_2708	2806414	2807223	septum site-determining protein MinD	CL	270
+1	CL_2709	2807224	2807493	cell division topological specificity factor	CL	90
+1	CL_2710	2807494	2807778	hypothetical protein	CL	95
+1	CL_INS_267	2807779	2808315	fGI_25;1	fGI	179
+1	CL_2711	2808933	2808316	threonine export protein RhtC	CL	206
+1	CL_2712	2811963	2808934	DNA translocase FtsK	CL	1010
+1	CL_2713	2811964	2812908	thioredoxin-disulfide reductase	CL	315
+1	CL_2714	2812909	2813637	leucyl/phenylalanyl-tRNA--protein transferase	CL	243
+1	CL_2715	2813638	2814450	arginyl-tRNA-protein transferase	CL	271
+1	CL_2716	2814903	2814451	ribosomal-protein-alanine N-acetyltransferase	CL	151
+1	CL_2717	2815776	2814904	metal-dependent hydrolase	CL	291
+1	CL_INS_268	2815777	2817843	fGI_50;1	fGI	689
+1	CL_2720	2819979	2817844	elongation factor G	CL	712
+1	CL_2721	2820447	2819980	30S ribosomal protein S7	CL	156
+1	CL_2722	2820819	2820448	30S ribosomal protein S12	CL	124
+1	CL_2723	2822142	2820820	hypothetical protein	CL	441
+1	CL_2724	2822143	2823369	beta-ketoacyl-[acyl-carrier-protein] synthase II	CL	409
+1	CL_2725	2823370	2823819	protoporphyrinogen oxidase HemJ	CL	150
+1	CL_2726	2823820	2824677	pirin family protein	CL	286
+1	CL_2727	2824678	2825211	hypothetical protein	CL	178
+1	CL_2728	2825212	2826834	NAD+ synthase	CL	541
+1	CL_2729	2826835	2827860	hypothetical protein	CL	342
+1	CL_INS_269	2827861	2828814	fGI_50;1	fGI	318
+1	CL_2731	2830263	2828815	NAD-dependent succinate-semialdehyde dehydrogenase	CL	483
+1	CL_2732	2831376	2830264	ring-hydroxylating oxygenase subunit alpha	CL	371
+1	CL_2733	2832348	2831377	alpha/beta hydrolase	CL	324
+1	CL_2734	2833992	2832349	BCCT family transporter	CL	548
+1	CL_2735	2835102	2833993	tartrate dehydrogenase	CL	370
+1	CL_2736	2835103	2836080	transcriptional regulator	CL	326
+1	CL_2737	2837262	2836081	hypothetical protein	CL	394
+1	CL_2738	2837523	2837263	ferredoxin	CL	87
+1	CL_2739	2838012	2837524	phosphopantetheine adenylyltransferase	CL	163
+1	CL_2740	2838013	2838486	SsrA-binding protein	CL	158
+1	CL_2741	2839035	2838487	flavodoxin family protein	CL	183
+1	CL_2742	2839770	2839036	peptidoglycan editing factor PgeF	CL	245
+1	CL_2743	2840820	2839771	23S rRNA pseudouridine(1911/1915/1917) synthase RluD	CL	350
+1	CL_2744	2840821	2841975	outer membrane protein assembly factor BamD	CL	385
+1	CL_2745	2841976	2843838	DNA primase	CL	621
+1	CL_2746	2845119	2843839	glutamyl-tRNA reductase	CL	427
+1	CL_INS_270	2845120	2846826	fGI_50;1	fGI	569
+1	CL_2748	2846827	2847402	outer membrane lipoprotein LolB	CL	192
+1	CL_2749	2847403	2848233	4-diphosphocytidyl-2C-methyl-D-erythritol kinase	CL	277
+1	CL_2750	2848234	2849181	ribose-phosphate pyrophosphokinase	CL	316
+1	CL_2751	2849182	2849475	50S ribosomal protein L25	CL	98
+1	CL_2752	2849476	2850054	peptidyl-tRNA hydrolase	CL	193
+1	CL_2753	2850055	2850432	aspartate 1-decarboxylase	CL	126
+1	CL_2754	2850990	2850433	hypothetical protein	CL	186
+1	CL_INS_271	2850991	2852769	fGI_50;1	fGI	593
+1	CL_2756	2852770	2853426	3,4-dihydroxy-2-butanone-4-phosphate synthase	CL	219
+1	CL_2757	2854098	2853427	hydrolase	CL	224
+1	CL_2758	2854099	2854863	hydroxymethylpyrimidine/phosphomethylpyrimidine kinase	CL	255
+1	CL_INS_272	2854864	2855334	fGI_50;1	fGI	157
+1	CL_2760	2855568	2855335	acyl carrier protein	CL	78
+1	CL_2761	2856300	2855569	3-oxoacyl-ACP reductase FabG	CL	244
+1	CL_2762	2857284	2856301	[acyl-carrier-protein] S-malonyltransferase	CL	328
+1	CL_2763	2857467	2857285	50S ribosomal protein L32	CL	61
+1	CL_2764	2858025	2857468	DUF177 domain-containing protein	CL	186
+1	CL_2765	2858026	2858685	hypothetical protein	CL	220
+1	CL_2766	2858686	2859300	threonylcarbamoyl-AMP synthase	CL	205
+1	CL_2767	2859301	2860089	serine protease	CL	263
+1	CL_2768	2860090	2860683	SMC-Scp complex subunit ScpB	CL	198
+1	CL_2769	2860684	2861604	23S rRNA pseudouridine(2605) synthase RluB	CL	307
+1	CL_2770	2862258	2861605	ATP-dependent dethiobiotin synthetase BioD	CL	218
+1	CL_2771	2863005	2862259	malonyl-[acyl-carrier protein] O-methyltransferase BioC	CL	249
+1	CL_2772	2864160	2863006	8-amino-7-oxononanoate synthase	CL	385
+1	CL_2773	2865438	2864161	adenosylmethionine--8-amino-7-oxononanoate transaminase	CL	426
+1	CL_2774	2866170	2865439	hypothetical protein	CL	244
+1	CL_2775	2866171	2867019	trehalose-phosphatase	CL	283
+1	CL_2776	2867020	2868447	trehalose-6-phosphate synthase	CL	476
+1	CL_2777	2869692	2868448	MFS transporter	CL	415
+1	CL_2778	2870154	2869693	bacterioferritin	CL	154
+1	CL_2779	2872188	2870155	DNA ligase (NAD(+)) LigA	CL	678
+1	CL_2780	2873223	2872189	cell division protein ZipA	CL	345
+1	CL_2781	2876670	2873224	chromosome segregation protein SMC	CL	1149
+1	CL_2782	2877363	2876671	GntR family transcriptional regulator	CL	231
+1	CL_2783	2878164	2877364	sulfite exporter TauE/SafE family protein	CL	267
+1	CL_2784	2878165	2878914	biotin--[acetyl-CoA-carboxylase] ligase	CL	250
+1	CL_2785	2878915	2879646	type III pantothenate kinase	CL	244
+1	CL_2786	2881053	2879647	signal recognition particle protein	CL	469
+1	CL_INS_273	2881054	2881860	fGI_50;1	fGI	269
+1	CL_2788	2881861	2882802	tRNA-dihydrouridine synthase C	CL	314
+1	CL_2789	2883753	2882803	hypothetical protein	CL	317
+1	CL_2790	2886162	2883754	hypothetical protein	CL	803
+1	CL_2791	2886885	2886163	hypothetical protein	CL	241
+1	CL_INS_274	2886886	2888916	fGI_50;1	fGI	677
+1	CL_2793	2890221	2888917	hypothetical protein	CL	435
+1	CL_2794	2890788	2890222	deoxycytidine triphosphate deaminase	CL	189
+1	CL_2795	2891379	2890789	multidrug transporter MatE	CL	197
+1	CL_2796	2891380	2891943	DUF2062 domain-containing protein	CL	188
+1	CL_2797	2892813	2891944	5'-nucleosidase	CL	290
+1	CL_INS_275	2892814	2893029	fGI_25;1	fGI	72
+1	CL_2798	2894256	2893030	iron-sulfur cluster carrier protein ApbC	CL	409
+1	CL_INS_276	2894257	2894754	fGI_50;1	fGI	166
+1	CL_2800	2894755	2896815	methionine--tRNA ligase	CL	687
+1	CL_2801	2897001	2896816	hypothetical protein	CL	62
+1	CL_2802	2897622	2897002	LysE family translocator	CL	207
+1	CL_2803	2897623	2898189	TetR/AcrR family transcriptional regulator	CL	189
+1	CL_INS_277	2898190	2900961	fGI_50;1	fGI	924
+1	CL_2806	2900962	2901840	1-aminocyclopropane-1-carboxylate deaminase	CL	293
+1	CL_2807	2901841	2903037	NAD(P)/FAD-dependent oxidoreductase	CL	399
+1	CL_INS_278	2903038	2904879	fGI_50;2	fGI	614
+1	CL_2809	2905104	2904880	hypothetical protein	CL	75
+1	CL_2810	2905105	2905524	hypothetical protein	CL	140
+1	CL_2811	2906283	2905525	ferredoxin--NADP reductase	CL	253
+1	CL_2812	2906284	2907168	LysR family transcriptional regulator	CL	295
+1	CL_INS_279	2907169	2907513	fGI_25;1	fGI	115
+1	CL_2814	2907804	2907514	cold shock domain-containing protein	CL	97
+1	CL_INS_280	2907805	2909931	fGI_50;1	fGI	709
+1	CL_2817	2911527	2909932	NADH-quinone oxidoreductase subunit M	CL	532
+1	CL_2818	2913414	2911528	NADH-quinone oxidoreductase subunit L	CL	629
+1	CL_2819	2913720	2913415	NADH-quinone oxidoreductase subunit K	CL	102
+1	CL_2820	2914239	2913721	NADH-quinone oxidoreductase subunit J	CL	173
+1	CL_2821	2914779	2914240	NADH-quinone oxidoreductase subunit I	CL	180
+1	CL_2822	2915793	2914780	NADH-quinone oxidoreductase subunit H	CL	338
+1	CL_2823	2918475	2915794	NADH-quinone oxidoreductase subunit NuoG	CL	894
+1	CL_2824	2919804	2918476	NADH-quinone oxidoreductase subunit F	CL	443
+1	CL_2825	2920311	2919805	NADH-quinone oxidoreductase subunit NuoE	CL	169
+1	CL_2826	2922096	2920312	NADH-quinone oxidoreductase subunit C/D	CL	595
+1	CL_2827	2922771	2922097	NADH-quinone oxidoreductase subunit B	CL	225
+1	CL_INS_281	2922772	2923320	fGI_50;1	fGI	183
+1	CL_2829	2923321	2924739	sensor domain-containing diguanylate cyclase	CL	473
+1	CL_2830	2924740	2925090	hypothetical protein	CL	117
+1	CL_2831	2926737	2925091	two-component sensor histidine kinase	CL	549
+1	CL_2832	2927451	2926738	DNA-binding response regulator	CL	238
+1	CL_INS_282	2927452	2927655	fGI_50;1	fGI	68
+1	CL_2833	2927656	2930487	ribonucleoside-diphosphate reductase subunit alpha	CL	944
+1	CL_2834	2930488	2930619	hypothetical protein	CL	44
+1	CL_2835	2930620	2931900	ribonucleotide-diphosphate reductase subunit beta	CL	427
+1	CL_INS_283	2931901	2948274	fGI_50;7	fGI	5458
+1	CL_2843	2948763	2948275	flavin reductase	CL	163
+1	CL_2844	2949804	2948764	methionine synthase	CL	347
+1	CL_2845	2950788	2949805	DUF1852 domain-containing protein	CL	328
+1	CL_INS_284	2950789	2957070	fGI_50;1	fGI	2094
+1	CL_2852	2957071	2957997	LysR family transcriptional regulator	CL	309
+1	CL_2853	2957998	2959305	MFS transporter	CL	436
+1	CL_INS_285	2959306	2961024	fGI_50;1	fGI	573
+1	CL_2856	2961025	2962428	FAD-dependent tricarballylate dehydrogenase TcuA	CL	468
+1	CL_INS_286	2962429	2968269	fGI_50;2	fGI	1947
+1	CL_2862	2969442	2968270	zinc-binding dehydrogenase	CL	391
+1	CL_2863	2969443	2970435	adenosine deaminase	CL	331
+1	CL_2864	2971497	2970436	quinolinate synthase NadA	CL	354
+1	CL_2865	2972715	2971498	bifunctional glutamate N-acetyltransferase/amino-acid acetyltransferase ArgJ	CL	406
+1	CL_2866	2973192	2972716	glycosyl transferase	CL	159
+1	CL_2867	2973510	2973193	QacE family quaternary ammonium compound efflux SMR transporter	CL	106
+1	CL_2868	2974503	2973511	cation transporter	CL	331
+1	CL_2869	2975256	2974504	copper resistance protein B	CL	251
+1	CL_2870	2977188	2975257	copper resistance system multicopper oxidase	CL	644
+1	CL_2871	2977581	2977189	hypothetical protein	CL	131
+1	CL_2872	2978400	2977582	HAD family hydrolase	CL	273
+1	CL_2873	2979084	2978401	ribulose-phosphate 3-epimerase	CL	228
+1	CL_2874	2979085	2979354	DUF2218 domain-containing protein	CL	90
+1	CL_2875	2980200	2979355	S-formylglutathione hydrolase	CL	282
+1	CL_2876	2981649	2980201	hypothetical protein	CL	483
+1	CL_2877	2982438	2981650	hypothetical protein	CL	263
+1	CL_2878	2983101	2982439	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex dimerization subunit type 1 TsaB	CL	221
+1	CL_2879	2983629	2983102	gamma carbonic anhydrase family protein	CL	176
+1	CL_2880	2984244	2983630	CoA pyrophosphatase	CL	205
+1	CL_2881	2984245	2984790	NUDIX hydrolase	CL	182
+1	CL_INS_287	2984791	2992497	fGI_50;1	fGI	2569
+1	CL_2886	2992498	2993883	anthranilate synthase component I family protein	CL	462
+1	CL_2887	2994966	2993884	histidinol-phosphate transaminase	CL	361
+1	CL_2888	2996253	2994967	histidinol dehydrogenase	CL	429
+1	CL_2889	2996934	2996254	ATP phosphoribosyltransferase	CL	227
+1	CL_2890	2998188	2996935	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	CL	418
+1	CL_2891	2998437	2998189	hypothetical protein	CL	83
+1	CL_2892	2998773	2998438	ribosomal subunit interface protein	CL	112
+1	CL_2893	3000219	2998774	RNA polymerase sigma-54 factor	CL	482
+1	CL_2894	3000220	3001116	hypothetical protein	CL	299
+1	CL_2895	3001117	3002082	stage II sporulation protein E	CL	322
+1	CL_2896	3002083	3002601	anti-sigma factor antagonist	CL	173
+1	CL_2897	3002602	3003423	carbon-nitrogen hydrolase family protein	CL	274
+1	CL_2898	3003424	3003798	DUF4951 domain-containing protein	CL	125
+1	CL_2899	3003799	3004233	MarR family transcriptional regulator	CL	145
+1	CL_2900	3004234	3004662	organic hydroperoxide resistance protein	CL	143
+1	CL_2901	3006150	3004663	type II secretion system protein GspE	CL	496
+1	CL_2902	3006151	3006969	hypothetical protein	CL	273
+1	CL_2903	3006970	3007884	mechanosensitive ion channel family protein	CL	305
+1	CL_2904	3010689	3007885	DUF2339 domain-containing protein	CL	935
+1	CL_2905	3010690	3013458	DNA polymerase I	CL	923
+1	CL_2906	3014025	3013459	YggT family protein	CL	189
+1	CL_2907	3014853	3014026	pyrroline-5-carboxylate reductase	CL	276
+1	CL_2908	3016254	3014854	tRNA lysidine(34) synthetase TilS	CL	467
+1	CL_2909	3017073	3016255	acetyl-CoA carboxylase carboxyl transferase subunit alpha	CL	273
+1	CL_2910	3018591	3017074	exopolyphosphatase	CL	506
+1	CL_2911	3018592	3018915	thioredoxin	CL	108
+1	CL_2912	3018916	3020181	transcription termination factor Rho	CL	422
+1	CL_INS_288	3020182	3020304	fGI_10;1	fGI	41
+1	CL_2913	3020598	3020305	integration host factor subunit alpha	CL	98
+1	CL_2914	3022977	3020599	phenylalanine--tRNA ligase subunit beta	CL	793
+1	CL_2915	3023955	3022978	phenylalanine--tRNA ligase subunit alpha	CL	326
+1	CL_2916	3023956	3024954	hypothetical protein	CL	333
+1	CL_INS_289	3024955	3026010	fGI_50;2	fGI	352
+1	CL_2919	3026367	3026011	50S ribosomal protein L20	CL	119
+1	CL_2920	3026559	3026368	50S ribosomal protein L35	CL	64
+1	CL_2921	3026560	3027807	MFS transporter	CL	416
+1	CL_2922	3028233	3027808	DedA family protein	CL	142
+1	CL_2923	3028851	3028234	thiol:disulfide oxidoreductase	CL	206
+1	CL_2924	3029400	3028852	translation initiation factor IF-3	CL	183
+1	CL_2925	3031320	3029401	threonine--tRNA ligase	CL	640
+1	CL_2926	3031321	3032946	acyl-CoA synthetase	CL	542
+1	CL_2927	3033480	3032947	DUF615 domain-containing protein	CL	178
+1	CL_2928	3033747	3033481	HPr family phosphocarrier protein	CL	89
+1	CL_2929	3034596	3033748	RNase adaptor protein RapZ	CL	283
+1	CL_2930	3035442	3034597	pantoate--beta-alanine ligase	CL	282
+1	CL_2931	3036249	3035443	3-methyl-2-oxobutanoate hydroxymethyltransferase	CL	269
+1	CL_2932	3036729	3036250	2-amino-4-hydroxy-6- hydroxymethyldihydropteridine diphosphokinase	CL	160
+1	CL_2933	3038190	3036730	polynucleotide adenylyltransferase PcnB	CL	487
+1	CL_2934	3038598	3038191	transporter	CL	136
+1	CL_2935	3039402	3038599	nucleoside triphosphate pyrophosphohydrolase	CL	268
+1	CL_2936	3039403	3040173	short-chain dehydrogenase	CL	257
+1	CL_2937	3042477	3040174	bifunctional (p)ppGpp synthetase/guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase	CL	768
+1	CL_2938	3043866	3042478	23S rRNA (uracil(1939)-C(5))-methyltransferase RlmD	CL	463
+1	CL_2939	3044682	3043867	3'-5' exonuclease	CL	272
+1	CL_INS_290	3044683	3045594	fGI_50;1	fGI	304
+1	CL_2941	3045595	3048399	hybrid sensor histidine kinase/response regulator	CL	935
+1	CL_2942	3048400	3049185	enoyl-CoA hydratase	CL	262
+1	CL_2943	3049186	3050049	NAD(P)-dependent oxidoreductase	CL	288
+1	CL_2944	3050050	3050841	hydroxypyruvate isomerase	CL	264
+1	CL_2945	3050842	3051240	ribosome silencing factor	CL	133
+1	CL_INS_291	3051241	3052059	fGI_50;1	fGI	273
+1	CL_2947	3053511	3052060	NAD(P) transhydrogenase subunit beta	CL	484
+1	CL_2948	3053823	3053512	NAD(P) transhydrogenase subunit alpha	CL	104
+1	CL_2949	3054948	3053824	NAD(P)(+) transhydrogenase (Re/Si-specific) subunit alpha	CL	375
+1	CL_2950	3054949	3055872	EamA/RhaT family transporter	CL	308
+1	CL_2951	3055873	3056277	RidA family protein	CL	135
+1	CL_2952	3056278	3057459	MFS transporter	CL	394
+1	CL_INS_292	3057460	3090315	fGI_50;4	fGI	10952
+1	CL_2953	3090316	3091317	tRNA dihydrouridine(20/20a) synthase DusA	CL	334
+1	CL_2954	3091318	3091824	hypothetical protein	CL	169
+1	CL_INS_293	3091825	3092835	fGI_50;2	fGI	337
+1	CL_2956	3093594	3092836	tRNA threonylcarbamoyladenosine dehydratase	CL	253
+1	CL_INS_294	3093595	3094065	fGI_25;1	fGI	157
+1	CL_2957	3096819	3094066	aconitate hydratase AcnA	CL	918
+1	CL_2958	3097629	3096820	TatD family deoxyribonuclease	CL	270
+1	CL_2959	3098568	3097630	DUF3298 domain-containing protein	CL	313
+1	CL_INS_295	3098569	3099408	fGI_50;1	fGI	280
+1	CL_2961	3100998	3099409	peptide chain release factor 3	CL	530
+1	CL_INS_296	3100999	3162708	fGI_50;7	fGI	20570
+1	CL_2969	3164760	3162709	bifunctional diguanylate cyclase/phosphodiesterase	CL	684
+1	CL_2970	3165774	3164761	ketol-acid reductoisomerase	CL	338
+1	CL_2971	3166263	3165775	acetolactate synthase small subunit	CL	163
+1	CL_2972	3167985	3166264	acetolactate synthase 3 large subunit	CL	574
+1	CL_2973	3167986	3168318	DUF4124 domain-containing protein	CL	111
+1	CL_2974	3168319	3170940	leucine--tRNA ligase	CL	874
+1	CL_2975	3170941	3171447	hypothetical protein	CL	169
+1	CL_2976	3171448	3172434	DNA polymerase III subunit delta	CL	329
+1	CL_2977	3172435	3173772	MacA family efflux pump subunit	CL	446
+1	CL_2978	3173773	3175764	MacB family efflux pump subunit	CL	664
+1	CL_2979	3175765	3177168	AdeC/AdeK/OprM family multidrug efflux complex outer membrane factor	CL	468
+1	CL_2980	3177969	3177169	enoyl-ACP reductase	CL	267
+1	CL_2981	3178698	3177970	membrane protein	CL	243
+1	CL_2982	3179262	3178699	oligoribonuclease	CL	188
+1	CL_2983	3179263	3180318	ribosome small subunit-dependent GTPase A	CL	352
+1	CL_2984	3180319	3180732	rhodanese-like domain-containing protein	CL	138
+1	CL_2985	3180733	3180987	glutaredoxin 3	CL	85
+1	CL_2986	3180988	3181443	protein-export protein SecB	CL	152
+1	CL_2987	3182097	3181444	ACP synthase	CL	218
+1	CL_INS_297	3182098	3198612	fGI_10;1	fGI	5505
+1	CL_3007	3200019	3198613	ribosome biogenesis GTPase Der	CL	469
+1	CL_3008	3201162	3200020	outer membrane protein assembly factor BamB	CL	381
+1	CL_3009	3201858	3201163	hypothetical protein	CL	232
+1	CL_3010	3203148	3201859	histidine--tRNA ligase	CL	430
+1	CL_3011	3204261	3203149	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin)	CL	371
+1	CL_3012	3205050	3204262	DUF4115 domain-containing protein	CL	263
+1	CL_3013	3205815	3205051	type IV pilus biogenesis/stability protein PilW	CL	255
+1	CL_3014	3207045	3205816	23S rRNA (adenine(2503)-C(2))-methyltransferase RlmN	CL	410
+1	CL_3015	3207474	3207046	nucleoside-diphosphate kinase	CL	143
+1	CL_3016	3207672	3207475	Fe-S assembly protein IscX	CL	66
+1	CL_3017	3208221	3207673	PAP2 family protein	CL	183
+1	CL_3018	3209505	3208222	glycosyltransferase family 1 protein	CL	428
+1	CL_3019	3211686	3209506	tail-specific protease	CL	727
+1	CL_3020	3211687	3212703	beta-N-acetylhexosaminidase	CL	339
+1	CL_3021	3212704	3213543	hypothetical protein	CL	280
+1	CL_3022	3214854	3213544	alpha/beta hydrolase	CL	437
+1	CL_3023	3214855	3216117	gamma-glutamyl-phosphate reductase	CL	421
+1	CL_3024	3217743	3216118	NADP-dependent glyceraldehyde-3-phosphate dehydrogenase	CL	542
+1	CL_3025	3218253	3217744	gluconokinase	CL	170
+1	CL_3026	3219609	3218254	permease	CL	452
+1	CL_3027	3220227	3219610	2-dehydro-3-deoxy-phosphogluconate aldolase	CL	206
+1	CL_3028	3222078	3220228	phosphogluconate dehydratase	CL	617
+1	CL_3029	3222079	3223278	acetate kinase	CL	400
+1	CL_3030	3223279	3225420	phosphate acetyltransferase	CL	714
+1	CL_3031	3225421	3226944	fumarate hydratase	CL	508
+1	CL_3032	3226945	3227496	DUF2059 domain-containing protein	CL	184
+1	CL_3033	3228210	3227497	DUF2846 domain-containing protein	CL	238
+1	CL_3034	3229521	3228211	ATP-dependent Clp protease ATP-binding subunit ClpX	CL	437
+1	CL_3035	3230124	3229522	ATP-dependent Clp endopeptidase, proteolytic subunit ClpP	CL	201
+1	CL_3036	3231456	3230125	trigger factor	CL	444
+1	CL_INS_298	3231457	3233742	fGI_50;1	fGI	762
+1	CL_3038	3233743	3234423	PKHD-type hydroxylase	CL	227
+1	CL_3039	3234424	3236118	2-isopropylmalate synthase	CL	565
+1	CL_3040	3236119	3237276	homoserine O-acetyltransferase	CL	386
+1	CL_3041	3237277	3237867	methionine biosynthesis protein MetW	CL	197
+1	CL_3042	3237868	3238452	sel1 repeat family protein	CL	195
+1	CL_INS_299	3238453	3238995	fGI_25;1	fGI	181
+1	CL_3043	3238996	3239619	non-canonical purine NTP pyrophosphatase	CL	208
+1	CL_3044	3240492	3239620	permease	CL	291
+1	CL_3045	3240493	3240708	twin-arginine translocase TatA/TatE family subunit	CL	72
+1	CL_3046	3240709	3241143	twin-arginine translocase subunit TatB	CL	145
+1	CL_3047	3241144	3241911	twin-arginine translocase subunit TatC	CL	256
+1	CL_3048	3241912	3244089	DUF839 domain-containing protein	CL	726
+1	CL_3049	3244090	3246279	PhoX family phosphatase	CL	730
+1	CL_3050	3247056	3246280	hypothetical protein	CL	259
+1	CL_INS_300	3247057	3253794	fGI_25;1	fGI	2246
+1	CL_3051	3253795	3254610	prolipoprotein diacylglyceryl transferase	CL	272
+1	CL_3052	3254611	3254967	hypothetical protein	CL	119
+1	CL_3053	3254968	3255327	hypothetical protein	CL	120
+1	CL_3054	3255328	3256167	thymidylate synthase	CL	280
+1	CL_3055	3256168	3256674	dihydrofolate reductase	CL	169
+1	CL_INS_301	3256675	3257727	fGI_50;1	fGI	351
+1	CL_3057	3257728	3258246	peptide-methionine (S)-S-oxide reductase	CL	173
+1	CL_3058	3258648	3258247	biopolymer transporter ExbD	CL	134
+1	CL_3059	3259266	3258649	MotA/TolQ/ExbB proton channel family protein	CL	206
+1	CL_3060	3260019	3259267	energy transducer TonB	CL	251
+1	CL_3061	3260880	3260020	formyltetrahydrofolate deformylase	CL	287
+1	CL_3062	3261570	3260881	TetR family transcriptional regulator	CL	230
+1	CL_3063	3261571	3263016	coniferyl aldehyde dehydrogenase	CL	482
+1	CL_3064	3263017	3263250	50S ribosomal protein L28	CL	78
+1	CL_3065	3263251	3263403	50S ribosomal protein L33	CL	51
+1	CL_3066	3263404	3265110	sodium:proton antiporter	CL	569
+1	CL_3067	3265386	3265111	hypothetical protein	CL	92
+1	CL_3068	3265887	3265387	hypothetical protein	CL	167
+1	CL_INS_302	3265888	3266244	fGI_50;1	fGI	119
+1	CL_3070	3266481	3266245	RNA-binding protein	CL	79
+1	CL_3071	3268458	3266482	ATP-dependent DNA helicase PcrA	CL	659
+1	CL_3072	3269028	3268459	hypothetical protein	CL	190
+1	CL_3073	3269784	3269029	hypothetical protein	CL	252
+1	CL_3074	3272418	3269785	DNA topoisomerase I	CL	878
+1	CL_3075	3272865	3272419	hypothetical protein	CL	149
+1	CL_3076	3273240	3272866	HxlR family transcriptional regulator	CL	125
+1	CL_INS_303	3273241	3274248	fGI_50;1	fGI	336
+1	CL_3078	3274491	3274249	hypothetical protein	CL	81
+1	CL_3079	3274492	3276399	ABC transporter ATP-binding protein	CL	636
+1	CL_INS_304	3276400	3278037	fGI_50;2	fGI	546
+1	CL_3081	3278038	3278970	lauroyl acyltransferase	CL	311
+1	CL_3082	3278971	3280068	glycosyl transferase	CL	366
+1	CL_3083	3281352	3280069	glutamate/aspartate:proton symporter GltP	CL	428
+1	CL_3084	3282471	3281353	endonuclease	CL	373
+1	CL_3085	3282472	3283587	aspartate-semialdehyde dehydrogenase	CL	372
+1	CL_3086	3283588	3284949	hypothetical protein	CL	454
+1	CL_3087	3284950	3286209	hypothetical protein	CL	420
+1	CL_3088	3286210	3287178	asparaginase	CL	323
+1	CL_3089	3287179	3287973	tRNA pseudouridine(38-40) synthase TruA	CL	265
+1	CL_3090	3288981	3287974	AraC family transcriptional regulator	CL	336
+1	CL_3091	3288982	3289200	translation initiation factor IF-1	CL	73
+1	CL_3092	3289566	3289201	DUF1311 domain-containing protein	CL	122
+1	CL_INS_305	3289567	3289929	fGI_50;1	fGI	121
+1	CL_3094	3291006	3289930	3-isopropylmalate dehydrogenase	CL	359
+1	CL_3095	3291594	3291007	hypothetical protein	CL	196
+1	CL_3096	3292239	3291595	3-isopropylmalate dehydratase small subunit	CL	215
+1	CL_3097	3293655	3292240	3-isopropylmalate dehydratase large subunit	CL	472
+1	CL_3098	3293656	3293901	DUF2061 domain-containing protein	CL	82
+1	CL_3099	3293902	3294759	LysR family transcriptional regulator	CL	286
+1	CL_INS_306	3294760	3295587	fGI_25;1	fGI	276
+1	CL_3100	3296235	3295588	HAD-IB family hydrolase	CL	216
+1	CL_3101	3296236	3296718	RNA pyrophosphohydrolase	CL	161
+1	CL_3102	3296719	3299010	phosphoenolpyruvate-protein phosphotransferase PtsP	CL	764
+1	CL_INS_307	3299011	3301164	fGI_50;1	fGI	718
+1	CL_3104	3302214	3301165	Zn-dependent hydrolase	CL	350
+1	CL_3105	3302215	3303111	RpiR family transcriptional regulator	CL	299
+1	CL_3106	3303112	3303786	DUF1345 domain-containing protein	CL	225
+1	CL_3107	3304389	3303787	glutathione S-transferase family protein	CL	201
+1	CL_3108	3305082	3304390	YafY family transcriptional regulator	CL	231
+1	CL_3109	3305754	3305083	phosphoglycolate phosphatase	CL	224
+1	CL_3110	3306684	3305755	RluA family pseudouridine synthase	CL	310
+1	CL_INS_308	3306685	3306885	fGI_50;1	fGI	67
+1	CL_3112	3306886	3310215	ribonuclease E/G	CL	1110
+1	CL_3113	3310216	3312054	long-chain-acyl-CoA synthetase	CL	613
+1	CL_INS_309	3312055	3313701	fGI_50;1	fGI	549
+1	CL_3116	3314853	3313702	radical SAM protein	CL	384
+1	CL_3117	3314854	3315312	EamA-like transporter family protein	CL	153
+1	CL_3118	3315313	3316656	MATE family efflux transporter	CL	448
+1	CL_3119	3317904	3316657	monooxygenase	CL	416
+1	CL_3120	3319149	3317905	SfnB family sulfur acquisition oxidoreductase	CL	415
+1	CL_3121	3319150	3320445	ABC transporter	CL	432
+1	CL_3122	3320446	3320697	50S ribosomal protein L31 type B	CL	84
+1	CL_INS_310	3320698	3327435	fGI_25;3	fGI	2246
+1	CL_3123	3327436	3327765	hypothetical protein	CL	110
+1	CL_3124	3328143	3327766	fluoride efflux transporter CrcB	CL	126
+1	CL_3125	3328551	3328144	GFA family protein	CL	136
+1	CL_3126	3329754	3328552	aminoacetone oxidase family FAD-binding enzyme	CL	401
+1	CL_3127	3330384	3329755	SAM-dependent methyltransferase	CL	210
+1	CL_3128	3330385	3330576	DNA gyrase inhibitor YacG	CL	64
+1	CL_3129	3331218	3330577	MBL fold metallo-hydrolase	CL	214
+1	CL_3130	3332232	3331219	ferrochelatase	CL	338
+1	CL_INS_311	3332233	3333234	fGI_50;1	fGI	334
+1	CL_3132	3334098	3333235	glutamate racemase	CL	288
+1	CL_3133	3334707	3334099	DUF1285 domain-containing protein	CL	203
+1	CL_3134	3334708	3336417	electron transfer flavoprotein-ubiquinone oxidoreductase	CL	570
+1	CL_INS_312	3336418	3336795	fGI_50;1	fGI	126
+1	CL_3136	3337050	3336796	sulfurtransferase TusA	CL	85
+1	CL_3137	3337051	3337887	magnesium transporter	CL	279
+1	CL_3138	3337888	3339444	apolipoprotein N-acyltransferase	CL	519
+1	CL_3139	3339780	3339445	tRNA-binding protein	CL	112
+1	CL_3140	3340122	3339781	hypothetical protein	CL	114
+1	CL_3141	3340701	3340123	type II secretion system protein GspG	CL	193
+1	CL_3142	3341904	3340702	type II secretion system protein GspF	CL	401
+1	CL_3143	3341905	3344130	primosomal protein N'	CL	742
+1	CL_3144	3344131	3345969	potassium transporter	CL	613
+1	CL_3145	3345970	3346842	heat-shock protein Hsp33	CL	291
+1	CL_3146	3346843	3347451	LysE family translocator	CL	203
+1	CL_3147	3347452	3348405	DNA-binding protein	CL	318
+1	CL_3148	3348406	3348732	MerR family transcriptional regulator	CL	109
+1	CL_3149	3349941	3348733	magnesium transporter	CL	403
+1	CL_3150	3352032	3349942	polyribonucleotide nucleotidyltransferase	CL	697
+1	CL_3151	3352299	3352033	30S ribosomal protein S15	CL	89
+1	CL_3152	3352300	3353595	EstA family serine hydrolase	CL	432
+1	CL_3153	3355344	3353596	exodeoxyribonuclease V subunit alpha	CL	583
+1	CL_3154	3359040	3355345	exonuclease V subunit beta	CL	1232
+1	CL_3155	3362673	3359041	exonuclease V subunit gamma	CL	1211
+1	CL_3156	3362674	3363177	hypothetical protein	CL	168
+1	CL_3157	3364593	3363178	polyphosphate--AMP phosphotransferase	CL	472
+1	CL_3158	3364594	3365298	hypothetical protein	CL	235
+1	CL_3159	3365299	3366243	bifunctional demethylmenaquinone methyltransferase/2-methoxy-6-polyprenyl-1,4-benzoquinol methylase UbiE	CL	315
+1	CL_3160	3366244	3366909	hypothetical protein	CL	222
+1	CL_3161	3366910	3368526	2-octaprenylphenol hydroxylase	CL	539
+1	CL_3162	3368527	3369837	FAD-dependent monooxygenase	CL	437
+1	CL_INS_313	3369838	3370485	fGI_10;1	fGI	216
+1	CL_3163	3370486	3371256	bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP diphosphatase HisIE	CL	257
+1	CL_3164	3371257	3372756	DNA helicase	CL	500
+1	CL_INS_314	3372757	3374136	fGI_50;1	fGI	460
+1	CL_3166	3374137	3376983	monovalent cation/H+ antiporter subunit A	CL	949
+1	CL_3167	3376984	3377349	Na+/H+ antiporter subunit C	CL	122
+1	CL_3168	3377350	3379158	monovalent cation/H+ antiporter subunit D	CL	603
+1	CL_3169	3379159	3379683	Na+/H+ antiporter subunit E	CL	175
+1	CL_3170	3379684	3379956	pesticidal protein Cry5Aa	CL	91
+1	CL_3171	3379957	3380358	Na+/H+ antiporter subunit G	CL	134
+1	CL_3172	3380757	3380359	ribosome-binding factor A	CL	133
+1	CL_3173	3383454	3380758	translation initiation factor IF-2	CL	899
+1	CL_3174	3384936	3383455	transcription termination/antitermination protein NusA	CL	494
+1	CL_3175	3385458	3384937	ribosome maturation factor	CL	174
+1	CL_3176	3385785	3385459	preprotein translocase subunit SecG	CL	109
+1	CL_3177	3386577	3385786	triose-phosphate isomerase	CL	264
+1	CL_3178	3386578	3388287	type IV-A pilus assembly ATPase PilB	CL	570
+1	CL_3179	3388288	3389511	type II secretion system F family protein	CL	408
+1	CL_3180	3389512	3390369	prepilin peptidase	CL	286
+1	CL_3181	3390370	3390963	dephospho-CoA kinase	CL	198
+1	CL_3182	3391875	3390964	EamA/RhaT family transporter	CL	304
+1	CL_3183	3392622	3391876	23S rRNA (guanosine(2251)-2'-O)-methyltransferase RlmB	CL	249
+1	CL_3184	3392946	3392623	hypothetical protein	CL	108
+1	CL_3185	3394254	3392947	hypothetical protein	CL	436
+1	CL_3186	3394255	3395919	DNA repair protein RecN	CL	555
+1	CL_3187	3395920	3396471	YqgE/AlgH family protein	CL	184
+1	CL_3188	3396472	3396909	Holliday junction resolvase RuvX	CL	146
+1	CL_3189	3397908	3396910	HlyD family secretion protein	CL	333
+1	CL_3190	3398112	3397909	DUF1656 domain-containing protein	CL	68
+1	CL_3191	3400209	3398113	FUSC family protein	CL	699
+1	CL_3192	3400210	3400980	transcriptional regulator	CL	257
+1	CL_3193	3401589	3400981	alpha-ketoglutarate-dependent dioxygenase AlkB	CL	203
+1	CL_3194	3402441	3401590	methylated-DNA--protein-cysteine methyltransferase	CL	284
+1	CL_3195	3403026	3402442	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	CL	195
+1	CL_3196	3403818	3403027	thioesterase family protein	CL	264
+1	CL_3197	3405615	3403819	UvrABC system protein C	CL	599
+1	CL_INS_315	3405616	3407184	fGI_50;2	fGI	523
+1	CL_3199	3408096	3407185	lipid A hydroxylase LpxO	CL	304
+1	CL_3200	3408097	3410247	fatty acid oxidation complex subunit alpha FadB	CL	717
+1	CL_3201	3410248	3411417	acetyl-CoA C-acyltransferase FadA	CL	390
+1	CL_3203	3411906	3411418	hypothetical protein	CL	163
+1	CL_INS_316	3411907	3412620	fGI_50;1	fGI	238
+1	CL_3205	3413262	3412621	serine hydrolase family protein	CL	214
+1	CL_3206	3413263	3413625	MerR family transcriptional regulator	CL	121
+1	CL_3207	3414381	3413626	hypothetical protein	CL	252
+1	CL_3208	3414382	3415083	DsbA family oxidoreductase	CL	234
+1	CL_3209	3415084	3416220	hypothetical protein	CL	379
+1	CL_3210	3416221	3417120	hypothetical protein	CL	300
+1	CL_3211	3419037	3417121	molecular chaperone HtpG	CL	639
+1	CL_3212	3419388	3419038	DUF1311 domain-containing protein	CL	117
+1	CL_3213	3419976	3419389	membrane protein	CL	196
+1	CL_3214	3421398	3419977	sodium:proton antiporter	CL	474
+1	CL_3215	3422268	3421399	hypothetical protein	CL	290
+1	CL_3216	3422269	3422763	DUF4442 domain-containing protein	CL	165
+1	CL_3217	3423117	3422764	hypothetical protein	CL	118
+1	CL_3218	3423480	3423118	hypothetical protein	CL	121
+1	CL_3219	3427671	3423481	DNA-directed RNA polymerase subunit beta'	CL	1397
+1	CL_3220	3431757	3427672	DNA-directed RNA polymerase subunit beta	CL	1362
+1	CL_3221	3432126	3431758	50S ribosomal protein L7/L12	CL	123
+1	CL_3222	3432630	3432127	50S ribosomal protein L10	CL	168
+1	CL_3223	3433323	3432631	50S ribosomal protein L1	CL	231
+1	CL_3224	3433749	3433324	50S ribosomal protein L11	CL	142
+1	CL_INS_317	3433750	3434280	fGI_50;1	fGI	177
+1	CL_3226	3434718	3434281	preprotein translocase subunit SecE	CL	146
+1	CL_3227	3435906	3434719	elongation factor Tu	CL	396
+1	CL_3228	3437397	3435907	anthranilate synthase component I	CL	497
+1	CL_3229	3438063	3437398	phosphoglycolate phosphatase	CL	222
+1	CL_3230	3438690	3438064	FHA domain-containing protein	CL	209
+1	CL_3231	3440964	3438691	type II secretion system protein GspD	CL	758
+1	CL_3232	3441798	3440965	general secretion pathway protein	CL	278
+1	CL_3233	3442539	3441799	general secretion pathway protein	CL	247
+1	CL_3234	3442863	3442540	DNA-binding protein	CL	108
+1	CL_3235	3443301	3442864	acyl-CoA thioesterase	CL	146
+1	CL_3236	3444492	3443302	hypothetical protein	CL	397
+1	CL_3237	3445329	3444493	hypothetical protein	CL	279
+1	CL_3238	3446094	3445330	uroporphyrinogen-III synthase	CL	255
+1	CL_3239	3447009	3446095	hydroxymethylbilane synthase	CL	305
+1	CL_3240	3447747	3447010	DNA-binding response regulator	CL	246
+1	CL_INS_318	3447748	3448884	fGI_50;1	fGI	379
+1	CL_3242	3448885	3450315	argininosuccinate lyase	CL	477
+1	CL_3243	3450316	3450582	Fe(2+)-trafficking protein	CL	89
+1	CL_3244	3451302	3450583	phosphate transport system regulatory protein PhoU	CL	240
+1	CL_3245	3452646	3451303	RND transporter	CL	448
+1	CL_3246	3453549	3452647	EamA family transporter	CL	301
+1	CL_3247	3454128	3453550	TetR/AcrR family transcriptional regulator	CL	193
+1	CL_3248	3454129	3455190	hypothetical protein	CL	354
+1	CL_3249	3455191	3457065	phosphomethylpyrimidine synthase	CL	625
+1	CL_3250	3457066	3457689	NUDIX domain-containing protein	CL	208
+1	CL_3251	3457690	3458499	3',5'-cyclic-AMP phosphodiesterase	CL	270
+1	CL_3252	3458500	3459033	RNA polymerase-binding protein DksA	CL	178
+1	CL_3253	3459034	3459963	tRNA glutamyl-Q(34) synthetase GluQRS	CL	310
+1	CL_3254	3461157	3459964	putative lipid II flippase FtsW	CL	398
+1	CL_3255	3462501	3461158	UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase	CL	448
+1	CL_3256	3462750	3462502	hypothetical protein	CL	83
+1	CL_3257	3464601	3462751	ferrous iron transporter B	CL	617
+1	CL_3258	3464898	3464602	ferrous iron transport protein A	CL	99
+1	CL_3259	3464899	3465816	site-specific tyrosine recombinase XerD	CL	306
+1	CL_3260	3465817	3466629	thiol:disulfide interchange protein	CL	271
+1	CL_3261	3466630	3467928	homoserine dehydrogenase	CL	433
+1	CL_3262	3467929	3469065	threonine synthase	CL	379
+1	CL_3263	3470070	3469066	D-alanyl-D-alanine endopeptidase	CL	335
+1	CL_3264	3470071	3470703	DNA-binding response regulator	CL	211
+1	CL_INS_319	3470704	3473688	fGI_50;1	fGI	995
+1	CL_3267	3474870	3473689	peptidase S41	CL	394
+1	CL_3268	3476415	3474871	2,3-bisphosphoglycerate-independent phosphoglycerate mutase	CL	515
+1	CL_3269	3477483	3476416	LPS export ABC transporter permease LptG	CL	356
+1	CL_3270	3478581	3477484	LPS export ABC transporter permease LptF	CL	366
+1	CL_3271	3478582	3480027	cytosol aminopeptidase	CL	482
+1	CL_3272	3480028	3480432	DNA polymerase III subunit chi	CL	135
+1	CL_3273	3480433	3481065	hypothetical protein	CL	211
+1	CL_3274	3481066	3481281	hypothetical protein	CL	72
+1	CL_3275	3481938	3481282	riboflavin synthase	CL	219
+1	CL_3276	3483228	3481939	restriction endonuclease subunit M	CL	430
+1	CL_3277	3484311	3483229	bifunctional diaminohydroxyphosphoribosylaminopyrimidine deaminase/5-amino-6-(5-phosphoribosylamino)uracil reductase RibD	CL	361
+1	CL_3278	3484767	3484312	transcriptional regulator NrdR	CL	152
+1	CL_3279	3486162	3484768	ammonium transporter	CL	465
+1	CL_3280	3486498	3486163	nitrogen regulatory protein P-II 1	CL	112
+1	CL_3281	3486499	3486723	hypothetical protein	CL	75
+1	CL_3282	3486724	3488208	ATP-dependent protease	CL	495
+1	CL_INS_320	3488209	3500328	fGI_25;2	fGI	4040
+1	CL_3295	3501738	3500329	PLP-dependent aminotransferase family protein	CL	470
+1	CL_3296	3501739	3502512	aldolase	CL	258
+1	CL_3297	3502513	3503388	dihydrodipicolinate synthase family protein	CL	292
+1	CL_3298	3504198	3503389	hypothetical protein	CL	270
+1	CL_3299	3504199	3505512	outer membrane porin, OprD family	CL	438
+1	CL_3300	3506037	3505513	inorganic diphosphatase	CL	175
+1	CL_3301	3506433	3506038	membrane protein	CL	132
+1	CL_3302	3506434	3506814	hypothetical protein	CL	127
+1	CL_3303	3508491	3506815	long-chain fatty acid--CoA ligase	CL	559
+1	CL_3304	3510708	3508492	DNA topoisomerase IV subunit A	CL	739
+1	CL_3305	3512025	3510709	MFS transporter	CL	439
+1	CL_3306	3512667	3512026	trimeric intracellular cation channel family protein	CL	214
+1	CL_3307	3513132	3512668	preprotein translocase SecA	CL	155
+1	CL_3308	3514722	3513133	TerC family protein	CL	530
+1	CL_3309	3514723	3515343	TIGR00730 family Rossman fold protein	CL	207
+1	CL_3310	3515344	3516732	MFS transporter	CL	463
+1	CL_3311	3516733	3517488	lysozyme	CL	252
+1	CL_3312	3517489	3518541	DNA polymerase IV	CL	351
+1	CL_3313	3518542	3518892	RidA family protein	CL	117
+1	CL_3314	3519390	3518893	DUF2726 domain-containing protein	CL	166
+1	CL_3315	3521766	3519391	YgiQ family radical SAM protein	CL	792
+1	CL_3316	3523023	3521767	hypothetical protein	CL	419
+1	CL_3317	3523425	3523024	MerR family transcriptional regulator	CL	134
+1	CL_3318	3523426	3523908	DUF2938 domain-containing protein	CL	161
+1	CL_3319	3523909	3524472	flavodoxin family protein	CL	188
+1	CL_3320	3524473	3524958	transglycosylase	CL	162
+1	CL_INS_321	3524959	3527088	fGI_50;1	fGI	710
+1	CL_3324	3527089	3528300	DUF2236 domain-containing protein	CL	404
+1	CL_INS_322	3528301	3528504	fGI_50;1	fGI	68
+1	CL_3326	3530616	3528505	TonB-dependent copper receptor	CL	704
+1	CL_3327	3531042	3530617	DUF2946 domain-containing protein	CL	142
+1	CL_3328	3531570	3531043	peptide deformylase	CL	176
+1	CL_3329	3531571	3532722	LysM peptidoglycan-binding domain-containing protein	CL	384
+1	CL_3330	3532723	3533850	DNA-protecting protein DprA	CL	376
+1	CL_3331	3533851	3534417	threonylcarbamoyl-AMP synthase	CL	189
+1	CL_3332	3535323	3534418	EamA/RhaT family transporter	CL	302
+1	CL_3333	3535962	3535324	TetR/AcrR family transcriptional regulator	CL	213
+1	CL_3334	3535963	3537174	MFS transporter	CL	404
+1	CL_3335	3537175	3537936	AraC family transcriptional regulator	CL	254
+1	CL_3336	3537937	3538479	glutathione peroxidase	CL	181
+1	CL_3337	3538480	3539076	hypothetical protein	CL	199
+1	CL_INS_323	3539077	3539556	fGI_25;1	fGI	160
+1	CL_3339	3539973	3539557	ATP synthase epsilon chain	CL	139
+1	CL_3340	3541365	3539974	ATP synthase subunit beta	CL	464
+1	CL_3341	3542232	3541366	ATP synthase subunit gamma	CL	289
+1	CL_3342	3543774	3542233	ATP synthase subunit alpha	CL	514
+1	CL_3343	3544308	3543775	ATP synthase subunit delta	CL	178
+1	CL_3344	3544776	3544309	ATP synthase subunit B	CL	156
+1	CL_3345	3545019	3544777	ATP synthase subunit C	CL	81
+1	CL_3346	3545892	3545020	ATP synthase subunit A	CL	291
+1	CL_INS_324	3545893	3546288	fGI_50;1	fGI	132
+1	CL_3348	3547125	3546289	DNA repair protein HhH-GPD	CL	279
+1	CL_3349	3547126	3547620	Fur family transcriptional regulator	CL	165
+1	CL_3350	3547621	3548406	metal ABC transporter ATP-binding protein	CL	262
+1	CL_3351	3548407	3549213	metal ABC transporter permease	CL	269
+1	CL_3352	3549837	3549214	threonine transporter RhtB	CL	208
+1	CL_3353	3549838	3550755	peroxidase	CL	306
+1	CL_INS_325	3550756	3551196	fGI_10;1	fGI	147
+1	CL_3354	3552891	3551197	NAD-dependent malic enzyme	CL	565
+1	CL_3355	3552892	3554679	arginine--tRNA ligase	CL	596
+1	CL_3356	3554680	3555303	cell division protein	CL	208
+1	CL_3357	3555969	3555304	glutathione S-transferase	CL	222
+1	CL_3358	3556374	3555970	OsmC family peroxiredoxin	CL	135
+1	CL_3359	3557319	3556375	pirin family protein	CL	315
+1	CL_3360	3557622	3557320	DUF3861 domain-containing protein	CL	101
+1	CL_3361	3558147	3557623	PadR family transcriptional regulator	CL	175
+1	CL_3362	3558933	3558148	ANT(3'')-II family aminoglycoside nucleotidyltransferase	CL	262
+1	CL_3363	3560499	3558934	glutamine-hydrolyzing GMP synthase	CL	522
+1	CL_3364	3560500	3561726	DUF445 domain-containing protein	CL	409
+1	CL_3365	3562161	3561727	DoxX family protein	CL	145
+1	CL_3366	3562162	3562800	cytochrome o ubiquinol oxidase	CL	213
+1	CL_INS_326	3562801	3563388	fGI_50;1	fGI	196
+1	CL_3368	3563775	3563389	hypothetical protein	CL	129
+1	CL_INS_327	3563776	3564615	fGI_50;1	fGI	280
+1	CL_3370	3565005	3564616	hypothetical protein	CL	130
+1	CL_3371	3565311	3565006	BolA family transcriptional regulator	CL	102
+1	CL_INS_328	3565312	3591624	fGI_50;1	fGI	8771
+1	CL_3391	3593052	3591625	alanine glycine permease	CL	476
+1	CL_INS_329	3593053	3594489	fGI_50;1	fGI	479
+1	CL_3393	3594846	3594490	RidA family protein	CL	119
+1	CL_3394	3595947	3594847	alanine racemase	CL	367
+1	CL_3395	3597210	3595948	D-amino acid dehydrogenase small subunit	CL	421
+1	CL_3396	3597211	3597675	AsnC family transcriptional regulator	CL	155
+1	CL_3397	3598818	3597676	DUF1624 domain-containing protein	CL	381
+1	CL_3398	3598819	3600906	TonB-dependent siderophore receptor	CL	696
+1	CL_3399	3601284	3600907	polyketide cyclase	CL	126
+1	CL_3400	3601656	3601285	ribonuclease E inhibitor RraB	CL	124
+1	CL_3401	3602319	3601657	RluA family pseudouridine synthase	CL	221
+1	CL_INS_330	3602320	3613653	fGI_50;7	fGI	3778
+1	CL_3417	3616257	3613654	Fe/S-dependent 2-methylisocitrate dehydratase AcnD	CL	868
+1	CL_3418	3617412	3616258	2-methylcitrate synthase	CL	385
+1	CL_3419	3618294	3617413	methylisocitrate lyase	CL	294
+1	CL_3420	3619002	3618295	GntR family transcriptional regulator	CL	236
+1	CL_INS_331	3619003	3619134	fGI_10;1	fGI	44
+1	CL_3421	3619135	3620346	aspartate/tyrosine/aromatic aminotransferase	CL	404
+1	CL_3422	3622050	3620347	D-lactate dehydrogenase	CL	568
+1	CL_3423	3623199	3622051	alpha-hydroxy-acid oxidizing enzyme	CL	383
+1	CL_3424	3623949	3623200	transcriptional regulator LldR	CL	250
+1	CL_3425	3625608	3623950	L-lactate permease	CL	553
+1	CL_INS_332	3625609	3629829	fGI_50;1	fGI	1407
+1	CL_3428	3631497	3629830	glucose-6-phosphate isomerase	CL	556
+1	CL_3429	3632757	3631498	UDP-glucose/GDP-mannose dehydrogenase family protein	CL	420
+1	CL_3430	3633630	3632758	UTP--glucose-1-phosphate uridylyltransferase	CL	291
+1	CL_INS_333	3633631	3645237	fGI_50;4	fGI	3869
+1	CL_3442	3646509	3645238	Vi polysaccharide biosynthesis UDP-N-acetylglucosamine C-6 dehydrogenase TviB	CL	424
+1	CL_3443	3646510	3647607	outer membrane protein	CL	366
+1	CL_3444	3647608	3648033	low molecular weight phosphotyrosine protein phosphatase	CL	142
+1	CL_3445	3648034	3650217	tyrosine protein kinase	CL	728
+1	CL_INS_334	3650218	3650937	fGI_50;1	fGI	240
+1	CL_3447	3650938	3651630	peptidyl-prolyl cis-trans isomerase	CL	231
+1	CL_3448	3653169	3651631	murein biosynthesis integral membrane protein MurJ	CL	513
+1	CL_3449	3653736	3653170	1,6-anhydro-N-acetylmuramyl-L-alanine amidase AmpD	CL	189
+1	CL_3450	3653737	3654579	carboxylating nicotinate-nucleotide diphosphorylase	CL	281
+1	CL_INS_335	3654580	3656910	fGI_50;3	fGI	777
+1	CL_3452	3657624	3656911	ribonuclease PH	CL	238
+1	CL_3453	3658770	3657625	acyl-CoA desaturase	CL	382
+1	CL_3454	3659793	3658771	ferredoxin reductase	CL	341
+1	CL_3455	3659794	3660429	TetR family transcriptional regulator	CL	212
+1	CL_3456	3660430	3661074	TetR/AcrR family transcriptional regulator	CL	215
+1	CL_3457	3661689	3661075	thiol:disulfide interchange protein DsbA/DsbL	CL	205
+1	CL_3458	3661690	3662400	bifunctional 3-demethylubiquinone 3-O-methyltransferase/2-octaprenyl-6-hydroxy phenol methylase	CL	237
+1	CL_3459	3662401	3663096	phosphoglycolate phosphatase	CL	232
+1	CL_3460	3663097	3663840	YciK family oxidoreductase	CL	248
+1	CL_3461	3663841	3664248	hypothetical protein	CL	136
+1	CL_3462	3664249	3664566	hypothetical protein	CL	106
+1	CL_3463	3664567	3665919	amino-acid N-acetyltransferase	CL	451
+1	CL_3464	3665920	3666885	sulfonate ABC transporter substrate-binding protein	CL	322
+1	CL_3465	3666886	3667866	sulfonate ABC transporter substrate-binding protein	CL	327
+1	CL_3466	3667867	3669039	alkanesulfonate monooxygenase, FMNH(2)-dependent	CL	391
+1	CL_3467	3669040	3669834	sulfonate ABC transporter	CL	265
+1	CL_3468	3669835	3670632	aliphatic sulfonate ABC transporter ATP-binding protein	CL	266
+1	CL_3469	3670633	3671241	TetR family transcriptional regulator	CL	203
+1	CL_3470	3671805	3671242	5'-nucleosidase	CL	188
+1	CL_3471	3672936	3671806	C4-dicarboxylate transporter	CL	377
+1	CL_3472	3672937	3673935	bifunctional riboflavin kinase/FAD synthetase	CL	333
+1	CL_3473	3673936	3676770	isoleucine--tRNA ligase	CL	945
+1	CL_3474	3676771	3677298	lipoprotein signal peptidase	CL	176
+1	CL_3475	3677299	3677778	peptidylprolyl isomerase	CL	160
+1	CL_3476	3677779	3678318	NADPH-dependent oxidoreductase	CL	180
+1	CL_INS_336	3678319	3680613	fGI_50;1	fGI	765
+1	CL_3481	3680841	3680614	hypothetical protein	CL	76
+1	CL_INS_337	3680842	3682596	fGI_50;1	fGI	585
+1	CL_3484	3682597	3683148	nucleotide exchange factor GrpE	CL	184
+1	CL_3485	3683149	3685086	molecular chaperone DnaK	CL	646
+1	CL_3486	3685087	3686001	hypothetical protein	CL	305
+1	CL_INS_338	3686002	3686904	fGI_50;1	fGI	301
+1	CL_3488	3686905	3687276	hypothetical protein	CL	124
+1	CL_3489	3688566	3687277	lytic murein transglycosylase	CL	430
+1	CL_3490	3689685	3688567	5-(carboxyamino)imidazole ribonucleotide synthase	CL	373
+1	CL_3491	3690195	3689686	5-(carboxyamino)imidazole ribonucleotide mutase	CL	170
+1	CL_3492	3690196	3690405	hypothetical protein	CL	70
+1	CL_3493	3690768	3690406	membrane protein	CL	121
+1	CL_3494	3690769	3692139	UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl- meso-diaminopimelate ligase	CL	457
+1	CL_INS_339	3692140	3693387	fGI_50;1	fGI	416
+1	CL_3496	3693388	3693981	undecaprenyl-diphosphatase	CL	198
+1	CL_3497	3693982	3694935	TerC family protein	CL	318
+1	CL_3498	3694936	3695298	hypothetical protein	CL	121
+1	CL_INS_340	3695299	3696456	fGI_50;1	fGI	386
+1	CL_3500	3696457	3697509	aromatic ring-hydroxylating dioxygenase subunit alpha	CL	351
+1	CL_3501	3697510	3698832	guanine deaminase	CL	441
+1	CL_3502	3698833	3699357	hypoxanthine phosphoribosyltransferase	CL	175
+1	CL_3503	3699358	3699606	GlsB/YeaQ/YmgE family stress response membrane protein	CL	83
+1	CL_3504	3700302	3699607	thiol:disulfide interchange protein	CL	232
+1	CL_3505	3701295	3700303	cation transporter	CL	331
+1	CL_3506	3701296	3701556	metal/formaldehyde-sensitive transcriptional repressor	CL	87
+1	CL_3507	3702909	3701557	tRNA uridine-5-carboxymethylaminomethyl(34) synthesis GTPase MnmE	CL	451
+1	CL_3508	3704667	3702910	membrane protein insertase YidC	CL	586
+1	CL_3509	3704985	3704668	membrane protein insertion efficiency factor YidD	CL	106
+1	CL_3510	3705375	3704986	ribonuclease P protein component	CL	130
+1	CL_3511	3705507	3705376	50S ribosomal protein L34	CL	44

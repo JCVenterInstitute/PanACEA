@@ -90,6 +90,7 @@ variables along with a description follows:
 	* CIRCLE_SIZE	size of the radius of the outer edge of the outer ring in pixels
 	* TEXT_SIZE		size of the text in pixels
 	* GENE_SIZE		size of the gene in pixels
+	* DPI			DPI of the output PNGs
 
 =head1 AUTHOR
 
@@ -291,7 +292,7 @@ sub main {
 
     $rgb{$defaultFunct} = "dddddd";    #Default Function color is grey
     $rgb{"Background"}  = "e0e0e0";    #Background color is the
-    $rgb{"fGR"}         = "ff0000";    #Default fGR color is red: should I change this?
+    $rgb{"fGR"}         = "606060";    #Default fGR color is red: should I change this?
 
     #Reading in functional information and annotation
     if ($func_file) {
@@ -415,6 +416,12 @@ sub make_main_figure() {
         $border + $max_radius
     );
 
+ #Making the help button that takes you to the help page. Currently this is the manual PDF on the github site
+ $out{beg} .= sprintf("<a xlink:title=\"Help\" target=\"_blank\" href=\"https://github.com/JCVenterInstitute/PanACEA/blob/master/PanACEA.manual.pdf\"><svg id = \"helpButton\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\"><path d=\"M29.898 26.5722l-4.3921 0c-0.0118,-0.635 -0.0177,-1.0172 -0.0177,-1.1583 0,-1.4229 0.2352,-2.5929 0.7056,-3.5102 0.4704,-0.9231 1.417,-1.952 2.8281,-3.1044 1.4111,-1.1465 2.2578,-1.8991 2.5282,-2.2578 0.4292,-0.5585 0.6409,-1.1818 0.6409,-1.8579 0,-0.9408 -0.3763,-1.7463 -1.1289,-2.4224 -0.7526,-0.6703 -1.7639,-1.0054 -3.0397,-1.0054 -1.2289,0 -2.2578,0.3527 -3.0868,1.0524 -0.8232,0.6997 -1.3935,1.7698 -1.7051,3.2044l-4.4391 -0.5527c0.1234,-2.0578 0.9995,-3.8041 2.6223,-5.2387 1.6286,-1.4346 3.757,-2.152 6.4029,-2.152 2.7752,0 4.9859,0.7291 6.6322,2.1814 1.6404,1.4522 2.4635,3.1397 2.4635,5.0741 0,1.0642 -0.3057,2.0755 -0.9054,3.028 -0.6056,0.9525 -1.8933,2.2519 -3.8688,3.8923 -1.0231,0.8525 -1.6581,1.5346 -1.905,2.052 -0.2469,0.5174 -0.3587,1.4405 -0.3351,2.7752zm-4.3921 6.5087l0 -4.8389 4.8389 0 0 4.8389 -4.8389 0z\" style=\"stroke: black; fill: yellow;\"></svg></a>",
+	( $border + $max_radius - 80 ), 
+	( $border + $max_radius - $border * 1.90 -5),
+	40,
+	40);
  #Making the Disk image by: (1) shrinking it with $trans; (2) adding the action; and (3) making a new variable containing the
  #This gives the location(translate) and appropriate size for the main page save SVG image
     my $trans = sprintf(
@@ -493,7 +500,7 @@ sub make_main_figure() {
         while ( $id_name =~ /\<\/tspan\>/g ) { $n++; }
 
         #Adding the name, the color rectangle. All should be clickable to turn it on/off
-        $out{beg} .= sprintf( "<g onclick=\"runType(\'GeneType\',evt,\'\')\" href=\"%s\">", $a );
+        $out{beg} .= sprintf( "<g onclick=\"runType(\'GeneType\',evt,\'\')\" href=\"%s\" fillcol=\"%s\">", $a, "#" . $rgb{$a} );
 
 #The rectangle around: thought that I might add a box if it's clicked. Currently turrned off (instead all others fade when one is clicked)
         $out{beg} .= sprintf(
@@ -504,25 +511,25 @@ sub make_main_figure() {
 
         #The colored rectange before
         $out{beg} .= sprintf(
-            "<rect  href=\"%s\" id=\"%s\" class=\"LegCol\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" fill=\"%s\" />\n",
+            "<rect  href=\"%s\" id=\"%s\" class=\"LegCol\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" fill=\"%s\" fillcol=\"%s\"/>\n",
             $a, $a . "col", $x1,
             $y1 + $gene_height * ($n) / 5,
             $gene_height * 0.5,
             $gene_height / 3.0,
-            "#" . $rgb{$a}
+            "#" . $rgb{$a}, "#" . $rgb{$a}
         );
 
         #The text printed out. Can be multiple lines thanks to col_names
         $out{beg} .= sprintf(
-"<text href=\"%s\" id=\"%s\" class=\"LegType\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"auto\" font-size=\"10\" dominant-baseline=\"hanging\" text-anchor=\"start\" fill=\"black\">%s</text>\n",
+"<text href=\"%s\" id=\"%s\" class=\"LegType\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"auto\" font-size=\"10\" dominant-baseline=\"hanging\" text-anchor=\"start\" fill=\"black\" fillcol=\"%s\">%s</text>\n",
             $a,
             $a . "Text",
             $x1 + $gene_height * 0.6,
-            $y1, $border * 1.15, $id_name
+            $y1, $border * 1.15, "#" . $rgb{$a}, $id_name
         );
         $out{beg} .= sprintf("</g>");
 
-        $y1 += $gene_height * ( ( $n + 1 ) / 2.5 + 0.15 );    #cycling through colunms
+        $y1 += $gene_height * ( ( $n + 1 ) / 2.5 + 0.15 );    #cycling through columns
         $curr_y[$i] = $y1;
         $i++;
         if ( $i == 3 ) { $i = 0; }
@@ -833,18 +840,17 @@ sub make_main_figure() {
                         }
 
 #Adding the region information to the table. This could allow for clicking on a gene to highlight it's location in the region
-                        if (! $jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{href})
+                        if (! $jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{$head{Gene}->[3]})
 						{
 							$jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{ $head{Gene}->[3] } = $ID;
-							$jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{href}               = $ID;
                         }
 						else
 						{
 							$jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{ $head{Gene}->[3] } .= ",". $ID;
-							$jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{href}               .= ",". $ID;                       
 						}
 						$jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{core_clust}         = $cur_chr;
-                        $jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{detail} =
+                        $jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{href}               = "CL_" . $list{$ID}->{ $sort[0] }->{arr}->[$j];
+						$jso{Gene}->[ $gene_num{ $list{$ID}->{ $sort[0] }->{arr}->[$j] } ]->{detail} =
                           "CL_" . $list{$ID}->{ $sort[0] }->{arr}->[$j];
 
                         $cur_gene_list .= "CL_" . $list{$ID}->{ $sort[0] }->{arr}->[$j] . ";";
@@ -936,9 +942,12 @@ sub make_main_figure() {
                 }
 
                 #If the matrix array exists
+				my $fgr_gene_cnt = 0;
+                
                 if ( $mat{arr} ) {
 
-                    #Go through the array of genes in the fgi
+					$fgr_gene_cnt = scalar( @{ $mat{arr} } );               
+				   #Go through the array of genes in the fgi
                     for ( my $i = 0 ; $i < scalar( @{ $mat{arr} } ) ; $i++ ) {
 
                         my $a = $mat{arr}->[$i];
@@ -1007,7 +1016,7 @@ sub make_main_figure() {
                     $core_type = "";
                     $core_oth  = "";
                     $out{$chr} =
-                      &svg_draw_arc_seg( 1, $st, $end, $h1, $h2, "#" . $rgb{fGR}, $new, $ID, $ID, "Region", $out{$chr} );
+                      &svg_draw_arc_seg( 1, $st, $end, $h1, $h2, "#" . $rgb{fGR}, $new, sprintf( "FGR REGION %d\n%d Total Genes", ( $core_cnt ), $fgr_gene_cnt ), $ID, "Region", $out{$chr} );
 
                 }
 
@@ -1462,6 +1471,7 @@ sub make_main_figure() {
     $disk_image =~ s/ACTION/$action/g;
     $disk_image =~ s/TEXT/TXT/g;
     $disk_image =~ s/FS/250/g;
+	my $saveTableDiskImage = $disk_image;
     $out{table} .= $disk_image;
 
 #$out->{table} .= sprintf("<text x=\"%f\" y=\"%f\" font-size=\"20\" text-anchor=\"middle\" onclick=\"saveTableTxt()\" alignment-baseline=\"middle\" id=\"tableButtonText\">Save Table as TSV</text></path>", ;
@@ -1539,19 +1549,74 @@ sub make_main_figure() {
 
     #Making the actual table-> it starts out as blank
     my $n_r = 7.5;
-    $html{table} .= sprintf(
+	$html{table} .= "</svg>\n";
+	$html{table} .= sprintf("<div id=\"tableDiv\"  style=\"top:%fpx; position:absolute; left:%fpx; height:%fpx; width:%fpx;\">"
+	, $border + $max_radius - 3.5 * $n_r ,  (2.125 * $border),
+         $max_radius * 2 - 2.25 * $border,
+         $max_radius / 4 + 6 * $n_r );
+	   
+	$html{table} .= sprintf(
 "<table id=\"tableMain\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; background: grey; font-size:10pt; display: none; table-layout:fixed;\">",
-        $n_r + $border * 2.125,
-        $n_r + ( $border + $max_radius ),
+        0,
+        4*$n_r,
         $max_radius * 2 - 2.25 * $border,
         $max_radius / 4
     );
     $html{table} .= "</table>";
-    $html{table} .= "</div>";
+	$html{table} .= sprintf("<div id=\"searchBox\" style=\"visibility:hidden; position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; background-color: white; \"><form onsubmit=\"searchInit(event)\" onmouseover=\"showSearch()\" onmouseout=\"searchOff()\" id=\"searchForm\"><input type=\"text\" id=\"searchText\" rows=\"1\" style=\"font-size:14pt;font-color:DarkGray; border: none; height:%s; width:%s;\" onfocus=\"showSearch(\'focus\')\" placeholder=\"Search...\"><input type=\"button\" value=\"Search\" style=\"border: none; background-color: #013220; color: white; padding: 15px 32 px; font-size: 16px;\" onclick=\"searchInit(event)\"></form></div>",
+		4*$n_r,
+		0,
+		 $max_radius * 2 - 2.25 * $border - 10 * $n_r ,
+        4* $n_r, 
+        4* $n_r,
+		$max_radius * 2 - 2.25 * $border - 20 * $n_r . "px"
+		
+	);
+	$html{table} .= sprintf("<svg id=\"searchIcon\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx;\"><rect id=\"searchRect\" x=\"0\" y=\"0\" height=\"%s\" width=\"%s\" style=\"fill:LightGray;\"/ onclick=\"showSearch(\'icon\')\" onmouseover=\"searchOn()\" onmouseout=\"searchOff()\"/><path id=\"magnifyGlass\" transform=\"scale(0.040, 0.04) translate(%s, %s)\" d=\"M754.7 468.7l-22.3-22.3c24.3-33.3 37.5-73.4 37.7-114.7 0-109.5-88.8-198.3-198.3-198.3s-198.3 88.8-198.3 198.3S462.1 530 571.7 530c41.2-.2 81.3-13.4 114.7-37.7l22.3 22.3 152.7 152 45.3-45.3-152-152.6zm-183 0c-75.8 0-137.3-61.5-137.3-137.3S495.8 194 571.7 194 709 255.5 709 331.3c.2 75.7-61 137.1-136.7 137.3-.2.1-.4.1-.6.1z\"></path></svg>", 
+		0, 0, 
+		3.5* $n_r,
+		3.5* $n_r, "100%", "100%", -40 * $n_r, -14 * $n_r
+		);
+    $html{table} .= sprintf("<a id=\"expandTitle\" xlink:title=\"Expand Table\"><svg id=\"expandSVG\" onclick=\"expandTable()\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; visibility: hidden;\"><rect id=\"expandRect\" x=\"0\" y=\"0\" height=\"%s\" width=\"%s\" style=\"fill:LightGray;\"/\"/><path id=\"expandArrow\" transform=\"scale(%f, %f)\" d=\"M 25.980469 2.9902344 A 1.0001 1.0001 0 0 0 25.869141 3 L 20 3 A 1.0001 1.0001 0 1 0 20 5 L 23.585938 5 L 13.292969 15.292969 A 1.0001 1.0001 0 1 0 14.707031 16.707031 L 25 6.4140625 L 25 10 A 1.0001 1.0001 0 1 0 27 10 L 27 4.1269531 A 1.0001 1.0001 0 0 0 25.980469 2.9902344 z M 6 7 C 4.9069372 7 4 7.9069372 4 9 L 4 24 C 4 25.093063 4.9069372 26 6 26 L 21 26 C 22.093063 26 23 25.093063 23 24 L 23 14 L 23 11.421875 L 21 13.421875 L 21 16 L 21 24 L 6 24 L 6 9 L 14 9 L 16 9 L 16.578125 9 L 18.578125 7 L 16 7 L 14 7 L 6 7 z\"\"></path></svg></a>", 
+		 $max_radius * 2 - 2.25 * $border - 4 * $n_r, 0, 
+		3.5* $n_r,
+		3.5* $n_r, "100%", "100%", 1.0, 1.0
+		);
+		
+	
+    $trans = sprintf(
+        "translate(%f,%f) scale(%f, %f)",
+       0,
+        0,
+        0.045, 0.045
+    );
+    $action = "onclick=\"saveTableTxt()\"";
+
+    #Adding disk image to the table
+    $disk_image = $disk_image_orig;
+    $disk_image =~ s/TRANS/$trans/g;
+    $disk_image =~ s/ACTION/$action/g;
+    $disk_image =~ s/TEXT/TXT/g;
+    $disk_image =~ s/FS/250/g;
+	$saveTableDiskImage = $disk_image;
+	
+    $html{table} .= sprintf("<div id=\"otherTable\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; visibility: hidden;\"><svg  width=\"%fpx\" height= \"%fpx\">$saveTableDiskImage</svg></div>", 
+	$max_radius * 2 - 2.25 * $border - 4 * $n_r, 0, 0,0, $n_r * 5, $n_r * 4);
+	$html{table} .= sprintf("<div id=\"tableType\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; visibility: hidden; display: inline-block;\" class=\"dropdown\" ><div  class=\"dropbtn\" style=\"width: %fpx; height: %fpx; background-color: LightGray;color: black; text-anchor: middle; alignment-baseline: middle; font-size: 20px; border: none;\" id=\"dropdownID\" onhover=\"showTypeMenu()\">$default_table_type</div><div class=\"drop-content\" id=\"dropContent\">", 
+	$max_radius * 2 - 2.25 * $border + 2 * $n_r, 0, 0,0, $n_r * 10, $n_r * 4);
+	my $t_cnt = 0;
+	foreach my $tableTypes (@table_types)
+	{
+		if ($tableTypes ne $default_table_type)
+		{
+			#$html{table} .= sprintf("<button>");
+		}
+	}
+	$html{table} .= "</div></div></div></div>";
 
     #These are the waiting screens
-    $html{end} .= sprintf(
-"<div id=\"Waiting\" style=\"visibility:hidden; top:%fpx; position:absolute;left:%fpx;height:%fpx;width:%fpx;background: rgba(255, 255, 255, 0.50);\" class=\"loader\"></div>",
+   	
+	$html{end} .= sprintf("<div id=\"Waiting\" style=\"visibility:hidden; top:%fpx; position:absolute;left:%fpx;height:%fpx;width:%fpx;background: rgba(255, 255, 255, 0.50);\" class=\"loader\"></div>",
         ( 2 * $border ),
         1 * $gene_height + ( 2 * $border ),
         $gene_height + ( $border + $max_radius ),
@@ -1667,7 +1732,7 @@ sub make_main_figure() {
         $out{script} .= sprintf( "\"%s\":[", $k[$i] );
         for ( my $k = 0 ; $k < scalar( @{ $col_width{ $k[$i] } } ) ; $k++ ) {
 
-            $out{script} .= sprintf( "\"%s\",", ( $col_width{ $k[$i] }->[$k] * $bw ) . "px" );
+            $out{script} .= sprintf( "\"%s\",", ( $col_width{ $k[$i] }->[$k] * 100 )  );
 
         }
         chop( $out{script} );
@@ -4608,7 +4673,7 @@ sub get_center_y {
 
 }
 
-sub commas {    # I have NO idea how this works. see pg 237 of perl book.
+sub commas {    # Adds commas to large numbers to clean up printing the coordingates around the circle and for any other use as needed 
 
     my ($_) = @_;
     1 while s/(.*\d)(\d\d\d)/$1,$2/;
@@ -4622,7 +4687,7 @@ sub svg_init_image {
 
     my ( $x, $y, $ret ) = @_;
     $ret->{beg} = sprintf(
-"<svg version=\"1.2\" baseProfile=\"tiny\" width=\"$x\" height=\"$y\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id = \"allsvg\">\n"
+"<svg version=\"1.2\" baseProfile=\"tiny\" width=\"$x\" height=\"$y\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id = \"allsvg\"><defs id=\"defs\"></defs>\n"
     );
     $ret->{end} = "</svg>\n";
     return ( %{$ret} );
@@ -4709,6 +4774,8 @@ sub make_main_javascript {
     $disk_image_png =~ s/TEXT/PNG/g;
     $disk_image_png =~ s/FS/250/g;
 
+
+	
     open( OUT, ">", $out_dir . "/$output_id/scripts/main.javascript.js" );
 
     print OUT "
@@ -4733,6 +4800,7 @@ var reg2gene;
 
 var treeJSON = null; //Tree JSON is either null if there is no phylogeny or an array if there is
 
+var searchIsOn = null;
 
 /*Function that initiates the main page by:
 	(a) loading JSON information passed in the html file into variables
@@ -4777,6 +4845,65 @@ function init()
 	setSVG(1);
 }
 
+function showSearch(type)
+{
+	var svg_all = document.getElementById(\"allsvg\");
+	if (!svg_all.hasAttribute(\"searchVal\"))
+	{
+		if (searchIsOn == null)
+		{
+			var glass = document.getElementById(\"magnifyGlass\");
+			glass.setAttribute(\"fill\", \"yellow\");
+			var searchBox = document.getElementById(\"searchBox\");
+			searchBox.style.visibility = \"visible\";
+			searchIsOn = \"On\";
+			var searchRect = document.getElementById(\"searchRect\");
+			searchRect.style.fill=\"DarkGray\";
+		}
+		else
+		{
+			if (type === \"icon\")
+			{
+				var glass = document.getElementById(\"magnifyGlass\");
+				glass.setAttribute(\"fill\", \"yellow\");
+				var searchBox = document.getElementById(\"searchBox\");
+				searchBox.style.visibility = \"hidden\";
+				searchIsOn = null;
+				var searchRect = document.getElementById(\"searchRect\");
+
+				searchRect.style.fill=\"LightGray\";
+			}
+		}
+	}
+}
+
+function searchInit(evt)
+{
+	evt.preventDefault();
+	runType(\"runSearch\");
+}
+
+function searchOn()
+{
+	var glass = document.getElementById(\"magnifyGlass\");
+	glass.setAttribute(\"fill\", \"yellow\");
+	var searchBox = document.getElementById(\"searchBox\");
+	searchBox.style.visibility = \"visible\";
+	
+}
+
+
+function searchOff()
+{
+	var glass = document.getElementById(\"magnifyGlass\");
+	var searchBox = document.getElementById(\"searchBox\");
+	if (searchIsOn == null)
+	{
+		glass.setAttribute(\"fill\", \"black\");
+		searchBox.style.visibility =  \"hidden\";
+	}
+}
+
 /*Shows the appropriate background during a mouse move
 Used to make sure that the user knows the program is working
 */
@@ -4806,7 +4933,7 @@ function Working()
 	var divMain = document.getElementById(\"mainDiv\");
 	var divWait = document.getElementById(\"Waiting\");
 	divWait.style.visibility=\"visible\";
-
+	console.log(\"Is Working..\");
 	//var wait = document.getElementById(\"WaitingDiv\");
 	//wait.style.visibility = \"visible\";
 
@@ -4845,7 +4972,7 @@ function Done()
 	var divMain = document.getElementById(\"mainDiv\");
 	divMain.style.opacity = \"1.0\";
 	divMain.style.pointerEvents = \"auto\";
-
+console.log(\"Is Done..\");
 	document.body.style.cursor = \"default\";
 	var load = document.getElementsByClassName(\'loader\');
 	for (var i = 0; i < load.length; i++)
@@ -4880,6 +5007,16 @@ function runType(type, evt, id)
 		setTimeout(function(){
 
 		//
+		
+		if (type ==\"resetSearch\")
+		{
+			resetSearch();
+		}
+		if (type ==\"runSearch\")
+		{
+			console.log(\"Running search...\")
+			searchTable();
+		}
 		if (type == \"showRowPlot\")
 		{
 			showRowPlot(evt);
@@ -5182,7 +5319,335 @@ function restoreLegend()
 	{
 		cols[i].setAttribute(\"opacity\", \"1.0\");
 	}
+}
+
+function turnRed(evt, newCol)
+{
+	var target = evt.target;
+	if (newCol != \"old\")
+	{
+		target.setAttribute(\"oldcol\", target.style.stroke)
+		target.style.stroke = newCol;
+	}
+	else
+	{
+		target.style.stroke = target.getAttribute(\"oldcol\");
+		target.removeAttribute(\"oldcol\");
+	}
+}
+
+function resetSearch()
+{
+	var svg_all = document.getElementById(\"allsvg\");
+	var table = null;
+	var tableInfo = JSON.parse(tableInfoStr);
+	var showText = document.getElementById(\"oldSearch\");
+	document.getElementById(\"tableDiv\").removeChild(showText);
+	document.getElementById(\"searchForm\").style.visibility = \"\";
+	document.getElementById(\"searchText\").value = \"\";
+	var kys = Object.keys(tableInfo);
+	searchBox.style.opacity = \"1\";
+
+	for (var keyName in kys)
+	{
+		var idType = kys[keyName];
+		for (i = 0; i < tableInfo[idType].length; i++)
+		{
+			good[idType][tableInfo[idType][i][\"href\"]] = 1;
+		}
+	}
+	if (svg_all.hasAttribute(\"tableOn\"))
+	{
+		makeTable(svg_all.getAttribute(\"tableType\"));
+		if (svg_all.hasAttribute(\"expand\"))
+		{
+			expandTable();
+		}
+	}
+	for (var i = 0; i < tableInfo[\"Gene\"].length; i++)
+	{
+		if (\"detail\" in tableInfo[\"Gene\"][i])
+		{
+			var gene = document.getElementById(tableInfo[\"Gene\"][i][\"detail\"]);
+			if (gene != null)
+			{
+				gene.setAttribute(\"fill\", gene.getAttribute(\"fill_old\"));
+				gene.setAttribute(\"stroke\", \"none\");
+				gene.setAttribute(\"fill-opacity\", \"1.0\");
+				gene.setAttribute(\"stroke-opacity\", \"1.0\");
+			}
+			var gene = document.getElementById(tableInfo[\"Gene\"][i][\"detail\"]+\"detail\");
+			if (gene != null)
+			{
+				gene.setAttribute(\"fill-opacity\", \"1.0\");
+				gene.setAttribute(\"stroke-opacity\", \"1.0\");
+			}
+			var gene = document.getElementById(tableInfo[\"Gene\"][i][\"detail\"]+\"detailHT\");
+			if (gene != null)
+			{
+				gene.setAttribute(\"fill-opacity\", \"1.0\");
+				gene.setAttribute(\"stroke-opacity\", \"1.0\");
+			}
+		}
+	}
+	for (var i = 0; i < tableInfo[\"Region\"].length; i++)
+	{		
+		var gene = document.getElementById(tableInfo[\"Region\"][i][\"href\"]);
+		good[\"Region\"][tableInfo[\"Region\"][i][\"href\"]] = 1;
+		if (gene != null)
+		{
+
+			gene.setAttribute(\"fill-opacity\", \"1.0\");
+			gene.removeAttribute(\"stroke\");
+		}
+	}
+	svg_all.removeAttribute(\"searchVal\");
+	
+	showSearch();
 }	
+
+function searchTable()
+{
+	var svg_all = document.getElementById(\"allsvg\");
+	var table = null;
+
+	var showText = document.getElementById(\"searchText\").value;
+	var searchText = showText.toLowerCase();
+	
+	
+	//Getting the table information from the JSON strings
+	var tableHead = JSON.parse(tableHeadStr);
+	var tableInfo = JSON.parse(tableInfoStr);
+	var term2type = JSON.parse(term_2_type);
+
+	if (svg_all.hasAttribute(\"highlight.row.id\"))
+	{
+		var turnOff = document.getElementById(svg_all.getAttribute(\"highlight.row.id\"));
+		turnOff.style.backgroundColor = target.getAttribute(\"old_bg\");
+		var turnOffPart = document.getElementById(turnOff.getAttribute(\"href\"));
+		if (turnOffPart != null)
+		{
+			turnSampleOff(turnOffPart);
+		}
+		svg_all.removeAttribute(\"highlight.row.id\");
+	}
+	
+	var selectType = \"\";
+	var othType = \"\";
+	console.log(searchText);
+	var totalHits = 0;
+	var searchBar = document.getElementById(\"searchForm\");
+	var searchIcon = document.getElementById(\"searchIcon\");
+	var searchBox = document.getElementById(\"searchBox\");
+	var tableDiv = document.getElementById(\"tableDiv\");
+	
+	var widthVal = parseFloat(searchIcon.style.width)+10;
+	
+	svg_all.setAttribute(\"searchVal\", searchText);
+	
+	var showText = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
+	showText.setAttribute(\"id\", \"oldSearch\");
+	showText.style.position = \"absolute\";
+	showText.style.height = searchIcon.style.height;
+	showText.style.width = \"100%\";
+	showText.style.top = \"0%\";
+	showText.style.left = widthVal +\"px\";
+	
+	
+	showText.setAttribute(\"onclick\", \"runType(\\\"resetSearch\\\")\");
+	var rectText = document.createElementNS(\"http://www.w3.org/2000/svg\", \"rect\");
+	rectText.setAttribute(\"height\", \"100%\");
+	rectText.setAttribute(\"width\", \"100%\");
+	rectText.setAttribute(\"left\", \"0%\");
+	
+	rectText.setAttribute(\"fill\", \"#F5DEB3\");
+	
+	var textRect = document.createElementNS(\"http://www.w3.org/2000/svg\", \"text\");
+	textRect.setAttribute(\"x\", \"10\");
+	textRect.setAttribute(\"y\", \"50%\");
+	textRect.setAttribute(\"alignment-baseline\", \"middle\");
+	textRect.setAttribute(\"font-color\", \"black\"); 
+	textRect.innerHTML = searchText;
+	
+	
+	
+	
+	searchBox.style.opacity = \"0\";
+	showText.appendChild(rectText);
+	showText.appendChild(textRect);
+	tableDiv.appendChild(showText);
+	
+	var textWidth = textRect.getBoundingClientRect().width;
+	var textHeight = textRect.getBoundingClientRect().height;
+
+	console.log(textWidth);
+	rectText.setAttribute(\"width\", textWidth+60);
+	rectText.setAttribute(\"rx\", \"15\");
+	rectText.setAttribute(\"ry\", \"15\");
+	
+	var textHeight = showText.getBoundingClientRect().height;
+	
+	var textClose = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");
+	textClose.setAttribute(\"d\", \"M \" + (textWidth +15) + \",\" + 5 + \" L \" + (textWidth +35) + \",\" + (textHeight-5) + \" M \" + (textWidth +35) + \",\" + 5 + \" L \" + (textWidth +15) + \",\" + (textHeight-5));
+	textClose.setAttribute(\"style\", \"stroke: black; stroke-width\: 4;\");
+	textClose.setAttribute(\"onmouseover\", \"turnRed(event, \\\"red\\\")\");
+	textClose.setAttribute(\"onmouseout\", \"turnRed(event, \\\"old\\\")\");
+	showText.style.width = textWidth+70;
+	showText.appendChild(textClose);
+	
+	searchBar.style.visibility = \"hidden\";
+	
+	var OthTerms = [searchText];
+	var kys = Object.keys(tableInfo);
+	var searchRect = document.getElementById(\"searchRect\");
+
+	searchRect.style.fill=\"LightGray\";
+	for (var keyName in kys)
+	{
+		var idType = kys[keyName];
+		if (idType != \"Gene\" && idType != \"Region\")
+		{
+			for (var i = 0; i < tableInfo[idType].length; i++)
+			{
+				var hit_count = 0;
+				var ObjKeys = Object.keys(tableInfo[idType][i]);
+				for (var j in ObjKeys)
+				{
+					if (typeof(tableInfo[idType][i][ObjKeys[j]]) === 'string')
+					{
+						if (tableInfo[idType][i][ObjKeys[j]].toLowerCase().indexOf(searchText) > -1)
+						{
+							hit_count = hit_count + 1;
+						}
+					}
+				}
+				if (hit_count > 0)
+				{
+					OthTerms.push(tableInfo[idType][i][\"href\"].toLowerCase());
+					good[idType][tableInfo[idType][i][\"href\"]] = 1;
+					console.log(idType + \" \" + tableInfo[idType][i][\"href\"]);
+				}
+				else
+				{
+					good[idType][tableInfo[idType][i][\"href\"]] = 0;
+				}
+			}
+	
+		}
+	}
+	
+	for (var i = 0; i < tableInfo[\"Gene\"].length; i++)
+	{
+		var hit_count =0;
+		var ObjKeys = Object.keys(tableInfo[\"Gene\"][i]);
+
+		for (var j in ObjKeys)
+		{
+			if (typeof(tableInfo[\"Gene\"][i][ObjKeys[j]]) === 'string')
+			{
+				for (var k in OthTerms)
+				{
+					if (tableInfo[\"Gene\"][i][ObjKeys[j]].toLowerCase().indexOf(OthTerms[k]) > -1)
+					{
+						hit_count = hit_count +1;
+					}
+				}
+			}
+		}
+		if (hit_count > 0)
+		{
+			totalHits = totalHits + 1;
+			good[\"Gene\"][tableInfo[\"Gene\"][i][\"href\"]] = 1;
+			
+			if (\"detail\" in tableInfo[\"Gene\"][i])
+			{
+					//Coloring turned on genes
+				var gene = document.getElementById(tableInfo[\"Gene\"][i][\"detail\"]);
+				if (gene != null)
+				{
+					gene.setAttribute(\"fill\", \"blue\");
+					gene.setAttribute(\"stroke\", gene.getAttribute(\"fill_old\"));
+				}
+			}
+			if (\"Region\" in tableInfo[\"Gene\"][i])
+			{
+				
+				var regions = tableInfo[\"Gene\"][i][\"Region\"].split(\",\");
+				for (var j in regions)
+				{
+					if (regions[j] in good[\"Region\"])
+					{
+						good[\"Region\"][regions[j]] = 2;
+					}
+				}
+			}
+		}
+		else
+		{
+			good[\"Gene\"][tableInfo[\"Gene\"][i][\"href\"]] = 0;
+			if (\"detail\" in tableInfo[\"Gene\"][i])
+			{
+				var gene = document.getElementById(tableInfo[\"Gene\"][i][\"detail\"]);
+				if (gene != null)
+				{
+					gene.setAttribute(\"fill-opacity\", \"0.25\");
+					gene.setAttribute(\"stroke-opacity\", \"0.25\");
+					gene.setAttribute(\"fill\", \"black\");
+					gene.setAttribute(\"stroke\", \"none\");
+				}
+				var gene_detail = document.getElementById(tableInfo[\"Gene\"][i][\"detail\"]+\"detail\");
+				if (gene_detail != null)
+				{
+					gene_detail.setAttribute(\"fill-opacity\", \"0.25\");
+					gene_detail.setAttribute(\"stroke-opacity\", \"0.25\");
+				}
+					//Dimming down the genes in preview panes that aren't so annotated
+				var gene_detail = document.getElementById(tableInfo[\"Gene\"][i][\"detail\"]+\"detailHT\");
+				if (gene_detail != null)
+				{
+					gene_detail.setAttribute(\"fill-opacity\", \"0.25\");
+					gene_detail.setAttribute(\"stroke-opacity\", \"0.25\");
+				}
+			}
+		}
+	}
+
+	//Repeating the same for the regions
+	for (var i = 0; i < tableInfo[\"Region\"].length; i++)
+	{
+		if (good[\"Region\"][tableInfo[\"Region\"][i][\"href\"]] != 2)
+		{
+			good[\"Region\"][tableInfo[\"Region\"][i][\"href\"]] = 0;
+			var gene = document.getElementById(tableInfo[\"Region\"][i][\"href\"]);
+			if (gene != null)
+			{
+				gene.setAttribute(\"fill-opacity\", \"0.25\");
+				gene.setAttribute(\"stroke-opacity\", \"0.25\");
+			}
+
+		}
+		else
+		{
+			good[\"Region\"][tableInfo[\"Region\"][i][\"href\"]] = 1;
+			var gene = document.getElementById(tableInfo[\"Region\"][i][\"href\"]);
+			if (gene != null)
+			{
+				gene.setAttribute(\"stroke\", \"black\");
+
+			}
+		}
+	}
+	
+	if (svg_all.hasAttribute(\"tableOn\"))
+	{
+		makeTable(svg_all.getAttribute(\"tableType\"));
+		if (svg_all.hasAttribute(\"expand\"))
+		{
+			expandTable();
+		}
+	}
+	
+}
 
 /*
 Function that allows table rows to be selected or deselected
@@ -5502,7 +5967,9 @@ function selectGeneType(evt)
 	var id = target.getAttribute(\"href\");
 	var svg_all = document.getElementById(\"allsvg\");
 	var table = null;
+	var fillcol = target.getAttribute(\"fillcol\");
 
+	console.log(target);
 	//Highlights the function in the legend
 	var id_rect = document.getElementById(id + \"rect\");
 	if (id_rect != null)
@@ -5518,8 +5985,10 @@ function selectGeneType(evt)
 	var term2type = JSON.parse(term_2_type);
 
 	var selectType = \"\";
+	var selectCols = \"\";
 	var othType = \"\";
-
+	var turnOn = 1;
+	
 	//Turns off a row highlight if it is on
 	if (svg_all.hasAttribute(\"highlight.row.id\"))
 	{
@@ -5537,35 +6006,48 @@ function selectGeneType(evt)
 	if(!(svg_all.hasAttribute(\"Selection\")))
 	{
 		svg_all.setAttribute(\"Selection\", \"(\" + id + \")\");
+		svg_all.setAttribute(\"SelectCols\", \"(\" + fillcol + \")\");
+
 		id_rect2.style.stroke = \"black\";
 		id_rect2.style.strokeWidth = 3;
 		selectType =  \"(\" + id + \")\";
+		selectCols = \"(\" + fillcol + \")\";
+
 	}
 	else
 	{
 		//Searching for selected type in selection
 		selectType = svg_all.getAttribute(\"Selection\");
 		var res = selectType.search( \"(\" + id + \")\");
-
+		selectCols = svg_all.getAttribute(\"SelectCols\");
 		//If selection has already been selected, turn it off
 		if (res >-1)
 		{
 			selectType = selectType.replace(\"(\" + id + \")\", \"\");
+			selectCols = selectCols.replace(\"(\" + fillcol + \")\", \"\");
+
 			id_rect2.style.strokeWidth = 0;
 			svg_all.setAttribute(\"Selection\", selectType);
+			svg_all.setAttribute(\"SelectCols\", selectCols);
+
 		}
 		else
 		{
 			//else, turn it on (highlight it)
 
 			selectType = selectType +  \"(\" + id + \")\";
+			selectCols = selectCols +  \"(\" + fillcol + \")\";
+
 			id_rect2.style.stroke = \"black\";
 			id_rect2.style.strokeWidth = 3;
 			svg_all.setAttribute(\"Selection\", selectType);
+			svg_all.setAttribute(\"SelectCols\", selectCols);
 		}
 	}
 
 	var ids = selectType.match(/([^\)\(]+)/g); // A list of all the selected ids
+	var id_cols = selectCols.match(/([^\)\(]+)/g); // A list of all the selected ids
+	
 	var kys = Object.keys(good); //array of all the selected genes
 	
 	if (ids != null)
@@ -5583,7 +6065,10 @@ function selectGeneType(evt)
 		{
 			var cnt = 0;
 			var genes = reg2gene[tableInfo[\"Region\"][i][\"href\"]].split(\";\");
-
+			var region = document.getElementById(tableInfo[\"Region\"][i][\"href\"]);
+			
+			var fill_val = region.getAttribute(\"fill_old\");
+			var addfill = [];
 			if (\"type_ref\" in tableInfo[\"Region\"][i])
 			{
 
@@ -5592,16 +6077,91 @@ function selectGeneType(evt)
 					if (tableInfo[\"Region\"][i][\"type_ref\"].search(ids[j])>-1)
 					{
 						cnt = cnt + 1;
+						addfill.push(id_cols[j]);
+						fill_val = id_cols[j];
 					}
 				}
 			}
-			if (cnt == ids.length)
+			if (cnt > 0)
 			{
-				var region = document.getElementById(tableInfo[\"Region\"][i][\"href\"]);
+				var findPat = document.getElementById(\"pattern\" + i);
+				if (findPat != null)
+				{
+					findPat.remove();
+				}
+				var newPat = document.createElementNS(\"http://www.w3.org/2000/svg\", \"pattern\");
+				newPat.setAttribute(\"id\", \"pattern\" + i);
+				newPat.setAttribute(\"patternUnits\", \"userSpaceOnUse\");
+				newPat.setAttribute(\"patternTransform\", \"rotate(\"+ region.getAttribute(\"angle\")+\")\");
+				newPat.setAttribute(\"x\", 0);
+				newPat.setAttribute(\"y\", 0);
+				newPat.setAttribute(\"width\", 10);
+				newPat.setAttribute(\"height\", 10);
+				newPat.setAttribute(\"viewbox\",\"0 0 10 10\");
+				var bar_ht = 10/cnt;
+				for (var j = 0; j < cnt; j++)
+				{
+					var newLine = document.createElementNS(\"http://www.w3.org/2000/svg\", \"rect\");
+					newLine.setAttribute(\"x\", 0);
+					newLine.setAttribute(\"y\", j * bar_ht);
+					newLine.setAttribute(\"width\", 10);
+					newLine.setAttribute(\"height\", bar_ht);
+					newLine.setAttribute(\"fill\", addfill[j]);
+					newPat.appendChild(newLine);
+				}
+				if (tableInfo[\"Region\"][i][\"Type\"] == \"fGR\")
+				{
+					for (var j = 0; j < 10; j +=5)
+					{
+						var newLine = document.createElementNS(\"http://www.w3.org/2000/svg\", \"line\");
+						newLine.setAttribute(\"x1\", j);
+						newLine.setAttribute(\"y1\", 0);
+						newLine.setAttribute(\"x2\", 0);
+						newLine.setAttribute(\"y2\", j);
+						newLine.setAttribute(\"stroke\", \"black\");
+						newLine.setAttribute(\"strokeWidth\", 0.5);
+						newPat.appendChild(newLine);
+						var newLine2 = document.createElementNS(\"http://www.w3.org/2000/svg\", \"line\");
+						newLine2.setAttribute(\"x1\", j);
+						newLine2.setAttribute(\"y1\", 10);
+						newLine2.setAttribute(\"x2\", 10);
+						newLine2.setAttribute(\"y2\", j);
+						newLine2.setAttribute(\"stroke\", \"black\");
+						newLine2.setAttribute(\"strokeWidth\", 0.5);
+						newPat.appendChild(newLine2);
+					}
+				}
+				defs.appendChild(newPat);
+				
+				fill_val = \"url(#pattern\" + i+\")\";
+			}
+			region.setAttribute(\"fill\", fill_val);
+			region.setAttribute(\"fill-opacity\", 1);
+
+			if (cnt > 0)
+			{
 				good[\"Region\"][tableInfo[\"Region\"][i][\"href\"]] = 1;
 				if (region != null)
 				{
+				
 					region.setAttribute(\"stroke\", \"black\");
+					region.setAttribute(\"stroke-width\", \"3\");
+					region.setAttribute(\"stroke-opacity\", \"1\");
+					
+					
+					if (tableInfo[\"Region\"][i][\"Type\"] == \"fGR\")
+					{
+						region.setAttribute(\"fill_prev\", region.getAttribute(\"fill_prev\") + region.getAttribute(\"fill\") + \";\");
+						//region.setAttribute(\"stroke-dasharray\", \"1.0,1.0\");
+						
+					}
+					else
+					{
+						region.setAttribute(\"fill_prev\",  region.getAttribute(\"fill\") + \";\" + region.getAttribute(\"fill_prev\"));
+						//region.setAttribute(\"fill-opacity\", 0.15);
+						//region.setAttribute(\"stroke-dasharray\", \"1,0\");
+					
+					}
 				}
 				for (var j =0; j < genes.length; j++)
 				{
@@ -5619,8 +6179,8 @@ function selectGeneType(evt)
 				}
 				if (gene != null)
 				{
-				//	gene.setAttribute(\"fill-opacity\", \"0.25\");
-				//	gene.setAttribute(\"stroke-opacity\", \"0.25\");
+					region.setAttribute(\"stroke\", null);			
+					gene.setAttribute(\"fill-opacity\", \"0.25\");
 				}
 			}
 		}
@@ -5737,6 +6297,7 @@ function selectGeneType(evt)
 					gene.setAttribute(\"fill-opacity\", \"1.0\");
 					gene.setAttribute(\"stroke-opacity\", \"1.0\");
 					gene.setAttribute(\"stroke\", \"none\");
+				
 
 				}
 				var gene = document.getElementById(tableInfo[\"Gene\"][i][\"detail\"]+\"detailHT\");
@@ -5744,6 +6305,7 @@ function selectGeneType(evt)
 				{
 					gene.setAttribute(\"fill-opacity\", \"1.0\");
 					gene.setAttribute(\"stroke-opacity\", \"1.0\");
+
 				}
 			}
 		}
@@ -5756,6 +6318,8 @@ function selectGeneType(evt)
 			{
 
 				gene.setAttribute(\"fill-opacity\", \"1.0\");
+				gene.setAttribute(\"fill\", gene.getAttribute(\"fill_old\"));
+
 				gene.removeAttribute(\"stroke\");
 			}
 		}
@@ -5779,6 +6343,74 @@ function selectGeneType(evt)
 	}
 }
 
+function expandTable()
+{
+	var tableDiv = document.getElementById(\"tableDiv\");
+	tableDiv.style.top = 0;
+	tableDiv.style.left = $border - 10 + \"px\";
+	tableDiv.style.height = (2 * ($border + $max_radius)) + \"px\";
+	tableDiv.style.width = (2 *($max_radius) + 20) + \"px\";
+	tableDiv.style.backgroundColor = \"LightGray\";
+	var tableMain = document.getElementById(\"tableMain\");
+	tableMain.style.height = (2 * ($border + $max_radius) - 30 )+ \"px\";
+	tableMain.style.width = (2 *($max_radius)) + \"px\";
+	tableMain.style.left = 10 + \"px\";
+	var tableBody = document.getElementById(\"allBody\");
+	tableBody.style.height = (2 * ($border + $max_radius) - 60 )+ \"px\";
+	tableBody.style.width = (2 *($max_radius)) + \"px\";
+	
+	var allSVG = document.getElementById(\"allsvg\");
+	allSVG.style.opacity = 0.5;
+	allSVG.setAttribute(\"expand\", \"yes\");
+	var otherTab = document.getElementById(\"otherTable\");
+	otherTab.style.width=60 + \"px\"; otherTab.style.height = 30 + \"px\";
+	otherTab.style.visibility =\"visible\";
+	
+	var dropMenu = document.getElementById(\"tableType\");
+	dropMenu.style.width = 120 + \"px\";
+	dropMenu.style.height = 30 + \"px\";
+	dropMenu.style.visibility =\"visible\";
+	
+	var expandSVG = document.getElementById(\"expandSVG\");
+	expandSVG.style.left = (2 *($max_radius)) - 30 + \"px\";
+	expandSVG.setAttribute(\"transform\", \"rotate(180)\");
+	expandSVG.setAttribute(\"onclick\", \"deflateTable()\");
+	
+}
+
+function deflateTable()
+{
+	var tableDiv = document.getElementById(\"tableDiv\");
+	tableDiv.style.top = $border + $max_radius - 3.5 * 7.5 + \"px\";  
+	tableDiv.style.left = (2.125 * $border) +\"px\";
+	tableDiv.style.height = ($max_radius / 4 + 7.5 * 4) + \"px\";
+    tableDiv.style.width =  ($max_radius * 2 - 2.25 * $border) + \"px\";
+	tableDiv.style.backgroundColor = \"transparent\";
+
+	var tableMain = document.getElementById(\"tableMain\");
+	tableMain.style.width = (($max_radius * 2) - (2.25 * $border ))+ \"px\";
+	tableMain.style.height = ($max_radius / 4) + \"px\";
+	tableMain.style.left = 0 + \"px\";
+	var tableBody = document.getElementById(\"allBody\");
+	tableBody.style.height = \"$bodyHeight\"; 
+	tableBody.style.width = \"100%\";;
+	var allSVG = document.getElementById(\"allsvg\");
+	allSVG.style.opacity = 1;
+	allSVG.removeAttribute(\"expand\");
+	var otherTab = document.getElementById(\"otherTable\");
+	otherTab.style.width=0 + \"px\"; otherTab.style.height = 0 + \"px\"; otherTab.style.visibility =\"hidden\";
+	var dropMenu = document.getElementById(\"tableType\");
+	dropMenu.style.width = 0 + \"px\";
+	dropMenu.style.height = 0 + \"px\";
+	dropMenu.style.visibility =\"hidden\";
+	var expandSVG = document.getElementById(\"expandSVG\");
+	expandSVG.style.left = (($max_radius * 2) - (2.25 * $border ))- 30 + \"px\";
+	expandSVG.setAttribute(\"transform\", \"rotate(0)\");
+	expandSVG.setAttribute(\"onclick\", \"expandTable()\");
+	
+}
+
+
 /*Change the table from on to off
 */
 function changeTableStatus(evt)
@@ -5794,8 +6426,11 @@ function changeTableStatus(evt)
 		document.getElementById(\"tableMain\").style.display=\"none\";
 		svgAll.removeAttribute(\"tableOn\");
 		document.getElementById(\"tableButtonText\").childNodes[0].nodeValue = \"Show Table\";
-		target.setAttribute(\"fill\", \"#bbffbb\")
-
+		target.setAttribute(\"fill\", \"#bbffbb\");
+		var expandSVG = document.getElementById(\"expandSVG\");
+		expandSVG.style.visibility = \"hidden\";
+		
+		
 
 	}
 	else
@@ -5810,7 +6445,10 @@ function changeTableStatus(evt)
 			document.getElementById(\"tableMain\").style.display=\"$disp\";
 			svgAll.removeAttribute(\"tableOff\");
 			document.getElementById(\"tableButtonText\").childNodes[0].nodeValue = \"Hide Table\";
-			target.setAttribute(\"fill\", \"#eeeeff\")
+			target.setAttribute(\"fill\", \"#eeeeff\");
+			var expandSVG = document.getElementById(\"expandSVG\");
+			expandSVG.style.visibility = \"visible\";
+		
 		}
 		else
 		{
@@ -5822,7 +6460,9 @@ function changeTableStatus(evt)
 			document.getElementById(\"tableMain\").style.display=\"$disp\";
 			document.getElementById(\"tableButtonText\").childNodes[0].nodeValue = \"Hide Table\";
 			selectTableType(document.getElementById(svgAll.getAttribute(\"tableOn\")), \"$default_table_type\");
-			target.setAttribute(\"fill\", \"#eeeeff\")
+			target.setAttribute(\"fill\", \"#eeeeff\");
+			var expandSVG = document.getElementById(\"expandSVG\");
+			expandSVG.style.visibility = \"visible\";
 
 		}
 	}
@@ -5854,25 +6494,27 @@ function saveSVG(fileType)
 	{
 		var newSVG = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
 		newSVG.setAttribute(\"xmlns:xlink\",\"http://www.w3.org/1999/xlink\");
-		newSVG.setAttribute(\"height\", \"$SVGHEIGHT_BIG\");
-		newSVG.setAttribute(\"width\",\"$SVGWIDTH_BIG\");
+		newSVG.setAttribute(\"height\", \"$SVGHEIGHT\" + \"px\");
+		newSVG.setAttribute(\"width\",\"$SVGWIDTH\" +\"px\");
 		newSVG.innerHTML = document.getElementById(\"LegendText\").innerHTML + document.getElementById(\"Legend1\").innerHTML+ document.getElementById(\"svgOut\"+coreNum).innerHTML + document.getElementById(\"svgArc\"+coreNum).innerHTML;
 		var svgStr = new XMLSerializer().serializeToString(newSVG);
 
 		var canvas = document.createElement(\"canvas\");
-		canvas.width = $SVGHEIGHT;
-		canvas.height = $SVGWIDTH;
+		canvas.width = $SVGHEIGHT_BIG;
+		canvas.height = $SVGWIDTH_BIG;
 		var ctx = canvas.getContext(\"2d\");
-
-
+		ctx.scale(1, 1);
+		
 		var img = new Image();
 		img.src = \"data:image/svg+xml;base64,\" + window.btoa(svgStr);
 		img.onload = function() 
 		{
-			ctx.drawImage(img, 0, 0);
-
+			ctx.drawImage(img, 0, 0, $SVGWIDTH, $SVGHEIGHT, 0, 0, $SVGWIDTH_BIG, $SVGHEIGHT_BIG);
+			canvas.style.height = $SVGHEIGHT+\"px\";
+			canvas.style.width = $SVGWIDTH+\"px\";
+		
 			nw.setAttribute(\"download\",\"Main.$filenamePNG\");
-			nw.setAttribute(\"href\", canvas.toDataURL(\"image/png\", 1.0));
+			nw.setAttribute(\"href\", canvas.toDataURL(\"image/png\"));
 			nw.setAttribute(\"target\", \"_blank\");
 
 			alert(\"Saved PNG to \" + \"$filenamePNG\");
@@ -5881,8 +6523,9 @@ function saveSVG(fileType)
 			document.body.removeChild(nw);
 		}
 	}
-	else
+	else	
 	{
+
 		nw.setAttribute(\"download\", \"Main.$filenameSVG\");
 		nw.setAttribute(\"href\", svgfile);
 		nw.setAttribute(\"target\", \"_blank\");
@@ -5937,7 +6580,7 @@ function selectTableType(evt, id)
 	var arcBorder = document.getElementById(arcBorderID);
 	arcBorder.setAttribute(\"stroke\", \"#eeeeff\");
 
-
+	document.getElementById(\"dropdownID\").innerHTML = id;
 	var svgAll = document.getElementById(\"allsvg\");
 
 	//If a table has already been selected, remove previous and set up new one
@@ -6035,7 +6678,7 @@ function makeTable(id)
 		th.setAttribute(\"table_id\",  id+\"Body\");
 		var in1 = \"sortColumn(event, \"+i+\")\";
 		th.setAttribute(\"onclick\", in1);
-		th.setAttribute(\"style\", \"background-color: gray; width: \"+ tableWidth[id][i] + \";\");
+		th.setAttribute(\"style\", \"background-color: gray; width: \"+ tableWidth[id][i] + \"%;\");
 		header.appendChild(th);
 	}
 
@@ -6044,7 +6687,7 @@ function makeTable(id)
 	var terms = JSON.parse(eval(\"termJSONPlasmid\" + cur_clust));
 	//The table style
 	body.setAttribute(\"style\", \"overflow-y: scroll; word-wrap: break-word; top: $bodyTop; height: $bodyHeight; width: $bodyWidth; background-color: whitesmoke; display: $disp;\");
-	body.setAttribute(\"id\", id+\"Body\");
+	body.setAttribute(\"id\", \"allBody\");
 	for (i =0; i < tableInfo[id].length; i++)
 	{
 			if (good[id][tableInfo[id][i][\"href\"]] == 1)
@@ -6067,9 +6710,9 @@ function makeTable(id)
 					var td = document.createElement(\"td\");
 					var cell = document.createTextNode(tableInfo[id][i][tableHead[id][j]]);
 					td.appendChild(cell);
-					var newWidth = parseInt(tableWidth[id][j])-10;
-					td.setAttribute(\"style\", \"width: \"+ newWidth.toString() + \"px ;display: $disp; left: \" + cellLeft.toString()+\"px;\");
-					cellLeft = cellLeft + parseInt(tableWidth[id][j]);
+					var newWidth = parseInt(tableWidth[id][j]) * 0.95;
+					td.setAttribute(\"style\", \"width: \"+ newWidth.toString() + \"%;display: $disp; left:\" + cellLeft.toString()+\"%;\");
+					cellLeft = cellLeft + parseInt(tableWidth[id][j]) * 0.95;
 					row.appendChild(td);
 				}
 				if (\"core_clust\" in tableInfo[id][i] && tableInfo[id][i][\"core_clust\"] == cur_clust)
@@ -6133,7 +6776,7 @@ function showSample(target)
 	var but_id = target.getAttribute(\"id\");
 
 	//changing the location color to grey to show that it is being shown
-	target.setAttribute(\"fill\", \"grey\");
+	target.setAttribute(\"fill\", \"black\");
 	var center = document.getElementById(id_name);
 
 	//Only if there is a panel to show...
@@ -6783,7 +7426,7 @@ sub load_functions {
                     #
                     $jso{$funcID}->[ $go_name{$funcID}->{$go_id} - 1 ]->{ $head{$funcID}->[2] }++;
                     $gene2{$id_n}->{$funcID}->{$go_id} = 1;
-
+					
                 } else {
 
                     if ( %go_name && $go_name{$funcID} ) {
@@ -6876,6 +7519,7 @@ sub load_functions {
         }
 
     }
+	
 
 }
 
@@ -7678,9 +8322,10 @@ sub fgi_javascript() {
 				var svgStr = new XMLSerializer().serializeToString(newSVG);
 				var newSVGBBox = newSVG.getBBox();
 				var canvas = document.createElement(\"canvas\");
-				canvas.width = totWidth;
-				canvas.height = totHeight;
+				canvas.width = totWidth * $DPI;
+				canvas.height = totHeight * $DPI;
 				var ctx = canvas.getContext(\"2d\");
+				ctx.scale($DPI, $DPI);
 				var img = new Image();
 				img.src = \"data:image/svg+xml;base64,\" + window.btoa(svgStr);
 				img.onload = function() {
@@ -9724,10 +10369,10 @@ sub fgi_javascript() {
 			var svgStr = new XMLSerializer().serializeToString(newSVG);
 
 			var canvas = document.createElement(\"canvas\");
-			canvas.width = svg_all.getAttribute(\"width\");
-			canvas.height = parseFloat(svg_all.getAttribute(\"height\")) + 200;
+			canvas.width = parseFloat(svg_all.getAttribute(\"width\")) * $DPI;
+			canvas.height = (parseFloat(svg_all.getAttribute(\"height\")) + 200) * $DPI;
 			var ctx = canvas.getContext(\"2d\");
-
+			ctx.scale($DPI, $DPI);
 
 			var img = new Image();
 			img.src = \"data:image/svg+xml;base64,\" + window.btoa(svgStr);
@@ -10600,10 +11245,10 @@ function draw_tree(level, type)
 			var svgStr = new XMLSerializer().serializeToString(newSVG);
 
 			var canvas = document.createElement(\"canvas\");
-			canvas.width = svg_all.getAttribute(\"width\");
-			canvas.height = parseFloat(svg_all.getAttribute(\"height\")) + 100;
+			canvas.width = parseFloat(svg_all.getAttribute(\"width\")) * $DPI;
+			canvas.height = (parseFloat(svg_all.getAttribute(\"height\")) + 100)*$DPI;
 			var ctx = canvas.getContext(\"2d\");
-
+			ctx.scale($DPI, $DPI);
 
 			var img = new Image();
 			img.src = \"data:image/svg+xml;base64,\" + window.btoa(svgStr);
@@ -11139,6 +11784,7 @@ sub make_tree_json {
         }
         chop($meta_out);
         $meta_out .= "}\';\n";
+		$meta_cnts = 0;
         foreach my $a ( keys(%meta_vars) ) {
 
             foreach my $b ( keys( %{ $meta_vars{$a} } ) ) {
@@ -11148,8 +11794,12 @@ sub make_tree_json {
             }
 
         }
-        my $meta_col = 360 / ($meta_cnts);    #getting the colors for the metadata variables using get_rgb_string
-        $meta_cnts = 0;
+		my $meta_col;
+		if ($meta_cnts > 0)
+		{
+			$meta_col = 360 / ($meta_cnts);    #getting the colors for the metadata variables using get_rgb_string
+        }
+		$meta_cnts = 0;
         $meta_out .= "var meta_head_var = \'{";
         foreach my $a ( keys(%meta_vars) ) {
 
