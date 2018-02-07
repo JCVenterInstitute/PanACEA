@@ -15,8 +15,7 @@
 #along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 
-SCRIPT=$(readlink -f $0)
-SRC_DIR=$(dirname $SCRIPT)
+SRC_DIR=$(dirname $0)
 PAN_DIR="$SRC_DIR/example_dir/"
 PAN_DIR="$(cd $PAN_DIR; pwd)"
 TMP_DIR=$PAN_DIR
