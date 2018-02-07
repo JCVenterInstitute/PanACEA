@@ -5,9 +5,12 @@ including core and variable regions. Users can also include additional informati
 gene annotation, metadata annotation, and genome phylogenies. Detailed information about the PanACEA
 suite and usages can be found in the PDF manual included on the site.
  
-Also included in the Github is a set of exemplar data from the PanOCT run on Enterobactor hormaechei
-from *Chavda et al 2016* and a shell script which can generate the PanACEA 
-output files from the examples, and the gzipped output from a PanACEA run using the same data. 
+Also included in the Github is a set of exemplar data from a PanOCT run on 19 Acinetobacter baumannii complete genomes and a shell script which 
+can generate the PanACEA output files from the examples is available as a demonstration. To run this, use the "./run_panacea_example.sh" in the
+git download directory.
+
+Additionally, the gzipped output from a PanACEA run using the same data and the gzipped PanACEA output from the finished 
+PanOCT run on Enterobactor hormaechei from *Chavda et al 2016* are available.
 
 ## Included PERL scripts
 
@@ -86,7 +89,7 @@ PDF manual including screen shots and usage guides for both the command line and
 interface for PanACEA
 
 ### run_panacea_example.sh
-Shell script to run the scripts required to build the PanACEA web pages for the examplar data
+Shell script to run the scripts required to build the PanACEA web pages for the example data
 
 ### example_dir/
 Directory containing the example PanACEA data derived from the PanOCT run on the Enterobactor
