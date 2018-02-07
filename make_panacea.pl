@@ -11760,8 +11760,11 @@ sub make_tree_json {
             $meta_out .= "},";
 
         }
-        chop($meta_out);
-        $meta_out .= "}\';\n";
+		if (scalar(keys(%meta_data)) > 0)
+		{		
+			chop($meta_out);
+        }
+		$meta_out .= "}\';\n";
         $meta_out .= "var meta_node_data = \'{";
         foreach my $a ( keys(%meta_node_cnts) ) {
 
@@ -11782,8 +11785,12 @@ sub make_tree_json {
             $meta_out .= "},";
 
         }
-        chop($meta_out);
-        $meta_out .= "}\';\n";
+		if (scalar(keys(%meta_node_cnts)) > 0)
+		{
+		
+			chop($meta_out);
+        }
+		$meta_out .= "}\';\n";
 		$meta_cnts = 0;
         foreach my $a ( keys(%meta_vars) ) {
 
@@ -11815,8 +11822,11 @@ sub make_tree_json {
             $meta_out .= "},";
 
         }
-        chop($meta_out);
-        $meta_out .= "}\';\n";
+		if ( scalar ( keys(%meta_vars) ) > 0 )
+		{
+			chop($meta_out);
+        }
+		$meta_out .= "}\';\n";
 
     }
 
