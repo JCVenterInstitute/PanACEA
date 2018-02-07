@@ -6,11 +6,27 @@ gene annotation, metadata annotation, and genome phylogenies. Detailed informati
 suite and usages can be found in the PDF manual included on the site.
  
 Also included in the Github is a set of exemplar data from a PanOCT run on 19 Acinetobacter baumannii complete genomes and a shell script which 
-can generate the PanACEA output files from the examples is available as a demonstration. To run this, use the "./run_panacea_example.sh" in the
-git download directory.
+can generate the PanACEA output files from the examples is available as a demonstration. 
 
 Additionally, the gzipped output from a PanACEA run using the same data and the gzipped PanACEA output from the finished 
 PanOCT run on Enterobactor hormaechei from *Chavda et al 2016* are available.
+
+## Example data
+
+The example data is the raw output from a PanOCT run plus annotation that will allow the user to observe all the necessary steps to move from the raw files to the html files. Unix shell users such as Mac and Linux users can use the "./run_panacea_example.sh" in the git download directory to run all the steps. Otherwise, I have included a list of all four commands with $DIR as the git root directory:
+
+1. Makes the PanACEA flatfile
+perl \$DIR\\make\_panacea\_flatfile.pl -i \$DIR\\example\_dir\\ -o \$DIR\\example\_dir\\PanACEA.flatfile.txt -t Pangenome
+
+2. Makes the ARO list files from the RGI dataSummary table
+perl \$DIR\make\_rgi\_clusters.pl -i \$DIR\example\_dir\dataSummary.txt -o \$DIR\example\_dir/aro_centroid.list.txt
+
+3. Makes the configure file for the annotation files
+perl \$DIR\make\_conf\_file.pl -d \$DIR\example\_dir\ -o \$DIR\example\_dir\ -a \$DIR\aro.obo -g \$DIR\gene_ontology.1_2.obo
+
+4. Makes all the output HTML, JSON and javscript files
+perl \$DIR\make\_panacea.pl -i \$DIR\example\_dir\PanACEA.flatfile.txt -o \$DIR\example\_dir\ -f \$DIR\example\_dir\func\_file.conf.txt -t \$DIR\example\_dir\genomes.tree -a \$DIR\example\_dir\cluster_alignments\,\$DIR\example\_dir\combined.fasta
+
 
 ## Included PERL scripts
 
@@ -92,10 +108,11 @@ interface for PanACEA
 Shell script to run the scripts required to build the PanACEA web pages for the example data
 
 ### example_dir/
-Directory containing the example PanACEA data derived from the PanOCT run on the Enterobactor
-hormaechei dataset from *Chavda et al 2016*. Can be generated using the command:
+Directory containing the example PanACEA data derived from the PanOCT run on the 19 Acinetobacter genomes:
 
-	run_panacea_example.sh <output_directory>
 
-### example_dir/sample_output.ehormaechei.tar.gz
-Compressed file containing the multi-file output of the PanACEA run on Enterobactor. 
+### Ehormaechei_PanACEA.tar.gz
+Compressed file containing the multi-file output of the PanACEA run on Enterobactor cited in Chan et al 2016.
+
+### Acinetobacter_PanACEA.tar.gz
+Compressed file containing the multi-file output of the PanACEA run on Acinetobacter genomes in the example files
