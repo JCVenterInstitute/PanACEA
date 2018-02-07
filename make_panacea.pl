@@ -677,7 +677,8 @@ sub make_main_figure() {
                     $jso{Region}->[$c]->{oth_ref}    = $core_oth;
                     $jso{Region}->[$c]->{core_clust} = $cur_chr;
                     $jso{Region}->[$c]->{href}       = "CORE" . $core_num;
-
+					$jso{Region}->[$c]->{pageID}	 =  $new;
+					
                     #Counting the number of regions as so to name them
                     $core_cnt++;
 
@@ -1010,6 +1011,8 @@ sub make_main_figure() {
                     $jso{Region}->[$c]->{oth_ref}    = $core_oth;
 
                     $jso{Region}->[$c]->{type_ref} = $core_type;
+					$jso{Region}->[$c]->{pageID}	 = $new;
+
                     $reg2gene{$ID} = $cur_gene_list;
 
                     #Drawing the fGI on the pan-chromosome map
@@ -1158,6 +1161,8 @@ sub make_main_figure() {
             $jso{Region}->[$c]->{oth_ref}    = $core_oth;
             $jso{Region}->[$c]->{core_clust} = $cur_chr;
             $jso{Region}->[$c]->{href}       = "CORE" . $core_num;
+			$jso{Region}->[$c]->{pageID}	 =  $new;
+
             $core_cnt++;
 
             my $tmp;
@@ -5073,7 +5078,18 @@ function turnPlotOff(evt) {
 	turnSampleOff(target);
 }
 
+
+function loadRowPage(pageID)
+{
+	var location = window.location.href;
+		var curPath = location.substring(0, location.lastIndexOf(\"/\")+1);
+
+		window.open(curPath + pageID);
+	
+}
 //function to open file in the ID href from the html
+
+
 function loadSVG(evt)
 {
 	var target =evt.target;
@@ -6703,7 +6719,12 @@ function makeTable(id)
 				if (\'detail\' in tableInfo[id][i])
 				{
 					row.setAttribute(\"detail\", tableInfo[id][i][\"detail\"]);
-			}
+				}
+				if (\'pageID\' in tableInfo[id][i])
+				{
+					row.setAttribute(\"pageID\", tableInfo[id][i][\'pageID\']);
+
+				}
 				row.setAttribute(\"onclick\", \"runType(\'showRowPlot\', event)\");
 				row.setAttribute(\"id\", \"rowID\" + i);
 				var j;
@@ -6957,6 +6978,11 @@ function showRowPlot(evt) {
 		//If the row is already highlighted...
 		if (target.style.backgroundColor == \"yellow\")
 		{
+			if (target.hasAttribute(\"pageID\"))
+			{
+				loadRowPage(target.getAttribute(\"pageID\"));
+				console.log(\"Here\");
+			}
 			if ((svg_all.hasAttribute(\"highlight.row.id\")))
 			{
 				//Turns off the row highlight and closes the panel...
