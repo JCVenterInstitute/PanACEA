@@ -13,19 +13,19 @@ PanOCT run on Enterobactor hormaechei from *Chavda et al 2016* are available.
 
 ## Example data
 
-The example data is the raw output from a PanOCT run plus annotation that will allow the user to observe all the necessary steps to move from the raw files to the html files. Unix shell users such as Mac and Linux users can use the "./run_panacea_example.sh" in the git download directory to run all the steps. Otherwise, I have included a list of all four commands with $DIR as the git root directory:
+The example data is the raw output from a PanOCT run on 19 *A. baumannii* genomes plus annotation that will allow the user to observe all the necessary steps to move from the raw files to the html files. Unix shell users such as Mac and Linux users can use the "./run\_panacea\_example.sh" in the git download directory to run all the steps. Likewise, Windows users can use the batch file in the same directory called "run\_panacea\_example.bat" to generate the PanACEA files. Finally, I have included a list of all four commands with $DIR as the git root directory:
 
 1. Makes the PanACEA flatfile
-perl \$DIR\\make\_panacea\_flatfile.pl -i \$DIR\\example\_dir\\ -o \$DIR\\example\_dir\\PanACEA.flatfile.txt -t Pangenome
+ * perl \$DIR\\make\_panacea\_flatfile.pl -i \$DIR\\example\_dir\\ -o \$DIR\\example\_dir\\PanACEA.flatfile.txt -t Pangenome
 
 2. Makes the ARO list files from the RGI dataSummary table
-perl \$DIR\make\_rgi\_clusters.pl -i \$DIR\example\_dir\dataSummary.txt -o \$DIR\example\_dir/aro_centroid.list.txt
+ * perl \$DIR\make\_rgi\_clusters.pl -i \$DIR\example\_dir\dataSummary.txt -o \$DIR\example\_dir/aro_centroid.list.txt
 
 3. Makes the configure file for the annotation files
-perl \$DIR\make\_conf\_file.pl -d \$DIR\example\_dir\ -o \$DIR\example\_dir\ -a \$DIR\aro.obo -g \$DIR\gene_ontology.1_2.obo
+ * perl \$DIR\make\_conf\_file.pl -d \$DIR\example\_dir\ -o \$DIR\example\_dir\ -a \$DIR\aro.obo -g \$DIR\gene_ontology.1_2.obo
 
 4. Makes all the output HTML, JSON and javscript files
-perl \$DIR\make\_panacea.pl -i \$DIR\example\_dir\PanACEA.flatfile.txt -o \$DIR\example\_dir\ -f \$DIR\example\_dir\func\_file.conf.txt -t \$DIR\example\_dir\genomes.tree -a \$DIR\example\_dir\cluster_alignments\,\$DIR\example\_dir\combined.fasta
+ * perl \$DIR\make\_panacea.pl -i \$DIR\example\_dir\PanACEA.flatfile.txt -o \$DIR\example\_dir\ -f \$DIR\example\_dir\func\_file.conf.txt -t \$DIR\example\_dir\genomes.tree -a \$DIR\example\_dir\cluster_alignments\,\$DIR\example\_dir\combined.fasta
 
 
 ## Included PERL scripts
@@ -56,12 +56,12 @@ browsers.
 		-m	--metafiles	File containing group metadata for the genomes. Only used in connection with tree.
 		-g	--graphic	File containing the graphics configure file to change the size of the whole image and parts of the image
 
-### make_panacea_flatfile.pl
-make_panacea_flatfile.pl generates the panchromosome PanACEA flat file from pangenome output 
+### make\_panacea\_flatfile.pl
+make\_panacea\_flatfile.pl generates the panchromosome PanACEA flat file from pangenome output 
 from  various programs, including PanOCT. This file is required to run the PanACEA 
 visualizer.
 
-**running make_panacea.pl**
+**running make\_panacea\_flatfile.pl**
 
 	make_panacea_flatfile.pl [options]
 	Options:
@@ -70,12 +70,12 @@ visualizer.
 		-t	--type		Input type of the Pangenome. Currently supports "Pangenome" <default>, Pangenome "Iterative", and "Panoct".
 
 		
-### make_conf_file.pl 
-make_conf_file.pl generates a functional configuration file used by make_panacea.pl to
+### make\_conf\_file.pl 
+make\_conf\_file.pl generates a functional configuration file used by make\_panacea.pl to
 color the genes and make the tables for the terms. It is designed to work on the output
 of the JCVI Pangenome pipeline.
 
-**running make_conf_file.pl**
+**running make\_conf\_file.pl**
 	
 	make_conf_file.pl [options]
 	Options:
@@ -86,11 +86,11 @@ of the JCVI Pangenome pipeline.
         -h 	--help 
 
 
-### make_rgi_clusters.pl 
-make_rgi_clusters.pl translates the RGI output file dataSummary.txt into the PanGenome annotation
+### make\_rgi\_clusters.pl 
+make\_rg\i_clusters.pl translates the RGI output file dataSummary.txt into the PanGenome annotation
 table format. Required to make it readable for PanACEA. Either best or all hits can be outputed
 
-**running make_conf_file.pl**
+**running make\_rgi\_clusters.pl**
 	
 	make_rgi_clusters.pl [options] -d directory -t type -o outputFlatFile
 	Options:
@@ -104,15 +104,15 @@ table format. Required to make it readable for PanACEA. Either best or all hits 
 PDF manual including screen shots and usage guides for both the command line and the web
 interface for PanACEA
 
-### run_panacea_example.sh
+### run\_panacea\_example.sh
 Shell script to run the scripts required to build the PanACEA web pages for the example data
 
-### example_dir/
+### example\_dir/
 Directory containing the example PanACEA data derived from the PanOCT run on the 19 Acinetobacter genomes:
 
 
-### Ehormaechei_PanACEA.tar.gz
+### Ehormaechei\_PanACEA.tar.gz
 Compressed file containing the multi-file output of the PanACEA run on Enterobactor cited in Chan et al 2016.
 
-### Acinetobacter_PanACEA.tar.gz
+### Acinetobacter\_PanACEA.tar.gz
 Compressed file containing the multi-file output of the PanACEA run on Acinetobacter genomes in the example files
