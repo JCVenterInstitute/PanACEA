@@ -2451,14 +2451,14 @@ sub make_fgi_page_svg {
     $out .= sprintf("<div id=\"sortDiv\">");
     $out .= sprintf(
 "<button style=\"left:1; top:5; position: absolute; width: %f; height: %f; background-color:#4444ff; \" onclick=\"trimGenomesImage()\" trim=\"0\" id=\"trimButton\">Trim Rows</button>",
-        $sz_h * 3, $sz_h * 2, $sz_h / 4, $sz_h / 4 );
+        $sz_h * 3, $sz_h * 2 );
     $out .= sprintf(
 "<button style=\"left:1; top:65;position: absolute; width: %f; height: %f; background-color:#bb00bb; \" onclick=\"showSingleton()\" trim=\"0\" id=\"singletonButton\">Remove Singletons</button>",
-        $sz_h * 3, $sz_h * 2, $sz_h / 4, $sz_h / 4 );
+        $sz_h * 3, $sz_h * 2  );
     $out .= sprintf(
 "<button style=\"left:%f; top:5;position: absolute; width: %f; height: %f; background-color:#00bb00\; \" onclick=\"saveMultiFasta()\" id=\"saveFastaButton\">Save Fasta</button>",
         $sz_h * 3.25,
-        $sz_h * 3, $sz_h * 2, $sz_h / 4, $sz_h / 4
+        $sz_h * 3, $sz_h * 2
     );
 
     #Only has the draw phylogeny button if a tree is loaded
