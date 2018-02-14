@@ -173,7 +173,7 @@ my $gene_height  = 24;                  #height of the gene icons in the image
 my $tick_height  = $gene_height / 3;    # tick size on the edge of the image
 my $text_height  = 6;                   #Height of the
 my $thumb_dif    = 0.15;                #The proportional size of the thumbnail sketches
-my $DPI          = 3;                   #gives the DPI for outputed PNG images
+my $DPI          = 2;                   #gives the DPI for outputed PNG images
 
 my $SVGHEIGHT = 2 * ( $border + $max_radius );    #Height of the total image
 my $SVGWIDTH  = 2 * ( $border + $max_radius );    #Width of the total image
@@ -234,7 +234,7 @@ sub main {
 
     if ($verb) {
 
-        warn "Welcome to PanNav Creation Software\n\n";
+        warn "Welcome to PanACEA Creation Software\n\n";
         warn "The PanGenome File located in $file_in1 will be used..\n\n\n";
 
     }
@@ -387,6 +387,15 @@ sub make_main_figure() {
     #getting the javascript functions
     $html{beg} .= "<head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>";
 
+	#getting the style elements
+	$html{style} = "<style>
+		.clickable:hover { cursor: pointer; cursor: hand;}
+		.expand:hover {stroke: yellow; }
+		.reset:hover { cursor: pointer; cursor: hand; font-color: black;}
+		.clickableRowButtons:hover {cursor: pointer; cursor: hand; background-color: #f5deb3; }
+		
+	</style>";
+	
     #Initializeing the image by drawing
     %out = &svg_init_image( 2 * ( $border + $max_radius ), 2 * ( $border + $max_radius ), \%out );
     #
@@ -416,11 +425,25 @@ sub make_main_figure() {
         $border + $max_radius
     );
 
+ #Making a Reset button for users to reset the Legend. Hidden to begin v  
+ $out{beg} .= sprintf("<svg class=\"clickable\" onmouseover=\"var rect = document.getElementById(\'resetrect\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'resetrect\'); rect.style.fill=\'#bbffbb\';\" id = \"resetButton\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" style=\"visibility:hidden;\" onclick=\"runType(\'resetLegend\')\"><rect id=\"resetrect\" x = \"0\" y=\"0\" height =\"%s\" width =\"%s\" rx=\"%f\" ry=\"%f\" fill=\"#bbffbb\" stroke=\"black\"/><text y=\"%f\" x=\"%f\" position=\"relative\" alignment-baseline=\"middle\" text-anchor=\"middle\" font-size=\"20\" font-color=\"black\">Reset</text></svg>",
+	( $border + $max_radius - 140 ), 
+	( $border + $max_radius - $border * 1.90 +5),
+	70, 30,
+
+	
+	30, 70,
+	30/2, 30/2,
+	30/2, 70/2);
  #Making the help button that takes you to the help page. Currently this is the manual PDF on the github site
- $out{beg} .= sprintf("<a xlink:title=\"Help\" target=\"_blank\" href=\"https://github.com/JCVenterInstitute/PanACEA/blob/master/PanACEA.manual.pdf\"><svg id = \"helpButton\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\"><path d=\"M29.898 26.5722l-4.3921 0c-0.0118,-0.635 -0.0177,-1.0172 -0.0177,-1.1583 0,-1.4229 0.2352,-2.5929 0.7056,-3.5102 0.4704,-0.9231 1.417,-1.952 2.8281,-3.1044 1.4111,-1.1465 2.2578,-1.8991 2.5282,-2.2578 0.4292,-0.5585 0.6409,-1.1818 0.6409,-1.8579 0,-0.9408 -0.3763,-1.7463 -1.1289,-2.4224 -0.7526,-0.6703 -1.7639,-1.0054 -3.0397,-1.0054 -1.2289,0 -2.2578,0.3527 -3.0868,1.0524 -0.8232,0.6997 -1.3935,1.7698 -1.7051,3.2044l-4.4391 -0.5527c0.1234,-2.0578 0.9995,-3.8041 2.6223,-5.2387 1.6286,-1.4346 3.757,-2.152 6.4029,-2.152 2.7752,0 4.9859,0.7291 6.6322,2.1814 1.6404,1.4522 2.4635,3.1397 2.4635,5.0741 0,1.0642 -0.3057,2.0755 -0.9054,3.028 -0.6056,0.9525 -1.8933,2.2519 -3.8688,3.8923 -1.0231,0.8525 -1.6581,1.5346 -1.905,2.052 -0.2469,0.5174 -0.3587,1.4405 -0.3351,2.7752zm-4.3921 6.5087l0 -4.8389 4.8389 0 0 4.8389 -4.8389 0z\" style=\"stroke: black; fill: yellow;\"></svg></a>",
+ $out{beg} .= sprintf("<a xlink:title=\"Help\" target=\"_blank\" href=\"https://github.com/JCVenterInstitute/PanACEA/blob/master/PanACEA.manual.pdf\"><svg class=\"clickable\" id = \"helpButton\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\"><rect x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" fill=\"lightgray\"/><path d=\"M29.898 26.5722l-4.3921 0c-0.0118,-0.635 -0.0177,-1.0172 -0.0177,-1.1583 0,-1.4229 0.2352,-2.5929 0.7056,-3.5102 0.4704,-0.9231 1.417,-1.952 2.8281,-3.1044 1.4111,-1.1465 2.2578,-1.8991 2.5282,-2.2578 0.4292,-0.5585 0.6409,-1.1818 0.6409,-1.8579 0,-0.9408 -0.3763,-1.7463 -1.1289,-2.4224 -0.7526,-0.6703 -1.7639,-1.0054 -3.0397,-1.0054 -1.2289,0 -2.2578,0.3527 -3.0868,1.0524 -0.8232,0.6997 -1.3935,1.7698 -1.7051,3.2044l-4.4391 -0.5527c0.1234,-2.0578 0.9995,-3.8041 2.6223,-5.2387 1.6286,-1.4346 3.757,-2.152 6.4029,-2.152 2.7752,0 4.9859,0.7291 6.6322,2.1814 1.6404,1.4522 2.4635,3.1397 2.4635,5.0741 0,1.0642 -0.3057,2.0755 -0.9054,3.028 -0.6056,0.9525 -1.8933,2.2519 -3.8688,3.8923 -1.0231,0.8525 -1.6581,1.5346 -1.905,2.052 -0.2469,0.5174 -0.3587,1.4405 -0.3351,2.7752zm-4.3921 6.5087l0 -4.8389 4.8389 0 0 4.8389 -4.8389 0z\" style=\"stroke: black; fill: yellow;\"></svg></a>",
 	( $border + $max_radius - 80 ), 
 	( $border + $max_radius - $border * 1.90 -5),
 	40,
+	40,
+	( 11 ), 
+	( 0),
+	29,
 	40);
  #Making the Disk image by: (1) shrinking it with $trans; (2) adding the action; and (3) making a new variable containing the
  #This gives the location(translate) and appropriate size for the main page save SVG image
@@ -500,7 +523,7 @@ sub make_main_figure() {
         while ( $id_name =~ /\<\/tspan\>/g ) { $n++; }
 
         #Adding the name, the color rectangle. All should be clickable to turn it on/off
-        $out{beg} .= sprintf( "<g onclick=\"runType(\'GeneType\',evt,\'\')\" href=\"%s\" fillcol=\"%s\">", $a, "#" . $rgb{$a} );
+        $out{beg} .= sprintf( "<g class=\"clickable\" onclick=\"runType(\'GeneType\',evt,\'\')\" href=\"%s\" fillcol=\"%s\">", $a, "#" . $rgb{$a} );
 
 #The rectangle around: thought that I might add a box if it's clicked. Currently turrned off (instead all others fade when one is clicked)
         $out{beg} .= sprintf(
@@ -1412,7 +1435,7 @@ sub make_main_figure() {
 
     #light gray bottom part of the tabl
     $out{table} .= sprintf(
-        "<path d=\"M%f %f A%f %f 0 0 0 %f %f L%f %f A%f %f 0 0 0 %f %f Z\" stroke=\"black\" fill=\"#bbffbb\" id=\"%s\" />\n",
+        "<path  d=\"M%f %f A%f %f 0 0 0 %f %f L%f %f A%f %f 0 0 0 %f %f Z\" stroke=\"black\" fill=\"#bbffbb\" id=\"%s\" />\n",
         ( $border + $max_radius ) + sin($st) * ( $max_radius - $border * 1.5 ),
         ( $border + $max_radius ) + cos($st) * ( $max_radius - $border * 1.5 ),
         ( $max_radius - $border * 1.5 ),
@@ -1433,7 +1456,7 @@ sub make_main_figure() {
         $border + $max_radius + ( $max_radius - $border * 2 )
     );
     $out{table} .= sprintf(
-"<path d=\"M%f %f A%f %f 0 0 0 %f %f L%f %f A%f %f 0 0 0 %f %fZ\" stroke=\"black\" fill-opacity=\"0\" onclick=\"runType(\'TableStatus\',evt, \'\')\")/>",
+"<path class=\"clickable\" onmouseover=\"var rect = document.getElementById(\'ButtonIDTableOn\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'ButtonIDTableOn\'); rect.style.fill=\'#bbffbb\';\" d=\"M%f %f A%f %f 0 0 0 %f %f L%f %f A%f %f 0 0 0 %f %fZ\" stroke=\"black\" fill-opacity=\"0\" onclick=\"runType(\'TableStatus\',evt, \'\')\")/>",
         ( $border + $max_radius ) + sin($st) * ( $max_radius - $border * 1.5 ),
         ( $border + $max_radius ) + cos($st) * ( $max_radius - $border * 1.5 ),
         ( $max_radius - $border * 1.5 ),
@@ -1451,7 +1474,7 @@ sub make_main_figure() {
     #starting the table buttons
     $out{table} .= "<g id=\"tableButtons\" visibility=\"hidden\">\n";
     $out{table} .= sprintf(
-        "<path d=\"M%f %f A%f %f 0 0 0 %f %f  Z\" stroke=\"#eeeeff\" fill=\"#eeeeff\" id=\"%s\" />\n",
+        "<path  d=\"M%f %f A%f %f 0 0 0 %f %f  Z\" stroke=\"#eeeeff\" fill=\"#eeeeff\" id=\"%s\" />\n",
         ( $border + $max_radius ) + sin($mid1) * ( $max_radius - $border * 1.5 ),
         ( $border + $max_radius ) + cos($mid1) * ( $max_radius - $border * 1.5 ),
         ( $max_radius - $border * 1.5 ),
@@ -1481,7 +1504,7 @@ sub make_main_figure() {
 
 #$out->{table} .= sprintf("<text x=\"%f\" y=\"%f\" font-size=\"20\" text-anchor=\"middle\" onclick=\"saveTableTxt()\" alignment-baseline=\"middle\" id=\"tableButtonText\">Save Table as TSV</text></path>", ;
     $out{table} .= sprintf(
-        "<path d=\"M%f %f A%f %f 0 0 0 %f %f  Z\" stroke=\"#eeeeff\" fill=\"none\" id=\"%s\" onclick=\"saveTableTxt()\"/>\n",
+        "<path class=\"clickable\"  d=\"M%f %f A%f %f 0 0 0 %f %f  Z\" stroke=\"#eeeeff\" fill=\"none\" id=\"%s\" onclick=\"saveTableTxt()\"/>\n",
         ( $border + $max_radius ) + sin($mid1) * ( $max_radius - $border * 1.5 ),
         ( $border + $max_radius ) + cos($mid1) * ( $max_radius - $border * 1.5 ),
         ( $max_radius - $border * 1.5 ),
@@ -1512,7 +1535,7 @@ sub make_main_figure() {
             ( $border + $max_radius ) + cos($en) * ( $max_radius - $border * 1.25 )
         );
         $out{table} .= sprintf(
-"<g onclick=\"runType(\'TableButton\',evt, \'%s\')\"><path d=\"M%f %f L%f %f A%f %f 0 0 0 %f %f L %f %f A%f %f 0 0 1 %f %f\" stroke=\"black\" fill=\"#bbffbb\" id=\"%s\" data=\"%s\"/>\n",
+"<g class=\"clickable\" onclick=\"runType(\'TableButton\',evt, \'%s\')\"><path d=\"M%f %f L%f %f A%f %f 0 0 0 %f %f L %f %f A%f %f 0 0 1 %f %f\" stroke=\"black\" fill=\"#bbffbb\" id=\"%s\" data=\"%s\"/>\n",
             $id_in,
             ( $border + $max_radius ) + sin($st) * ( $max_radius - $border * 1.5 ),
             ( $border + $max_radius ) + cos($st) * ( $max_radius - $border * 1.5 ),
@@ -1533,7 +1556,7 @@ sub make_main_figure() {
         );
 
         $out{table} .= sprintf(
-            "<path d=\"M%f %f A%f %f 0 0 0 %f %f\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\" id=\"%s\"/>",
+            "<path class=\"clickable\" d=\"M%f %f A%f %f 0 0 0 %f %f\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\" id=\"%s\"/>",
             ( $border + $max_radius ) + sin($st) * ( $max_radius - $border * 1.5 ),
             ( $border + $max_radius ) + cos($st) * ( $max_radius - $border * 1.5 ),
             ( $max_radius - $border * 1.5 ),
@@ -1568,7 +1591,7 @@ sub make_main_figure() {
         $max_radius / 4
     );
     $html{table} .= "</table>";
-	$html{table} .= sprintf("<div id=\"searchBox\" style=\"visibility:hidden; position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; background-color: white; \"><form onsubmit=\"searchInit(event)\" onmouseover=\"showSearch()\" onmouseout=\"searchOff()\" id=\"searchForm\"><input type=\"text\" id=\"searchText\" rows=\"1\" style=\"font-size:14pt;font-color:DarkGray; border: none; height:%s; width:%s;\" onfocus=\"showSearch(\'focus\')\" placeholder=\"Search...\"><input type=\"button\" value=\"Search\" style=\"border: none; background-color: #013220; color: white; padding: 15px 32 px; font-size: 16px;\" onclick=\"searchInit(event)\"></form></div>",
+	$html{table} .= sprintf("<div id=\"searchBox\" style=\"visibility:hidden; position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; background-color: white; \"><form onsubmit=\"searchInit(event)\" onmouseover=\"showSearch()\" onmouseout=\"searchOff()\" id=\"searchForm\"><input type=\"text\" id=\"searchText\" rows=\"1\" style=\"font-size:14pt;font-color:DarkGray; border: none; height:%s; width:%s;\" onfocus=\"showSearch(\'focus\')\" placeholder=\"Search...\"><input class=\"clickable\"  type=\"button\" value=\"Search\" style=\"border: none; background-color: #013220; color: white; padding: 15px 32 px; font-size: 16px;\" onclick=\"searchInit(event)\"></form></div>",
 		4*$n_r,
 		0,
 		 $max_radius * 2 - 2.25 * $border - 10 * $n_r ,
@@ -1577,12 +1600,12 @@ sub make_main_figure() {
 		$max_radius * 2 - 2.25 * $border - 20 * $n_r . "px"
 		
 	);
-	$html{table} .= sprintf("<svg id=\"searchIcon\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx;\"><rect id=\"searchRect\" x=\"0\" y=\"0\" height=\"%s\" width=\"%s\" style=\"fill:LightGray;\"/ onclick=\"showSearch(\'icon\')\" onmouseover=\"searchOn()\" onmouseout=\"searchOff()\"/><path id=\"magnifyGlass\" transform=\"scale(0.040, 0.04) translate(%s, %s)\" d=\"M754.7 468.7l-22.3-22.3c24.3-33.3 37.5-73.4 37.7-114.7 0-109.5-88.8-198.3-198.3-198.3s-198.3 88.8-198.3 198.3S462.1 530 571.7 530c41.2-.2 81.3-13.4 114.7-37.7l22.3 22.3 152.7 152 45.3-45.3-152-152.6zm-183 0c-75.8 0-137.3-61.5-137.3-137.3S495.8 194 571.7 194 709 255.5 709 331.3c.2 75.7-61 137.1-136.7 137.3-.2.1-.4.1-.6.1z\"></path></svg>", 
+	$html{table} .= sprintf("<svg class=\"clickable\" id=\"searchIcon\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx;\"><rect id=\"searchRect\" x=\"0\" y=\"0\" height=\"%s\" width=\"%s\" style=\"fill:LightGray;\"/ onclick=\"showSearch(\'icon\')\" onmouseover=\"searchOn()\" onmouseout=\"searchOff()\"/><path id=\"magnifyGlass\" transform=\"scale(0.040, 0.04) translate(%s, %s)\" d=\"M754.7 468.7l-22.3-22.3c24.3-33.3 37.5-73.4 37.7-114.7 0-109.5-88.8-198.3-198.3-198.3s-198.3 88.8-198.3 198.3S462.1 530 571.7 530c41.2-.2 81.3-13.4 114.7-37.7l22.3 22.3 152.7 152 45.3-45.3-152-152.6zm-183 0c-75.8 0-137.3-61.5-137.3-137.3S495.8 194 571.7 194 709 255.5 709 331.3c.2 75.7-61 137.1-136.7 137.3-.2.1-.4.1-.6.1z\"></path></svg>", 
 		0, 0, 
 		3.5* $n_r,
 		3.5* $n_r, "100%", "100%", -40 * $n_r, -14 * $n_r
 		);
-    $html{table} .= sprintf("<a id=\"expandTitle\" xlink:title=\"Expand Table\"><svg id=\"expandSVG\" onclick=\"expandTable()\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; visibility: hidden;\"><rect id=\"expandRect\" x=\"0\" y=\"0\" height=\"%s\" width=\"%s\" style=\"fill:LightGray;\"/\"/><path id=\"expandArrow\" transform=\"scale(%f, %f)\" d=\"M 25.980469 2.9902344 A 1.0001 1.0001 0 0 0 25.869141 3 L 20 3 A 1.0001 1.0001 0 1 0 20 5 L 23.585938 5 L 13.292969 15.292969 A 1.0001 1.0001 0 1 0 14.707031 16.707031 L 25 6.4140625 L 25 10 A 1.0001 1.0001 0 1 0 27 10 L 27 4.1269531 A 1.0001 1.0001 0 0 0 25.980469 2.9902344 z M 6 7 C 4.9069372 7 4 7.9069372 4 9 L 4 24 C 4 25.093063 4.9069372 26 6 26 L 21 26 C 22.093063 26 23 25.093063 23 24 L 23 14 L 23 11.421875 L 21 13.421875 L 21 16 L 21 24 L 6 24 L 6 9 L 14 9 L 16 9 L 16.578125 9 L 18.578125 7 L 16 7 L 14 7 L 6 7 z\"\"></path></svg></a>", 
+    $html{table} .= sprintf("<a id=\"expandTitle\" xlink:title=\"Expand Table\"><svg class=\"clickable\" id=\"expandSVG\" onclick=\"expandTable()\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; visibility: hidden;\"><rect id=\"expandRect\" x=\"0\" y=\"0\" height=\"%s\" width=\"%s\" style=\"fill:LightGray;\"/\"/><path id=\"expandArrow\" class=\"expand\" transform=\"scale(%f, %f)\" d=\"M 25.980469 2.9902344 A 1.0001 1.0001 0 0 0 25.869141 3 L 20 3 A 1.0001 1.0001 0 1 0 20 5 L 23.585938 5 L 13.292969 15.292969 A 1.0001 1.0001 0 1 0 14.707031 16.707031 L 25 6.4140625 L 25 10 A 1.0001 1.0001 0 1 0 27 10 L 27 4.1269531 A 1.0001 1.0001 0 0 0 25.980469 2.9902344 z M 6 7 C 4.9069372 7 4 7.9069372 4 9 L 4 24 C 4 25.093063 4.9069372 26 6 26 L 21 26 C 22.093063 26 23 25.093063 23 24 L 23 14 L 23 11.421875 L 21 13.421875 L 21 16 L 21 24 L 6 24 L 6 9 L 14 9 L 16 9 L 16.578125 9 L 18.578125 7 L 16 7 L 14 7 L 6 7 z\"\"></path></svg></a>", 
 		 $max_radius * 2 - 2.25 * $border - 4 * $n_r, 0, 
 		3.5* $n_r,
 		3.5* $n_r, "100%", "100%", 1.0, 1.0
@@ -1795,6 +1818,8 @@ sub make_main_figure() {
 
     #writing HTML opening lines, loading screen, intra-main page javascript, and the end of the html page
     print SVG_MAIN $html{beg};
+	print SVG_MAIN $html{style};
+	
     print SVG_MAIN $out{load};
     print SVG_MAIN $out{script};
     print SVG_MAIN $out{beg};
@@ -1808,7 +1833,7 @@ sub make_main_figure() {
     #removed white-space: nobreak; justify-content: top;
     #This is the menu bar that is shown when the menu is out i.e. visible
     $out{thumb}->{beg} .= sprintf(
-"<div id = \"coreMenuOut\" style=\"background-color: #bbbbbb; top: %fpx; width: %fpx; height: %fpx; left: 0px; position: absolute; padding: 0; margin: 0; font-size: 20px; transform-origin: 0 100%s; transform: rotate(90deg);  text-align: center;\" onmouseover=\"turnOnHighlight(event)\" onmouseout=\"turnOffHighlight(event)\" onclick=\"selectMenu(event)\"> Assembly Core Regions</div>",
+"<div class=\"clickable\" id = \"coreMenuOut\" style=\"background-color: #bbbbbb; top: %fpx; width: %fpx; height: %fpx; left: 0px; position: absolute; padding: 0; margin: 0; font-size: 20px; transform-origin: 0 100%s; transform: rotate(90deg);  text-align: center;\" onmouseover=\"turnOnHighlight(event)\" onmouseout=\"turnOffHighlight(event)\" onclick=\"selectMenu(event)\"> Assembly Core Regions</div>",
         -1 * $gene_height,
         ( 2 * ( $border + $max_radius ) ),
         1 * $gene_height,
@@ -1819,7 +1844,7 @@ sub make_main_figure() {
 
     #This is the menu bar that is shown when the menu is in i.e. not visible
     $out{thumb}->{beg} .= sprintf(
-"<div id = \"coreMenuIn\" style=\"background-color: #dddddd; top:0px; height: %fpx; width: 0px; left: 0px; position: absolute; overflow-y:auto;\">",
+"<div class=\"clickable\" id = \"coreMenuIn\" style=\"background-color: #dddddd; top:0px; height: %fpx; width: 0px; left: 0px; position: absolute; overflow-y:auto;\">",
         ( 2 * ( $border + $max_radius ) ),
         1 * $gene_height,
         ( 2 * ( $border + $max_radius ) ),
@@ -1832,7 +1857,7 @@ sub make_main_figure() {
 
         #For each chromosome type, make a menu header that can be expanded or hidden
         $out{thumb}->{$thumb_type} .= sprintf(
-"<p Showing=\"on\" id =\"$thumb_type\" type=\"$thumb_type\" onclick=\"changeMenu(event)\" onmouseover=\"turnOnHighlight(event)\" onmouseout=\"turnOffHighlight(event)\" style=\"text-align:center; font-size: 20px; background-color: #bbbbbb;\">%s</p>\n",
+"<p Showing=\"on\" id =\"$thumb_type\" type=\"$thumb_type\" class=\"clickable\" onclick=\"changeMenu(event)\" onmouseover=\"turnOnHighlight(event)\" onmouseout=\"turnOffHighlight(event)\" style=\"text-align:center; font-size: 20px; background-color: #bbbbbb;\">%s</p>\n",
             $thumb_type . "(-)" );
 
         #Going through all the Thumbnails of that chromosome type and appends it to the svg
@@ -1848,7 +1873,7 @@ sub make_main_figure() {
             print SVG_MAIN "<svg id=\"$id_in\" visibility=\"$vis\">";
 
             $out{thumb}->{$cur_chr} .= sprintf(
-"<svg id=\"svgThumb$cur_chr\" type=\"$thumb_type\" visibility=\"hidden\" viewBox=\"0 0 %f %f\" x=\"0\" y=\"%f\" width=\"%f\" height=\"%f\" onclick=\"setSVG($cur_chr)\">",
+"<svg class=\"clickable\"  id=\"svgThumb$cur_chr\" type=\"$thumb_type\" visibility=\"hidden\" viewBox=\"0 0 %f %f\" x=\"0\" y=\"%f\" width=\"%f\" height=\"%f\" onclick=\"setSVG($cur_chr)\">",
                 $thumb_size_w, $thumb_size_h, ($thumb_cnt) * $thumb_size_h,
                 $thumb_size_w, $thumb_size_h
             );
@@ -3907,10 +3932,10 @@ sub make_core_region_page {
 "<button style=\"left:1; top:5; position: absolute; width: %f; height: %f; background-color:#4444ff; \" onclick=\"transformGenes(\'$file\', \'95\')\"  id=\"decreaseButton\"> - </button>",
         20, $gene_height / 3 );
     $outn .=
-      sprintf( "<strong style=\"left:26; top:5; position: absolute; width: %f; height: %f;\" > Change View Zoom </strong>",
+      sprintf( "<strong style=\"left:26; top:5; position: absolute; width: %f; height: %f; font-color: yellow;\" > Change View Zoom </strong>",
         140, $gene_height / 3 );
     $outn .= sprintf(
-"<button style=\"left:171; top:5; position: absolute; width: %f; height: %f; background-color:#4444ff; \" onclick=\"transformGenes(\'$file\', \'105\')\"  id=\"increaseButton\"> + </button>",
+"<button style=\"left:171; top:5; position: absolute; width: %f; height: %f; background-color:#4444ff; font-color: yellow;\" onclick=\"transformGenes(\'$file\', \'105\')\"  id=\"increaseButton\"> + </button>",
         20, $gene_height / 3 );
     $outn .= "</div>";
 
@@ -4229,12 +4254,12 @@ sub svg_draw_arc_seg {
     my $id_in = $id;
     if ( $depth == 1 ) {
 
-        $func = "onclick=\"loadSVG(evt)\" onmouseout=\"turnPlotOff(evt)\" onmouseover=\"showPlot(evt)\"";
+        $func = "onclick=\"loadSVG(evt)\" onmouseout=\"turnPlotOff(evt)\" onmouseover=\"showPlot(evt)\" class=\"clickable\"";
 
     }
     if ( $depth == 3 ) {
 
-        $func  = "onclick=\"writeFasta(\'$name\', \'Plasmid$id\')\"";
+        $func  = "onclick=\"writeFasta(\'$name\', \'Plasmid$id\')\" class=\"clickable\"";
         $id_in = $href;
 
     }
@@ -4249,7 +4274,7 @@ sub svg_draw_arc_seg {
             screen_y_trans( $d3, $l1 )
         );
         $out->{$depth} .= sprintf(
-"L %f %f\nA %f,%f 0 0,0 %f,%f\nL %f %f\" id=\"$id_in\" stroke = \"%s\" fill = \"%s\" type = \"$type\" fill_old = \"%s\" href=\"$href\" $func angle=\"%s\"\/>\n",
+"L %f %f\nA %f,%f 0 0,0 %f,%f\nL %f %f\" id=\"$id_in\" stroke = \"%s\" fill = \"%s\" type = \"$type\" fill_old = \"%s\" fill_first=\"%s\" href=\"$href\" $func angle=\"%s\"\/>\n",
             screen_x_trans( $d3, $l2 ),
             screen_y_trans( $d3, $l2 ),
             $l2,
@@ -4260,7 +4285,7 @@ sub svg_draw_arc_seg {
             screen_y_trans( $d1, $l1 ),
             $c2,
             $c,
-            $c,
+            $c,$c,
             360 * ( ( $d1 + $d2 ) / ( 2 * $seq_len ) )
         );
 
@@ -5065,7 +5090,10 @@ function runType(type, evt, id)
 		{
 			changeMenu(evt);
 		}
-
+		if (type == \"resetLegend\")
+		{
+			resetLegend();
+		}
 
 		Done();},0);
 		}
@@ -5312,7 +5340,7 @@ function turnSampleOff(target)
 	{
 		center.setAttribute(\"visibility\", \"hidden\");
 	}
-	target.setAttribute(\"fill\", target.getAttribute(\"fill_old\"));
+	target.setAttribute(\"fill\", target.getAttribute(\"fill_tmp\"));
 	svg_all.removeAttribute(\"core_button\");
 	svg_all.removeAttribute(\"core_set\");
 }
@@ -6062,12 +6090,14 @@ function selectGeneType(evt)
 	}
 
 	var ids = selectType.match(/([^\)\(]+)/g); // A list of all the selected ids
-	var id_cols = selectCols.match(/([^\)\(]+)/g); // A list of all the selected ids
+	var id_cols = selectCols.match(/([^\)\(]+)/g); // A list of all the selected id colors- used to make pattern
 	
 	var kys = Object.keys(good); //array of all the selected genes
 	
 	if (ids != null)
 	{
+		var reset = document.getElementById(\"resetButton\");
+		reset.style.visibility=\"visible\";
 		for (var i = 0; i < kys.length; i++)
 		{
 			var kys2 = Object.keys(good[kys[i]]);
@@ -6209,7 +6239,7 @@ function selectGeneType(evt)
 					good[\"Gene\"][tableInfo[\"Gene\"][i][\"href\"]] = 1;
 					if (\"oth_ref\" in tableInfo[\"Gene\"][i] & othType.search(tableInfo[\"Gene\"][i][\"oth_ref\"]) == -1)
 					{
-						othType = othType + tableInfo[\"Gene\"][i][\"oth_ref\"];
+						othType = othType + tableInfo[\"Gene\"][i][\"oth_ref\"] + \";\";
 					}
 					var gene = document.getElementById(tableInfo[\"Gene\"][i][\"detail\"]);
 					if (gene != null)
@@ -6268,7 +6298,15 @@ function selectGeneType(evt)
 				var kys2 = Object.keys(good[kys[i]]);
 				for (var j = 0; j < kys2.length; j++)
 				{
-					if (kys2[j] in term2type)
+					if (othType.search(kys2[j]+\";\") > -1)
+					{
+						good[kys[i]][kys2[j]] = 1;
+					}
+					else
+					{
+						good[kys[i]][kys2[j]] = 0;
+					}
+					/*if (kys2[j] in term2type)
 					{
 						for (j2 = 0; j2 < ids.length; j2++)
 						{
@@ -6281,13 +6319,15 @@ function selectGeneType(evt)
 								good[kys[i]][kys2[j]] = 0;
 							}
 						}
-					}
+					}*/
 				}
 			}
 		}
 	}
 	else
 	{
+		var reset = document.getElementById(\"resetButton\");
+		reset.style.visibility=\"hidden\";
 		//Resetting the gene and region colors etc
 		var id_old = svg_all.getAttribute(\"Selection\");
 		for (var i = 0; i < tableInfo[\"Gene\"].length; i++)
@@ -6510,24 +6550,56 @@ function saveSVG(fileType)
 	{
 		var newSVG = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
 		newSVG.setAttribute(\"xmlns:xlink\",\"http://www.w3.org/1999/xlink\");
-		newSVG.setAttribute(\"height\", \"$SVGHEIGHT\" + \"px\");
-		newSVG.setAttribute(\"width\",\"$SVGWIDTH\" +\"px\");
-		newSVG.innerHTML = document.getElementById(\"LegendText\").innerHTML + document.getElementById(\"Legend1\").innerHTML+ document.getElementById(\"svgOut\"+coreNum).innerHTML + document.getElementById(\"svgArc\"+coreNum).innerHTML;
+		newSVG.setAttribute(\"height\", \"$SVGHEIGHT_BIG\" + \"px\");
+		newSVG.setAttribute(\"width\",\"$SVGWIDTH_BIG\" +\"px\");
+		
+		var intraSVG = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
+		intraSVG.setAttribute(\"height\", \"$SVGHEIGHT\" + \"px\");
+		intraSVG.setAttribute(\"width\",\"$SVGWIDTH\" +\"px\");
+		
+		intraSVG.setAttribute(\"transform\",\"scale($DPI,$DPI)\");
+		
+		intraSVG.innerHTML = document.getElementById(\"LegendText\").innerHTML + document.getElementById(\"Legend1\").innerHTML+ document.getElementById(\"svgOut\"+coreNum).innerHTML + document.getElementById(\"svgArc\"+coreNum).innerHTML;
+		newSVG.appendChild(intraSVG);
+
 		var svgStr = new XMLSerializer().serializeToString(newSVG);
 
+		if (navigator.userAgent.search(\"Chrome\") > -1)
+		{
+			svgStr = new XMLSerializer().serializeToString(newSVG);
+		}
+		else
+		{
+			svgStr = \"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" height=\\\"$SVGHEIGHT\\\" width=\\\"$SVGWIDTH\\\" >\"+document.getElementById(\"LegendText\").innerHTML + document.getElementById(\"Legend1\").innerHTML + document.getElementById(\"svgOut\"+coreNum).innerHTML + document.getElementById(\"svgArc\"+coreNum).innerHTML+\"</svg>\";
+	
+			
+		}
+		
+		
 		var canvas = document.createElement(\"canvas\");
 		canvas.width = $SVGHEIGHT_BIG;
 		canvas.height = $SVGWIDTH_BIG;
 		var ctx = canvas.getContext(\"2d\");
-		ctx.scale(1, 1);
 		
 		var img = new Image();
 		img.src = \"data:image/svg+xml;base64,\" + window.btoa(svgStr);
 		img.onload = function() 
 		{
-			ctx.drawImage(img, 0, 0, $SVGWIDTH, $SVGHEIGHT, 0, 0, $SVGWIDTH_BIG, $SVGHEIGHT_BIG);
-			canvas.style.height = $SVGHEIGHT+\"px\";
-			canvas.style.width = $SVGWIDTH+\"px\";
+			if (navigator.userAgent.search(\"Chrome\") == -1)
+			{
+				ctx.scale($DPI, $DPI)
+				canvas.style.height = $SVGHEIGHT+ \"px\";
+				canvas.style.width = $SVGWIDTH+\"px\";
+		
+				ctx.drawImage(img, 0, 0); 
+				
+			}
+			else
+			{
+				canvas.style.height = $SVGHEIGHT+\"px\";
+				canvas.style.width = $SVGWIDTH+\"px\";
+				ctx.drawImage(img, 0, 0, $SVGWIDTH, $SVGHEIGHT, 0, 0, $SVGWIDTH_BIG, $SVGHEIGHT_BIG);
+			}
 		
 			nw.setAttribute(\"download\",\"Main.$filenamePNG\");
 			nw.setAttribute(\"href\", canvas.toDataURL(\"image/png\"));
@@ -6725,7 +6797,6 @@ function makeTable(id)
 					row.setAttribute(\"pageID\", tableInfo[id][i][\'pageID\']);
 
 				}
-				row.setAttribute(\"onclick\", \"runType(\'showRowPlot\', event)\");
 				row.setAttribute(\"id\", \"rowID\" + i);
 				var j;
 				var cellLeft = 0;
@@ -6737,6 +6808,16 @@ function makeTable(id)
 					var newWidth = parseInt(tableWidth[id][j]) * 0.95;
 					td.setAttribute(\"style\", \"width: \"+ newWidth.toString() + \"%;display: $disp; left:\" + cellLeft.toString()+\"%;\");
 					cellLeft = cellLeft + parseInt(tableWidth[id][j]) * 0.95;
+					if (tableHead[id][j].toLowerCase() ==\"id\" && \'pageID\' in tableInfo[id][i])
+					{
+						td.setAttribute(\"onclick\", \"loadRowPage(\'\"+tableInfo[id][i][\'pageID\']+\"\')\");
+						td.setAttribute(\"class\", \"clickableRowButtons\");
+						
+					}
+					else
+					{
+						td.setAttribute(\"onclick\", \"runType(\'showRowPlot\', event)\");
+					}
 					row.appendChild(td);
 				}
 				if (\"core_clust\" in tableInfo[id][i] && tableInfo[id][i][\"core_clust\"] == cur_clust)
@@ -6800,6 +6881,7 @@ function showSample(target)
 	var but_id = target.getAttribute(\"id\");
 
 	//changing the location color to grey to show that it is being shown
+	target.setAttribute(\"fill_tmp\", target.getAttribute(\"fill\"));
 	target.setAttribute(\"fill\", \"black\");
 	var center = document.getElementById(id_name);
 
@@ -7165,7 +7247,7 @@ function showRowPlot(evt) {
 										if (region != null)
 										{
 											region.setAttribute(\"stroke\", \"black\");;
-											region.setAttribute(\"fill\", \"gray\");
+											region.setAttribute(\"fill\", \"black\");
 										}
 									}
 								}
@@ -7176,8 +7258,8 @@ function showRowPlot(evt) {
 									{
 										gene.setAttribute(\"fill-opacity\", \"0.25\");
 										gene.setAttribute(\"stroke-opacity\", \"0.25\");
-										gene.setAttribute(\"fill\", \"black\");
-										gene.setAttribute(\"stroke\", \"none\");
+										//gene.setAttribute(\"fill\", \"black\");
+										//gene.setAttribute(\"stroke\", \"none\");
 									}
 									var gene_detail = document.getElementById(tableInfo[\"Gene\"][i][\"detail\"]+\"detail\");
 									if (gene_detail != null)
@@ -7200,8 +7282,8 @@ function showRowPlot(evt) {
 							var region = document.getElementById(id_name);
 							if (region != null)
 							{
-								region.setAttribute(\"stroke\", \"black\");;
-								region.setAttribute(\"fill\", \"gray\");
+								//region.setAttribute(\"stroke\", \"black\");;
+								//region.setAttribute(\"fill\", \"gray\");
 							}		
 							
 						}
@@ -7238,6 +7320,103 @@ function showRowPlot(evt) {
 			}
 			svg_all.setAttribute(\"highlight.row.id\", target.getAttribute(\"id\"));
 		}
+	}
+}
+
+function resetLegend()
+{
+	var svg_all = document.getElementById(\"allsvg\");
+	var reset = document.getElementById(\"resetButton\");
+	reset.style.visibility=\"hidden\";
+	
+	var selectType = svg_all.getAttribute(\"Selection\");
+	var selectCols = svg_all.getAttribute(\"SelectCols\");
+	
+	var ids = selectType.match(/([^\)\(]+)/g); // A list of all the selected ids
+	var id_cols = selectCols.match(/([^\)\(]+)/g); // A list of all the selected id colors- used to make pattern
+	
+	for (var j = 0; j < ids.length; j++)
+	{
+		var colRect = document.getElementById(ids[j] + \"col\");
+		colRect.style.strokeWidth = 0;
+	}
+	
+	svg_all.setAttribute(\"Selection\", \"\")
+	svg_all.setAttribute(\"SelectCols\", \"\")
+	var tableHead = JSON.parse(tableHeadStr);
+	var tableWidth = JSON.parse(tableWidthStr);
+	var tableInfo = JSON.parse(tableInfoStr);
+	var term2type = JSON.parse(term_2_type);
+	var kys = Object.keys(good); //array of all the selected genes
+
+	//Resetting the gene and region colors etc
+		var id_old = svg_all.getAttribute(\"Selection\");
+		for (var i = 0; i < tableInfo[\"Gene\"].length; i++)
+		{
+			if (\"detail\" in tableInfo[\"Gene\"][i])
+			{
+				good[\"Gene\"][tableInfo[\"Gene\"][i][\"href\"]] = 1;
+
+				var gene = document.getElementById(tableInfo[\"Gene\"][i][\"detail\"]);
+				//Resetting the gene if it exist
+				if (gene != null)
+				{
+
+					gene.setAttribute(\"fill\", gene.getAttribute(\"fill_old\"));
+					gene.setAttribute(\"stroke\", \"none\");
+
+					gene.setAttribute(\"fill-opacity\", \"1.0\");
+					gene.setAttribute(\"stroke-opacity\", \"1.0\");
+				}
+				var gene = document.getElementById(tableInfo[\"Gene\"][i][\"detail\"]+\"detail\");
+				if (gene != null)
+				{
+					gene.setAttribute(\"fill-opacity\", \"1.0\");
+					gene.setAttribute(\"stroke-opacity\", \"1.0\");
+					gene.setAttribute(\"stroke\", \"none\");
+				
+
+				}
+				var gene = document.getElementById(tableInfo[\"Gene\"][i][\"detail\"]+\"detailHT\");
+				if (gene != null)
+				{
+					gene.setAttribute(\"fill-opacity\", \"1.0\");
+					gene.setAttribute(\"stroke-opacity\", \"1.0\");
+
+				}
+			}
+		}
+		//Resetting all the regions
+		for (var i = 0; i < tableInfo[\"Region\"].length; i++)
+		{
+			var gene = document.getElementById(tableInfo[\"Region\"][i][\"href\"]);
+			good[\"Region\"][tableInfo[\"Region\"][i][\"href\"]] = 1;
+			if (gene != null)
+			{
+
+				gene.setAttribute(\"fill-opacity\", \"1.0\");
+				gene.setAttribute(\"fill\", gene.getAttribute(\"fill_old\"));
+
+				gene.removeAttribute(\"stroke\");
+			}
+		}
+		//
+		for (var i = 0; i < kys.length; i++)
+		{
+			if (kys[i] != \"Gene\" && kys[i] != \"Region\")
+			{
+				var kys2 = Object.keys(good[kys[i]]);
+				for (var j = 0; j < kys2.length; j++)
+				{
+					good[kys[i]][kys2[j]] = 1;
+				}
+			}
+		}
+
+	
+	if (svg_all.hasAttribute(\"tableType\"))
+	{
+		makeTable(svg_all.getAttribute(\"tableType\"));
 	}
 }
 
@@ -8351,21 +8530,48 @@ sub fgi_javascript() {
 			{
 				var newSVG = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
 				newSVG.setAttribute(\"xmlns:xlink\",\"http://www.w3.org/1999/xlink\");
-				newSVG.setAttribute(\"height\", totHeight);
-				newSVG.setAttribute(\"width\",totWidth);
-				newSVG.innerHTML = divLeft.innerHTML + divRight.innerHTML  + divMain.innerHTML  + divLeg.innerHTML;
-				var svgStr = new XMLSerializer().serializeToString(newSVG);
-				var newSVGBBox = newSVG.getBBox();
+				newSVG.setAttribute(\"height\", totHeight * $DPI);
+				newSVG.setAttribute(\"width\",totWidth * $DPI);
+				var intraSVG = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
+				intraSVG.setAttribute(\"height\", totHeight);
+				intraSVG.setAttribute(\"width\",totWidth);
+				
+				intraSVG.setAttribute(\"transform\",\"scale($DPI,$DPI)\");
+
+				intraSVG.innerHTML = divLeft.innerHTML + divRight.innerHTML  + divMain.innerHTML  + divLeg.innerHTML;
+				newSVG.appendChild(intraSVG);
+				var svgStr;
+				if (navigator.userAgent.search(\"Chrome\") > -1)
+				{
+					 svgStr = new XMLSerializer().serializeToString(newSVG);
+				}
+				else
+				{
+					svgStr = \"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" height=\\\"\" + totHeight + \"\\\" width=\\\"\" + totWidth +\"\\\">\" + divLeft.innerHTML + divRight.innerHTML  + divMain.innerHTML  + divLeg.innerHTML + \"</svg>\";
+				}
 				var canvas = document.createElement(\"canvas\");
 				canvas.width = totWidth * $DPI;
 				canvas.height = totHeight * $DPI;
 				var ctx = canvas.getContext(\"2d\");
-				ctx.scale($DPI, $DPI);
 				var img = new Image();
 				img.src = \"data:image/svg+xml;base64,\" + window.btoa(svgStr);
-				img.onload = function() {
-					ctx.drawImage(img, 0, 0);
-
+				img.onload = function() {	
+					if (navigator.userAgent.search(\"Chrome\") == -1)
+					{
+						ctx.scale($DPI, $DPI)
+						canvas.style.height = totHeight+ \"px\";
+						canvas.style.width = totWidth+\"px\";
+					
+						ctx.drawImage(img, 0, 0); 
+				
+					}
+					else
+					{
+						canvas.style.height = totWidth+\"px\";
+						canvas.style.width = totWidth+\"px\";
+						ctx.drawImage(img, 0, 0, totWidth, totHeight, 0, 0, totWidth * $DPI, totHeight* $DPI);
+					}
+		
 					nw.setAttribute(\"download\",name + \"$filenamePNG\");
 					nw.setAttribute(\"href\", canvas.toDataURL(\"image/png\"));
 					nw.setAttribute(\"target\", \"_blank\");
@@ -10388,10 +10594,10 @@ event.initEvent('build', true, true)
 			add =  \"<g id = \\\"selectFGR\\\" transform=\\\"translate(0,\" + rect+ \")\\\">\"+ FGRmodel.innerHTML + \"</svg>\";
 		
 		}
-		var svgStr = \"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" height=\\\"$SVGHEIGHT\\\" width=\\\"$SVGWIDTH\\\">\"+document.getElementById(\"LegendSVG\").innerHTML+ document.getElementById(\"tree_svg\").innerHTML + \"</svg>\";
+		var svgStr = \"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" height=\\\"$SVGHEIGHT\\\" width=\\\"$SVGWIDTH\\\" transform=\\\"scale($DPI,$DPI)\\\">\"+document.getElementById(\"LegendSVG\").innerHTML+ document.getElementById(\"tree_svg\").innerHTML + \"</svg>\";
 		if (add != null)
 		{
-			svgStr = \"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" height=\\\"$SVGHEIGHT\\\" width=\\\"$SVGWIDTH\\\">\"+document.getElementById(\"LegendSVG\").innerHTML+ document.getElementById(\"tree_svg\").innerHTML + add+\"</svg>\";
+			svgStr = \"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" height=\\\"$SVGHEIGHT\\\" width=\\\"$SVGWIDTH\\\" transform=\\\"scale($DPI,$DPI)\\\">\"+document.getElementById(\"LegendSVG\").innerHTML+ document.getElementById(\"tree_svg\").innerHTML + add+\"</svg>\";
 		}
 		var inSvg = new Blob([svgStr], {type: \'image/svg+xml\'});
 		var svgfile = URL.createObjectURL(inSvg);
@@ -10401,23 +10607,41 @@ event.initEvent('build', true, true)
 		{
 			var newSVG = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
 			newSVG.setAttribute(\"xmlns:xlink\",\"http://www.w3.org/1999/xlink\");
-			newSVG.setAttribute(\"height\", parseFloat(svg_all.getAttribute(\"width\")) * 2);
-			newSVG.setAttribute(\"width\",2*parseFloat(svg_all.getAttribute(\"height\")) + 200);
+			newSVG.setAttribute(\"width\", parseFloat(svg_all.getAttribute(\"width\")) * $DPI);
+			newSVG.setAttribute(\"height\",parseFloat(svg_all.getAttribute(\"height\")) * $DPI + 200);
 			newSVG.innerHTML = svgStr;
-			var svgStr = new XMLSerializer().serializeToString(newSVG);
-
+			
+			if (navigator.userAgent.search(\"Chrome\") > -1)
+			{
+				svgStr = new XMLSerializer().serializeToString(newSVG);
+			}
+		
 			var canvas = document.createElement(\"canvas\");
-			canvas.width = parseFloat(svg_all.getAttribute(\"width\")) * $DPI;
-			canvas.height = (parseFloat(svg_all.getAttribute(\"height\")) + 200) * $DPI;
+			var totWidthTmp = parseFloat(svg_all.getAttribute(\"width\"));
+			var totHeightTmp = (parseFloat(svg_all.getAttribute(\"height\")) + 200);
+			canvas.width =  totWidthTmp * $DPI;
+			canvas.height =  totHeightTmp * $DPI;
 			var ctx = canvas.getContext(\"2d\");
-			ctx.scale($DPI, $DPI);
-
+			
 			var img = new Image();
 			img.src = \"data:image/svg+xml;base64,\" + window.btoa(svgStr);
 			img.onload = function()
 			{
-				ctx.drawImage(img, 0, 0);
-
+				if (navigator.userAgent.search(\"Chrome\") == -1)
+				{
+					ctx.scale($DPI, $DPI)
+					canvas.style.height = $SVGHEIGHT+ \"px\";
+					canvas.style.width = $SVGWIDTH+\"px\";
+		
+					ctx.drawImage(img, 0, 0); 
+				
+				}
+				else
+				{
+					canvas.style.height = $SVGHEIGHT+\"px\";
+					canvas.style.width = $SVGWIDTH+\"px\";
+					ctx.drawImage(img, 0, 0, $SVGWIDTH, $SVGHEIGHT, 0, 0, $SVGWIDTH * $DPI, $SVGHEIGHT * $DPI);
+				}
 				nw.setAttribute(\"download\",id + \"tree.$filenamePNG\");
 				nw.setAttribute(\"href\", canvas.toDataURL(\"image/png\"));
 				nw.setAttribute(\"target\", \"_blank\");
@@ -11278,24 +11502,48 @@ function draw_tree(level, type)
 		{
 			var newSVG = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
 			newSVG.setAttribute(\"xmlns:xlink\",\"http://www.w3.org/1999/xlink\");
-			newSVG.setAttribute(\"height\", parseFloat(svg_all.getAttribute(\"width\")) * 2);
-			newSVG.setAttribute(\"width\",2*parseFloat(svg_all.getAttribute(\"height\")) + 200);
-			newSVG.innerHTML = document.getElementById(\"LegendSVG\").innerHTML+ document.getElementById(\"tree_svg\").innerHTML;
+			newSVG.setAttribute(\"height\", parseFloat(svg_all.getAttribute(\"width\")) * $DPI);
+			newSVG.setAttribute(\"width\",$DPI*parseFloat(svg_all.getAttribute(\"height\")) + 200);
+			var intraSVG = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
+			intraSVG.setAttribute(\"height\", \"$SVGHEIGHT\" + \"px\");
+			intraSVG.setAttribute(\"width\",\"$SVGWIDTH\" +\"px\");
+		
+			intraSVG.innerHTML = document.getElementById(\"LegendSVG\").innerHTML+ document.getElementById(\"tree_svg\").innerHTML;
+			intraSVG.setAttribute(\"transform\",\"scale($DPI,$DPI)\");
+			newSVG.appendChild(intraSVG);
+
 			var svgStr = new XMLSerializer().serializeToString(newSVG);
-
+			if (navigator.userAgent.search(\"Chrome\") > -1)
+			{
+				svgStr = new XMLSerializer().serializeToString(newSVG);
+			}
 			var canvas = document.createElement(\"canvas\");
-			canvas.width = parseFloat(svg_all.getAttribute(\"width\")) * $DPI;
-			canvas.height = (parseFloat(svg_all.getAttribute(\"height\")) + 100)*$DPI;
+			var totWidthTmp = parseFloat(svg_all.getAttribute(\"width\"));
+			canvas.width =  totWidthTmp * $DPI;
+			var totHeightTmp = (parseFloat(svg_all.getAttribute(\"height\"))) + 100;
+			canvas.heght = (totHeightTmp)*$DPI;
 			var ctx = canvas.getContext(\"2d\");
-			ctx.scale($DPI, $DPI);
-
+			
 			var img = new Image();
 			img.src = \"data:image/svg+xml;base64,\" + window.btoa(svgStr);
 			
 			img.onload = function()
 			{
-				ctx.drawImage(img, 0, 0);
-
+				if (navigator.userAgent.search(\"Chrome\") == -1)
+				{
+					ctx.scale($DPI, $DPI)
+					canvas.style.height = $SVGHEIGHT+ \"px\";
+					canvas.style.width = $SVGWIDTH+\"px\";
+			
+					ctx.drawImage(img, 0, 0); 
+				
+				}
+				else
+				{
+					canvas.style.height = $SVGHEIGHT+\"px\";
+					canvas.style.width = $SVGWIDTH+\"px\";
+					ctx.drawImage(img, 0, 0, $SVGWIDTH, $SVGHEIGHT, 0, 0, $SVGWIDTH * $DPI, $SVGHEIGHT * $DPI);
+				}
 				nw.setAttribute(\"download\",id + \".tree.$filenamePNG\");
 				nw.setAttribute(\"href\", canvas.toDataURL(\"image/png\", 1.0));
 				nw.setAttribute(\"target\", \"_blank\");
@@ -11418,7 +11666,7 @@ sub disk_image {
 
     if ( $_[0] eq "default" ) {
 
-        return "<g xmlns=\"http://www.w3.org/2000/svg\" id=\"disk_image\" ACTION>
+        return "<g class=\"clickable\" xmlns=\"http://www.w3.org/2000/svg\" id=\"disk_image\" ACTION>
         <path transform=\"TRANS\" style=\"fill:#434d57;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\" d=\"m 137.44242,24.150094 c 5.80716,-5.80716 20.5286,-3.244018 20.5286,-3.244018 l 619.51752,0 c 0,0 14.50156,-1.311524 19.15789,3.18591 4.05712,3.918671 3.35359,16.586114 3.35359,16.586114 l 0,664.20769 c 0,0 0.56917,10.122 -2.6273,13.33043 -3.21174,3.22375 -13.38414,2.68986 -13.38414,2.68986 l -621.66973,0 -28.98552,-29.71015 0,-640.942028 c 0,0 -2.80826,-19.18646 4.10909,-26.103808 z\" id=\"rect2826\" sodipodi:nodetypes=\"cccaccaccccs\" xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"/>
         <path style=\"fill:#949fa5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\" d=\"m 290.34375,481.9375 0,237 350.5625,0 0,-237 -350.5625,0 z M 346,499.46875 l 85.34375,0 0,183.65625 -85.34375,0 0,-183.65625 z\" transform=\"TRANS\" id=\"rect3607\"/>
         <rect style=\"fill:#eeeeee;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\" id=\"rect3601\" width=\"523.46179\" height=\"392.23584\" x=\"209.09631\" y=\"34.609047\" transform=\"TRANS\" rx=\"20\" ry=\"20\"/>
@@ -11430,7 +11678,7 @@ sub disk_image {
     if ( $_[0] eq "js" ) {
 
         return
-"<g xmlns=\\\"http://www.w3.org/2000/svg\\\" id=\\\"disk_image\\\" ACTION><path transform=\\\"TRANS\\\" style=\\\"fill:#434d57;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\\\" d=\\\"m 137.44242,24.150094 c 5.80716,-5.80716 20.5286,-3.244018 20.5286,-3.244018 l 619.51752,0 c 0,0 14.50156,-1.311524 19.15789,3.18591 4.05712,3.918671 3.35359,16.586114 3.35359,16.586114 l 0,664.20769 c 0,0 0.56917,10.122 -2.6273,13.33043 -3.21174,3.22375 -13.38414,2.68986 -13.38414,2.68986 l -621.66973,0 -28.98552,-29.71015 0,-640.942028 c 0,0 -2.80826,-19.18646 4.10909,-26.103808 z\\\" id=\\\"rect2826\\\" sodipodi:nodetypes=\\\"cccaccaccccs\\\" xmlns:sodipodi=\\\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\\\"/><path style=\\\"fill:#949fa5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\\\" d=\\\"m 290.34375,481.9375 0,237 350.5625,0 0,-237 -350.5625,0 z M 346,499.46875 l 85.34375,0 0,183.65625 -85.34375,0 0,-183.65625 z\\\" transform=\\\"TRANS\\\" id=\\\"rect3607\\\"/><rect style=\\\"fill:#eeeeee;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\\\" id=\\\"rect3601\\\" width=\\\"523.46179\\\" height=\\\"392.23584\\\" x=\\\"209.09631\\\" y=\\\"34.609047\\\" transform=\\\"TRANS\\\" rx=\\\"20\\\" ry=\\\"20\\\"/><rect style=\\\"fill:#333333;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\\\" id=\\\"rect3603\\\" width=\\\"37.342163\\\" height=\\\"28.197144\\\" x=\\\"157.75159\\\" y=\\\"70.411377\\\" transform=\\\"TRANS\\\"/><rect transform=\\\"TRANS\\\" y=\\\"378.67908\\\" x=\\\"749.12952\\\" height=\\\"28.197144\\\" width=\\\"37.342163\\\" id=\\\"rect3605\\\" style=\\\"fill:#333333;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\\\"/><text transform=\\\"TRANS\\\" x=\\\"450\\\" y=\\\"200\\\" text-anchor=\\\"middle\\\" dominant-baseline=\\\"middle\\\" stroke-width=\\\"20\\\" stroke=\\\"#0000dd\\\" font-size=\\\"FS\\\">TEXT</text></g>";
+"<g xmlns=\\\"http://www.w3.org/2000/svg\\\" id=\\\"disk_image\\\" class=\\\"clickable\\\" ACTION><path transform=\\\"TRANS\\\" style=\\\"fill:#434d57;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\\\" d=\\\"m 137.44242,24.150094 c 5.80716,-5.80716 20.5286,-3.244018 20.5286,-3.244018 l 619.51752,0 c 0,0 14.50156,-1.311524 19.15789,3.18591 4.05712,3.918671 3.35359,16.586114 3.35359,16.586114 l 0,664.20769 c 0,0 0.56917,10.122 -2.6273,13.33043 -3.21174,3.22375 -13.38414,2.68986 -13.38414,2.68986 l -621.66973,0 -28.98552,-29.71015 0,-640.942028 c 0,0 -2.80826,-19.18646 4.10909,-26.103808 z\\\" id=\\\"rect2826\\\" sodipodi:nodetypes=\\\"cccaccaccccs\\\" xmlns:sodipodi=\\\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\\\"/><path style=\\\"fill:#949fa5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\\\" d=\\\"m 290.34375,481.9375 0,237 350.5625,0 0,-237 -350.5625,0 z M 346,499.46875 l 85.34375,0 0,183.65625 -85.34375,0 0,-183.65625 z\\\" transform=\\\"TRANS\\\" id=\\\"rect3607\\\"/><rect style=\\\"fill:#eeeeee;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\\\" id=\\\"rect3601\\\" width=\\\"523.46179\\\" height=\\\"392.23584\\\" x=\\\"209.09631\\\" y=\\\"34.609047\\\" transform=\\\"TRANS\\\" rx=\\\"20\\\" ry=\\\"20\\\"/><rect style=\\\"fill:#333333;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\\\" id=\\\"rect3603\\\" width=\\\"37.342163\\\" height=\\\"28.197144\\\" x=\\\"157.75159\\\" y=\\\"70.411377\\\" transform=\\\"TRANS\\\"/><rect transform=\\\"TRANS\\\" y=\\\"378.67908\\\" x=\\\"749.12952\\\" height=\\\"28.197144\\\" width=\\\"37.342163\\\" id=\\\"rect3605\\\" style=\\\"fill:#333333;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\\\"/><text transform=\\\"TRANS\\\" x=\\\"450\\\" y=\\\"200\\\" text-anchor=\\\"middle\\\" dominant-baseline=\\\"middle\\\" stroke-width=\\\"20\\\" stroke=\\\"#0000dd\\\" font-size=\\\"FS\\\">TEXT</text></g>";
 
     }
 
