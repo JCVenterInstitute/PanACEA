@@ -436,7 +436,7 @@ sub make_main_figure() {
 	30/2, 30/2,
 	30/2, 70/2);
  #Making the help button that takes you to the help page. Currently this is the manual PDF on the github site
- $out{beg} .= sprintf("<a xlink:title=\"Help\" target=\"_blank\" href=\"https://github.com/JCVenterInstitute/PanACEA/blob/master/PanACEA.manual.pdf\"><svg class=\"clickable\" id = \"helpButton\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\"><rect x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" fill=\"lightgray\"/><path d=\"M29.898 26.5722l-4.3921 0c-0.0118,-0.635 -0.0177,-1.0172 -0.0177,-1.1583 0,-1.4229 0.2352,-2.5929 0.7056,-3.5102 0.4704,-0.9231 1.417,-1.952 2.8281,-3.1044 1.4111,-1.1465 2.2578,-1.8991 2.5282,-2.2578 0.4292,-0.5585 0.6409,-1.1818 0.6409,-1.8579 0,-0.9408 -0.3763,-1.7463 -1.1289,-2.4224 -0.7526,-0.6703 -1.7639,-1.0054 -3.0397,-1.0054 -1.2289,0 -2.2578,0.3527 -3.0868,1.0524 -0.8232,0.6997 -1.3935,1.7698 -1.7051,3.2044l-4.4391 -0.5527c0.1234,-2.0578 0.9995,-3.8041 2.6223,-5.2387 1.6286,-1.4346 3.757,-2.152 6.4029,-2.152 2.7752,0 4.9859,0.7291 6.6322,2.1814 1.6404,1.4522 2.4635,3.1397 2.4635,5.0741 0,1.0642 -0.3057,2.0755 -0.9054,3.028 -0.6056,0.9525 -1.8933,2.2519 -3.8688,3.8923 -1.0231,0.8525 -1.6581,1.5346 -1.905,2.052 -0.2469,0.5174 -0.3587,1.4405 -0.3351,2.7752zm-4.3921 6.5087l0 -4.8389 4.8389 0 0 4.8389 -4.8389 0z\" style=\"stroke: black; fill: yellow;\"></svg></a>",
+ $out{beg} .= sprintf("<a xlink:title=\"Help\" target=\"_self\" href=\"https://github.com/JCVenterInstitute/PanACEA/blob/master/PanACEA.manual.pdf\"><svg class=\"clickable\" id = \"helpButton\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\"><rect x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" fill=\"lightgray\"/><path d=\"M29.898 26.5722l-4.3921 0c-0.0118,-0.635 -0.0177,-1.0172 -0.0177,-1.1583 0,-1.4229 0.2352,-2.5929 0.7056,-3.5102 0.4704,-0.9231 1.417,-1.952 2.8281,-3.1044 1.4111,-1.1465 2.2578,-1.8991 2.5282,-2.2578 0.4292,-0.5585 0.6409,-1.1818 0.6409,-1.8579 0,-0.9408 -0.3763,-1.7463 -1.1289,-2.4224 -0.7526,-0.6703 -1.7639,-1.0054 -3.0397,-1.0054 -1.2289,0 -2.2578,0.3527 -3.0868,1.0524 -0.8232,0.6997 -1.3935,1.7698 -1.7051,3.2044l-4.4391 -0.5527c0.1234,-2.0578 0.9995,-3.8041 2.6223,-5.2387 1.6286,-1.4346 3.757,-2.152 6.4029,-2.152 2.7752,0 4.9859,0.7291 6.6322,2.1814 1.6404,1.4522 2.4635,3.1397 2.4635,5.0741 0,1.0642 -0.3057,2.0755 -0.9054,3.028 -0.6056,0.9525 -1.8933,2.2519 -3.8688,3.8923 -1.0231,0.8525 -1.6581,1.5346 -1.905,2.052 -0.2469,0.5174 -0.3587,1.4405 -0.3351,2.7752zm-4.3921 6.5087l0 -4.8389 4.8389 0 0 4.8389 -4.8389 0z\" style=\"stroke: black; fill: yellow;\"></svg></a>",
 	( $border + $max_radius - 80 ), 
 	( $border + $max_radius - $border * 1.90 -5),
 	40,
@@ -6600,15 +6600,21 @@ function saveSVG(fileType)
 				canvas.style.width = $SVGWIDTH+\"px\";
 				ctx.drawImage(img, 0, 0, $SVGWIDTH, $SVGHEIGHT, 0, 0, $SVGWIDTH_BIG, $SVGHEIGHT_BIG);
 			}
+			try {
+			nw.setAttribute(\"href\", canvas.toDataURL(\"image/png\"));
 		
 			nw.setAttribute(\"download\",\"Main.$filenamePNG\");
-			nw.setAttribute(\"href\", canvas.toDataURL(\"image/png\"));
-			nw.setAttribute(\"target\", \"_blank\");
+			nw.setAttribute(\"target\", \"_self\");
 
-			alert(\"Saved PNG to \" + \"$filenamePNG\");
+			alert(\"Saved PNG to \" + );
 			document.body.appendChild(nw); 
 			nw.click();
 			document.body.removeChild(nw);
+			}catch (err)
+			{
+				alert(\"Unable to save \" +\"$filenamePNG\");
+				console.log(err);
+			}
 		}
 	}
 	else	
@@ -6616,7 +6622,7 @@ function saveSVG(fileType)
 
 		nw.setAttribute(\"download\", \"Main.$filenameSVG\");
 		nw.setAttribute(\"href\", svgfile);
-		nw.setAttribute(\"target\", \"_blank\");
+		nw.setAttribute(\"target\", \"_self\");
 		alert(\"Saved SVG to \" + \"Main.$filenameSVG\");
 		document.body.appendChild(nw); nw.click(); document.body.removeChild(nw);
 	}
@@ -6651,7 +6657,7 @@ function saveTableTxt()
 
 	nw.setAttribute(\"download\", curPath + \"$filenameTXT\");
 	nw.setAttribute(\"href\", txtfile);
-	nw.setAttribute(\"target\", \"_blank\");
+	nw.setAttribute(\"target\", \"_self\");
 	alert(\"Saved TXT to \" + curPath+ \"$filenameTXT\");
 	document.body.appendChild(nw); nw.click(); document.body.removeChild(nw);
 }
@@ -8530,56 +8536,38 @@ sub fgi_javascript() {
 			{
 				var newSVG = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
 				newSVG.setAttribute(\"xmlns:xlink\",\"http://www.w3.org/1999/xlink\");
-				newSVG.setAttribute(\"height\", totHeight * $DPI);
-				newSVG.setAttribute(\"width\",totWidth * $DPI);
-				var intraSVG = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
-				intraSVG.setAttribute(\"height\", totHeight);
-				intraSVG.setAttribute(\"width\",totWidth);
-				
-				intraSVG.setAttribute(\"transform\",\"scale($DPI,$DPI)\");
-
-				intraSVG.innerHTML = divLeft.innerHTML + divRight.innerHTML  + divMain.innerHTML  + divLeg.innerHTML;
-				newSVG.appendChild(intraSVG);
-				var svgStr;
-				if (navigator.userAgent.search(\"Chrome\") > -1)
-				{
-					 svgStr = new XMLSerializer().serializeToString(newSVG);
-				}
-				else
-				{
-					svgStr = \"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" height=\\\"\" + totHeight + \"\\\" width=\\\"\" + totWidth +\"\\\">\" + divLeft.innerHTML + divRight.innerHTML  + divMain.innerHTML  + divLeg.innerHTML + \"</svg>\";
-				}
+				newSVG.setAttribute(\"height\", totHeight);
+				newSVG.setAttribute(\"width\",totWidth);
+				newSVG.innerHTML = divLeft.innerHTML + divRight.innerHTML  + divMain.innerHTML  + divLeg.innerHTML;
+				var svgStr = new XMLSerializer().serializeToString(newSVG);
+				var newSVGBBox = newSVG.getBBox();
 				var canvas = document.createElement(\"canvas\");
 				canvas.width = totWidth * $DPI;
 				canvas.height = totHeight * $DPI;
 				var ctx = canvas.getContext(\"2d\");
+				ctx.scale(1,1);
 				var img = new Image();
 				img.src = \"data:image/svg+xml;base64,\" + window.btoa(svgStr);
-				img.onload = function() {	
-					if (navigator.userAgent.search(\"Chrome\") == -1)
-					{
-						ctx.scale($DPI, $DPI)
-						canvas.style.height = totHeight+ \"px\";
-						canvas.style.width = totWidth+\"px\";
-					
-						ctx.drawImage(img, 0, 0); 
-				
-					}
-					else
-					{
-						canvas.style.height = totWidth+\"px\";
-						canvas.style.width = totWidth+\"px\";
-						ctx.drawImage(img, 0, 0, totWidth, totHeight, 0, 0, totWidth * $DPI, totHeight* $DPI);
-					}
-		
-					nw.setAttribute(\"download\",name + \"$filenamePNG\");
-					nw.setAttribute(\"href\", canvas.toDataURL(\"image/png\"));
-					nw.setAttribute(\"target\", \"_blank\");
+				img.onload = function() {
+				totWidth * $DPI
+					ctx.drawImage(img, 0, 0,totWidth, totHeight, 0, 0, totWidth * $DPI, totHeight * $DPI);
 
-					alert(\"Saved PNG to \" +  + name + \"$filenamePNG\");
-					document.body.appendChild(nw); 
-					nw.click(); 
-					document.body.removeChild(nw);
+					try
+					{
+						nw.setAttribute(\"href\", canvas.toDataURL(\"image/png\"));
+					
+						nw.setAttribute(\"download\",name + \"$filenamePNG\");
+						nw.setAttribute(\"target\", \"_self\");
+
+						alert(\"Saved PNG to \" +  + name + \"$filenamePNG\");
+						document.body.appendChild(nw); 
+						nw.click(); 
+						document.body.removeChild(nw);
+					}catch (err)
+					{	
+						alert(\"Unable to save \" +\"$filenamePNG\");
+						console.log(err);
+					}
 				}
 			}
 			else
@@ -8592,7 +8580,7 @@ sub fgi_javascript() {
 				nw.setAttribute(\"download\", name + \"$filenameSVG\");
 				var svgURL = URL.createObjectURL(inSvg);
 				nw.setAttribute(\"href\", svgURL);
-				nw.setAttribute(\"target\", \"_blank\");
+				nw.setAttribute(\"target\", \"_self\");
 				document.body.appendChild(nw); nw.click(); document.body.removeChild(nw);
 				alert(\"Saved SVG to \" + name + \"$filenameSVG\");
 
@@ -10476,7 +10464,7 @@ sub fgi_javascript() {
 			var curPath = location.substring(0, location.lastIndexOf(\"/\")+1);
 			nw.setAttribute(\"download\", currentID +\" .all.fasta\");
 			nw.setAttribute(\"href\", txtfile);
-			nw.setAttribute(\"target\", \"_blank\");
+			nw.setAttribute(\"target\", \"_self\");
 			alert(\"Saved TXT to \" + currentID +\".all.fasta\");
 			document.body.appendChild(nw); nw.click(); document.body.removeChild(nw);
 		}
@@ -10594,10 +10582,10 @@ event.initEvent('build', true, true)
 			add =  \"<g id = \\\"selectFGR\\\" transform=\\\"translate(0,\" + rect+ \")\\\">\"+ FGRmodel.innerHTML + \"</svg>\";
 		
 		}
-		var svgStr = \"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" height=\\\"$SVGHEIGHT\\\" width=\\\"$SVGWIDTH\\\" transform=\\\"scale($DPI,$DPI)\\\">\"+document.getElementById(\"LegendSVG\").innerHTML+ document.getElementById(\"tree_svg\").innerHTML + \"</svg>\";
+		var svgStr = \"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" height=\\\"$SVGHEIGHT\\\" width=\\\"$SVGWIDTH\\\">\"+document.getElementById(\"LegendSVG\").innerHTML+ document.getElementById(\"tree_svg\").innerHTML + \"</svg>\";
 		if (add != null)
 		{
-			svgStr = \"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" height=\\\"$SVGHEIGHT\\\" width=\\\"$SVGWIDTH\\\" transform=\\\"scale($DPI,$DPI)\\\">\"+document.getElementById(\"LegendSVG\").innerHTML+ document.getElementById(\"tree_svg\").innerHTML + add+\"</svg>\";
+			svgStr = \"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" height=\\\"$SVGHEIGHT\\\" width=\\\"$SVGWIDTH\\\">\"+document.getElementById(\"LegendSVG\").innerHTML+ document.getElementById(\"tree_svg\").innerHTML + add+\"</svg>\";
 		}
 		var inSvg = new Blob([svgStr], {type: \'image/svg+xml\'});
 		var svgfile = URL.createObjectURL(inSvg);
@@ -10607,55 +10595,46 @@ event.initEvent('build', true, true)
 		{
 			var newSVG = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
 			newSVG.setAttribute(\"xmlns:xlink\",\"http://www.w3.org/1999/xlink\");
-			newSVG.setAttribute(\"width\", parseFloat(svg_all.getAttribute(\"width\")) * $DPI);
-			newSVG.setAttribute(\"height\",parseFloat(svg_all.getAttribute(\"height\")) * $DPI + 200);
+			newSVG.setAttribute(\"height\", parseFloat(svg_all.getAttribute(\"width\")) * 2);
+			newSVG.setAttribute(\"width\",2*parseFloat(svg_all.getAttribute(\"height\")) + 200);
 			newSVG.innerHTML = svgStr;
-			
-			if (navigator.userAgent.search(\"Chrome\") > -1)
-			{
-				svgStr = new XMLSerializer().serializeToString(newSVG);
-			}
-		
+			var svgStr = new XMLSerializer().serializeToString(newSVG);
+
 			var canvas = document.createElement(\"canvas\");
 			var totWidthTmp = parseFloat(svg_all.getAttribute(\"width\"));
 			var totHeightTmp = (parseFloat(svg_all.getAttribute(\"height\")) + 200);
 			canvas.width =  totWidthTmp * $DPI;
 			canvas.height =  totHeightTmp * $DPI;
 			var ctx = canvas.getContext(\"2d\");
-			
+			ctx.scale(1, 1);
+
 			var img = new Image();
 			img.src = \"data:image/svg+xml;base64,\" + window.btoa(svgStr);
 			img.onload = function()
 			{
-				if (navigator.userAgent.search(\"Chrome\") == -1)
-				{
-					ctx.scale($DPI, $DPI)
-					canvas.style.height = $SVGHEIGHT+ \"px\";
-					canvas.style.width = $SVGWIDTH+\"px\";
-		
-					ctx.drawImage(img, 0, 0); 
+				ctx.drawImage(img, 0, 0, totWidthTmp, totHeightTmp, 0, 0, totWidthTmp * $DPI, totHeightTmp * $DPI );
+
+				try{
 				
-				}
-				else
-				{
-					canvas.style.height = $SVGHEIGHT+\"px\";
-					canvas.style.width = $SVGWIDTH+\"px\";
-					ctx.drawImage(img, 0, 0, $SVGWIDTH, $SVGHEIGHT, 0, 0, $SVGWIDTH * $DPI, $SVGHEIGHT * $DPI);
-				}
-				nw.setAttribute(\"download\",id + \"tree.$filenamePNG\");
 				nw.setAttribute(\"href\", canvas.toDataURL(\"image/png\"));
-				nw.setAttribute(\"target\", \"_blank\");
+				
+				nw.setAttribute(\"download\",id + \"tree.$filenamePNG\");
+				nw.setAttribute(\"target\", \"_self\");
 
 				alert(\"Saved PNG to \" + id + \"tree.$filenamePNG\");
 				document.body.appendChild(nw); nw.click(); document.body.removeChild(nw);
-			
+				}catch (err)
+				{	
+					alert(\"Unable to save \" +\"$filenamePNG\");
+					console.log(err);
+				}
 			}
 		}
 		else
 		{
 			nw.setAttribute(\"download\", id + \".tree.$filenameSVG\");
 			nw.setAttribute(\"href\", svgfile);
-			nw.setAttribute(\"target\", \"_blank\");
+			nw.setAttribute(\"target\", \"_self\");
 			alert(\"Saved SVG to \"  + id + \".tree.$filenameSVG\");
 			document.body.appendChild(nw); nw.click(); document.body.removeChild(nw);
 		}
@@ -10769,7 +10748,7 @@ function changeDiv(evt)
 			var curPath = location.substring(0, location.lastIndexOf(\"/\")+1);
 			nw.setAttribute(\"download\", currentID +\" .all.fasta\");
 			nw.setAttribute(\"href\", txtfile);
-			nw.setAttribute(\"target\", \"_blank\");
+			nw.setAttribute(\"target\", \"_self\");
 			alert(\"Saved TXT to \" + currentID +\".all.fasta\");
 			document.body.appendChild(nw); nw.click(); document.body.removeChild(nw);
 		}
@@ -11502,61 +11481,45 @@ function draw_tree(level, type)
 		{
 			var newSVG = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
 			newSVG.setAttribute(\"xmlns:xlink\",\"http://www.w3.org/1999/xlink\");
-			newSVG.setAttribute(\"height\", parseFloat(svg_all.getAttribute(\"width\")) * $DPI);
-			newSVG.setAttribute(\"width\",$DPI*parseFloat(svg_all.getAttribute(\"height\")) + 200);
-			var intraSVG = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
-			intraSVG.setAttribute(\"height\", \"$SVGHEIGHT\" + \"px\");
-			intraSVG.setAttribute(\"width\",\"$SVGWIDTH\" +\"px\");
-		
-			intraSVG.innerHTML = document.getElementById(\"LegendSVG\").innerHTML+ document.getElementById(\"tree_svg\").innerHTML;
-			intraSVG.setAttribute(\"transform\",\"scale($DPI,$DPI)\");
-			newSVG.appendChild(intraSVG);
-
+			newSVG.setAttribute(\"height\", parseFloat(svg_all.getAttribute(\"width\")) * 2);
+			newSVG.setAttribute(\"width\",2*parseFloat(svg_all.getAttribute(\"height\")) + 200);
+			newSVG.innerHTML = document.getElementById(\"LegendSVG\").innerHTML+ document.getElementById(\"tree_svg\").innerHTML;
 			var svgStr = new XMLSerializer().serializeToString(newSVG);
-			if (navigator.userAgent.search(\"Chrome\") > -1)
-			{
-				svgStr = new XMLSerializer().serializeToString(newSVG);
-			}
+
 			var canvas = document.createElement(\"canvas\");
 			var totWidthTmp = parseFloat(svg_all.getAttribute(\"width\"));
 			canvas.width =  totWidthTmp * $DPI;
 			var totHeightTmp = (parseFloat(svg_all.getAttribute(\"height\"))) + 100;
 			canvas.heght = (totHeightTmp)*$DPI;
 			var ctx = canvas.getContext(\"2d\");
-			
+			ctx.scale(1,1);
+
 			var img = new Image();
 			img.src = \"data:image/svg+xml;base64,\" + window.btoa(svgStr);
 			
 			img.onload = function()
 			{
-				if (navigator.userAgent.search(\"Chrome\") == -1)
-				{
-					ctx.scale($DPI, $DPI)
-					canvas.style.height = $SVGHEIGHT+ \"px\";
-					canvas.style.width = $SVGWIDTH+\"px\";
-			
-					ctx.drawImage(img, 0, 0); 
-				
-				}
-				else
-				{
-					canvas.style.height = $SVGHEIGHT+\"px\";
-					canvas.style.width = $SVGWIDTH+\"px\";
-					ctx.drawImage(img, 0, 0, $SVGWIDTH, $SVGHEIGHT, 0, 0, $SVGWIDTH * $DPI, $SVGHEIGHT * $DPI);
-				}
-				nw.setAttribute(\"download\",id + \".tree.$filenamePNG\");
+				ctx.drawImage(img, 0, 0. totWidthTmp, totHeightTmp, 0, 0, totWidthTmp * $DPI, totHeightTmp * $DPI);
+
+				try{
 				nw.setAttribute(\"href\", canvas.toDataURL(\"image/png\", 1.0));
-				nw.setAttribute(\"target\", \"_blank\");
+				nw.setAttribute(\"download\",id + \".tree.$filenamePNG\");
+				nw.setAttribute(\"target\", \"_self\");
 
 				alert(\"Saved PNG to \" + id + \".tree.$filenamePNG\");
 				document.body.appendChild(nw); nw.click(); document.body.removeChild(nw);
+				}catch (err)
+				{	
+					alert(\"Unable to save \" +\"$filenamePNG\");
+					console.log(err);
+				}
 			}
 		}
 		else
 		{
 			nw.setAttribute(\"download\", id + \".tree.$filenameSVG\");
 			nw.setAttribute(\"href\", svgfile);
-			nw.setAttribute(\"target\", \"_blank\");
+			nw.setAttribute(\"target\", \"_self\");
 			alert(\"Saved SVG to \" + id + \".tree.$filenameSVG\");
 			document.body.appendChild(nw); nw.click(); document.body.removeChild(nw);
 		}
