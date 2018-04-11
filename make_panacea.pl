@@ -399,10 +399,20 @@ sub make_main_figure() {
     #Initializeing the image by drawing
     %out = &svg_init_image( 2 * ( $border + $max_radius ), 2 * ( $border + $max_radius ), \%out );
     #
-    $out{beg} = sprintf(
-"<div id=\"mainDiv\" style=\"visibility: hidden; left:%fpx; top:0px; position:absolute;\" onmousemove=\"mouseMove()\">",
-        1 * $gene_height )
-      . $out{beg};
+    my $add = sprintf(
+"<div id=\"outTable\" style=\"visibility:hidden; position: absolute; left: %fpx; top: 32px; overflow:auto; \"></div><div id=\"mainDiv\" style=\"visibility: hidden; left:%fpx; top:0px; position:absolute; \" onmousemove=\"mouseMove()\" zoomLevel=\"0\">",
+        1 * $gene_height + 2 * ( $border + $max_radius ), 1 * $gene_height );
+	#Adding the zoom tool bar
+	
+	
+	
+	
+	#Division containing the main circular image. Zoomable
+	$add .= sprintf( "<div id =\"zoomDiv\" style=\"height: %fpx; width: %fpx; overflow-y: auto; overflow-x: auto; top: 32px;\"><div id=\"allZoom\" style=\"height:%fpx; width:%fpx; transform: scale(1,1) translate(0,0);\">", 2 * ( $border + $max_radius ), 2 * ( $border + $max_radius ), 2 * ( $border + $max_radius ), 2 * ( $border + $max_radius ));
+	
+	
+	
+	$out{beg} = $add . sprintf("<div id=\"svgWrap\" style=\"position: relative; top:0px; left:0px;\" height=\"%f\" width=\"%f\">", 2 * ( $border + $max_radius ), 2 * ( $border + $max_radius )). $out{beg};
 
     #This is the loading screen described above. The blocks are the squares and twirl is the central screen
     $out{load} = make_loading_screen();
@@ -426,7 +436,7 @@ sub make_main_figure() {
     );
 
  #Making a Reset button for users to reset the Legend. Hidden to begin v  
- $out{beg} .= sprintf("<svg class=\"clickable\" onmouseover=\"var rect = document.getElementById(\'resetrect\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'resetrect\'); rect.style.fill=\'#bbffbb\';\" id = \"resetButton\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" style=\"visibility:hidden;\" onclick=\"runType(\'resetLegend\')\"><rect id=\"resetrect\" x = \"0\" y=\"0\" height =\"%s\" width =\"%s\" rx=\"%f\" ry=\"%f\" fill=\"#bbffbb\" stroke=\"black\"/><text y=\"%f\" x=\"%f\" position=\"relative\" alignment-baseline=\"middle\" text-anchor=\"middle\" font-size=\"20\" font-color=\"black\">Reset</text></svg>",
+ $out{beg} .= sprintf("<svg class=\"clickable\" onmouseover=\"var rect = document.getElementById(\'resetrect\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'resetrect\'); rect.style.fill=\'#bbffbb\';\" id = \"resetButton\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" style=\"visibility:hidden;\" onclick=\"runType(\'resetLegend\')\"><rect id=\"resetrect\" x = \"0\" y=\"0\" height =\"%s\" width =\"%s\" rx=\"%f\" ry=\"%f\" fill=\"#bbffbb\" stroke=\"black\"/><text y=\"%f\" x=\"%f\" position=\"relative\" dominant-baseline=\"middle\" text-anchor=\"middle\" font-size=\"20\" font-color=\"black\">Reset</text></svg>",
 	( $border + $max_radius - 140 ), 
 	( $border + $max_radius - $border * 1.90 +5),
 	70, 30,
@@ -487,6 +497,7 @@ sub make_main_figure() {
         ( $border + $max_radius - $border * 1.95 ), "Legend"
     );
 
+	
     #Legend: The different functions
     my @curr_y;    #Keeps track of current y position of the function in the table
     my @curr_x;    #Keeps track of current x position of the function in the table
@@ -1215,22 +1226,24 @@ sub make_main_figure() {
         chop( $out{script_chr} );
         $out{script_chr} .= "}\';\n";
         $out{script_chr} .= sprintf( "\n\nvar %s = \'{", "termJSONPlasmid" . $cur_chr );
-        foreach my $a ( keys(%$terms) ) { $out{script_chr} .= sprintf( "\"%s\":\"%s\",", $a, $terms->{$a} ); }
-        if ( $out_cnt > 0 ) {
+        my $add_script;
+		foreach my $a ( keys(%$terms) ) { $add_script .= sprintf( "\"%s\":\"%s\",", $a, $terms->{$a} ); }
+        if ( length($add_script) > 0 ) {
 
-            chop( $out{script_chr} );
+            chop($add_script );
 
         }
-        $out{script_chr} .= "}\';\n";
+        $out{script_chr} .= $add_script . "}\';\n";
         $out{script_chr} .= sprintf( "\n\nvar %s = \'{", "termCountJSONPlasmid" . $cur_chr );
-        foreach my $a ( keys(%term_cnt) ) { $out{script_chr} .= sprintf( "\"%s\":\"%s\",", $a, $term_cnt{$a} ); }
-        if ( $out_cnt > 0 ) {
+        $add_script = "";
+		foreach my $a ( keys(%term_cnt) ) { $add_script .= sprintf( "\"%s\":\"%s\",", $a, $term_cnt{$a} ); }
+          if ( length($add_script) > 0 ) {
 
-            chop( $out{script_chr} );
+            chop($add_script );
 
         }
 
-        $out{script_chr} .= "}\';\n";
+        $out{script_chr} .= $add_script . "}\';\n";
 
     }
 
@@ -1361,7 +1374,7 @@ sub make_main_figure() {
 
                     }
                     $out{script} .= sprintf(
-"\"%s\":{\"Cluster\":\"%s\", \"Name\":\"%s\",\"# of Genomes\":\"%s\",\"Functional IDs\":\"%s\",\"Associated Terms\":\"%s\",\"Sequence\":\"%s\"},\"Maximum Length\":\"%f\", \"Minimum Length\":\"%f\", \"Mean\":\"%f\", \"Standard Deviation\":\"%f\", \"Genomes\":\"%s\"",
+"\"%s\":{\"Cluster\":\"%s\", \"Name\":\"%s\",\"# of Genomes\":\"%s\",\"Functional IDs\":\"%s\",\"Associated Terms\":\"%s\",\"Sequence\":\"%s\",\"Maximum Length\":\"%f\", \"Minimum Length\":\"%f\", \"Mean\":\"%f\", \"Standard Deviation\":\"%f\", \"Genomes\":\"%s\"},",
                         $ID,                                          $ID,
                         $clusters{$num1}->{protein_name},             $clusters{$num1}->{num_of_members},
                         $jso{Gene}->[ $gene_num{$num1} ]->{type_ref}, $jso{Gene}->[ $gene_num{$num1} ]->{oth_ref},
@@ -1384,22 +1397,24 @@ sub make_main_figure() {
                 chop( $out{script} );
                 $out{script} .= "}\';\n";
                 $out{script} .= sprintf( "\n\nvar %s = \'{", "termJSONPlasmid" . $cur_chr );
-                foreach my $a ( keys(%$terms) ) { $out{script} .= sprintf( "\"%s\":\"%s\",", $a, $terms->{$a} ); }
-                if ( $out_cnt > 0 ) {
+                my $add_script = "";
+				foreach my $a ( keys(%$terms) ) {$add_script .= sprintf( "\"%s\":\"%s\",", $a, $terms->{$a} ); }
+                if ( length($add_script) > 0 ) {
 
-                    chop( $out{script} );
+                    chop( $add_script);
 
                 }
-                $out{script} .= "}\';\n";
+                $out{script} .=  $add_script . "}\';\n";
+				$add_script = "";
                 $out{script} .= sprintf( "\n\nvar %s = \'{", "termCountJSONPlasmid" . $cur_chr );
-                foreach my $a ( keys(%term_cnt) ) { $out{script} .= sprintf( "\"%s\":\"%s\",", $a, $term_cnt{$a} ); }
-                if ( $out_cnt > 0 ) {
+                foreach my $a ( keys(%term_cnt) ) { $add_script .= sprintf( "\"%s\":\"%s\",", $a, $term_cnt{$a} ); }
+                if ( length($add_script) > 0 ) {
 
-                    chop( $out{script} );
+                    chop( $add_script );
 
                 }
 
-                $out{script} .= "}\';\n";
+                $out{script} .= $add_script . "}\';\n";
 
             }
 
@@ -1433,9 +1448,9 @@ sub make_main_figure() {
 
     my $en = ( 305 + 110 ) / 180 * $PI;
 
-    #light gray bottom part of the tabl
+    #light gray bottom part of the table
     $out{table} .= sprintf(
-        "<path  d=\"M%f %f A%f %f 0 0 0 %f %f L%f %f A%f %f 0 0 0 %f %f Z\" stroke=\"black\" fill=\"#bbffbb\" id=\"%s\" />\n",
+        "<path  d=\"M%f %f A%f %f 0 0 0 %f %f L%f %f A%f %f 0 0 0 %f %f Z\" stroke=\"black\" fill=\"#bbffbb\" id=\"%s\" visibility=\"visible\" />\n",
         ( $border + $max_radius ) + sin($st) * ( $max_radius - $border * 1.5 ),
         ( $border + $max_radius ) + cos($st) * ( $max_radius - $border * 1.5 ),
         ( $max_radius - $border * 1.5 ),
@@ -1451,13 +1466,13 @@ sub make_main_figure() {
         "ButtonIDTableOn"
     );
     $out{table} .= sprintf(
-"<text x=\"%f\" y=\"%f\" font-size=\"30\" text-anchor=\"middle\" alignment-baseline=\"middle\" id=\"tableButtonText\">Show Table</text></path>",
+"<text x=\"%f\" y=\"%f\" font-size=\"30\" text-anchor=\"middle\" dominant-baseline=\"middle\" id=\"tableButtonText\">Show Table</text>",
         $border + $max_radius,
         $border + $max_radius + ( $max_radius - $border * 2 )
     );
-    $out{table} .= sprintf(
-"<path class=\"clickable\" onmouseover=\"var rect = document.getElementById(\'ButtonIDTableOn\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'ButtonIDTableOn\'); rect.style.fill=\'#bbffbb\';\" d=\"M%f %f A%f %f 0 0 0 %f %f L%f %f A%f %f 0 0 0 %f %fZ\" stroke=\"black\" fill-opacity=\"0\" onclick=\"runType(\'TableStatus\',evt, \'\')\")/>",
-        ( $border + $max_radius ) + sin($st) * ( $max_radius - $border * 1.5 ),
+	    $out{table} .= sprintf(
+"<path class=\"clickable\" visibility=\"visible\" id=\"tableOnPath\" onmouseover=\"var rect = document.getElementById(\'ButtonIDTableOn\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'ButtonIDTableOn\'); rect.style.fill=\'#bbffbb\';\" d=\"M%f %f A%f %f 0 0 0 %f %f L%f %f A%f %f 0 0 0 %f %f Z\" stroke=\"black\" fill-opacity=\"0\" onclick=\"runType(\'TableStatus\',evt, \'\')\")/>",
+       ( $border + $max_radius ) + sin($st) * ( $max_radius - $border * 1.5 ),
         ( $border + $max_radius ) + cos($st) * ( $max_radius - $border * 1.5 ),
         ( $max_radius - $border * 1.5 ),
         ( $max_radius - $border * 1.5 ),
@@ -1469,6 +1484,79 @@ sub make_main_figure() {
         ( $max_radius - $border * 1.5 ),
         ( $border + $max_radius ) + sin($en) * ( $max_radius - $border * 1.5 ),
         ( $border + $max_radius ) + cos($en) * ( $max_radius - $border * 1.5 )
+    );
+	
+	#Button Off
+	
+	 $out{table} .= sprintf(
+        "<path visibility=\"hidden\" d=\"M%f %f L%f %f L %f %f A%f %f 0 0 0 %f %f Z\" stroke=\"black\" fill=\"#bbffbb\" id=\"%s\"/>\n",
+		( $border + $max_radius ),
+        ( $border + $max_radius ) + cos($en) * ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ),
+        ( $border + $max_radius ) + cos($mid2) * ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ) + sin($mid2) * ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ) + cos($mid2) * ( $max_radius - $border * 1.5 ),
+        ( $max_radius - $border * 1.5 ),
+        ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ) + sin($en) * ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ) + cos($en) * ( $max_radius - $border * 1.5 ),
+		"ButtonIDTableOff"
+    );
+    $out{table} .= sprintf(
+"<text x=\"%f\" y=\"%f\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"middle\" id=\"tableButtonOffText\" visibility=\"hidden\">Hide Table</text>",
+        $border + $max_radius +  sin($mid2) * ( $max_radius - $border * 1.5 )/2,
+        $border + $max_radius + ( $max_radius - $border * 2 )
+    );
+	$out{table} .= sprintf(
+"<path visibility=\"hidden\" id=\"tableOffPath\" class=\"clickable\" onmouseover=\"var rect = document.getElementById(\'ButtonIDTableOff\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'ButtonIDTableOff\'); rect.style.fill=\'#bbffbb\';\" d=\"M%f %f L%f %f L %f %f A%f %f 0 0 0 %f %fZ\" stroke=\"black\" fill-opacity=\"0\" onclick=\"runType(\'TableStatus\',evt, \'\')\")/>",
+        ( $border + $max_radius ),
+        ( $border + $max_radius ) + cos($en) * ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ),
+        ( $border + $max_radius ) + cos($mid2) * ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ) + sin($mid2) * ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ) + cos($mid2) * ( $max_radius - $border * 1.5 ),
+        ( $max_radius - $border * 1.5 ),
+        ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ) + sin($en) * ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ) + cos($en) * ( $max_radius - $border * 1.5 )
+    );
+	
+	#Expand Table Button
+    $out{table} .= sprintf(
+        "<path  d=\"M%f %f A%f %f 0 0 0 %f %f L%f %f L%f %f Z\" stroke=\"black\" fill=\"#bbffbb\" id=\"%s\" visibility=\"hidden\" />\n",
+        ( $border + $max_radius ) + sin($st) * ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ) + cos($st) * ( $max_radius - $border * 1.5 ),
+        ( $max_radius - $border * 1.5 ),
+        ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ) + sin($mid1) * ( $max_radius - $border * 1.5 ),
+		( $border + $max_radius ) + cos($mid1) * ( $max_radius - $border * 1.5 ),
+		( $border + $max_radius ),
+		( $border + $max_radius ) + cos($mid1) * ( $max_radius - $border * 1.5 ),
+		( $border + $max_radius ),
+		( $border + $max_radius ) + cos($st) * ( $max_radius - $border * 1.5 ),
+		
+        "ButtonIDTableExpand"
+    );
+    $out{table} .= sprintf(
+"<text x=\"%f\" y=\"%f\" font-size=\"20\" text-anchor=\"middle\" dominant-baseline=\"middle\" id=\"tableButtonExpandText\" visibility=\"hidden\">Expand Table</text>",
+        $border + $max_radius + sin($mid1) * ( $max_radius - $border * 1.5 )/2,
+        $border + $max_radius + ( $max_radius - $border * 2 )
+    );
+   
+	
+    $out{table} .= sprintf(
+"<path id=\"tableExpandPath\" visibility=\"hidden\" class=\"clickable\" onmouseover=\"var rect = document.getElementById(\'ButtonIDTableExpand\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'ButtonIDTableExpand\'); rect.style.fill=\'#bbffbb\';\" d=\"M%f %f A%f %f 0 0 0 %f %f L%f %f L%f %f Z\" stroke=\"black\" fill-opacity=\"0\" onclick=\"expandTable()\")/>",
+        ( $border + $max_radius ) + sin($st) * ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ) + cos($st) * ( $max_radius - $border * 1.5 ),
+        ( $max_radius - $border * 1.5 ),
+        ( $max_radius - $border * 1.5 ),
+        ( $border + $max_radius ) + sin($mid1) * ( $max_radius - $border * 1.5 ),
+		( $border + $max_radius ) + cos($mid1) * ( $max_radius - $border * 1.5 ),
+		( $border + $max_radius ),
+		( $border + $max_radius ) + cos($mid1) * ( $max_radius - $border * 1.5 ),
+		( $border + $max_radius ),
+		( $border + $max_radius ) + cos($st) * ( $max_radius - $border * 1.5 )
+		
     );
 
     #starting the table buttons
@@ -1502,7 +1590,7 @@ sub make_main_figure() {
 	my $saveTableDiskImage = $disk_image;
     $out{table} .= $disk_image;
 
-#$out->{table} .= sprintf("<text x=\"%f\" y=\"%f\" font-size=\"20\" text-anchor=\"middle\" onclick=\"saveTableTxt()\" alignment-baseline=\"middle\" id=\"tableButtonText\">Save Table as TSV</text></path>", ;
+#$out->{table} .= sprintf("<text x=\"%f\" y=\"%f\" font-size=\"20\" text-anchor=\"middle\" onclick=\"saveTableTxt()\" dominant-baseline=\"middle\" id=\"tableButtonText\">Save Table as TSV</text></path>", ;
     $out{table} .= sprintf(
         "<path class=\"clickable\"  d=\"M%f %f A%f %f 0 0 0 %f %f  Z\" stroke=\"#eeeeff\" fill=\"none\" id=\"%s\" onclick=\"saveTableTxt()\"/>\n",
         ( $border + $max_radius ) + sin($mid1) * ( $max_radius - $border * 1.5 ),
@@ -1566,7 +1654,7 @@ sub make_main_figure() {
             "ArcButtonID" . $table_types[$i]
         );
         $out{table} .= sprintf(
-"<text text-anchor=\"middle\" alignment-baseline=\"middle\"><textPath startOffset=\"%s\" xlink:href=\"#%s\" >%s</textPath></text>\n",
+"<text text-anchor=\"middle\" dominant-baseline=\"middle\"><textPath startOffset=\"%s\" xlink:href=\"#%s\" >%s</textPath></text>\n",
             "50%", "textPath-" . $table_types[$i],
             $table_types[$i]
         );
@@ -1578,33 +1666,20 @@ sub make_main_figure() {
     #Making the actual table-> it starts out as blank
     my $n_r = 7.5;
 	$html{table} .= "</svg>\n";
-	$html{table} .= sprintf("<div id=\"tableDiv\"  style=\"top:%fpx; position:absolute; left:%fpx; height:%fpx; width:%fpx;\">"
-	, $border + $max_radius - 3.5 * $n_r ,  (2.125 * $border),
+	$html{table} .= sprintf("<div id=\"tableDiv\"  style=\"top:%fpx; position:relative; left:%fpx; height:%fpx; width:%fpx;\">"
+	,(-1*($border + $max_radius)), (2.125 * $border), 
          $max_radius / 4 + 7.5 * 4,
          ($max_radius * 2 - 2.25 * $border));
-	   
+	   # ,  (2.125 * $border),
 	$html{table} .= sprintf(
-"<table id=\"tableMain\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; background: grey; font-size:10pt; display: none; table-layout:fixed;\">",
+"<table id=\"tableMain\" style=\"overflow: auto; position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; background: grey; font-size:10pt; display: none; table-layout:fixed;\">",
         0,
         4*$n_r,
         $max_radius * 2 - 2.25 * $border,
         $max_radius / 4
     );
     $html{table} .= "</table>";
-	$html{table} .= sprintf("<div id=\"searchBox\" style=\"visibility:hidden; position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; background-color: white; \"><form onsubmit=\"searchInit(event)\" onmouseover=\"showSearch()\" onmouseout=\"searchOff()\" id=\"searchForm\"><input type=\"text\" id=\"searchText\" rows=\"1\" style=\"font-size:14pt;font-color:DarkGray; border: none; height:%s; width:%s;\" onfocus=\"showSearch(\'focus\')\" placeholder=\"Search...\"><input class=\"clickable\"  type=\"button\" value=\"Search\" style=\"border: none; background-color: #013220; color: white; padding: 15px 32 px; font-size: 16px;\" onclick=\"searchInit(event)\"></form></div>",
-		4*$n_r,
-		0,
-		 $max_radius * 2 - 2.25 * $border - 10 * $n_r ,
-        4* $n_r, 
-        4* $n_r,
-		$max_radius * 2 - 2.25 * $border - 20 * $n_r . "px"
-		
-	);
-	$html{table} .= sprintf("<svg class=\"clickable\" id=\"searchIcon\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx;\"><rect id=\"searchRect\" x=\"0\" y=\"0\" height=\"%s\" width=\"%s\" style=\"fill:LightGray;\"/ onclick=\"showSearch(\'icon\')\" onmouseover=\"searchOn()\" onmouseout=\"searchOff()\"/><path id=\"magnifyGlass\" transform=\"scale(0.040, 0.04) translate(%s, %s)\" d=\"M754.7 468.7l-22.3-22.3c24.3-33.3 37.5-73.4 37.7-114.7 0-109.5-88.8-198.3-198.3-198.3s-198.3 88.8-198.3 198.3S462.1 530 571.7 530c41.2-.2 81.3-13.4 114.7-37.7l22.3 22.3 152.7 152 45.3-45.3-152-152.6zm-183 0c-75.8 0-137.3-61.5-137.3-137.3S495.8 194 571.7 194 709 255.5 709 331.3c.2 75.7-61 137.1-136.7 137.3-.2.1-.4.1-.6.1z\"></path></svg>", 
-		0, 0, 
-		3.5* $n_r,
-		3.5* $n_r, "100%", "100%", -40 * $n_r, -14 * $n_r
-		);
+	
     $html{table} .= sprintf("<a id=\"expandTitle\" xlink:title=\"Expand Table\"><svg class=\"clickable\" id=\"expandSVG\" onclick=\"expandTable()\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; visibility: hidden;\"><rect id=\"expandRect\" x=\"0\" y=\"0\" height=\"%s\" width=\"%s\" style=\"fill:LightGray;\"/\"/><path id=\"expandArrow\" class=\"expand\" transform=\"scale(%f, %f)\" d=\"M 25.980469 2.9902344 A 1.0001 1.0001 0 0 0 25.869141 3 L 20 3 A 1.0001 1.0001 0 1 0 20 5 L 23.585938 5 L 13.292969 15.292969 A 1.0001 1.0001 0 1 0 14.707031 16.707031 L 25 6.4140625 L 25 10 A 1.0001 1.0001 0 1 0 27 10 L 27 4.1269531 A 1.0001 1.0001 0 0 0 25.980469 2.9902344 z M 6 7 C 4.9069372 7 4 7.9069372 4 9 L 4 24 C 4 25.093063 4.9069372 26 6 26 L 21 26 C 22.093063 26 23 25.093063 23 24 L 23 14 L 23 11.421875 L 21 13.421875 L 21 16 L 21 24 L 6 24 L 6 9 L 14 9 L 16 9 L 16.578125 9 L 18.578125 7 L 16 7 L 14 7 L 6 7 z\"\"></path></svg></a>", 
 		 $max_radius * 2 - 2.25 * $border - 4 * $n_r, 0, 
 		3.5* $n_r,
@@ -1630,7 +1705,7 @@ sub make_main_figure() {
 	
     $html{table} .= sprintf("<div id=\"otherTable\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; visibility: hidden;\"><svg  width=\"%fpx\" height= \"%fpx\">$saveTableDiskImage</svg></div>", 
 	$max_radius * 2 - 2.25 * $border - 4 * $n_r, 0, 0,0, $n_r * 5, $n_r * 4);
-	$html{table} .= sprintf("<div id=\"tableType\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; visibility: hidden; display: inline-block;\" class=\"dropdown\" ><div  class=\"dropbtn\" style=\"width: %fpx; height: %fpx; background-color: LightGray;color: black; text-anchor: middle; alignment-baseline: middle; font-size: 20px; border: none;\" id=\"dropdownID\" onhover=\"showTypeMenu()\">$default_table_type</div><div class=\"drop-content\" id=\"dropContent\">", 
+	$html{table} .= sprintf("<div id=\"tableType\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; visibility: hidden; display: inline-block;\" class=\"dropdown\" ><div  class=\"dropbtn\" style=\"width: %fpx; height: %fpx; background-color: LightGray;color: black; text-anchor: middle; dominant-baseline: middle; font-size: 20px; border: none;\" id=\"dropdownID\" onhover=\"showTypeMenu()\">$default_table_type</div><div class=\"drop-content\" id=\"dropContent\">", 
 	$max_radius * 2 - 2.25 * $border + 2 * $n_r, 0, 0,0, $n_r * 10, $n_r * 4);
 	my $t_cnt = 0;
 	foreach my $tableTypes (@table_types)
@@ -1644,14 +1719,7 @@ sub make_main_figure() {
 
     #These are the waiting screens
    	
-	$html{end} .= sprintf("<div id=\"Waiting\" style=\"visibility:hidden; top:%fpx; position:absolute;left:%fpx;height:%fpx;width:%fpx;background: rgba(255, 255, 255, 0.50);\" class=\"loader\"></div>",
-        ( 2 * $border ),
-        1 * $gene_height + ( 2 * $border ),
-        $gene_height + ( $border + $max_radius ),
-        $gene_height + ( $border + $max_radius )
-    );
-
-#$html{end} .= sprintf("<div id=\"WaitingDiv\" style=\"top: %fpx; left: %fpx; position:absolute;height:%fpx;width:%fpx;background: rgba(255, 255, 255, 0.05)\"><h1 id=\"hLoad\" class=\"\" style=\"font-size:500%s; color:red; text-align: center;top: %fpx; left: %fpx; position:absolute;\">Working...</h1></div>",($border + $max_radius)*.6, ($border + $max_radius)*.65,($border + $max_radius)/4, ($border + $max_radius)/4, "%",($border + $max_radius)*.6, ($border + $max_radius)*.65);
+	$html{end} .= sprintf("<div id=\"Waiting\" style=\"visibility:hidden; top:0; position:absolute; left:0; height:100%s; width:100%s; background: rgba(255, 255, 255, 0.75) none repeat scroll 0%s 0%s;\"></div>", "%", "%", "%", "%");
     $html{end} .= "</body></html>\n";
 
     #Getting all the header values associated with the different table types
@@ -1814,7 +1882,7 @@ sub make_main_figure() {
 
     #end of the beginning string of the main page HTML
     $html{beg} .=
-      "</head><body xmlns=\"http://www.w3.org/1999/xhtml\"  xmlns:xlink=\"http://www.w3.org/1999/xlink\" onload=\"init()\">";
+      "</head><body xmlns=\"http://www.w3.org/1999/xhtml\"  xmlns:xlink=\"http://www.w3.org/1999/xlink\" onload=\"init()\" onresize=\"resetFrames()\">";
 
     #writing HTML opening lines, loading screen, intra-main page javascript, and the end of the html page
     print SVG_MAIN $html{beg};
@@ -1833,7 +1901,7 @@ sub make_main_figure() {
     #removed white-space: nobreak; justify-content: top;
     #This is the menu bar that is shown when the menu is out i.e. visible
     $out{thumb}->{beg} .= sprintf(
-"<div class=\"clickable\" id = \"coreMenuOut\" style=\"background-color: #bbbbbb; top: %fpx; width: %fpx; height: %fpx; left: 0px; position: absolute; padding: 0; margin: 0; font-size: 20px; transform-origin: 0 100%s; transform: rotate(90deg);  text-align: center;\" onmouseover=\"turnOnHighlight(event)\" onmouseout=\"turnOffHighlight(event)\" onclick=\"selectMenu(event)\"> Assembly Core Regions</div>",
+"</div></div><div class=\"clickable\" id = \"coreMenuOut\" style=\"background-color: #bbbbbb; top: %fpx; width: %fpx; height: %fpx; left: 0px; position: absolute; padding: 0; margin: 0; font-size: 20px; transform-origin: 0 100%s; transform: rotate(90deg);  text-align: center;\" onmouseover=\"turnOnHighlight(event)\" onmouseout=\"turnOffHighlight(event)\" onclick=\"selectMenu(event)\"> Assembly Core Regions</div>",
         -1 * $gene_height,
         ( 2 * ( $border + $max_radius ) ),
         1 * $gene_height,
@@ -1883,7 +1951,7 @@ sub make_main_figure() {
 
             #prints the chromosome number in the middle of the thumbnail
             $out{thumb}->{$cur_chr} .= sprintf(
-                "<text x=\"%f\" y=\"%f\" font-size=\"%f\" alignment-baseline=\"middle\" text-anchor=\"middle\">%s</text>",
+                "<text x=\"%f\" y=\"%f\" font-size=\"%f\" dominant-baseline=\"middle\" text-anchor=\"middle\">%s</text>",
                 ( $border + $max_radius ),
                 ( $border + $max_radius ),
                 ( $border + $max_radius ) * 2 / 3, $cur_chr
@@ -1975,9 +2043,61 @@ sub make_main_figure() {
 
     print SVG_MAIN $out{table};
     print SVG_MAIN $html{table};
+	
+	my $add = sprintf("</div></div></div><svg id=\"zoomSVG\" style=\"left:0px; top:0px; height:%fpx; width:%fpx; position: absolute;\"><rect x=\"0px\" y=\"0px\" height=\"%fpx\" width=\"100%s\" fill=\"lightgray\"></rect>", 32, $border*2 + $max_radius *2, 32, "%");
+	
+	#Adding the zoom function buttons: plus or minus
+	$add .= sprintf("<svg id=\"zoomButtons\" x=\"%f\" y = \"0\"><svg offset=\"60\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\"><text y=\"%f\" x=\"%f\" position=\"relative\" dominant-baseline=\"middle\" text-anchor=\"middle\" font-size=\"20\" font-color=\"black\">Zoom</text></svg>",
+	 $max_radius * 2 - 2.25 * $border - 10 * $n_r ,
+	( 60), 
+	( 0),
+	70, 24,	
+	24/2, 70/2);
+ 
+	$add .= sprintf("<svg offset=\"120\" class=\"clickable\" onkeydown =\'changeZoomKey();\' onfocusout=\" var textBox = document.getElementById(\'zoomPerc\'); textBox.style.stroke=null; \" onfocus=\" var textBox = document.getElementById(\'zoomPerc\'); textBox.style.stroke=\'1\'; console.log(\'Focused\'); \" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\"><text y=\"%f\" x=\"%f\" position=\"relative\" dominant-baseline=\"middle\" text-anchor=\"middle\" font-size=\"20\" font-color=\"black\" id=\"zoomPerc\">100%s</text></svg>",
+	( 120 ), 
+	( 0),
+	70, 24,	
+	24/2, 70/2, "%");
 
+
+	$add .= sprintf("<svg offset=\"190\" class=\"clickable\" onmouseover=\"var rect = document.getElementById(\'zoominrect\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'zoominrect\'); rect.style.fill=\'#bbffbb\';\" id = \"zoomOut\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" onclick=\"runType(\'Zoom\', \'out\')\"><rect id=\"zoominrect\" x = \"0\" y=\"0\" height =\"%s\" width =\"%s\" rx=\"%f\" ry=\"%f\" fill=\"#bbffbb\" stroke=\"black\"/><text y=\"%f\" x=\"%f\" position=\"relative\" dominant-baseline=\"middle\" text-anchor=\"middle\" font-size=\"28\" font-color=\"black\">-</text></svg>",
+	( 190 ), 
+	( 0 ),
+	30, 20,
+
+	
+	20, 30,
+	20/2, 30/2,
+	20/2, 30/2);
+ 
+	$add .= sprintf("<svg offset=\"225\" class=\"clickable\" onmouseover=\"var rect = document.getElementById(\'zoomoutrect\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'zoomoutrect\'); rect.style.fill=\'#bbffbb\';\" id = \"zoomOut\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" onclick=\"runType(\'Zoom\', \'in\')\"><rect id=\"zoomoutrect\" x = \"0\" y=\"0\" height =\"%s\" width =\"%s\" rx=\"%f\" ry=\"%f\" fill=\"#bbffbb\" stroke=\"black\"/><text y=\"%f\" x=\"%f\" position=\"relative\" dominant-baseline=\"middle\" text-anchor=\"middle\" font-size=\"28\" font-color=\"black\">+</text></svg></svg>",
+	( 225 ), 
+	( 0),
+	30, 20,
+
+	
+	20, 30,
+	20/2, 30/2,
+	20/2, 30/2);
+	
+		$add .= sprintf("<div id=\"searchBox\" style=\"visibility:visible; position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; background-color: white; \"><form onsubmit=\"searchInit(event)\" onmouseover=\"showSearch()\" onmouseout=\"searchOff()\" id=\"searchForm\"><input type=\"text\" id=\"searchText\" rows=\"1\" style=\"font-size:14pt;font-color:DarkGray; border: none; height:%s; width:%s;\" onfocus=\"showSearch(\'focus\')\" placeholder=\"Search...\"><input class=\"clickable\"  type=\"button\" value=\"Search\" style=\"border: none; background-color: #013220; color: white; padding: 15px 32 px; font-size: 16px;\" onclick=\"searchInit(event)\"></form></div></div>",
+		4*$n_r,
+		0,
+		 $max_radius * 2 - 2.25 * $border - 10 * $n_r ,
+        4* $n_r, 
+        4* $n_r,
+		$max_radius * 2 - 2.25 * $border - 20 * $n_r . "px"
+		
+	);
+	#$add .= sprintf("<svg class=\"clickable\" id=\"searchIcon\" style=\"position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx;\"><rect id=\"searchRect\" x=\"0\" y=\"0\" height=\"%s\" width=\"%s\" style=\"fill:LightGray;\"/ onclick=\"showSearch(\'icon\')\" onmouseover=\"searchOn()\" onmouseout=\"searchOff()\"/><path id=\"magnifyGlass\" transform=\"scale(0.040, 0.04) translate(%s, %s)\" d=\"M754.7 468.7l-22.3-22.3c24.3-33.3 37.5-73.4 37.7-114.7 0-109.5-88.8-198.3-198.3-198.3s-198.3 88.8-198.3 198.3S462.1 530 571.7 530c41.2-.2 81.3-13.4 114.7-37.7l22.3 22.3 152.7 152 45.3-45.3-152-152.6zm-183 0c-75.8 0-137.3-61.5-137.3-137.3S495.8 194 571.7 194 709 255.5 709 331.3c.2 75.7-61 137.1-136.7 137.3-.2.1-.4.1-.6.1z\"></path></svg>", 
+	#	0, 0, 
+	#	3.5* $n_r,
+	#	3.5* $n_r, "100%", "100%", -40 * $n_r, -14 * $n_r
+	#	);
+	print SVG_MAIN $add; # "</svg>";
     print SVG_MAIN $out{thumb}->{beg};
-
+	
     #Writing all the thumbnails on the SVG
     for my $thumb_type ( "Assembly_core", "Cycle fGRs", "Other fGRs" ) {
 
@@ -2755,7 +2875,7 @@ sub make_fgi_page_svg {
             $sz_h * .5, $sz_h * .65
         );
 
-#$right_grp .= sprintf("<text id=\"%s\" x=\"%f\" y=\"%f\" font-size=\"%f\" text-anchor=\"middle\" alignment-baseline=\"central\">+</text>\n", "showText".$data->{order}->[$i2],$sz_h * .5,$sz_h * .5, $sz_h * .65);
+#$right_grp .= sprintf("<text id=\"%s\" x=\"%f\" y=\"%f\" font-size=\"%f\" text-anchor=\"middle\" dominant-baseline=\"central\">+</text>\n", "showText".$data->{order}->[$i2],$sz_h * .5,$sz_h * .5, $sz_h * .65);
         $right_grp .= sprintf("</svg>");
 
         #Checkbox to turn rows on or off. Used for buttons on bottom right
@@ -2773,7 +2893,7 @@ sub make_fgi_page_svg {
             $sz_h * .5, $sz_h * .5
         );
 
-#$right_grp .= sprintf("<text id=\"%s\" x=\"%f\" y=\"%f\" font-size=\"%f\" text-anchor=\"middle\" alignment-baseline=\"central\"> </text>\n", "genomeTextBox".$data->{order}->[$i2],$sz_h * .5,$sz_h * .5, $sz_h * .65);
+#$right_grp .= sprintf("<text id=\"%s\" x=\"%f\" y=\"%f\" font-size=\"%f\" text-anchor=\"middle\" dominant-baseline=\"central\"> </text>\n", "genomeTextBox".$data->{order}->[$i2],$sz_h * .5,$sz_h * .5, $sz_h * .65);
 
         $right_grp .= sprintf("</svg>");
 
@@ -3385,7 +3505,7 @@ sub svg_draw_plasmid_seg {
     if ( $d1 < $d3 ) {
 
         $out->{$depth} .= sprintf(
-"<a xlink:title=\"%s\"><path id=\"%s\" loc=\"%f-%f out of %f\" d=\"M%f %f A%f %f 0 $cir,1 %f %f L%f %f L%f %f A%f %f 0 $cir,0 %f %f L %f %f Z\" fill=\"%s\" fill_old=\"%s\" stroke=\"BLACK\"/ type=\"Plasmid\" onclick=\"writeFasta(\'%s\', \'%s\')\"></a>\n",
+"<a xlink:title=\"%s\"><path class=\"clickable\" id=\"%s\" loc=\"%f-%f out of %f\" d=\"M%f %f A%f %f 0 $cir,1 %f %f L%f %f L%f %f A%f %f 0 $cir,0 %f %f L %f %f Z\" fill=\"%s\" fill_old=\"%s\" stroke=\"BLACK\"/ type=\"Plasmid\" onclick=\"writeFasta(\'%s\', \'%s\')\"></a>\n",
             $name . "detail", $id, $d1, $d3, $seq_len, screen_x_trans( $d1, $l1 ), screen_y_trans( $d1, $l1 ),
             $l1,              $l1,
             screen_x_trans( $d3 - $dif, $l1 ), screen_y_trans( $d3 - $dif, $l1 ),
@@ -3402,7 +3522,7 @@ sub svg_draw_plasmid_seg {
     else {
 
         $out->{$depth} .= sprintf(
-"<a xlink:title=\"%s\"><path id=\"%s\" d=\"M%f %f A%f %f 0 $cir,0 %f %f L%f %f L%f %f A%f %f 0 $cir,1 %f %f L %f %f Z\" fill=\"%s\" fill_old=\"%s\" stroke=\"BLACK\"/ onclick=\"writeFasta(\'%s\',\'%s\')\"></a>\n",
+"<a xlink:title=\"%s\"><path class=\"clickable\" id=\"%s\" d=\"M%f %f A%f %f 0 $cir,0 %f %f L%f %f L%f %f A%f %f 0 $cir,1 %f %f L %f %f Z\" fill=\"%s\" fill_old=\"%s\" stroke=\"BLACK\"/ onclick=\"writeFasta(\'%s\',\'%s\')\"></a>\n",
             $name . "detail", $id, screen_x_trans( $d1, $l1 ), screen_y_trans( $d1, $l1 ),
             $l1,              $l1,
             screen_x_trans( $d3 + $dif, $l1 ), screen_y_trans( $d3 + $dif, $l1 ),
@@ -3842,7 +3962,7 @@ sub make_core_region_page {
     }
 
     $x_len[ $y_len - 1 ] = $x1n;
-    $legend_height += $cur_y + ( $max_n[ $y_len - 1 ] + 1 );
+    #$legend_height += $cur_y + ( $max_n[ $y_len - 1 ] + 1 );
     if ( $x1n > $legend_width ) { $legend_width = $x1n + 4; }
 
     #Setting the x location of the legend box
@@ -4248,7 +4368,7 @@ sub svg_draw_arc_seg {
     if ($name) { $out->{$depth} .= "<title>$name<\/title>\n"; }
 
     #onmouseout=\"turnPlotOff(evt)\"
-    my $c2 = $c;
+    my $c2 = "none";
     if ( $type && $type eq "Gene" ) { $c2 = "none"; }
     my $func  = "";
     my $id_in = $id;
@@ -4717,7 +4837,7 @@ sub svg_init_image {
 
     my ( $x, $y, $ret ) = @_;
     $ret->{beg} = sprintf(
-"<svg version=\"1.2\" baseProfile=\"tiny\" width=\"$x\" height=\"$y\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id = \"allsvg\"><defs id=\"defs\"></defs>\n"
+"<svg version=\"1.2\" baseProfile=\"tiny\" width=\"$x\" height=\"$y\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id = \"allsvg\" ><defs id=\"defs\"></defs>\n"
     );
     $ret->{end} = "</svg>\n";
     return ( %{$ret} );
@@ -4851,6 +4971,15 @@ function init()
 	//After all is loaded: hide the loading and waiting pages
 	var divWait = document.getElementById(\"Loading\");
 	divWait.style.visibility=\"hidden\";
+	divWait.style.width = \"0px\";
+	divWait.style.height = \"0px\";
+	
+	var divStart = document.getElementById(\"Start\");
+	divStart.style.visibility=\"hidden\";
+	divStart.style.width = \"0px\";
+	divStart.style.height = \"0px\";
+	
+	
 	//var wait = document.getElementById(\"WaitingDiv\");
 	//wait.style.visibility = \"hidden\";
 
@@ -4872,7 +5001,85 @@ function init()
 	}
 
 	//Setting the main page to the first chromosome
+	document.getElementById(\"Start\").style.visibility = \"hidden\";
 	setSVG(1);
+	var svg_all = document.getElementById(\"allsvg\");
+
+	svg_all.style.position = \"relative\";
+	
+	svg_all.style.top = parseInt(zoomSVG.style.height) +\"px\";
+	svg_all.style.left = \"0px\";
+
+	resetFrames();
+}
+
+function resetFrames()
+{
+	var wdth = parseFloat(window.innerWidth) - 24;
+	var hght = parseFloat(window.innerHeight);
+	var svg_all = document.getElementById(\"allsvg\");
+	var zoomDiv = document.getElementById(\"zoomDiv\");
+	var zoomSVG = document.getElementById(\"zoomSVG\");
+	var tableDiv = document.getElementById(\"outTable\");
+	var mainTable = document.getElementById(\"tableMain\");
+	var bodyTable = document.getElementById(\"allBody\");
+	
+	console.log(\"Resizing \" + hght + \" \" + wdth);
+	if (tableDiv.style.visibility !== \"hidden\")
+	{
+		if (wdth < 4 * $max_radius + 2* $border  -24)
+		{
+			zoomDiv.style.width = (wdth *  (2 * $max_radius + 2*$border) / (4 * $max_radius + 2*$border  ))+ \"px\";
+			tableDiv.style.width = (wdth *  (2 * $max_radius)/ (4 * $max_radius +2* $border  ))+ \"px\";
+			tableDiv.style.left = (wdth *  (2 * $max_radius + 2*$border) / (4 * $max_radius + 2*$border  ) + 24)+ \"px\";
+			//mainTable.style.width = (wdth *  (2 * $max_radius)/ (4 * $max_radius +2* $border  ))+ \"px\";
+			zoomSVG.style.width = wdth;
+
+		}
+		else
+		{
+			zoomDiv.style.width = (2 * $max_radius + 2*$border) + \"px\";
+			tableDiv.style.width = (2 * $max_radius ) + \"px\";
+			tableDiv.style.left = (2 * $max_radius + 2*$border + 24) + \"px\";
+			//mainTable.style.width = (2 * $max_radius ) + \"px\";
+			zoomSVG.style.width = 4 * $max_radius + 2* $border  +24;
+
+		}
+		
+	}
+	else
+	{
+		if (wdth < 2 * $max_radius + 2* $border  -24)
+		{
+			zoomDiv.style.width = (wdth)+ \"px\";
+			
+		}
+		else
+		{
+			zoomDiv.style.width = (2 * $max_radius + 2*$border) + \"px\";
+		}
+		zoomSVG.style.width = zoomDiv.style.width;
+	}
+	var divMenuOut = document.getElementById(\"coreMenuOut\");
+	divMenuOut.style.width=hght + \"px\";
+	var divMenuIn = document.getElementById(\"coreMenuIn\");
+	divMenuIn.style.height=hght + \"px\";
+	
+	
+	
+	if (hght < (2 * $max_radius + 2*$border))
+	{
+		zoomDiv.style.height = hght + \"px\";
+		tableDiv.style.height = hght - 32 + \"px\";
+		//mainTable.style.height = hght + \"px\";
+		
+	}
+	else
+	{
+		zoomDiv.style.height = parseFloat(svg_all.getElementById(\"height\"))  + \"px\";
+		tableDiv.style.height = parseFloat(svg_all.getElementById(\"height\")) - 32  + \"px\";
+		//mainTable.style.height = parseFloat(svg_all.getElementById(\"height\"))  + \"px\";
+	}
 }
 
 function showSearch(type)
@@ -4882,26 +5089,20 @@ function showSearch(type)
 	{
 		if (searchIsOn == null)
 		{
-			var glass = document.getElementById(\"magnifyGlass\");
-			glass.setAttribute(\"fill\", \"yellow\");
 			var searchBox = document.getElementById(\"searchBox\");
 			searchBox.style.visibility = \"visible\";
 			searchIsOn = \"On\";
-			var searchRect = document.getElementById(\"searchRect\");
-			searchRect.style.fill=\"DarkGray\";
+			
 		}
 		else
 		{
 			if (type === \"icon\")
 			{
-				var glass = document.getElementById(\"magnifyGlass\");
-				glass.setAttribute(\"fill\", \"yellow\");
 				var searchBox = document.getElementById(\"searchBox\");
 				searchBox.style.visibility = \"hidden\";
 				searchIsOn = null;
-				var searchRect = document.getElementById(\"searchRect\");
-
-				searchRect.style.fill=\"LightGray\";
+				var zoomDiv = document.getElementById(\"zoomButtons\");
+				zoomDiv.setAttribute(\"x\",\"0px\");
 			}
 		}
 	}
@@ -4913,24 +5114,67 @@ function searchInit(evt)
 	runType(\"runSearch\");
 }
 
+function changeZoomKey()
+{
+	var zoomVal = document.getElementById(\"zoomPerc\").innerHTML;
+	zoomVal = zoomVal.substr(0, zoomVal.length-1);
+	console.log(zoomVal);
+	var code = parseInt(event.keyCode);
+	if (code == 8 && zoomVal.length > 0)
+	{
+		zoomVal = zoomVal.substr(0,zoomVal.length-1);
+	}
+	if (code >= 48 && code <= 57)
+	{
+		zoomVal = \"\" + zoomVal+\"\" + (code-48);
+	}
+	if (code == 13)
+	{
+		Working();
+		zoomChange(zoomVal);
+		Done();
+	}
+	document.getElementById(\"zoomPerc\").innerHTML = zoomVal +\"%\";
+}
+
 function searchOn()
 {
-	var glass = document.getElementById(\"magnifyGlass\");
-	glass.setAttribute(\"fill\", \"yellow\");
 	var searchBox = document.getElementById(\"searchBox\");
 	searchBox.style.visibility = \"visible\";
+	var zoomDiv = document.getElementById(\"zoomDiv\");
+	if (parseFloat(zoomDiv.style.width) < parseFloat(searchBox.style.width) + 260)
+	{
+		searchBox.style.top = \"20px\";
+		searchBox.style.left = \"0px\";
+		searchBox.style.height = \"40px\";
+		var sText = document.getElementById(\"searchForm\");
+		sText.style.margin = \"10px 0\";
+		searchBox.style.background = \"lightgray\";
+		
+	}
+	else
+	{
+		var zoomBut = document.getElementById(\"zoomButtons\");
+		zoomBut.setAttribute(\"x\", parseFloat(searchBox.style.width) + \"px\");
+	}	
 	
 }
 
 
 function searchOff()
 {
-	var glass = document.getElementById(\"magnifyGlass\");
-	var searchBox = document.getElementById(\"searchBox\");
 	if (searchIsOn == null)
 	{
-		glass.setAttribute(\"fill\", \"black\");
 		searchBox.style.visibility =  \"hidden\";
+		var zoomDiv = document.getElementById(\"zoomButtons\");
+		zoomDiv.setAttribute(\"x\",\"0px\");
+		searchBox.style.top = \"0px\";
+		searchBox.style.left = \"30px\";
+		var sText = document.getElementById(\"searchForm\");
+		sText.style.margin = \"0 0\";
+		searchBox.style.background = null;
+		
+			
 	}
 }
 
@@ -4964,28 +5208,24 @@ function Working()
 	var divWait = document.getElementById(\"Waiting\");
 	divWait.style.visibility=\"visible\";
 	console.log(\"Is Working..\");
-	//var wait = document.getElementById(\"WaitingDiv\");
-	//wait.style.visibility = \"visible\";
+	
 
 	//Setting cursor values
 	divMain.style.pointerEvents = \"none\";
 	document.body.style.cursor = \"wait\";
 
 	//setting the animation time for the waiting screen to 2 seconds
-	var load = document.getElementsByClassName(\'loader\');
+	
+	var load = document.getElementsByClassName(\'waiter\');
 	for (var i = 0; i < load.length; i++)
 	{
-		load[i].style.animationDuration = \"2s\";
+		//load[i].style.animationDuration = \"2s\";
 	}
-
-	//setting the animation time for the waiting screen to 3 seconds
-	var load = document.getElementsByClassName(\'shifting\');
-	for (var i = 0; i < load.length; i++)
-	{
-		load[i].style.animationDuration = \"3s\";
-	}
+	
 	isWorking=\"yes\";
 }
+
+
 
 /*When the program has stopped working, the following is turned off:
 	(a) the curser goes back to normal
@@ -5004,10 +5244,10 @@ function Done()
 	divMain.style.pointerEvents = \"auto\";
 console.log(\"Is Done..\");
 	document.body.style.cursor = \"default\";
-	var load = document.getElementsByClassName(\'loader\');
+	var load = document.getElementsByClassName(\'waiter\');
 	for (var i = 0; i < load.length; i++)
 	{
-		load[i].style.animationDuration = \"0s\";
+	//	load[i].style.animationDuration = \"0s\";
 	}
 	var load = document.getElementsByClassName(\'shifting\');
 	for (var i = 0; i < load.length; i++)
@@ -5053,6 +5293,10 @@ function runType(type, evt, id)
 		}
 
 		//
+		if (type == \"Zoom\")
+		{
+			Zoom(evt);
+		}
 		if (type == \"GeneType\")
 		{
 			if (LegendOn == \"yes\")
@@ -5095,7 +5339,7 @@ function runType(type, evt, id)
 			resetLegend();
 		}
 
-		Done();},0);
+		Done();},100);
 		}
 	}
 }
@@ -5335,14 +5579,16 @@ function turnSampleOff(target)
 	var id_name = target.getAttribute(\"href\");
 	var center = document.getElementById(id_name);
 	var svg_all = document.getElementById(\"allsvg\");
-
-	if (center != null)
+	if ((!svg_all.hasAttribute(\"highlight.row.id\")))
 	{
-		center.setAttribute(\"visibility\", \"hidden\");
+		if (center != null)
+		{
+			center.setAttribute(\"visibility\", \"hidden\");
+		}
+		target.setAttribute(\"fill\", target.getAttribute(\"fill_tmp\"));
+		svg_all.removeAttribute(\"core_button\");
+		svg_all.removeAttribute(\"core_set\");
 	}
-	target.setAttribute(\"fill\", target.getAttribute(\"fill_tmp\"));
-	svg_all.removeAttribute(\"core_button\");
-	svg_all.removeAttribute(\"core_set\");
 }
 
 function restoreLegend()
@@ -5469,11 +5715,12 @@ function searchTable()
 		var turnOff = document.getElementById(svg_all.getAttribute(\"highlight.row.id\"));
 		turnOff.style.backgroundColor = target.getAttribute(\"old_bg\");
 		var turnOffPart = document.getElementById(turnOff.getAttribute(\"href\"));
+		svg_all.removeAttribute(\"highlight.row.id\");
 		if (turnOffPart != null)
 		{
 			turnSampleOff(turnOffPart);
 		}
-		svg_all.removeAttribute(\"highlight.row.id\");
+		
 	}
 	
 	var selectType = \"\";
@@ -5481,18 +5728,17 @@ function searchTable()
 	console.log(searchText);
 	var totalHits = 0;
 	var searchBar = document.getElementById(\"searchForm\");
-	var searchIcon = document.getElementById(\"searchIcon\");
 	var searchBox = document.getElementById(\"searchBox\");
 	var tableDiv = document.getElementById(\"tableDiv\");
 	
-	var widthVal = parseFloat(searchIcon.style.width)+10;
+	var widthVal = 10;
 	
 	svg_all.setAttribute(\"searchVal\", searchText);
 	
 	var showText = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");
 	showText.setAttribute(\"id\", \"oldSearch\");
 	showText.style.position = \"absolute\";
-	showText.style.height = searchIcon.style.height;
+	showText.style.height = 25;
 	showText.style.width = \"100%\";
 	showText.style.top = \"0%\";
 	showText.style.left = widthVal +\"px\";
@@ -5509,7 +5755,7 @@ function searchTable()
 	var textRect = document.createElementNS(\"http://www.w3.org/2000/svg\", \"text\");
 	textRect.setAttribute(\"x\", \"10\");
 	textRect.setAttribute(\"y\", \"50%\");
-	textRect.setAttribute(\"alignment-baseline\", \"middle\");
+	textRect.setAttribute(\"dominant-baseline\", \"middle\");
 	textRect.setAttribute(\"font-color\", \"black\"); 
 	textRect.innerHTML = searchText;
 	
@@ -5543,9 +5789,7 @@ function searchTable()
 	
 	var OthTerms = [searchText];
 	var kys = Object.keys(tableInfo);
-	var searchRect = document.getElementById(\"searchRect\");
-
-	searchRect.style.fill=\"LightGray\";
+	
 	for (var keyName in kys)
 	{
 		var idType = kys[keyName];
@@ -6039,11 +6283,12 @@ function selectGeneType(evt)
 		var turnOff = document.getElementById(svg_all.getAttribute(\"highlight.row.id\"));
 		turnOff.style.backgroundColor = target.getAttribute(\"old_bg\");
 		var turnOffPart = document.getElementById(turnOff.getAttribute(\"href\"));
+		svg_all.removeAttribute(\"highlight.row.id\");
+
 		if (turnOffPart != null)
 		{
 			turnSampleOff(turnOffPart);
 		}
-		svg_all.removeAttribute(\"highlight.row.id\");
 	}
 
 	//Highlighing the legend button
@@ -6401,48 +6646,128 @@ function selectGeneType(evt)
 
 function expandTable()
 {
+	resetFrames();
+
 	var tableDiv = document.getElementById(\"tableDiv\");
-	tableDiv.style.top = 0;
-	tableDiv.style.left = $border - 10 + \"px\";
-	tableDiv.style.height = (2 * ($border + $max_radius)) + \"px\";
+	var tableOut = document.getElementById(\"outTable\");
+	var tableHeight = parseFloat(tableOut.style.height); 
+	/*tableDiv.style.top = 0;
+	tableDiv.style.left = $border + $max_radius + \"px\";
+	tableDiv.style.height = (tableHeight) + \"px\";
 	tableDiv.style.width = (2 *($max_radius) + 20) + \"px\";
-	tableDiv.style.backgroundColor = \"LightGray\";
+	tableDiv.style.backgroundColor = \"LightGray\";*/
 	var tableMain = document.getElementById(\"tableMain\");
-	tableMain.style.height = (2 * ($border + $max_radius) - 30 )+ \"px\";
+	tableMain.style.height = (tableHeight - 30 )+ \"px\";
 	tableMain.style.width = (2 *($max_radius)) + \"px\";
 	tableMain.style.left = 10 + \"px\";
 	var tableBody = document.getElementById(\"allBody\");
 	tableBody.style.height = (2 * ($border + $max_radius) - 60 )+ \"px\";
 	tableBody.style.width = (2 *($max_radius)) + \"px\";
 	
+	tableOut.innerHTML = tableDiv.innerHTML;
+	tableOut.style.visibility = \"visible\";
+	tableOut.style.height = (2 * ($border + $max_radius)) + \"px\";
+	tableOut.style.width = (2 *($max_radius) + 20) + \"px\";
+	tableOut.style.backgroundColor = \"LightGray\";
+	tableDiv.innerHTML = \"\";
+	
 	var allSVG = document.getElementById(\"allsvg\");
-	allSVG.style.opacity = 0.5;
+	//allSVG.style.opacity = 0.5;
 	allSVG.setAttribute(\"expand\", \"yes\");
 	var otherTab = document.getElementById(\"otherTable\");
 	otherTab.style.width=60 + \"px\"; otherTab.style.height = 30 + \"px\";
-	otherTab.style.visibility =\"visible\";
+	//otherTab.style.visibility =\"visible\";
 	
 	var dropMenu = document.getElementById(\"tableType\");
 	dropMenu.style.width = 120 + \"px\";
 	dropMenu.style.height = 30 + \"px\";
-	dropMenu.style.visibility =\"visible\";
+	//dropMenu.style.visibility =\"visible\";
 	
-	var expandSVG = document.getElementById(\"expandSVG\");
-	expandSVG.style.left = (2 *($max_radius)) - 30 + \"px\";
-	expandSVG.setAttribute(\"transform\", \"rotate(180)\");
+	var expandSVGlink = document.getElementById(\"expandSVG\");
+	expandSVGlink.setAttribute(\"onclick\", \"deflateTable()\");
+	expandSVGlink.style.left = (2 *($max_radius)-26.25) + \"px\";
+	expandSVGlink.style.transform = \"rotate(180deg)\";
+	
+	var expandSVG = document.getElementById(\"tableExpandPath\");
 	expandSVG.setAttribute(\"onclick\", \"deflateTable()\");
 	
+	var expandSVG = document.getElementById(\"tableButtonExpandText\");
+	expandSVG.innerHTML = \"Minimize Table\";
+	
+	document.getElementById(\"tableButtonText\").innerHTML = \"Return Table\";
+	resetFrames();
+}
+
+function Zoom(zoomType)
+{
+	var mainDiv = document.getElementById(\"mainDiv\");
+	var zoomLevel = parseInt(mainDiv.getAttribute(\"zoomLevel\"));
+	var zoomLevelN = zoomLevel;
+	if (zoomType == \"in\")
+	{
+		zoomLevel = zoomLevel + 1;
+	}
+	if (zoomType == \"out\")
+	{
+		if(zoomLevel > -3)
+		{
+			zoomLevel = zoomLevel - 1;
+		}
+	}
+	zoomChange(100 + zoomLevel * 25);
+}
+
+function zoomChange(zoomLevel)
+{
+	var zoomAll = document.getElementById(\"allZoom\");
+	var zoomDiv = document.getElementById(\"zoomDiv\");
+	var svgAll = document.getElementById(\"svgWrap\");
+	zoomLevel = (parseInt(zoomLevel)-100)/25;
+	console.log(zoomLevel);
+	console.log(zoomAll.getBoundingClientRect());
+	var scrollxLoc = parseFloat(zoomDiv.scrollLeft)/ parseFloat(zoomDiv.scrollWidth); 
+	var scrollyLoc = parseFloat(zoomDiv.scrollTop)/ parseFloat(zoomDiv.scrollHeight); 
+	console.log(scrollxLoc + \" \" + scrollyLoc);
+	zoomDiv.scrollLeft = 0;
+	zoomDiv.scrollTop = 0;
+	
+	var zoomP = document.getElementById(\"zoomPerc\");
+	zoomP.innerHTML = (100 + zoomLevel * 25) + \"%\";
+	zoomAll.style.transform = \"scale(\" + (1+ 0.25 * zoomLevel) +\")\";
+	console.log(zoomAll.getBoundingClientRect());
+	var tmp1 = zoomAll.getBoundingClientRect();
+
+	//zoomAll.style.height = (parseFloat(tmp1.height) - parseFloat(tmp1.top)) + \"px\";
+	//zoomAll.style.width = (parseFloat(tmp1.width) - parseFloat(tmp1.left)) +\"px\";
+	var tmp1 = zoomAll.getBoundingClientRect();
+	console.log(zoomAll.getBoundingClientRect());
+	var oldLeft = parseFloat(svgAll.style.left) * 0 ;
+	var oldRight = parseFloat(svgAll.style.top) * 0;
+	console.log(oldLeft + \" \" + oldRight);
+	svgAll.style.left = ((0-parseFloat(tmp1.left))/(1+ 0.25 * zoomLevel)-oldLeft) +\"px\";
+	
+	svgAll.style.top = ((0-parseFloat(tmp1.top)+ parseInt(zoomSVG.style.height))/(1+ 0.25 * zoomLevel)-oldRight) +\"px\";
+	//zoomAll.style.transform = \"scale(\" + (1+ 0.25 * zoomLevel) +\") translate(\" + (0-parseFloat(tmp1.x)) + \"px,\" + (0-parseFloat(tmp1.y)) +\"px)\";
+	console.log(zoomAll.getBoundingClientRect());
+	zoomDiv.scrollLeft = (scrollxLoc * parseFloat(zoomDiv.scrollWidth));
+	zoomDiv.scrollTop = (scrollyLoc * parseFloat(zoomDiv.scrollHeight));
+	console.log(zoomDiv.scrollLeft + \" \" + zoomDiv.scrollTop + \" \"+ zoomDiv.scrollWidth + \" \" + zoomDiv.scrollHeight );
+	mainDiv.setAttribute(\"zoomLevel\", zoomLevel);
 }
 
 function deflateTable()
 {
+	tableOut = document.getElementById(\"outTable\");
 	var tableDiv = document.getElementById(\"tableDiv\");
-	tableDiv.style.top = $border + $max_radius - 3.5 * 7.5 + \"px\";  
+	tableDiv.style.top = -1*($border + $max_radius) + \"px\";  
 	tableDiv.style.left = (2.125 * $border) +\"px\";
 	tableDiv.style.height = ($max_radius / 4 + 7.5 * 4) + \"px\";
     tableDiv.style.width =  ($max_radius * 2 - 2.25 * $border) + \"px\";
 	tableDiv.style.backgroundColor = \"transparent\";
-
+	tableDiv.innerHTML = tableOut.innerHTML;
+	tableOut.innerHTML = \"\";
+	tableOut.style.visibility = \"hidden\";
+	
 	var tableMain = document.getElementById(\"tableMain\");
 	tableMain.style.width = (($max_radius * 2) - (2.25 * $border ))+ \"px\";
 	tableMain.style.height = ($max_radius / 4) + \"px\";
@@ -6459,11 +6784,18 @@ function deflateTable()
 	dropMenu.style.width = 0 + \"px\";
 	dropMenu.style.height = 0 + \"px\";
 	dropMenu.style.visibility =\"hidden\";
-	var expandSVG = document.getElementById(\"expandSVG\");
-	expandSVG.style.left = (($max_radius * 2) - (2.25 * $border ))- 30 + \"px\";
-	expandSVG.setAttribute(\"transform\", \"rotate(0)\");
-	expandSVG.setAttribute(\"onclick\", \"expandTable()\");
 	
+	var expandSVGlink = document.getElementById(\"expandSVG\");
+	expandSVGlink.setAttribute(\"onclick\", \"expandTable()\");
+	expandSVGlink.style.left = ($max_radius * 2) - (2.25 * $border )-26.25 + \"px\";
+	expandSVGlink.style.top = \"0px\";
+	expandSVGlink.style.transform = \"rotate(0deg)\";
+	
+	var expandSVG = document.getElementById(\"tableExpandPath\");
+	expandSVG.setAttribute(\"onclick\", \"expandTable()\");
+	var expandSVG = document.getElementById(\"tableButtonExpandText\");
+	expandSVG.innerHTML = \"Expand Table\";
+	resetFrames();
 }
 
 
@@ -6472,19 +6804,37 @@ function deflateTable()
 function changeTableStatus(evt)
 {
 	var target = document.getElementById(\"ButtonIDTableOn\");
+	var targetOff = document.getElementById(\"ButtonIDTableOff\");
+	var targetExp = document.getElementById(\"ButtonIDTableExpand\");
+	
 	var svgAll = document.getElementById(\"allsvg\");
 	//Turning the table off (ie hiding it and changing the button to \"turn it on\")
 	if (svgAll.hasAttribute(\"tableOn\"))
 	{
+		if (svgAll.getAttribute(\"expand\") === \"yes\")
+		{
+			deflateTable();
+		}
 		svgAll.setAttribute(\"tableOff\",svgAll.getAttribute(\"tableOn\"));
 		var buttons = document.getElementById(\"tableButtons\");
 		buttons.setAttribute(\"visibility\", \"hidden\");
+		targetOff.setAttribute(\"visibility\", \"hidden\");
+		targetExp.setAttribute(\"visibility\", \"hidden\");
+		target.setAttribute(\"visibility\", \"visible\");
+		document.getElementById(\"tableExpandPath\").setAttribute(\"visibility\", \"hidden\");
+		document.getElementById(\"tableOffPath\").setAttribute(\"visibility\", \"hidden\");
+		document.getElementById(\"tableOnPath\").setAttribute(\"visibility\", \"visible\");
+		
+		document.getElementById(\"ButtonIDTab\")
 		document.getElementById(\"tableMain\").style.display=\"none\";
 		svgAll.removeAttribute(\"tableOn\");
 		document.getElementById(\"tableButtonText\").childNodes[0].nodeValue = \"Show Table\";
 		target.setAttribute(\"fill\", \"#bbffbb\");
 		var expandSVG = document.getElementById(\"expandSVG\");
 		expandSVG.style.visibility = \"hidden\";
+		document.getElementById(\"tableButtonExpandText\").setAttribute(\"visibility\", \"hidden\");
+		document.getElementById(\"tableButtonOffText\").setAttribute(\"visibility\", \"hidden\");
+		document.getElementById(\"tableButtonText\").setAttribute(\"visibility\", \"visible\");
 		
 		
 
@@ -6501,9 +6851,18 @@ function changeTableStatus(evt)
 			document.getElementById(\"tableMain\").style.display=\"$disp\";
 			svgAll.removeAttribute(\"tableOff\");
 			document.getElementById(\"tableButtonText\").childNodes[0].nodeValue = \"Hide Table\";
-			target.setAttribute(\"fill\", \"#eeeeff\");
 			var expandSVG = document.getElementById(\"expandSVG\");
 			expandSVG.style.visibility = \"visible\";
+			targetOff.setAttribute(\"visibility\", \"visible\");
+			targetExp.setAttribute(\"visibility\", \"visible\");
+			target.setAttribute(\"visibility\", \"hidden\");
+			document.getElementById(\"tableExpandPath\").setAttribute(\"visibility\", \"visible\");
+			document.getElementById(\"tableOffPath\").setAttribute(\"visibility\", \"visible\");
+			document.getElementById(\"tableOnPath\").setAttribute(\"visibility\", \"hidden\");
+			document.getElementById(\"tableButtonExpandText\").setAttribute(\"visibility\", \"visible\");
+			document.getElementById(\"tableButtonOffText\").setAttribute(\"visibility\", \"visible\");
+			document.getElementById(\"tableButtonText\").setAttribute(\"visibility\", \"hidden\");
+		
 		
 		}
 		else
@@ -6516,9 +6875,19 @@ function changeTableStatus(evt)
 			document.getElementById(\"tableMain\").style.display=\"$disp\";
 			document.getElementById(\"tableButtonText\").childNodes[0].nodeValue = \"Hide Table\";
 			selectTableType(document.getElementById(svgAll.getAttribute(\"tableOn\")), \"$default_table_type\");
-			target.setAttribute(\"fill\", \"#eeeeff\");
 			var expandSVG = document.getElementById(\"expandSVG\");
 			expandSVG.style.visibility = \"visible\";
+				targetOff.setAttribute(\"visibility\", \"visible\");
+			targetExp.setAttribute(\"visibility\", \"visible\");
+			target.setAttribute(\"visibility\", \"hidden\");
+			document.getElementById(\"tableExpandPath\").setAttribute(\"visibility\", \"visible\");
+			document.getElementById(\"tableOffPath\").setAttribute(\"visibility\", \"visible\");
+			document.getElementById(\"tableOnPath\").setAttribute(\"visibility\", \"hidden\");
+			document.getElementById(\"tableButtonExpandText\").setAttribute(\"visibility\", \"visible\");
+			document.getElementById(\"tableButtonOffText\").setAttribute(\"visibility\", \"visible\");
+			document.getElementById(\"tableButtonText\").setAttribute(\"visibility\", \"hidden\");
+		
+		
 
 		}
 	}
@@ -6606,7 +6975,7 @@ function saveSVG(fileType)
 			nw.setAttribute(\"download\",\"Main.$filenamePNG\");
 			nw.setAttribute(\"target\", \"_self\");
 
-			alert(\"Saved PNG to \" + );
+			alert(\"Saved PNG to \" + \"Main.$filenamePNG\");
 			document.body.appendChild(nw); 
 			nw.click();
 			document.body.removeChild(nw);
@@ -6706,12 +7075,12 @@ function selectTableType(evt, id)
 				{
 					turnOff.style.backgroundColor = target.getAttribute(\"old_bg\");
 					var turnOffPart = document.getElementById(turnOff.getAttribute(\"href\"));
+					svgAll.removeAttribute(\"highlight.row.id\");
 
 					if (turnOffPart != null)
 					{
 						turnSampleOff(turnOffPart);
 					}
-					svgAll.removeAttribute(\"highlight.row.id\");
 				}
 			}
 
@@ -6757,7 +7126,17 @@ function makeTable(id)
 	{
 		select = svgAll.getAttribute(\"Selection\");
 	}
-
+	
+	var bt = \"$bodyTop\";
+	var bh = \"$bodyHeight\";
+	var bw = \"$bodyWidth\";
+	var tbodyOld = document.getElementById(\"allBody\");
+	if (typeof(tbodyOld) != 'undefined' && tbodyOld != null)
+	{
+		bh = tbodyOld.style.height;
+		bw = tbodyOld.style.width;
+		bt = tbodyOld.style.top;
+	}
 	table.innerHTML = \"\";
 	var header = document.createElement(\"thead\");
 	header.position= \"relative\";
@@ -6774,6 +7153,7 @@ function makeTable(id)
 		th.setAttribute(\"id\", tableHead[id][i]);
 		th.setAttribute(\"table_id\",  id+\"Body\");
 		var in1 = \"sortColumn(event, \"+i+\")\";
+		th.setAttribute(\"class\", \"clickable\");
 		th.setAttribute(\"onclick\", in1);
 		th.setAttribute(\"style\", \"background-color: gray; width: \"+ tableWidth[id][i] + \"%;\");
 		header.appendChild(th);
@@ -6783,7 +7163,7 @@ function makeTable(id)
 	var cur_clust = svgAll.getAttribute(\"coreNum\");
 	var terms = JSON.parse(eval(\"termJSONPlasmid\" + cur_clust));
 	//The table style
-	body.setAttribute(\"style\", \"overflow-y: scroll; word-wrap: break-word; top: $bodyTop; height: $bodyHeight; width: $bodyWidth; background-color: whitesmoke; display: $disp;\");
+	body.setAttribute(\"style\", \"overflow-y: scroll; word-wrap: break-word; top: \"+bt+\"; height: \"+bh+\"; width: \"+bw+\"; background-color: whitesmoke; display: $disp;\");
 	body.setAttribute(\"id\", \"allBody\");
 	for (i =0; i < tableInfo[id].length; i++)
 	{
@@ -6862,7 +7242,7 @@ function showPlot(evt) {
 
 	if ((svg_all.hasAttribute(\"highlight.row.id\")))
 	{
-	
+		
 	/*		var turnOff = document.getElementById(svg_all.getAttribute(\"highlight.row.id\"));
 			turnOff.style.background = turnOff.getAttribute(\"old_bg\");
 			var turnOffPart = document.getElementById(turnOff.getAttribute(\"href\"));
@@ -6984,10 +7364,11 @@ Adds a up or down arrow to the header to show this
 function sortColumn(evt, col)
 {
 	var target = evt.target;
+	console.log(\"Working\");
 	var table_id = target.getAttribute(\"table_id\");
 
 	//HTML table
-	var table = document.getElementById(table_id);
+	var table = document.getElementById(\"allBody\");
 
 	//Sort direction: ascending or descending
 	var dir = target.getAttribute(\"sort_dir\");
@@ -7066,17 +7447,19 @@ function showRowPlot(evt) {
 		//If the row is already highlighted...
 		if (target.style.backgroundColor == \"yellow\")
 		{
-			if (target.hasAttribute(\"pageID\"))
+			/*if (target.hasAttribute(\"pageID\"))
 			{
 				loadRowPage(target.getAttribute(\"pageID\"));
 				console.log(\"Here\");
-			}
+			}*/
 			if ((svg_all.hasAttribute(\"highlight.row.id\")))
 			{
 				//Turns off the row highlight and closes the panel...
 				var turnOff = document.getElementById(svg_all.getAttribute(\"highlight.row.id\"));
 				turnOff.style.backgroundColor = target.getAttribute(\"old_bg\");
 				var turnOffPart = document.getElementById(target.getAttribute(\"href\"));
+				svg_all.removeAttribute(\"highlight.row.id\")
+				console.log(\"Here\");
 				if (turnOffPart != null)
 				{
 					turnSampleOff(turnOffPart);
@@ -7148,6 +7531,7 @@ function showRowPlot(evt) {
 				var turnOff = document.getElementById(svg_all.getAttribute(\"highlight.row.id\"));
 				turnOff.style.backgroundColor = turnOff.getAttribute(\"old_bg\");
 				var turnOffPart = document.getElementById(turnOff.getAttribute(\"href\"));
+				svg_all.removeAttribute(\"highlight.row.id\");
 				if (turnOffPart != null)
 				{
 					turnSampleOff(turnOffPart);
@@ -7429,9 +7813,9 @@ function resetLegend()
 /*Makes the gene page for plasmid sequences. */
 function writeFasta(id,plasmid)
 {
-	var fasta = JSON.parse(eval(\"fastaJSON\"+plasmid));
+	var fasta = JSON.parse(eval(\"fastaJSON\" + plasmid));
 	var type = JSON.parse(outJSON);
-	var terms = JSON.parse(eval(\"termJSON\"+plasmid));
+	var terms = JSON.parse(eval(\"termJSON\" + plasmid));
 		//If the gene passed along ID, write the html
 	if (id in fasta)
 	{
@@ -9391,7 +9775,7 @@ sub fgi_javascript() {
 					textBox.setAttribute(\"y\", $sz_h2 * 0.5);
 					textBox.setAttribute(\"x\", $sz_h2 * 0.5);
 					textBox.setAttribute(\"text-anchor\", \"middle\");
-					textBox.setAttribute(\"alignment-baseline\", \"central\");
+					textBox.setAttribute(\"dominant-baseline\", \"central\");
 					*/
 					//If the genome is \"on\" ie checked- add the x to the text box otherwise add blank space
 					if (isGenomeOn[genomes[i]]==1)
@@ -11499,7 +11883,7 @@ function draw_tree(level, type)
 			
 			img.onload = function()
 			{
-				ctx.drawImage(img, 0, 0. totWidthTmp, totHeightTmp, 0, 0, totWidthTmp * $DPI, totHeightTmp * $DPI);
+				ctx.drawImage(img, 0, 0, totWidthTmp, totHeightTmp, 0, 0, totWidthTmp * $DPI, totHeightTmp * $DPI);
 
 				try{
 				nw.setAttribute(\"href\", canvas.toDataURL(\"image/png\", 1.0));
