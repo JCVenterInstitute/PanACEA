@@ -40,6 +40,7 @@ make_panacea.pl [options] -i PanACEA.InputFile.txt
 					connection with tree.
 		-g	--graphic	File containing the graphics configure file to change the
 					size of the whole image and parts of the image
+		-v	--verbose	Turn on verbose error printing for debugging
 
 
 =head1 DESCRIPTION
@@ -157,7 +158,7 @@ my $out_dir        = cwd();        #Default value for the output head directory
 my $output_id      = "PanACEA";    #Default value for -n
 my $func_file;                     #Location of the configure file with the
 my $file_in1;                      #Location of the PanACEA flat file
-my $verb = 1;                      #Verbosity level: not currently used
+my $verb = 0;                      #Verbosity level
 my $graphic_config_file;           #Configure file with graphical output information
 my $tree_file;                     #File with newick tree
 my $meta_data_file;                #file(s) with group information with the newick trees
@@ -216,6 +217,7 @@ GetOptions(
     "f|function:s" => \$func_file,
     "n|name:s"     => \$output_id,
     "g|graphic:s"  => \$graphic_config_file,
+	"v|verbose"    => \$verb,
     "help|h|?"     => sub { pod2usage( { -verbose => 2, -exitval => 1 } ) }
 ) || die("Cannot recognize usage. Please use --help to see options");
 
@@ -769,7 +771,7 @@ sub make_main_figure() {
                 #		gen -> string with semi-colon separated list of genomes with
                 #		coords -> array with gene
                 my %fgi_reg;
-
+				my %in_all;
                 my %fgi_ids;    #Keeps track of the gene IDs in each gene path using a simple 1 if its in the path
                 $fgi_reg{st} = min( $st, $end );    #Ignoring the direction
                 $fgi_reg{end} = max( $st, $end );
@@ -777,7 +779,8 @@ sub make_main_figure() {
 
              #@sort is the based on the number of genes in the path this is subsequently used to sort the genes on the x-axis
              #@sort2 is based on the number of genomes containing this path. This is the order used on the pane/page y-axis
-                my @sort =
+                if ($verb) { print STDERR "$ID\n"; }
+				my @sort =
                   sort { scalar( @{ $list{$ID}->{$b}->{arr} } ) <=> scalar( @{ $list{$ID}->{$a}->{arr} } ) }
                   keys( %{ $list{$ID} } );
                 my @sort2 = sort { $list{$ID}->{$b}->{cnt} <=> $list{$ID}->{$a}->{cnt} } keys( %{ $list{$ID} } );
@@ -793,7 +796,25 @@ sub make_main_figure() {
                     #See list above for the variables being collected
                     if ( $list{$ID}->{$a}->{st} ) {
 
-                        $fgi_reg{st_id}->{$a}  = $list{$ID}->{$a}->{st};
+                        if ($list{$ID}->{$a}->{st} =~ /CL_(\d+)/)
+						{
+							my $a1 = $1;
+							if (!$in_all{$a1})
+							{
+								push(
+								@{ $fgi_reg{all} },
+								[
+                                "-1",                                                $clusters{$a1}->{num_of_members},
+                                $clusters{$a1}->{protein_name},                     $fgi_member{$a1},
+                                $fgi_ids{$a1},                                      "CL_" . $a1,
+                                $rgb{ $jso{Gene}->[ $gene_num{$a1} ]->{type_ref} }, $clusters{$a1}->{start},
+								$clusters{$a1}->{end},                              $jso{Gene}->[ $gene_num{$a1} ]
+								]
+								);
+								$in_all{$a1} = 1;
+							}
+						}
+						$fgi_reg{st_id}->{$a}  = $list{$ID}->{$a}->{st};
                         $fgi_reg{st_sz}->{$a}  = abs( $core_size{ $list{$ID}->{$a}->{st} } );
                         $fgi_reg{st_dir}->{$a} = 1;
 
@@ -828,6 +849,24 @@ sub make_main_figure() {
                         #See list above for the variables being collected
 
                         $fgi_reg{end_id}->{$a}  = $list{$ID}->{$a}->{end};
+						if ($list{$ID}->{$a}->{end} =~ /CL_(\d+)/)
+						{
+							my $a1 = $1;
+							if (!$in_all{$a1})
+							{
+								push(
+								@{ $fgi_reg{all} },
+								[
+                                "-1",                                                $clusters{$a1}->{num_of_members},
+                                $clusters{$a1}->{protein_name},                     $fgi_member{$a1},
+                                $fgi_ids{$a1},                                      "CL_" . $a1,
+                                $rgb{ $jso{Gene}->[ $gene_num{$a1} ]->{type_ref} }, $clusters{$a1}->{start},
+								$clusters{$a1}->{end},                              $jso{Gene}->[ $gene_num{$a1} ]
+								]
+								);
+								$in_all{$a1} = 1;
+							}
+						}
                         $fgi_reg{end_sz}->{$a}  = abs( $core_size{ $list{$ID}->{$a}->{end} } );
                         $fgi_reg{end_dir}->{$a} = 1;
                         if ( $gene_func{ $list{$ID}->{$a}->{end} } ) {
@@ -861,7 +900,7 @@ sub make_main_figure() {
                 #keys are arr -> array with the genes in order; loc -> hash where the gene id points to its order
 
                 #For the first gene in the fgi
-
+				if ($verb) { warn("FGI $ID\n"); }
                 for ( my $j = 0 ; $j < scalar( @{ $list{$ID}->{ $sort[0] }->{arr} } ) ; $j++ ) {
 
                     $mat{arr}->[$j] = $list{$ID}->{ $sort[0] }->{arr}->[$j];
@@ -1002,6 +1041,21 @@ sub make_main_figure() {
                                     $clusters{$a}->{end},                              $jso{Gene}->[ $gene_num{$a} ]
                                 ]
                             );
+							if (!$in_all{$a})
+							{
+								push(
+								@{ $fgi_reg{all} },
+								[
+									$i,                                                $clusters{$a}->{num_of_members},
+									$clusters{$a}->{protein_name},                     $fgi_member{$a},
+									$fgi_ids{$a},                                      "CL_$a",
+									$rgb{ $jso{Gene}->[ $gene_num{$a} ]->{type_ref} }, $clusters{$a}->{start},
+									$clusters{$a}->{end},                              $jso{Gene}->[ $gene_num{$a} ]
+								]
+								);
+								$in_all{$a} = 1;
+							}
+							
 
                         }
 
@@ -1226,7 +1280,7 @@ sub make_main_figure() {
         chop( $out{script_chr} );
         $out{script_chr} .= "}\';\n";
         $out{script_chr} .= sprintf( "\n\nvar %s = \'{", "termJSONPlasmid" . $cur_chr );
-        my $add_script;
+        my $add_script = "";
 		foreach my $a ( keys(%$terms) ) { $add_script .= sprintf( "\"%s\":\"%s\",", $a, $terms->{$a} ); }
         if ( length($add_script) > 0 ) {
 
@@ -2044,24 +2098,24 @@ sub make_main_figure() {
     print SVG_MAIN $out{table};
     print SVG_MAIN $html{table};
 	
-	my $add = sprintf("</div></div></div><svg id=\"zoomSVG\" style=\"left:0px; top:0px; height:%fpx; width:%fpx; position: absolute;\"><rect x=\"0px\" y=\"0px\" height=\"%fpx\" width=\"100%s\" fill=\"lightgray\"></rect>", 32, $border*2 + $max_radius *2, 32, "%");
+	my $add_on = sprintf("</div></div></div><svg id=\"zoomSVG\" style=\"left:0px; top:0px; height:%fpx; width:%fpx; position: absolute;\"><rect x=\"0px\" y=\"0px\" height=\"%fpx\" width=\"100%s\" fill=\"lightgray\"></rect>", 32, $border*2 + $max_radius *2, 32, "%");
 	
 	#Adding the zoom function buttons: plus or minus
-	$add .= sprintf("<svg id=\"zoomButtons\" x=\"%f\" y = \"0\"><svg offset=\"60\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\"><text y=\"%f\" x=\"%f\" position=\"relative\" dominant-baseline=\"middle\" text-anchor=\"middle\" font-size=\"20\" font-color=\"black\">Zoom</text></svg>",
+	$add_on .= sprintf("<svg id=\"zoomButtons\" x=\"%f\" y = \"0\"><svg offset=\"60\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\"><text y=\"%f\" x=\"%f\" position=\"relative\" dominant-baseline=\"middle\" text-anchor=\"middle\" font-size=\"20\" font-color=\"black\">Zoom</text></svg>",
 	 $max_radius * 2 - 2.25 * $border - 10 * $n_r ,
 	( 60), 
 	( 0),
 	70, 24,	
 	24/2, 70/2);
  
-	$add .= sprintf("<svg offset=\"120\" class=\"clickable\" onkeydown =\'changeZoomKey();\' onfocusout=\" var textBox = document.getElementById(\'zoomPerc\'); textBox.style.stroke=null; \" onfocus=\" var textBox = document.getElementById(\'zoomPerc\'); textBox.style.stroke=\'1\'; console.log(\'Focused\'); \" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\"><text y=\"%f\" x=\"%f\" position=\"relative\" dominant-baseline=\"middle\" text-anchor=\"middle\" font-size=\"20\" font-color=\"black\" id=\"zoomPerc\">100%s</text></svg>",
+	$add_on .= sprintf("<svg offset=\"120\" class=\"clickable\" onkeydown =\'changeZoomKey();\' onfocusout=\" var textBox = document.getElementById(\'zoomPerc\'); textBox.style.stroke=null; \" onfocus=\" var textBox = document.getElementById(\'zoomPerc\'); textBox.style.stroke=\'1\'; console.log(\'Focused\'); \" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\"><text y=\"%f\" x=\"%f\" position=\"relative\" dominant-baseline=\"middle\" text-anchor=\"middle\" font-size=\"20\" font-color=\"black\" id=\"zoomPerc\">100%s</text></svg>",
 	( 120 ), 
 	( 0),
 	70, 24,	
 	24/2, 70/2, "%");
 
 
-	$add .= sprintf("<svg offset=\"190\" class=\"clickable\" onmouseover=\"var rect = document.getElementById(\'zoominrect\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'zoominrect\'); rect.style.fill=\'#bbffbb\';\" id = \"zoomOut\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" onclick=\"runType(\'Zoom\', \'out\')\"><rect id=\"zoominrect\" x = \"0\" y=\"0\" height =\"%s\" width =\"%s\" rx=\"%f\" ry=\"%f\" fill=\"#bbffbb\" stroke=\"black\"/><text y=\"%f\" x=\"%f\" position=\"relative\" dominant-baseline=\"middle\" text-anchor=\"middle\" font-size=\"28\" font-color=\"black\">-</text></svg>",
+	$add_on .= sprintf("<svg offset=\"190\" class=\"clickable\" onmouseover=\"var rect = document.getElementById(\'zoominrect\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'zoominrect\'); rect.style.fill=\'#bbffbb\';\" id = \"zoomOut\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" onclick=\"runType(\'Zoom\', \'out\')\"><rect id=\"zoominrect\" x = \"0\" y=\"0\" height =\"%s\" width =\"%s\" rx=\"%f\" ry=\"%f\" fill=\"#bbffbb\" stroke=\"black\"/><text y=\"%f\" x=\"%f\" position=\"relative\" dominant-baseline=\"middle\" text-anchor=\"middle\" font-size=\"28\" font-color=\"black\">-</text></svg>",
 	( 190 ), 
 	( 0 ),
 	30, 20,
@@ -2071,7 +2125,7 @@ sub make_main_figure() {
 	20/2, 30/2,
 	20/2, 30/2);
  
-	$add .= sprintf("<svg offset=\"225\" class=\"clickable\" onmouseover=\"var rect = document.getElementById(\'zoomoutrect\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'zoomoutrect\'); rect.style.fill=\'#bbffbb\';\" id = \"zoomOut\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" onclick=\"runType(\'Zoom\', \'in\')\"><rect id=\"zoomoutrect\" x = \"0\" y=\"0\" height =\"%s\" width =\"%s\" rx=\"%f\" ry=\"%f\" fill=\"#bbffbb\" stroke=\"black\"/><text y=\"%f\" x=\"%f\" position=\"relative\" dominant-baseline=\"middle\" text-anchor=\"middle\" font-size=\"28\" font-color=\"black\">+</text></svg></svg>",
+	$add_on .= sprintf("<svg offset=\"225\" class=\"clickable\" onmouseover=\"var rect = document.getElementById(\'zoomoutrect\'); rect.style.fill=\'#77ff77\';\" onmouseout=\" var rect = document.getElementById(\'zoomoutrect\'); rect.style.fill=\'#bbffbb\';\" id = \"zoomOut\" x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" onclick=\"runType(\'Zoom\', \'in\')\"><rect id=\"zoomoutrect\" x = \"0\" y=\"0\" height =\"%s\" width =\"%s\" rx=\"%f\" ry=\"%f\" fill=\"#bbffbb\" stroke=\"black\"/><text y=\"%f\" x=\"%f\" position=\"relative\" dominant-baseline=\"middle\" text-anchor=\"middle\" font-size=\"28\" font-color=\"black\">+</text></svg></svg>",
 	( 225 ), 
 	( 0),
 	30, 20,
@@ -2081,7 +2135,7 @@ sub make_main_figure() {
 	20/2, 30/2,
 	20/2, 30/2);
 	
-		$add .= sprintf("<div id=\"searchBox\" style=\"visibility:visible; position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; background-color: white; \"><form onsubmit=\"searchInit(event)\" onmouseover=\"showSearch()\" onmouseout=\"searchOff()\" id=\"searchForm\"><input type=\"text\" id=\"searchText\" rows=\"1\" style=\"font-size:14pt;font-color:DarkGray; border: none; height:%s; width:%s;\" onfocus=\"showSearch(\'focus\')\" placeholder=\"Search...\"><input class=\"clickable\"  type=\"button\" value=\"Search\" style=\"border: none; background-color: #013220; color: white; padding: 15px 32 px; font-size: 16px;\" onclick=\"searchInit(event)\"></form></div></div>",
+		$add_on .= sprintf("<div id=\"searchBox\" style=\"visibility:visible; position: absolute; left: %fpx; top: %fpx; width: %fpx; height: %fpx; background-color: white; \"><form onsubmit=\"searchInit(event)\" onmouseover=\"showSearch()\" onmouseout=\"searchOff()\" id=\"searchForm\"><input type=\"text\" id=\"searchText\" rows=\"1\" style=\"font-size:14pt;font-color:DarkGray; border: none; height:%s; width:%s;\" onfocus=\"showSearch(\'focus\')\" placeholder=\"Search...\"><input class=\"clickable\"  type=\"button\" value=\"Search\" style=\"border: none; background-color: #013220; color: white; padding: 15px 32 px; font-size: 16px;\" onclick=\"searchInit(event)\"></form></div></div>",
 		4*$n_r,
 		0,
 		 $max_radius * 2 - 2.25 * $border - 10 * $n_r ,
@@ -2095,7 +2149,7 @@ sub make_main_figure() {
 	#	3.5* $n_r,
 	#	3.5* $n_r, "100%", "100%", -40 * $n_r, -14 * $n_r
 	#	);
-	print SVG_MAIN $add; # "</svg>";
+	print SVG_MAIN $add_on; # "</svg>";
     print SVG_MAIN $out{thumb}->{beg};
 	
     #Writing all the thumbnails on the SVG
@@ -2288,9 +2342,9 @@ sub make_fgi_page_svg {
 
     #Making the JSON string necessary to make the gene main information page
     $jscript .= sprintf("\n\nvar fastaJSON = \'{");
-    for ( my $j = 0 ; $j < scalar( @{ $data->{cords} } ) ; $j++ ) {
+    for ( my $j = 0 ; $j < scalar( @{ $data->{all} } ) ; $j++ ) {
 
-        my ( $ID, $num, $type, $f_id, $member, $cl_id, $c, $st_loc, $end_loc, $info ) = @{ $data->{cords}->[$j] };
+        my ( $ID, $num, $type, $f_id, $member, $cl_id, $c, $st_loc, $end_loc, $info ) = @{ $data->{all}->[$j] };
         $cl_id =~ /_(\d+)/;
         my $a             = $1;
         my $genomeList    = "";
@@ -2308,7 +2362,9 @@ sub make_fgi_page_svg {
             chop($genomeList);
 
         }
-
+		if ($cl_id)
+		{
+		if ($f_id) { 
         $jscript .= sprintf(
 "\"%s\":{\"Region\":\"%s\",\"Cluster\":\"%s\", \"Name\":\"%s\",\"# of Genomes\":\"%s\",\"Functional IDs\":\"%s\",\"Associated Terms\":\"%s\",\"Sequence\":\"%s\", \"Mean\":\"%s\",\"Standard Deviation\":\"%s\",\"Maximum Length\":\"%s\",\"Minimum Length\":\"%s\", \"Genomes\":\"%s\"},",
             $cl_id, "FGI_" . $f_id,
@@ -2318,6 +2374,20 @@ sub make_fgi_page_svg {
             $info->{"Maximum Length"},
             $info->{"Minimum Length"}, $genomeList
         );
+		}
+		else
+		{
+			$jscript .= sprintf(
+"\"%s\":{\"Region\":\"%s\",\"Cluster\":\"%s\", \"Name\":\"%s\",\"# of Genomes\":\"%s\",\"Functional IDs\":\"%s\",\"Associated Terms\":\"%s\",\"Sequence\":\"%s\", \"Mean\":\"%s\",\"Standard Deviation\":\"%s\",\"Maximum Length\":\"%s\",\"Minimum Length\":\"%s\", \"Genomes\":\"%s\"},",
+            $cl_id, "Core Gene",
+            $cl_id, $type, $num, $info->{type_ref}, $info->{oth_ref}, $seqs{cent}->{$a}->{seq},
+            $info->{Mean},
+            $info->{"Standard Deviation"},
+            $info->{"Maximum Length"},
+            $info->{"Minimum Length"}, $genomeList);
+        
+		}
+		}
         if ( $info->{oth_ref} ) {
 
             my @term_list = split ";", $info->{oth_ref};
@@ -2899,9 +2969,9 @@ sub make_fgi_page_svg {
 
         #
         $right_grp .= sprintf(
-"<svg id=\"%s\" onclick=\"writeFasta(\'%s\',)\" y=\"%f\" x=\"%f\" height=\"%f\" position=\"absolute\" ison=\"Off\">\n",
-            "show" . $i2,
-            $data->{st_id}->{ $data->{order}->[$i2] },
+"<svg id=\"%s\" onclick=\"writeFasta(\'%s\')\" y=\"%f\" x=\"%f\" height=\"%f\" position=\"absolute\" ison=\"Off\">\n",
+            "rowRight" . $i2,
+            $data->{end_id}->{ $data->{order}->[$i2] },
             0, 2 * $sz_h, $sz_h
         );
         $right_grp .= sprintf(
@@ -2923,7 +2993,7 @@ sub make_fgi_page_svg {
         $left_grp .= sprintf(
 "<svg id=\"%s\" onclick=\"writeFasta(\'%s\')\" visibility=\"visible\"  y=\"%f\" x=\"%f\" height=\"%f\" position=\"absolute\">\n",
             "rowLeft" . $i2,
-            $data->{end_id}->{ $data->{order}->[$i2] },
+            $data->{st_id}->{ $data->{order}->[$i2] },
             $i * $sz_h, 0, $sz_h
         );
         my $dif;    #dif is i
@@ -7934,7 +8004,7 @@ sub load_functions {
     #Checking for ontology files
     if ( -e $obo_file ) {
 
-        warn "Reading in OBO ontology file $obo_file...\n";
+        if ($verb) { warn "Reading in OBO ontology file $obo_file...\n"; }
         open( OBO, "<", $obo_file ) or die("Cannot open obo file");
         while ( !eof(OBO) ) {
 
@@ -7979,7 +8049,7 @@ sub load_functions {
     }
 
     #Reading in the function map file
-    warn "Reading in Function file $input_file ...\n";
+    if($verb) { warn "Reading in Function file $input_file ...\n"; }
     my %gene2;
     my $in = <GO>;
     chomp($in);
@@ -8131,7 +8201,7 @@ sub get_gene_info_new {
         #Looking for multiple alignment directory...
         if ( -e $try_dir && -d $try_dir ) {
 
-            warn "Found multiple sequence alignment directory. Using these as the default seqeunces....\n\n\n";
+            if ($verb) { warn "Found multiple sequence alignment directory. Using these as the default seqeunces....\n\n\n"; }
             opendir( AFA_DIR, $try_dir );
             my @files = readdir(AFA_DIR);
 
@@ -8230,7 +8300,7 @@ sub get_gene_info_new {
         }
 
     }
-    warn "Reading in the PanACRA Flat File Info...\n";
+    if ($verb) { warn "Reading in the PanACRA Flat File Info...\n"; }
 
     #What it says above...
     open( PANACEA_FF, "<", $file_in1 ) or die("Cannot read in PanACEA Flat File. Please see manual for more information");
@@ -8387,7 +8457,7 @@ sub get_gene_info_new {
 
                     } else {
 
-                        warn "No sequence for ", $names[$i], "\n";
+                        if ($verb) { warn "No sequence for ", $names[$i], "\n"; } 
 
                     }
 
@@ -8413,7 +8483,7 @@ sub get_gene_info_new {
 
                 } else {
 
-                    warn "Could not find any sequences for $id...\n";
+                    if ($verb) { warn "Could not find any sequences for $id...\n"; }
 
                 }
 
@@ -11943,8 +12013,8 @@ sub read_function_file {
 
                 if ( !$map_func_ids{$var} ) {
 
-                    warn
-"Function configure file has unreconizable variable $var. Please refer to README. Not reading in this module...\n";
+                    if ($verb) { warn
+"Function configure file has unreconizable variable $var. Please refer to README. Not reading in this module...\n"; }
                     $id--;
                     $bad = 1;
 

@@ -28,7 +28,7 @@ make_panacea_flatfile.pl [options] -d directory -t type -o outputFlatFile
 		-i	--input 	Input directory of the Pangenome information. Required.
 		-o	--output 	Output file. Default is PanACEA.[date].txt
 		-t	--type		Input type of the Pangenome. Currently supports "Pangenome" <default>, Pangenome "Iterative", "Panoct", and "Roary".
-		-v	--verbose	Turns on verbose output for debugging
+	
 	
 =head1 DESCRIPTION
 make_panacea_flatfile.pl generates the panchromosome PanACEA flat file from pangenome output 
@@ -75,7 +75,8 @@ my $date = time();
 
 my $output_id = "PanACEA.txt";    #Default value for the output file
 my $type      = "pangenome";
-my $verb      = 0;
+my $verb      = 1;
+my $use_genbank	= 0;
 
 #Doing the options here: need in_dir, out_dir, dir, func_file, output_id
 my $help;
@@ -83,8 +84,9 @@ GetOptions(
     "input|i:s"  => \$in_dir,
     "type|t:s"   => \$type,
     "output|o:s" => \$output_id,
-	"verbose|v"  => \$verb,
-    "help|h|?"   => \$help,
+    "genbank|g"  => \$use_genbank,
+	"help|h|?"   => \$help,
+	
 ) or die "Can't get options!\n";
 
 #Probably should set up a verbose tag to level the printing
@@ -353,33 +355,129 @@ sub read_in_pangenome {
     my %genomeAttSort;    #hash with key as the contif
     my %genomeCnt;
     my %genedir;
-    warn "Reading and Sorting Genes...\n";
+	my %geneHits;
+	warn "Reading and Sorting Genes...\n";
 
-    #reads throught the combined attributes files; doesn't have to be sorted as the script does that below
-    while ( !eof(COMB) ) {
+	if ( $use_genbank )
+	{
+		my $gb_dir = "$in_dir/gb_dir/";
+		if (-d $gb_dir)
+		{
+			opendir(GBDIR, $gb_dir);
+			my @gb_files = readdir(GBDIR);
+			foreach my $gb_file (@gb_files)
+			{
+				if ($gb_file =~ /\A(\S+).gb\Z/)
+				{
+					my $genome_id 	= $1;
+					my $st 			= "";
+					my $end 		= "";
+					my $gene_id 	= "";
+					my $id        	= "";
+					my $gene_prod 	= "";
+					my $gene_dir  	= 1;
+					warn "Opening file $gb_dir/$gb_file\n";
+					open(GBFILE, "<", $gb_dir . "/" . $gb_file);
+					my $var_cnt = 0;
+					while (my $v = <GBFILE>)
+					{
+						$var_cnt++;
+						if ($v =~ /\ALOCUS(\s+)(\S+)/)
+						{
+							my $locusID = $2; 
+							if ($locusID =~ /\A(\S+)\_(\d+)\-(\d+)\Z/)
+							{
+								$st = $2;
+								$end = $3;
+								$id = $1;
+							}
+						}
+						if ($v =~ /CDS(\t)complement/)
+						{
+							$gene_dir = -1;
+						}
+						if ($v =~ /locus\_tag\=\"([^\"]+)\"/)
+						{
+							$gene_id = $1;
+						}
+						if ($v =~ /\/product\=\"([^\"]+)\"/)
+						{
+							$gene_prod = $1;
+						}
+						if ($v =~ /\/\//)
+						{
+							if ($id && $st && $end)
+							{
+								$genomeCnt{$genome_id}++;
+								if (ref($id) eq "HASH") {die("$id  $gene_id"); }
+								$genomeAttSort{ $id }->{ min( $st, $end ) } = [ $id, $gene_id, $st, $end, $gene_prod, $genome_id, $gene_dir ];
+								$geneHits{$genome_id}->{$gene_id} = $id;
+							}
+							$st 		= "";
+							$end 		= "";
+							$gene_id 	= "";
+							$id        	= "";
+							$gene_prod 	= "";
+							$gene_dir  	= 1;
+						}
+					}
+					close(GBFILE);
+					warn "Read in " . $genomeCnt{$genome_id} . " loci in $genome_id\n";
+				}
+			}
+		}
+		else
+		{
+			warn "Cannot find genbank directory $gb_dir. Reverting to combined attributes file...\n";
+			$use_genbank = 0;
+		}
+	}
+	if ( !$use_genbank )
+	{
+		#reads throught the combined attributes files; doesn't have to be sorted as the script does that below
+		while ( !eof(COMB) ) {
 
-        my $v = <COMB>;
-        chomp($v);
-        my @n         = split "\t", $v;
-        my $genome_id = $n[5];
-        my $st        = $n[2];
-        my $end       = $n[3];
-        my $gene_id   = $n[1];
-        my $id        = $n[0];
-        my $gene_dir  = 1;
-        if ( $st > $end ) { $n[2] = $end; $n[3] = $st; $gene_dir = -1; }
-        $genomeCnt{$genome_id}++;
-        $genomeAttSort{ $n[0] }->{ min( $st, $end ) } = [ $n[0], $n[1], $n[2], $n[3], $n[4], $n[5], $gene_dir ];
+			my $v = <COMB>;
+			chomp($v);
+			my @n         = split "\t", $v;
+			my $genome_id = $n[5];
+			my $st        = $n[2];
+			my $end       = $n[3];
+			my $gene_id   = $n[1];
+			my $id        = $n[0];
+			my $gene_dir  = 1;
+			if ( $st > $end ) { $n[2] = $end; $n[3] = $st; $gene_dir = -1; }
+			$genomeCnt{$genome_id}++;
+			$genomeAttSort{ $n[0] }->{ min( $st, $end ) } = [ $n[0], $n[1], $n[2], $n[3], $n[4], $n[5], $gene_dir ];
 
-    }
-
+		}
+	}
+	
+	foreach my $genomeIDs (keys(%gene2clust))
+	{
+		foreach my $geneIDs (keys(%{$gene2clust{$genomeIDs}}))
+		{
+			if (!$geneHits{$genomeIDs}->{$geneIDs})
+			{
+				#die("Cannot find $geneIDs from $genomeIDs\n");
+			}
+			else
+			{
+				warn("Did find $geneIDs from $genomeIDs\n");
+			}
+		}
+	}
+	
+	
     my %clust2genome;    #Hash
     my %genome_order;    #hash of array
     my %fgi_2_genome;
-    foreach my $keys (%genomeAttSort) {
+	warn "Found ", scalar(keys(%genomeAttSort)), " contigs..\n";
+	my @missingCount;
+    foreach my $keys (keys(%genomeAttSort)) {
 
         #Sorts the
-        my @keys = sort { $b <=> $a } keys( %{ $genomeAttSort{$keys} } );
+     	my @keys = sort { $b <=> $a } keys( %{ $genomeAttSort{$keys} } );
         for ( my $i = 0 ; $i < scalar(@keys) ; $i++ ) {
 
             my @n         = @{ $genomeAttSort{$keys}->{ $keys[$i] } };
@@ -392,6 +490,7 @@ sub read_in_pangenome {
             if ( $genomes{ $n[5] } ) {
 
                 if ( $gene2clust{$genome_id}->{$gene_id} ) {
+					$missingCount[0]++;
 
                     $clust2genome{ "CL_" . $gene2clust{ $n[5] }->{$gene_id} }->{$genome_id} = "$st-$end";
                     if ( $genome_order{$genome_id}->{arr} ) {
@@ -413,10 +512,10 @@ sub read_in_pangenome {
                     if ( $oldGeneName{$gene_id} ) {
 
                         $gene_id = $oldGeneName{$gene_id};
-
+						
                     }
                     if ( $gene2clust{$genome_id}->{$gene_id} ) {
-
+						$missingCount[0]++;
                         $clust2genome{ "CL_" . $gene2clust{ $n[5] }->{$gene_id} }->{$genome_id} = "$st-$end";
                         if ( $genome_order{$genome_id}->{arr} ) {
 
@@ -433,8 +532,8 @@ sub read_in_pangenome {
                         $genedir{$genome_id}->{ $gene2clust{$genome_id}->{$gene_id} } = $gene_dir;
 
                     } else {
-
-                        print( STDERR "No hits..." . $n[5] . " " . $gene_id . " $id $st $end\n" );
+						$missingCount[1]++;
+                        #print( STDERR "No hits..." . $n[5] . " " . $gene_id . " $id $st $end\n" );
 
                     }
 
@@ -442,14 +541,14 @@ sub read_in_pangenome {
 
             } else {
 
-                die("Cannot find genome... quitting\n\n");
+                die("Cannot find genome " . $n[5] . " ... quitting\n\n");
 
             }
 
         }
 
     }
-
+	warn "Found ", $missingCount[0], " genes and missing ", $missingCount[1], "...\n";
     warn "Reading in Core and FGI Cluster Assignments...\n";
 
     while ( !eof(CONSENS) ) {
@@ -514,7 +613,7 @@ sub read_in_pangenome {
         my $st_gene_id;
         my $break;
         my $in_cnt;
-
+		print STDERR"Running Genome: $genome\n";
         foreach my $gene_cl ( @{ $genome_order{$genome}->{arr} } ) {
 
             if ( $gene_cl =~ /CL_(\d+)/ ) {
@@ -578,7 +677,8 @@ sub read_in_pangenome {
                 }
                 $curr_id = $genome_order{$genome}->{id}->{$gene_cl};
                 $curr    = $gene;
-                if ( !$fgi_member{$gene_cl} ) {
+                #if ($st_gene_id ) { print STDERR ($st_gene . "_" . $gene . "-" . $revNum . " $genome\n"); }
+				if ( !$fgi_member{$gene_cl} ) {
 
                     if ($tmp) {
 
@@ -813,13 +913,16 @@ sub read_in_pangenome {
                 $end_id = $1;
 
             }
+
+
             if ( $st_id eq $end_id ) { die( $in . " $st_id $end_id" ); }
             my %out_list;
             my %hits;
             my $hit_type = 0;
+			if ($ins_id eq "CL_INS_673") { print( "Here: $st_1 $end_1\n"); }
             foreach my $a ( keys( %{ $genome_fgi_by_start{ $st_1 . "_" . $end_1 } } ) ) {
-
                 my $in = $st_id . ":" . $genome_fgi_by_start{ $st_1 . "_" . $end_1 }->{$a}->{list} . $end_id . ":";
+			if ($ins_id eq "CL_INS_673") { die( "Here: $st_1 $end_1 "); }
 
                 if (!$end_id) {
                     $end_1  =~ /(\d+)\-(\d+)/; 
@@ -831,7 +934,7 @@ sub read_in_pangenome {
                 }
                 if ($st_id ne $end_id) {
 
-                    if ($verb) { warn "$a\t$ins_id\t$in\t$st_id\t$st_1\t$end_1\t$in\n"; }
+                    #warn "$st_1\t$end_1\t$in\n";
                     $out_list{$in}->{st}   = "CL_" . $st_id;
                     $out_list{$in}->{list} = $genome_fgi_by_start{ $st_1 . "_" . $end_1 }->{$a}->{list};
                     $out_list{$in}->{en}   = "CL_" . $end_id;
@@ -843,6 +946,7 @@ sub read_in_pangenome {
 
             }
             foreach my $a ( keys( %{ $genome_fgi_by_start{ $st_1 . "_NA" } } ) ) {
+							if ($ins_id eq "CL_INS_673") { print( "Here: $st_1 $end_1\n"); }
 
                 if ( !$hits{$a} && $st_id ) {
 
@@ -870,7 +974,6 @@ sub read_in_pangenome {
 
                     }
                     $out_list{$in}->{st} = "CL_" . $st_id;
-                    if ($verb) { warn "$a\t$ins_id\t$st_id\t$st_1\t$end_1\t$in\n"; }
 
                     #$out_list{$in}->{en} = "";
                     $out_list{$in}->{cnt}++;
@@ -882,9 +985,10 @@ sub read_in_pangenome {
 
             }
             foreach my $a ( keys( %{ $genome_fgi_by_start{ "NA_" . $end_1 } } ) ) {
+						if ($ins_id eq "CL_INS_673") { print( "Here2: $st_1 $end_1\n "); }
+
 
                 if ( !$hits{$a} && $end_id ) {
-                    if ($verb) { warn "$a\t$ins_id\t$in\t$st_id\t$st_1\t$end_1\n"; }
 
                     my $in = $genome_fgi_by_start{ "NA_" . $end_1 }->{$a}->{list} . "$end_id:";
 
@@ -908,9 +1012,8 @@ sub read_in_pangenome {
                 }
 
             }
-
+			
             foreach my $a ( keys(%out_list) ) {
-				if ($verb) { warn("$ins_id\t$a\t" .  $out_list{$a}->{gen_list}. "\n"); }
 
                 if ( $a eq ":" ) {
 
