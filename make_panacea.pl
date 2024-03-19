@@ -4895,11 +4895,13 @@ sub get_center_y {
 
 sub commas {    # Adds commas to large numbers to clean up printing the coordingates around the circle and for any other use as needed 
 
-    my ($_) = @_;
-    1 while s/(.*\d)(\d\d\d)/$1,$2/;
+ #   my ($_) = @_;
+   # 1 while s/(.*\d)(\d\d\d)/$1,$2/;
 
-    $_;
-
+   # $_;
+    my $text = reverse $_[0];
+    $text =~ s/(\d\d\d)(?=\d)(?!\d*\.)/$1,/g;
+    return scalar reverse $text;
 }
 
 #Returns a string to initaite

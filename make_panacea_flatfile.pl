@@ -227,12 +227,13 @@ sub read_in_pangenome {
     open( FGI, "<", $fgi_in ) or die("Cannot read in the FGI details file. Please check $fgi_in.\n");    #Details file
     open( CORE2, "<", $fgi_arr )
       or die("Cannot read in the FGI Attributes file. Please check $fgi_arr.\n");                        #fGI attributes file
-    open( FRAME_SHIFT, "<", $frame_shift_file )
+    my %oldGeneName;    
+    if (-e $frame_shift_file) { open( FRAME_SHIFT, "<", $frame_shift_file )
       or die("Cannot read in the Frameshift file. Please check $frame_shift_file.\n");
 
     #get all the old sequence names in cases of frameshifts
     #oldGeneName is the hash we used to store the old name -> new name
-    my %oldGeneName;
+    #my %oldGeneName;
 
     while ( !eof(FRAME_SHIFT) ) {
 
@@ -247,7 +248,7 @@ sub read_in_pangenome {
         }
 
     }
-
+    }
     my %gene2clust;    #Hash with keys (1) gene name and (2) genomes, it gives value the cluster number
     my %genomes;
 
